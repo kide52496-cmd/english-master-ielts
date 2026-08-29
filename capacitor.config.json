@@ -1,0 +1,8 @@
+{
+  "appId": "com.nguyenanduong.englishmasterielts",
+  "appName": "English Master IELTS",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": false
+  }
+}

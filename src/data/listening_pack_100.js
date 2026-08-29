@@ -1,0 +1,9107 @@
+﻿// Auto-generated listening + speaking 100-pack.
+// Filled: 1-5 (Foundation level).
+// More to be appended in future passes.
+
+export const LISTENING_PACK_LEVELS = [
+  { id: "foundation",    label: "Foundation",         range: [1, 20]   },
+  { id: "basic-ielts",   label: "Basic IELTS",         range: [21, 40]  },
+  { id: "intermediate",  label: "Intermediate",        range: [41, 60]  },
+  { id: "upper",         label: "Upper Intermediate",  range: [61, 80]  },
+  { id: "ielts-mode",    label: "IELTS Practice Mode", range: [81, 100] },
+]
+
+const LESSONS = []
+
+LESSONS.push({
+  id: 1,
+  levelId: "foundation",
+  title: "Introducing Yourself",
+  titleVi: "Tự Giới Thiệu",
+  objectives: { listen: "Nghe tên, quê, nghề, sở thích", speak: "Giới thiệu bản thân", vocabFocus: "Thông tin cá nhân" },
+  vocabulary: [
+    { word: "introduce",     ipa: "/ˌɪn.trəˈdjuːs/", vi: "giới thiệu",      example: "Let me introduce myself." },
+    { word: "hometown",      ipa: "/ˈhəʊm.taʊn/",    vi: "quê quán",         example: "My hometown is Hue." },
+    { word: "occupation",    ipa: "/ˌɒk.jəˈpeɪ.ʃən/",vi: "nghề",             example: "What's your occupation?" },
+    { word: "major",         ipa: "/ˈmeɪ.dʒər/",     vi: "chuyên ngành",     example: "My major is Business." },
+    { word: "originally",    ipa: "/əˈrɪdʒ.ɪ.nə.li/",vi: "gốc",              example: "I'm originally from Hanoi." },
+    { word: "siblings",      ipa: "/ˈsɪb.lɪŋz/",     vi: "anh chị em",        example: "I have two siblings." },
+    { word: "spare time",    ipa: "/speər/",         vi: "thời gian rảnh",    example: "In my spare time I read." },
+    { word: "Nice to meet you", ipa: "",             vi: "Rất vui được gặp",  example: "Nice to meet you too." },
+    { word: "By the way",    ipa: "",                vi: "Nhân tiện",         example: "By the way, I'm Anna." },
+    { word: "Tell me about yourself", ipa: "",       vi: "Kể về bạn",         example: "Tell me about yourself." },
+  ],
+  script: "Anna: Good morning. Can I sit here?\nMinh: Of course, please sit down.\nAnna: I'm Anna. Nice to meet you.\nMinh: Nice to meet you too. I'm Minh.\nAnna: This is my first day. I just moved to Hanoi last week.\nMinh: Where are you originally from?\nAnna: I'm from Manchester, in the UK. And you?\nMinh: I'm from Hue, but I've lived in Hanoi for two years. I'm a university student.\nAnna: What do you study?\nMinh: My major is International Business. I'm in my third year. I teach English at a small language centre. I've been a teacher for five years.\nMinh: I usually read books, play football with friends, and sometimes I cook.\nAnna: What's your favourite dish?\nMinh: I make pretty good pho.\nAnna: I'm an only child, but I have a small dog called Daisy.\nMinh: The teacher just walked in. Let's catch up after class.",
+  questions: [
+    { id: 1, type: "mcq", question: "Where is Anna originally from?", options: ["London","Manchester","Hanoi","Hue"], correct: 1 },
+    { id: 2, type: "mcq", question: "What is Minh's major?",          options: ["Tourism","International Business","English","Marketing"], correct: 1 },
+    { id: 3, type: "mcq", question: "How long has Anna been a teacher?", options: ["2 years","3 years","5 years","10 years"], correct: 2 },
+    { id: 4, type: "fill", question: "Anna just moved to Hanoi ____.",   answer: "last week" },
+    { id: 5, type: "fill", question: "Minh has lived in Hanoi for ____ years.", answer: "two" },
+    { id: 6, type: "fill", question: "Anna teaches at a small ____.",    answer: "language centre" },
+    { id: 7, type: "tfng", statement: "Minh is in his second year at university.", answer: "False" },
+    { id: 8, type: "tfng", statement: "Anna has a younger brother.",     answer: "Not Given" },
+    { id: 9, type: "tfng", statement: "Minh can cook pho.",              answer: "True" },
+    { id: 10, type: "short", question: "What is the name of Anna's dog?", answer: "Daisy" },
+  ],
+  speakingPart1: [
+    { q: "Can you tell me your name?",                bandLow: "My name is Lan.",                                                bandMid: "My name is Lan, but most of my friends call me Lana." },
+    { q: "Where are you from?",                        bandLow: "I'm from Vietnam.",                                              bandMid: "I'm originally from Hue, a small but beautiful city in central Vietnam." },
+    { q: "What do you do?",                            bandLow: "I'm a student.",                                                 bandMid: "I'm a third-year student majoring in marketing." },
+    { q: "Do you have any siblings?",                  bandLow: "I have one brother.",                                            bandMid: "I have one younger brother who's still in high school." },
+    { q: "What do you usually do in your free time?",  bandLow: "I watch TV.",                                                    bandMid: "In my spare time, I usually read novels and go cycling with friends." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a person you have recently met for the first time.\n- who this person is\n- when and where you met them\n- what they look like\n- and explain why you remember this meeting.",
+    sample: "The person I'd like to talk about is Mark, an Australian English teacher I met about a month ago at my new language class. He's in his early thirties, tall, with short brown hair and a really warm smile. What I remember most is the way he started the lesson. Instead of jumping into the textbook, he simply asked everyone to share one hobby. Honestly, I had never spoken English in front of strangers before, but his attitude made me feel safe. After that day, I started enjoying speaking practice and I've improved noticeably.",
+    keywords: ["first impression","put me at ease","energetic","break the ice","encouraging"],
+  },
+  speakingPart3: [
+    { q: "Why do first impressions matter?",                                hint: "judgments in seconds, body language, job interview" },
+    { q: "Is it easy to make new friends in a big city?",                   hint: "fast pace, less time, online platforms" },
+    { q: "How has technology changed the way we meet people?",              hint: "social media, dating apps, less face-to-face" },
+    { q: "Should children be taught how to introduce themselves at school?",hint: "confidence, public speaking, soft skills" },
+  ],
+  shadowing: [
+    "Nice to meet you too.",
+    "I just moved to Hanoi last week.",
+    "I've lived in Hanoi for two years now.",
+    "I usually read books and play football with friends.",
+    "Let's catch up after class.",
+  ],
+  homework: [
+    "Viết 5 câu dùng: originally, siblings, spare time, major, nice to meet you.",
+    "Tự thu âm trả lời 3 câu Part 1.",
+    "Viết tóm tắt bài nghe trong 3-5 câu tiếng Anh.",
+  ],
+  vietnameseSupport: [
+    "I've been + V-ing for... — bắt đầu trong quá khứ và còn tiếp diễn.",
+    "Originally from nhấn vào nơi sinh, khác I'm from.",
+    "Catch up = nói chuyện sau, không phải đuổi kịp.",
+  ],
+})
+
+LESSONS.push({
+  id: 2,
+  levelId: "foundation",
+  title: "My Family",
+  titleVi: "Gia Đình Của Tôi",
+  objectives: { listen: "Nghe thông tin gia đình", speak: "Mô tả thành viên gia đình", vocabFocus: "Từ vựng gia đình" },
+  vocabulary: [
+    { word: "relative",        ipa: "/ˈrel.ə.tɪv/",   vi: "người thân",   example: "I have many relatives in the countryside." },
+    { word: "close-knit",      ipa: "/ˌkləʊsˈnɪt/",   vi: "gắn bó",        example: "We are a close-knit family." },
+    { word: "extended family", ipa: "",               vi: "đại gia đình",  example: "We meet our extended family at Tet." },
+    { word: "nuclear family",  ipa: "",               vi: "gia đình hạt nhân", example: "We have a small nuclear family." },
+    { word: "take after",      ipa: "",               vi: "giống ai",      example: "I take after my mother." },
+    { word: "get along with",  ipa: "",               vi: "hoà thuận",     example: "I get along with my brother." },
+    { word: "supportive",      ipa: "/səˈpɔː.tɪv/",   vi: "hỗ trợ",        example: "My parents are very supportive." },
+    { word: "strict",          ipa: "/strɪkt/",       vi: "nghiêm khắc",   example: "My father is strict about studying." },
+    { word: "easy-going",      ipa: "",               vi: "dễ tính",       example: "My brother is easy-going." },
+    { word: "rely on",         ipa: "",               vi: "dựa vào",       example: "I rely on my family." },
+  ],
+  script: "My family is small but really close-knit. There are four of us: my parents, my older brother, and me. My father is forty-eight. He works as an electrical engineer. He's quite strict but very supportive. My mother is forty-five. She runs a small flower shop. People say I take after her because we both love reading and cooking. My older brother Hung is twenty-six. He recently got married. He's an easy-going person and very funny. We video-call almost every weekend. Besides my immediate family, I have a big extended family in the countryside: my grandparents, three uncles, two aunts, and many cousins. Every Lunar New Year, we visit them. My grandmother is the kindest person I know. She still cooks delicious traditional dishes despite being seventy-five. Family is everything to me. They are the people I rely on the most. Even when I move away for university, I still feel connected because we talk on the phone almost daily.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How many people live in the speaker's house?", options: ["2","3","4","5"], correct: 2 },
+    { id: 2, type: "mcq",  question: "What does the speaker's mother do?",            options: ["teacher","engineer","owns a flower shop","nurse"], correct: 2 },
+    { id: 3, type: "fill", question: "The speaker's father is ____ years old.",         answer: "forty-eight" },
+    { id: 4, type: "fill", question: "The speaker's brother is ____ years old.",        answer: "twenty-six" },
+    { id: 5, type: "fill", question: "The grandmother is ____ years old.",              answer: "seventy-five" },
+    { id: 6, type: "tfng", statement: "The speaker's brother lives at home.",           answer: "False" },
+    { id: 7, type: "tfng", statement: "The family visits the countryside every Lunar New Year.", answer: "True" },
+    { id: 8, type: "tfng", statement: "The speaker has four uncles.",                   answer: "False" },
+    { id: 9, type: "short",question: "Who does the speaker call when needing advice?", answer: "her older brother" },
+    { id: 10, type: "short", question: "How often does the speaker talk to family?",   answer: "almost daily" },
+  ],
+  speakingPart1: [
+    { q: "Tell me about your family.",                          bandLow: "I have a small family.",                bandMid: "I come from a small but close-knit family of four." },
+    { q: "Who do you spend most of your time with?",            bandLow: "My mother.",                            bandMid: "I spend most of my free time with my mother — we cook and watch films together." },
+    { q: "Do you take after your mother or father?",            bandLow: "My mother.",                            bandMid: "I'd say I take after my mother quite a lot in personality." },
+    { q: "How often do you visit your relatives?",              bandLow: "Every Tet.",                            bandMid: "I usually visit my relatives once a year, mostly during Tet." },
+    { q: "What activities do you do as a family?",              bandLow: "We eat dinner together.",               bandMid: "We have dinner on Sundays and visit my grandparents during Tet." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a member of your family that you spend most of your free time with.\n- who this person is\n- what they look like\n- what you usually do together\n- and explain why you enjoy spending time with them.",
+    sample: "The family member I spend the most time with is my mother. She's in her mid-forties, slightly shorter than me, with long black hair and a warm smile. She runs a small flower shop, but she always finds time for me. We usually cook together in the evening, especially on weekends. We also love watching old Vietnamese movies after dinner. The reason I enjoy spending time with her is that she's both a parent and a friend. She listens without judging, and her advice is always practical.",
+    keywords: ["close-knit","supportive","unconditional love","like a friend","always there for me"],
+  },
+  speakingPart3: [
+    { q: "Are families in your country becoming smaller?",                hint: "urbanisation, cost of living, nuclear family" },
+    { q: "Why is family time important?",                                  hint: "emotional support, mental health, communication" },
+    { q: "Should children take care of their parents when they grow old?", hint: "tradition, gratitude, retirement homes" },
+    { q: "How has technology changed the way families stay in touch?",     hint: "video call, social media, distance" },
+  ],
+  shadowing: [
+    "My family is small but really close-knit.",
+    "He's quite strict, but also very supportive.",
+    "I take after my mother.",
+    "We video-call almost every weekend.",
+    "Family is everything to me.",
+  ],
+  homework: [
+    "Viết 5 câu dùng: take after, get along with, rely on, close-knit, easy-going.",
+    "Trả lời Part 1 câu 2, 3, 5 — ghi âm.",
+    "Tóm tắt bài nghe trong 3-5 câu.",
+  ],
+  vietnameseSupport: [
+    "take after dễ nhầm với look after (chăm sóc).",
+    "extended family vs nuclear family — học rõ.",
+    "despite + N/V-ing dễ nhầm với although + S+V.",
+  ],
+})
+
+LESSONS.push({
+  id: 3,
+  levelId: "foundation",
+  title: "My Daily Routine",
+  titleVi: "Thói Quen Hàng Ngày",
+  objectives: { listen: "Nghe trình tự hoạt động trong ngày", speak: "Mô tả ngày của bạn", vocabFocus: "Routine vocab" },
+  vocabulary: [
+    { word: "routine",      ipa: "/ruːˈtiːn/", vi: "thói quen",       example: "I have a fixed routine." },
+    { word: "wake up",      ipa: "",          vi: "thức dậy",         example: "I wake up at 6:30." },
+    { word: "commute",      ipa: "/kəˈmjuːt/",vi: "di chuyển",         example: "I commute by motorbike." },
+    { word: "run errands",  ipa: "",          vi: "chạy việc vặt",     example: "I run errands after work." },
+    { word: "nap",          ipa: "/næp/",     vi: "ngủ trưa ngắn",     example: "I take a 15-minute nap." },
+    { word: "wind down",    ipa: "",          vi: "thư giãn cuối ngày", example: "I wind down by reading." },
+    { word: "productive",   ipa: "/prəˈdʌk.tɪv/", vi: "năng suất",     example: "I had a productive day." },
+    { word: "on time",      ipa: "",          vi: "đúng giờ",          example: "I arrive on time." },
+    { word: "weekdays",     ipa: "",          vi: "ngày trong tuần",   example: "I work on weekdays." },
+    { word: "squeeze in",   ipa: "",          vi: "tranh thủ làm",     example: "I squeeze in a workout." },
+  ],
+  script: "On weekdays I usually wake up at six fifteen. The first thing I do is drink a glass of warm water and stretch for ten minutes. Then I take a quick shower, get dressed, and have breakfast at home. By seven thirty I leave the house and commute to my office in District 3. The trip takes around twenty-five minutes by motorbike when traffic is good. At work, my morning is packed with meetings and emails, so I try to focus and stay productive. I have lunch with my colleagues at the small canteen on the second floor. After lunch, I always squeeze in a short nap of about fifteen minutes. I leave the office at six in the evening. Three days a week I stop by a gym near my home for a thirty-minute workout. By eight I'm home and I cook a simple dinner. After dinner I wind down by reading a book. I aim to be in bed by eleven thirty. On weekends my routine is much more relaxed. I sleep in until eight, meet friends for brunch, and explore a new café.",
+  questions: [
+    { id: 1, type: "mcq", question: "What time does the speaker wake up on weekdays?", options: ["6:00","6:15","6:30","7:30"], correct: 1 },
+    { id: 2, type: "fill", question: "The commute usually takes about ____ minutes.", answer: "25" },
+    { id: 3, type: "fill", question: "The nap is about ____ minutes.",                 answer: "15" },
+    { id: 4, type: "tfng", statement: "The speaker drinks coffee with breakfast.",     answer: "Not Given" },
+    { id: 5, type: "tfng", statement: "The gym is near the office.",                   answer: "False" },
+    { id: 6, type: "tfng", statement: "The speaker tries to be in bed by 11:30.",      answer: "True" },
+    { id: 7, type: "short",question: "Where is the office located?",                    answer: "District 3" },
+    { id: 8, type: "short",question: "How many days a week does the speaker go to the gym?", answer: "three" },
+    { id: 9, type: "fill", question: "On weekends, the speaker sleeps in until ____.",  answer: "eight" },
+    { id: 10, type: "fill", question: "After dinner, the speaker winds down by ____.",  answer: "reading" },
+  ],
+  speakingPart1: [
+    { q: "What time do you usually get up?",          bandLow: "I get up at 7.",                                    bandMid: "I usually get up at 6:30 because I want to avoid the morning rush." },
+    { q: "Do you have a fixed daily routine?",        bandLow: "Yes, I do.",                                        bandMid: "Most weekdays I follow a fixed routine — exercise, breakfast, work, then study." },
+    { q: "Are you a morning person or a night owl?",  bandLow: "Morning person.",                                   bandMid: "I'm definitely a morning person. I find it easier to focus before noon." },
+    { q: "What is the most enjoyable part of your day?", bandLow: "Evening.",                                        bandMid: "My favourite part of the day is the early morning when the streets are still quiet." },
+    { q: "Do you think your routine is productive?",  bandLow: "Yes.",                                             bandMid: "I'd say it is productive enough, although I could waste less time on social media." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a typical day in your life.\n- what you usually do in the morning\n- what you usually do in the afternoon and evening\n- whether your day is busy or relaxed\n- and explain whether you'd like to change anything about it.",
+    sample: "On a typical weekday I wake up at half past six and go for a short jog. After breakfast at home I commute to my office in District 3 by motorbike. My mornings are usually packed with meetings, but I try to take a fifteen-minute nap after lunch to stay sharp. In the evening I either go to the gym or run errands, then cook a simple dinner. I wind down by reading or watching a series and aim to sleep by eleven. Honestly my day is fairly busy but balanced. The only thing I'd like to change is to make more time for hobbies, especially photography on weekends.",
+    keywords: ["packed schedule","squeeze in","wind down","productive","work-life balance"],
+  },
+  speakingPart3: [
+    { q: "Are routines important?",                          hint: "discipline, focus, time management" },
+    { q: "Do young people today have busier routines than before?", hint: "smartphones, multitasking, social pressure" },
+    { q: "How can people maintain a healthy daily routine?",  hint: "sleep, exercise, prioritising" },
+    { q: "How do work routines differ from study routines?",  hint: "deadlines, deliverables, exams" },
+  ],
+  shadowing: [
+    "I usually wake up at six fifteen.",
+    "By seven thirty I leave the house and commute to my office.",
+    "I always squeeze in a short nap.",
+    "Three days a week, I stop by a gym near my home.",
+    "I aim to be in bed by eleven thirty.",
+  ],
+  homework: [
+    "Viết 5 câu dùng: commute, productive, squeeze in, wind down, run errands.",
+    "Trả lời 3 câu Part 1 — ghi âm.",
+    "Tóm tắt bài nghe trong 3-5 câu.",
+  ],
+  vietnameseSupport: [
+    "squeeze in cực hữu ích — học vào.",
+    "aim to formal hơn try to.",
+    "Tránh I usually wake up at 6 AM in the morning — thừa.",
+  ],
+})
+
+LESSONS.push({
+  id: 4,
+  levelId: "foundation",
+  title: "Hobbies and Free Time",
+  titleVi: "Sở Thích Và Thời Gian Rảnh",
+  objectives: { listen: "Nghe lý do, mức độ thường xuyên của sở thích", speak: "Nói về sở thích cá nhân", vocabFocus: "Hobby vocab + cảm xúc" },
+  vocabulary: [
+    { word: "pick up (a hobby)", ipa: "",            vi: "bắt đầu sở thích", example: "I picked up photography." },
+    { word: "passionate about",  ipa: "",            vi: "đam mê",            example: "I'm passionate about reading." },
+    { word: "unwind",            ipa: "/ʌnˈwaɪnd/",  vi: "thư giãn",          example: "Yoga helps me unwind." },
+    { word: "recharge",          ipa: "/ˌriːˈtʃɑːdʒ/",vi: "nạp năng lượng",  example: "I recharge by sleeping." },
+    { word: "addictive",         ipa: "/əˈdɪk.tɪv/", vi: "gây nghiện",        example: "Reading is addictive for me." },
+    { word: "into something",    ipa: "",            vi: "thích cái gì",      example: "I'm really into music." },
+    { word: "take up",           ipa: "",            vi: "bắt đầu",           example: "She took up yoga." },
+    { word: "give it a try",     ipa: "",            vi: "thử xem",           example: "Just give it a try." },
+    { word: "stress reliever",   ipa: "",            vi: "giảm stress",       example: "Cooking is a stress reliever." },
+    { word: "boost mood",        ipa: "",            vi: "cải thiện tâm trạng",example: "Music boosts my mood." },
+  ],
+  script: "Interviewer: So Linh, what do you like doing in your free time?\nLinh: The hobby I'm most passionate about is photography. I picked it up about three years ago when my brother gave me his old camera. Now I take photos almost every weekend.\nInterviewer: Where do you usually take photos?\nLinh: Mostly around the old quarter and along the West Lake. Both places have beautiful light in the early morning. It helps me unwind after a stressful week.\nInterviewer: What else are you into?\nLinh: I'm also into reading, especially psychology books. I find them addictive. Recently I took up yoga. I attend a class twice a week. It's a great stress reliever and it really boosts my mood.\nInterviewer: Do you think hobbies are important?\nLinh: Hobbies help us recharge. After a long day at work, doing something I love is like therapy. If you don't have a hobby, give it a try.\nInterviewer: Have you made friends through your hobbies?\nLinh: Through a photography club, I've met people from very different backgrounds.",
+  questions: [
+    { id: 1, type: "mcq",  question: "When did Linh start photography?", options: ["1 year ago","2 years ago","3 years ago","5 years ago"], correct: 2 },
+    { id: 2, type: "mcq",  question: "What kind of books does Linh read?", options: ["fiction","history","psychology","business"], correct: 2 },
+    { id: 3, type: "fill", question: "Linh attends a yoga class ____ a week.", answer: "twice" },
+    { id: 4, type: "fill", question: "She also takes photos along ____.",       answer: "West Lake" },
+    { id: 5, type: "tfng", statement: "Linh's brother bought her a new camera.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Yoga helps her sleep better.",            answer: "Not Given" },
+    { id: 7, type: "tfng", statement: "Linh has met new friends through her photography club.", answer: "True" },
+    { id: 8, type: "short",question: "What does Linh consider photography after a stressful week?", answer: "peaceful" },
+    { id: 9, type: "short",question: "Which two small hobbies does Linh suggest?", answer: "cooking, gardening" },
+    { id: 10, type: "short",question: "What does yoga do to her mood?",            answer: "boosts it" },
+  ],
+  speakingPart1: [
+    { q: "What hobbies are popular in your country?",       bandLow: "Football and reading.",                              bandMid: "In Vietnam, popular hobbies include playing football, reading, and recently cycling and yoga." },
+    { q: "Do you have any unusual hobbies?",                bandLow: "Not really.",                                        bandMid: "Not really, but I do photography, which not many people in my class are into." },
+    { q: "Is it important to have a hobby?",                bandLow: "Yes, it is.",                                        bandMid: "Definitely. A hobby helps us unwind and balance work life." },
+    { q: "Do you prefer indoor or outdoor activities?",     bandLow: "Indoor.",                                            bandMid: "It depends on the weather, but I generally prefer outdoor activities like cycling." },
+    { q: "Have your hobbies changed since childhood?",      bandLow: "Yes.",                                               bandMid: "Yes, when I was younger I played a lot of video games, but now I prefer reading and photography." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a hobby you have recently started.\n- what the hobby is\n- when and how you started it\n- how often you do it\n- and explain why you enjoy it.",
+    sample: "The hobby I'd like to talk about is photography. It all began three years ago when my older brother gave me his old camera. At first I just took random shots, but I quickly became hooked. Now I take photos almost every weekend, mostly around Hanoi's old quarter and West Lake at sunrise. The reason I love photography is that it forces me to slow down and really look at everyday life. It's also a great way to unwind after a stressful week.",
+    keywords: ["passionate","unwind","stress reliever","slow down","capture moments"],
+  },
+  speakingPart3: [
+    { q: "Are hobbies in modern life different from those in the past?", hint: "tech, indoor screens, less outdoor" },
+    { q: "Should schools encourage students to develop hobbies?",        hint: "creativity, balance, well-being" },
+    { q: "Why do some people change hobbies frequently?",                hint: "boredom, trends, self-discovery" },
+    { q: "Can hobbies become a career?",                                  hint: "passion-led work, freelance, monetisation" },
+  ],
+  shadowing: [
+    "The one I'm most passionate about is photography.",
+    "I picked it up about three years ago.",
+    "It helps me unwind after a stressful week.",
+    "Hobbies help us recharge.",
+    "Even small things like cooking or gardening can change your mood.",
+  ],
+  homework: [
+    "Viết 5 câu dùng: take up, passionate about, stress reliever, boost mood, give it a try.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe trong 3-5 câu.",
+  ],
+  vietnameseSupport: [
+    "I'm into X = I like X nhưng tự nhiên hơn.",
+    "pick up vs take up gần nghĩa, take up hơi formal hơn.",
+    "Like therapy là cách so sánh tự nhiên — examiner thích.",
+  ],
+})
+
+LESSONS.push({
+  id: 5,
+  levelId: "foundation",
+  title: "Food and Drinks",
+  titleVi: "Đồ Ăn Thức Uống",
+  objectives: { listen: "Nghe mô tả món ăn, vị, lý do thích", speak: "Mô tả món ăn truyền thống", vocabFocus: "Food vocab" },
+  vocabulary: [
+    { word: "cuisine",        ipa: "/kwɪˈziːn/", vi: "ẩm thực",       example: "Vietnamese cuisine is famous." },
+    { word: "craving",        ipa: "/ˈkreɪ.vɪŋ/",vi: "cơn thèm",       example: "I have a craving for pho." },
+    { word: "comfort food",   ipa: "",          vi: "đồ ăn xoa dịu",   example: "Pho is my comfort food." },
+    { word: "picky eater",    ipa: "",          vi: "kén ăn",          example: "He is a picky eater." },
+    { word: "balanced diet",  ipa: "",          vi: "chế độ ăn cân bằng", example: "I follow a balanced diet." },
+    { word: "street food",    ipa: "",          vi: "đồ ăn đường phố", example: "Vietnamese street food is the best." },
+    { word: "mouth-watering", ipa: "",          vi: "hấp dẫn",         example: "It looks mouth-watering." },
+    { word: "spicy",          ipa: "/ˈspaɪ.si/",vi: "cay",             example: "The soup is too spicy." },
+    { word: "specialty",      ipa: "/ˈspeʃ.əl.ti/", vi: "đặc sản",      example: "Bun cha is a Hanoi specialty." },
+    { word: "eat out",        ipa: "",          vi: "ăn ngoài",        example: "We eat out on Saturdays." },
+  ],
+  script: "Tom: I'm starving. Where should we have dinner tonight?\nMai: Same. I've been craving Vietnamese food all day. Have you tried bun cha before?\nTom: Yes, I had it last Sunday at a place near my office. It's mouth-watering.\nMai: There's a small family-run restaurant near my apartment that locals say is the best in this district. Their pork is grilled over real charcoal.\nTom: Vietnamese cuisine surprises me every week. The flavours are so balanced.\nMai: We try to keep our food not too oily. Most dishes come with fresh herbs. Are you a picky eater?\nTom: Not really. The only thing I avoid is anything too spicy. The first time I tried bun bo Hue, I almost cried.\nMai: There's one stall that sells banh mi only in the morning. It's the specialty of that family for three generations.\nTom: I love how Vietnamese street food has so much history.\nMai: What's your comfort food?\nTom: Probably a warm bowl of pho.\nMai: For me, it's xoi xeo — sticky rice with mung bean and fried shallots.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Where did Tom try bun cha?",                  options: ["central Hanoi","near his office","at Mai's apartment","at a buffet"], correct: 1 },
+    { id: 2, type: "mcq",  question: "What is Tom's comfort food?",                  options: ["fish and chips","pho","xoi xeo","banh mi"], correct: 1 },
+    { id: 3, type: "fill", question: "The pork at the restaurant is grilled over ____.", answer: "real charcoal" },
+    { id: 4, type: "fill", question: "The banh mi stall sells only in the ____.",         answer: "morning" },
+    { id: 5, type: "tfng", statement: "Mai is a picky eater.",                            answer: "Not Given" },
+    { id: 6, type: "tfng", statement: "Tom dislikes spicy food.",                         answer: "True" },
+    { id: 7, type: "tfng", statement: "Mai's grandmother used to make xoi xeo.",          answer: "Not Given" },
+    { id: 8, type: "short",question: "For how many generations has the banh mi family been making it?", answer: "three" },
+    { id: 9, type: "short",question: "What is bun cha?",                                  answer: "grilled pork with noodles" },
+    { id: 10,type: "short", question: "What does Mai eat when she misses home?",          answer: "xoi xeo" },
+  ],
+  speakingPart1: [
+    { q: "What's your favourite meal of the day?",         bandLow: "Dinner.",                                        bandMid: "I'd say dinner is my favourite because it's the only meal my whole family eats together." },
+    { q: "Are you a picky eater?",                          bandLow: "No.",                                            bandMid: "Not really, but I tend to avoid anything too oily or too spicy." },
+    { q: "Do you prefer eating at home or eating out?",     bandLow: "Eating at home.",                                bandMid: "I generally prefer eating at home because the food is fresher and cheaper." },
+    { q: "What kind of food is popular in your country?",   bandLow: "Pho is popular.",                                bandMid: "Vietnamese cuisine is huge in itself — pho, bun cha, banh mi, com tam, all famous globally." },
+    { q: "Do you cook often?",                              bandLow: "Sometimes.",                                     bandMid: "I cook around three times a week, mostly simple things like stir-fries and noodle soups." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a traditional dish in your country that you really like.\n- what the dish is\n- what it is made of\n- when it is usually eaten\n- and explain why you like it.",
+    sample: "The dish I'd like to talk about is bun cha, a traditional dish from northern Vietnam. It's made of grilled pork patties, white rice noodles, fresh herbs, and a sweet-and-sour fish sauce dipping bowl. People usually eat it for lunch, especially on weekends with family. What I love most about bun cha is how perfectly balanced the flavours are. The pork is smoky from the charcoal grill, the noodles are soft, and the herbs give it a fresh kick. Every time I eat it, it reminds me of simple weekend afternoons.",
+    keywords: ["balanced flavours","charcoal-grilled","fresh herbs","specialty","heart-warming"],
+  },
+  speakingPart3: [
+    { q: "Why do people eat traditional food on special occasions?", hint: "heritage, identity, gathering" },
+    { q: "Is street food popular in your country?",                 hint: "affordable, diverse, food culture" },
+    { q: "Do you think fast food is replacing traditional food?",   hint: "convenience, globalisation, health" },
+    { q: "How important is family meal time?",                       hint: "communication, bonding, busy schedule" },
+  ],
+  shadowing: [
+    "I've been craving Vietnamese food all day.",
+    "It's mouth-watering.",
+    "The flavours are so balanced.",
+    "The first time I tried bun bo Hue, I almost cried.",
+    "Pho is my comfort food.",
+  ],
+  homework: [
+    "Viết 5 câu dùng: picky eater, comfort food, craving, mouth-watering, eat out.",
+    "Ghi âm Part 1 câu 1, 4, 5.",
+    "Tóm tắt bài nghe trong 3-5 câu.",
+  ],
+  vietnameseSupport: [
+    "picky eater (kén) khác fast eater (ăn nhanh).",
+    "comfort food là cụm cố định, không phải food that gives comfort.",
+    "Pho hits different là từ lóng — đừng dùng trong essay.",
+  ],
+})
+
+
+LESSONS.push({
+  "id": 86,
+  "levelId": "ielts-mode",
+  "title": "Hotel Booking Inquiry",
+  "titleVi": "Dat Phong Khach San",
+  "objectives": {
+    "listen": "IELTS Section 1 - dat phong qua dien thoai",
+    "speak": "Du lich va luu tru",
+    "vocabFocus": "Hospitality"
+  },
+  "vocabulary": [
+    {
+      "word": "reservation",
+      "ipa": "/rezerveshen/",
+      "vi": "dat phong",
+      "example": "I would like to make a reservation."
+    },
+    {
+      "word": "twin room",
+      "ipa": "",
+      "vi": "phong hai giuong don",
+      "example": "A twin room please."
+    },
+    {
+      "word": "double room",
+      "ipa": "",
+      "vi": "phong giuong doi",
+      "example": "A double room for two nights."
+    },
+    {
+      "word": "en-suite",
+      "ipa": "/onsweet/",
+      "vi": "phong tam rieng",
+      "example": "The room is en-suite."
+    },
+    {
+      "word": "check-in",
+      "ipa": "",
+      "vi": "nhan phong",
+      "example": "Check-in is at 2 pm."
+    },
+    {
+      "word": "check-out",
+      "ipa": "",
+      "vi": "tra phong",
+      "example": "Check-out before 11 am."
+    },
+    {
+      "word": "deposit",
+      "ipa": "/depozit/",
+      "vi": "tien dat coc",
+      "example": "A 20 percent deposit is required."
+    },
+    {
+      "word": "cancellation",
+      "ipa": "/kanselleshen/",
+      "vi": "huy phong",
+      "example": "Free cancellation 48 hours before."
+    },
+    {
+      "word": "amenities",
+      "ipa": "/amenitiz/",
+      "vi": "tien nghi",
+      "example": "The hotel offers many amenities."
+    },
+    {
+      "word": "voucher",
+      "ipa": "/vautcher/",
+      "vi": "phieu giam gia",
+      "example": "Use this voucher for the spa."
+    }
+  ],
+  "script": "Receptionist: Good afternoon, Lakeside Hotel, this is Karen speaking. How can I help?\nCaller: Hello, my name is Daniel Brown. I would like to book a room for the weekend of the seventeenth.\nReceptionist: Of course, Mr Brown. May I have the spelling of your surname?\nCaller: B-R-O-W-N.\nReceptionist: Thank you. How many nights will you be staying?\nCaller: Two nights, arriving Friday afternoon and leaving Sunday morning.\nReceptionist: We have a standard twin room at one hundred and twenty pounds per night, or a deluxe double with a lake view at one hundred and seventy-five.\nCaller: I will go with the deluxe double.\nReceptionist: Excellent choice. Both rooms are en-suite, include breakfast, and have free Wi-Fi. Check-in is from two pm and check-out is by eleven am.\nCaller: Could I check in earlier? My train arrives at noon.\nReceptionist: We can store your luggage from twelve and let you into the room as soon as it is ready, usually by one fifteen.\nReceptionist: We require a twenty per cent deposit by card to secure the booking. Free cancellation is available up to forty-eight hours before arrival.\nReceptionist: We have a wellness package for an extra twenty-five pounds per person, including a one-hour massage and pool access.\nCaller: Yes, please add it for one person.\nReceptionist: Could I take a contact number?\nCaller: Zero seven nine four six, double two, eight one, four five.\nReceptionist: A confirmation email will arrive in five minutes.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "How does the caller spell his surname?",
+      "options": [
+        "BRAWN",
+        "BROWN",
+        "BROUN",
+        "BRUWN"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which room does he book?",
+      "options": [
+        "standard twin",
+        "deluxe double",
+        "suite",
+        "family"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Price per night of the deluxe double: ____ pounds.",
+      "answer": "175"
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Standard check-in starts at ____ pm.",
+      "answer": "2"
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "question": "Deposit required: ____ percent.",
+      "answer": "20"
+    },
+    {
+      "id": 6,
+      "type": "fill",
+      "question": "Free cancellation up to ____ hours before.",
+      "answer": "48"
+    },
+    {
+      "id": 7,
+      "type": "tfng",
+      "statement": "Breakfast is included in both room types.",
+      "answer": "True"
+    },
+    {
+      "id": 8,
+      "type": "tfng",
+      "statement": "Wellness package costs 35 pounds per person.",
+      "answer": "False"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "When does the train arrive?",
+      "answer": "noon"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Last four digits of the contact number?",
+      "answer": "4145"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "Do you enjoy travelling?",
+      "bandLow": "Yes I do.",
+      "bandMid": "Yes, travelling is one of my favourite ways to relax and learn."
+    },
+    {
+      "q": "Where did you stay on your last trip?",
+      "bandLow": "A hotel.",
+      "bandMid": "I stayed in a small boutique hotel near the old quarter, very cosy."
+    },
+    {
+      "q": "How often do you go on holiday?",
+      "bandLow": "Once a year.",
+      "bandMid": "I try to take at least two short breaks a year, usually during long weekends."
+    },
+    {
+      "q": "Do you prefer hotels or homestays?",
+      "bandLow": "Hotels.",
+      "bandMid": "I lean towards homestays because they offer a more authentic local experience."
+    },
+    {
+      "q": "What do you check before booking a room?",
+      "bandLow": "The price.",
+      "bandMid": "Mainly the location, guest reviews, and the cancellation policy."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe a hotel or place you have stayed in that you really liked.\n- where it was\n- when you stayed there\n- what was special about it\n- and explain why you liked it.",
+    "sample": "I would like to talk about a small lakeside hotel I stayed at in Da Lat last summer. It was a renovated colonial villa with only ten rooms, surrounded by pine trees. We arrived on a chilly afternoon, were welcomed with hot tea, and shown to a deluxe double with a balcony overlooking the lake. What made it special was the personal touch. The owner remembered our names, recommended a hidden waterfall, and even prepared a vegetarian breakfast on request. The room itself was quiet, the bedding was excellent, and the Wi-Fi was reliable. I liked it because it felt more like staying with a thoughtful friend than at a commercial hotel.",
+    "keywords": [
+      "boutique hotel",
+      "personal touch",
+      "colonial villa",
+      "overlooking the lake",
+      "recharge"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "How has tourism changed in your country?",
+      "hint": "infrastructure, online booking, sustainability"
+    },
+    {
+      "q": "Are luxury hotels worth the money?",
+      "hint": "service quality, status, value perception"
+    },
+    {
+      "q": "Should governments regulate short-term rentals?",
+      "hint": "Airbnb, housing prices, neighbourhood impact"
+    },
+    {
+      "q": "How will travel look in twenty years?",
+      "hint": "green flights, virtual tours, work-and-travel"
+    }
+  ],
+  "shadowing": [
+    "I would like to make a reservation.",
+    "Check-in is from two pm and check-out is by eleven am.",
+    "Free cancellation is available up to forty-eight hours before arrival.",
+    "Could I take a contact number?",
+    "A confirmation email will arrive in five minutes."
+  ],
+  "homework": [
+    "Viet 5 cau dung: reservation, deposit, cancellation, amenities, voucher.",
+    "Ghi am Part 1 cau 1, 3, 5.",
+    "Tom tat dialogue trong 5 cau."
+  ],
+  "vietnameseSupport": [
+    "Section 1 IELTS - luyen nghe so dien thoai, gia tien, ngay/gio chinh xac.",
+    "En-suite = phong tam ben trong phong ngu.",
+    "Cancellation policy = chinh sach huy phong."
+  ]
+})
+
+LESSONS.push({
+  "id": 87,
+  "levelId": "ielts-mode",
+  "title": "Gym Membership Sign-up",
+  "titleVi": "Dang Ky Tap Gym",
+  "objectives": {
+    "listen": "IELTS Section 1 - dien thong tin form",
+    "speak": "Suc khoe va the duc",
+    "vocabFocus": "Fitness"
+  },
+  "vocabulary": [
+    {
+      "word": "membership",
+      "ipa": "",
+      "vi": "thanh vien",
+      "example": "I want a one-year membership."
+    },
+    {
+      "word": "subscription",
+      "ipa": "",
+      "vi": "goi dang ky",
+      "example": "A monthly subscription costs 30 pounds."
+    },
+    {
+      "word": "induction",
+      "ipa": "",
+      "vi": "buoi huong dan",
+      "example": "A free induction is included."
+    },
+    {
+      "word": "personal trainer",
+      "ipa": "",
+      "vi": "huan luyen vien",
+      "example": "My personal trainer is great."
+    },
+    {
+      "word": "cardio",
+      "ipa": "",
+      "vi": "tim mach",
+      "example": "I do cardio three times a week."
+    },
+    {
+      "word": "weights",
+      "ipa": "",
+      "vi": "ta",
+      "example": "Free weights area is on level two."
+    },
+    {
+      "word": "sauna",
+      "ipa": "",
+      "vi": "phong xong hoi",
+      "example": "The sauna closes at nine pm."
+    },
+    {
+      "word": "peak hours",
+      "ipa": "",
+      "vi": "gio cao diem",
+      "example": "Avoid peak hours if possible."
+    },
+    {
+      "word": "direct debit",
+      "ipa": "",
+      "vi": "thanh toan tu dong",
+      "example": "Pay by direct debit each month."
+    },
+    {
+      "word": "photo ID",
+      "ipa": "",
+      "vi": "the co anh",
+      "example": "Bring photo ID to register."
+    }
+  ],
+  "script": "Staff: Good morning, City Fit Gym, how can I help?\nCustomer: Hi, I would like to sign up for a membership.\nStaff: Great. Could I take your full name?\nCustomer: My name is Olivia Patel. P-A-T-E-L.\nStaff: Date of birth?\nCustomer: The fourth of August, nineteen ninety-six.\nStaff: Address?\nCustomer: Forty-two Maple Street, postcode N seven, three F G.\nStaff: Phone number?\nCustomer: Zero seven, eight one, double three, six five, four two.\nStaff: We have three plans. Off-peak at twenty-five pounds a month, standard at thirty-five, and premium at forty-nine. Premium adds the sauna and free classes.\nCustomer: I will take standard.\nStaff: Excellent. The first month requires a joining fee of fifteen pounds. After that it is direct debit on the first of every month. We need a passport or driving licence for ID, plus a recent photo.\nCustomer: I have my driving licence.\nStaff: A free induction with a personal trainer is included. The next slot is Saturday at ten am.\nCustomer: Saturday at ten works.\nStaff: One last thing. Peak hours are five pm to eight pm. Off-peak members cannot enter then. Standard members can.\nCustomer: Good to know. Anything I should bring on Saturday?\nStaff: Trainers, a towel, a water bottle, and your membership card which we will email today.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "fill",
+      "question": "Surname spelling: ____",
+      "answer": "PATEL"
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "Date of birth: ____ August 1996",
+      "answer": "4"
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Postcode: N7, ____",
+      "answer": "3FG"
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Which plan does she choose?",
+      "options": [
+        "off-peak",
+        "standard",
+        "premium",
+        "student"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "question": "Joining fee: ____ pounds",
+      "answer": "15"
+    },
+    {
+      "id": 6,
+      "type": "fill",
+      "question": "Premium price: ____ pounds",
+      "answer": "49"
+    },
+    {
+      "id": 7,
+      "type": "tfng",
+      "statement": "A passport is the only acceptable ID.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "type": "tfng",
+      "statement": "Induction is free.",
+      "answer": "True"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "Day and time of the induction?",
+      "answer": "Saturday 10 am"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Three items to bring on Saturday?",
+      "answer": "trainers, towel, water bottle"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "Do you exercise regularly?",
+      "bandLow": "Sometimes.",
+      "bandMid": "I try to exercise at least three times a week, mostly cardio."
+    },
+    {
+      "q": "What kind of exercise do you enjoy?",
+      "bandLow": "Running.",
+      "bandMid": "Mainly running and yoga, because they balance body and mind."
+    },
+    {
+      "q": "Have you ever been to a gym?",
+      "bandLow": "Yes.",
+      "bandMid": "Yes, I had a gym membership for two years and learned the basics of weight training."
+    },
+    {
+      "q": "Do you think gyms are expensive?",
+      "bandLow": "A bit.",
+      "bandMid": "They can be, but compared with healthcare costs later in life it is a worthwhile investment."
+    },
+    {
+      "q": "Is health more important than wealth?",
+      "bandLow": "Yes.",
+      "bandMid": "Absolutely. Without health, even great wealth feels meaningless."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe a healthy habit you would like to develop.\n- what the habit is\n- why you want to develop it\n- how you plan to keep it\n- and explain how it might change your life.",
+    "sample": "A habit I really want to build is regular strength training three times a week. I have been mostly doing cardio for years, but I have read that resistance training is essential for long-term bone health, posture, and metabolism. To keep it, I plan to sign up at a gym near my office, schedule sessions in my calendar like meetings, and start with a light routine guided by a beginner programme online. If I succeed, I expect noticeable benefits: better posture at my desk, more energy in the afternoons, and probably more confidence in how I carry myself. I think small, consistent sessions beat occasional intense ones.",
+    "keywords": [
+      "resistance training",
+      "bone health",
+      "schedule it like a meeting",
+      "consistency over intensity",
+      "compound exercises"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "Why do many people stop exercising?",
+      "hint": "time, motivation, unrealistic goals"
+    },
+    {
+      "q": "Should fitness be taught at school?",
+      "hint": "lifelong habits, mental health, equality of access"
+    },
+    {
+      "q": "How does technology influence fitness?",
+      "hint": "wearables, apps, gamification"
+    },
+    {
+      "q": "Is it the governments job to keep citizens fit?",
+      "hint": "public spaces, healthcare costs, personal freedom"
+    }
+  ],
+  "shadowing": [
+    "I would like to sign up for a membership.",
+    "Could I take your full name?",
+    "Pay by direct debit on the first of every month.",
+    "A free induction with a personal trainer is included.",
+    "Bring trainers, a towel and a water bottle."
+  ],
+  "homework": [
+    "Viet 5 cau dung: subscription, induction, cardio, peak hours, direct debit.",
+    "Ghi am Part 1 cau 1, 2, 4.",
+    "Viet email gia bo dang ky gym vi ly do chuyen nha."
+  ],
+  "vietnameseSupport": [
+    "Section 1 - lay so, dia chi, gia tien chinh xac la diem mat trang.",
+    "Direct debit khac standing order: tu dong, so tien co the thay doi.",
+    "Peak/off-peak khac biet ro chi phi va quyen vao."
+  ]
+})
+
+LESSONS.push({
+  "id": 88,
+  "levelId": "ielts-mode",
+  "title": "Course Counselling Appointment",
+  "titleVi": "Tu Van Chon Khoa Hoc",
+  "objectives": {
+    "listen": "IELTS Section 1 - dialog hoc thuat",
+    "speak": "Lua chon khoa hoc",
+    "vocabFocus": "Education"
+  },
+  "vocabulary": [
+    {
+      "word": "enrolment",
+      "ipa": "",
+      "vi": "ghi danh",
+      "example": "Enrolment closes next Friday."
+    },
+    {
+      "word": "prerequisite",
+      "ipa": "",
+      "vi": "mon hoc tien quyet",
+      "example": "Statistics is a prerequisite."
+    },
+    {
+      "word": "tuition fee",
+      "ipa": "",
+      "vi": "hoc phi",
+      "example": "Tuition fees rose this year."
+    },
+    {
+      "word": "credit",
+      "ipa": "",
+      "vi": "tin chi",
+      "example": "The course is worth 20 credits."
+    },
+    {
+      "word": "transcript",
+      "ipa": "",
+      "vi": "bang diem",
+      "example": "Please bring your transcript."
+    },
+    {
+      "word": "workshop",
+      "ipa": "",
+      "vi": "buoi thuc hanh",
+      "example": "A weekly workshop is mandatory."
+    },
+    {
+      "word": "placement",
+      "ipa": "",
+      "vi": "thuc tap",
+      "example": "A four-month industry placement."
+    },
+    {
+      "word": "syllabus",
+      "ipa": "",
+      "vi": "de cuong",
+      "example": "The syllabus is detailed online."
+    },
+    {
+      "word": "plagiarism",
+      "ipa": "",
+      "vi": "dao van",
+      "example": "We treat plagiarism seriously."
+    },
+    {
+      "word": "attendance",
+      "ipa": "",
+      "vi": "chuyen can",
+      "example": "You must keep 80 percent attendance."
+    }
+  ],
+  "script": "Adviser: Hello, I am Mrs Hughes, course adviser. You must be Tom.\nStudent: Yes, I am here to talk about the Business Analytics module.\nAdviser: Of course. The course is worth thirty credits and runs across two semesters. Tuition is one thousand four hundred pounds for home students.\nStudent: What about the prerequisites?\nAdviser: You need passes in Introduction to Statistics and Database Fundamentals. Looking at your transcript, you have both.\nStudent: Great. What does the workload look like?\nAdviser: Two lectures and one workshop per week. The workshop is mandatory; attendance below seventy-five percent affects your final grade. Coursework is forty percent and a final exam is sixty.\nStudent: Is there a placement?\nAdviser: An optional eight-week summer placement, usually with a partner company in finance or retail. Applications open in March.\nStudent: That sounds excellent. Are textbooks expensive?\nAdviser: The main textbook costs forty-five pounds. The library has six copies on short loan. The reading list and full syllabus are on the portal.\nStudent: One last question. Group work assessments?\nAdviser: One group case study in week eight, twenty per cent of the grade. We use anti-plagiarism software for all submissions, including group work.\nStudent: Understood. How do I enrol?\nAdviser: Submit the online form by Friday the eighteenth. Bring your student ID to confirm in person at the Registrar.\nStudent: Thank you very much.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "How many credits is the course?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "40"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "Tuition fee for home students: ____ pounds.",
+      "answer": "1400"
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Final exam: ____ percent of the grade.",
+      "answer": "60"
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Minimum workshop attendance: ____ percent.",
+      "answer": "75"
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "question": "Placement length: ____ weeks.",
+      "answer": "8"
+    },
+    {
+      "id": 6,
+      "type": "tfng",
+      "statement": "The placement is compulsory.",
+      "answer": "False"
+    },
+    {
+      "id": 7,
+      "type": "tfng",
+      "statement": "Group work uses anti-plagiarism software.",
+      "answer": "True"
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "question": "Library has ____ copies of the textbook.",
+      "answer": "6"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "Enrolment deadline date?",
+      "answer": "Friday the 18th"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Two prerequisite courses?",
+      "answer": "Intro to Statistics, Database Fundamentals"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "What did you study at university?",
+      "bandLow": "Business.",
+      "bandMid": "I majored in business administration with a focus on marketing."
+    },
+    {
+      "q": "Do you prefer lectures or workshops?",
+      "bandLow": "Workshops.",
+      "bandMid": "Workshops, definitely. Discussion and practice consolidate what I learn far better than passive listening."
+    },
+    {
+      "q": "Are exams a fair way to assess students?",
+      "bandLow": "Sometimes.",
+      "bandMid": "Partly. They measure recall well but rarely capture creativity or teamwork."
+    },
+    {
+      "q": "How important are placements?",
+      "bandLow": "Important.",
+      "bandMid": "Extremely important - they convert theory into job-ready skills and often lead to first offers."
+    },
+    {
+      "q": "Should universities reduce tuition fees?",
+      "bandLow": "Yes.",
+      "bandMid": "Ideally yes, especially for high-demand fields, balanced with public investment."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe a course or programme you would like to take in the future.\n- what the course is\n- where you would take it\n- why you are interested\n- and explain how it could help your career.",
+    "sample": "I would love to take a Master in Business Analytics, ideally at a UK university like Warwick or Bath. I am drawn to it because I currently work in marketing and feel I rely too much on intuition; learning SQL, Python and visualisation tools would let me back decisions with data. The programme typically lasts twelve months, includes a summer placement, and offers electives in machine learning. For my career, that combination of business sense and technical skill is increasingly essential. I expect it to open doors to roles such as marketing analyst or junior data scientist, with significantly better salary and impact than my current path.",
+    "keywords": [
+      "data-driven",
+      "SQL and Python",
+      "industry placement",
+      "career switch",
+      "quantitative skills"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "Should higher education be free?",
+      "hint": "public good, opportunity, taxes"
+    },
+    {
+      "q": "Why do many graduates struggle to find jobs?",
+      "hint": "skills gap, oversupply, soft skills"
+    },
+    {
+      "q": "How can universities prepare students for the future of work?",
+      "hint": "AI, lifelong learning, project work"
+    },
+    {
+      "q": "Are degrees still worth the investment?",
+      "hint": "income premium, alternative paths, prestige"
+    }
+  ],
+  "shadowing": [
+    "The course is worth thirty credits and runs across two semesters.",
+    "Coursework is forty percent and a final exam is sixty.",
+    "An optional eight-week summer placement.",
+    "We use anti-plagiarism software for all submissions.",
+    "Submit the online form by Friday the eighteenth."
+  ],
+  "homework": [
+    "Viet 5 cau dung: enrolment, prerequisite, syllabus, attendance, plagiarism.",
+    "Ghi am Part 1 cau 1, 4, 5.",
+    "Viet email xin tu van chuyen module."
+  ],
+  "vietnameseSupport": [
+    "Credit (tin chi) khac don vi gio hoc; uoc luong workload.",
+    "Placement (UK) = internship (US).",
+    "Plagiarism software pho bien: Turnitin."
+  ]
+})
+
+LESSONS.push({
+  "id": 89,
+  "levelId": "ielts-mode",
+  "title": "Welcome to the Science Museum",
+  "titleVi": "Chao Mung Den Bao Tang Khoa Hoc",
+  "objectives": {
+    "listen": "IELTS Section 2 - bai noi mot chieu",
+    "speak": "Bao tang va su kien",
+    "vocabFocus": "Museums"
+  },
+  "vocabulary": [
+    {
+      "word": "exhibition",
+      "ipa": "",
+      "vi": "trien lam",
+      "example": "A new exhibition opens this week."
+    },
+    {
+      "word": "gallery",
+      "ipa": "",
+      "vi": "phong trien lam",
+      "example": "The gallery is on level two."
+    },
+    {
+      "word": "guided tour",
+      "ipa": "",
+      "vi": "tour co huong dan",
+      "example": "Free guided tours daily at noon."
+    },
+    {
+      "word": "audio guide",
+      "ipa": "",
+      "vi": "thiet bi nghe",
+      "example": "Audio guides cost three pounds."
+    },
+    {
+      "word": "wheelchair access",
+      "ipa": "",
+      "vi": "loi vao xe lan",
+      "example": "All floors have wheelchair access."
+    },
+    {
+      "word": "cloakroom",
+      "ipa": "",
+      "vi": "phong gui do",
+      "example": "Use the cloakroom for big bags."
+    },
+    {
+      "word": "gift shop",
+      "ipa": "",
+      "vi": "cua hang luu niem",
+      "example": "The gift shop closes at six."
+    },
+    {
+      "word": "temporary",
+      "ipa": "",
+      "vi": "tam thoi",
+      "example": "A temporary exhibition runs until June."
+    },
+    {
+      "word": "permanent",
+      "ipa": "",
+      "vi": "thuong xuyen",
+      "example": "The space gallery is a permanent display."
+    },
+    {
+      "word": "donation",
+      "ipa": "",
+      "vi": "quyen gop",
+      "example": "A small donation is appreciated."
+    }
+  ],
+  "script": "Good afternoon and welcome to the National Science Museum. My name is Sarah and I will give you a quick orientation before you explore.\nThe museum has four floors. The ground floor houses our temporary exhibition, currently focused on Climate and Cities, running until the thirtieth of June. Level one is the permanent space gallery with a real Apollo capsule. Level two covers the human body, with interactive stations on the heart and brain. Level three is dedicated to robotics, including a hands-on workshop for visitors aged ten and over.\nEntry to the museum is free, but the climate exhibition has a small entry fee of three pounds for adults and one pound fifty for students. Audio guides are available at the front desk in eight languages for two pounds.\nFree guided tours run at twelve noon and three pm. Tours last forty-five minutes and start near the dinosaur. Please note: photography is allowed everywhere except the climate exhibition, where flash damages the displays.\nFacilities. The cloakroom is on your left as you enter; lockers are one pound coin-operated, refundable. Toilets and baby changing are on every floor. The cafe is on level two and offers vegetarian options.\nFor visitors with reduced mobility, all floors have lift access. Wheelchairs are available free of charge from reception, but please book ahead at busy times.\nFinally, the gift shop on the ground floor closes thirty minutes before the museum, that is at five thirty pm. Donations support our schools programme - you will see donation boxes on every floor. Enjoy your visit.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "How many floors does the museum have?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "Climate exhibition runs until ____ June.",
+      "answer": "30"
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Entry to climate exhibition costs ____ pounds for adults.",
+      "answer": "3"
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Audio guides are available in ____ languages.",
+      "answer": "8"
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "question": "Tours start near the ____.",
+      "answer": "dinosaur"
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Where is the cafe?",
+      "options": [
+        "Ground floor",
+        "Level 1",
+        "Level 2",
+        "Level 3"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 7,
+      "type": "tfng",
+      "statement": "Photography with flash is allowed in the climate exhibition.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "type": "tfng",
+      "statement": "Wheelchairs are free of charge.",
+      "answer": "True"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "When does the gift shop close?",
+      "answer": "5:30 pm"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Robotics workshop minimum age?",
+      "answer": "10"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "Do you like visiting museums?",
+      "bandLow": "Yes.",
+      "bandMid": "Yes, I find them a fantastic way to spend a slow weekend afternoon."
+    },
+    {
+      "q": "When did you last visit a museum?",
+      "bandLow": "Last year.",
+      "bandMid": "Probably last spring, when I went to a photography exhibition with a friend."
+    },
+    {
+      "q": "Do you prefer art or science museums?",
+      "bandLow": "Art.",
+      "bandMid": "Both, honestly, although I gravitate towards science museums for the interactive elements."
+    },
+    {
+      "q": "Are museums important for children?",
+      "bandLow": "Yes.",
+      "bandMid": "Definitely. Hands-on exhibits spark curiosity in ways the classroom rarely matches."
+    },
+    {
+      "q": "Should museums be free?",
+      "bandLow": "Yes.",
+      "bandMid": "Ideally yes, perhaps with optional donations - it democratises access to culture."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe an interesting museum or exhibition you have visited.\n- where it was\n- what you saw\n- who you went with\n- and explain why it was interesting.",
+    "sample": "A truly memorable visit was to the National Science Museum in London with my younger cousin two summers ago. We spent almost the whole day in the space gallery, where they display an actual Apollo capsule scorched from re-entry. What gripped me most was a hands-on station that let you align a thruster sequence to dock with the ISS - a task I failed three times. My cousin loved the human-body floor and a giant beating heart you could walk through. It was interesting partly because it brought textbook content to life, partly because seeing my cousin so animated reminded me how curiosity is contagious.",
+    "keywords": [
+      "Apollo capsule",
+      "re-entry",
+      "interactive stations",
+      "space dock simulation",
+      "curiosity is contagious"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "Should children be required to visit museums?",
+      "hint": "free choice, broad exposure, motivation"
+    },
+    {
+      "q": "Why are some museums losing visitors?",
+      "hint": "digital alternatives, ticket prices, relevance"
+    },
+    {
+      "q": "How can technology improve museums?",
+      "hint": "AR, audio guides, virtual tours"
+    },
+    {
+      "q": "Should controversial historical objects be returned?",
+      "hint": "colonial artefacts, ethics, diplomacy"
+    }
+  ],
+  "shadowing": [
+    "Welcome to the National Science Museum.",
+    "Audio guides are available at the front desk in eight languages.",
+    "Photography is allowed everywhere except the climate exhibition.",
+    "Lift access is available on all floors.",
+    "Donations support our schools programme."
+  ],
+  "homework": [
+    "Viet 5 cau dung: exhibition, gallery, guided tour, donation, permanent.",
+    "Ghi am Part 1 cau 1, 3, 5.",
+    "Viet 80 tu mo ta bao tang em yeu thich."
+  ],
+  "vietnameseSupport": [
+    "Section 2 IELTS - bai noi mot chieu, chu y ngay/gio/gia.",
+    "Permanent vs temporary - phan biet ro trong test.",
+    "Cloakroom = phong gui do, khong phai phong tam."
+  ]
+})
+
+LESSONS.push({
+  "id": 90,
+  "levelId": "ielts-mode",
+  "title": "Local Volunteering Opportunities",
+  "titleVi": "Co Hoi Tinh Nguyen Tai Dia Phuong",
+  "objectives": {
+    "listen": "IELTS Section 2 - thong bao cong dong",
+    "speak": "Tinh nguyen",
+    "vocabFocus": "Volunteering"
+  },
+  "vocabulary": [
+    {
+      "word": "volunteer",
+      "ipa": "",
+      "vi": "tinh nguyen vien",
+      "example": "I want to volunteer at a hospital."
+    },
+    {
+      "word": "shift",
+      "ipa": "",
+      "vi": "ca lam",
+      "example": "Each shift is three hours."
+    },
+    {
+      "word": "commitment",
+      "ipa": "",
+      "vi": "cam ket",
+      "example": "A six-month commitment is required."
+    },
+    {
+      "word": "training",
+      "ipa": "",
+      "vi": "huan luyen",
+      "example": "Free training is provided."
+    },
+    {
+      "word": "reference",
+      "ipa": "",
+      "vi": "thu gioi thieu",
+      "example": "Two references are required."
+    },
+    {
+      "word": "background check",
+      "ipa": "",
+      "vi": "kiem tra ly lich",
+      "example": "A background check takes two weeks."
+    },
+    {
+      "word": "soup kitchen",
+      "ipa": "",
+      "vi": "bep tu thien",
+      "example": "The soup kitchen feeds 200 daily."
+    },
+    {
+      "word": "literacy",
+      "ipa": "",
+      "vi": "kha nang doc viet",
+      "example": "Literacy programmes for children."
+    },
+    {
+      "word": "environmental",
+      "ipa": "",
+      "vi": "moi truong",
+      "example": "Environmental clean-ups every Saturday."
+    },
+    {
+      "word": "fundraising",
+      "ipa": "",
+      "vi": "gay quy",
+      "example": "Fundraising events build community."
+    }
+  ],
+  "script": "Good evening everyone, thank you for coming to this volunteer information session. I am Mark from the Town Hall Volunteer Centre. Tonight I will introduce four programmes you can join.\nFirst, the soup kitchen on Charles Street. Volunteers help prepare and serve meals from five thirty to eight thirty pm, four days a week. We feed around two hundred people each evening. Minimum commitment is one shift per fortnight for three months. No experience needed - we provide free training.\nSecond, the after-school literacy programme. We need volunteers to read with children aged seven to eleven on weekday afternoons, three thirty to five pm. Sessions are held in three local libraries. This role requires a background check, which we cover at no cost. Training takes one Saturday morning.\nThird, environmental clean-ups. Every Saturday at nine am we meet at a different location - parks, riverbanks, beaches. Sessions last two hours. Equipment provided. No commitment, just turn up. Great for families.\nFourth, fundraising support. Help us run charity shops, organise sponsored runs, or staff information stands at events. Hours are flexible, ideal for students between five and ten hours a week.\nFor all roles you must complete a short application and provide one reference. Background checks apply only to roles involving children or vulnerable adults.\nApplications open on Monday the eighth at nine am via our website. We typically respond within five working days. If you are interested in more than one role, please apply to your top choice first; transfers are easy later.\nFinally, our biggest annual event - the Spring Charity Run - is on April twentieth. Even if you cannot volunteer regularly, joining the run team helps us meet our funding target.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "fill",
+      "question": "Soup kitchen serves about ____ people each evening.",
+      "answer": "200"
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "Soup kitchen minimum commitment: ____ shift per fortnight.",
+      "answer": "1"
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Literacy programme age range?",
+      "options": [
+        "5 to 9",
+        "6 to 10",
+        "7 to 11",
+        "8 to 12"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Literacy training takes ____ morning.",
+      "answer": "Saturday"
+    },
+    {
+      "id": 5,
+      "type": "tfng",
+      "statement": "Background check is paid by the volunteer.",
+      "answer": "False"
+    },
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "Clean-ups happen on?",
+      "options": [
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Wednesday"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "type": "fill",
+      "question": "Applications open ____ the eighth at 9 am.",
+      "answer": "Monday"
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "question": "Response time: within ____ working days.",
+      "answer": "5"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "Date of the Spring Charity Run?",
+      "answer": "April 20"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Hours per week for fundraising support?",
+      "answer": "5 to 10"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "Have you done any volunteer work?",
+      "bandLow": "Yes.",
+      "bandMid": "Yes, I tutored younger pupils in maths every Sunday during my final school year."
+    },
+    {
+      "q": "Why do people volunteer?",
+      "bandLow": "To help.",
+      "bandMid": "A blend of altruism, building skills, and finding a sense of purpose beyond paid work."
+    },
+    {
+      "q": "Is volunteering popular in your country?",
+      "bandLow": "Quite popular.",
+      "bandMid": "Increasingly so, especially among university students and retirees."
+    },
+    {
+      "q": "Should companies give staff time to volunteer?",
+      "bandLow": "Yes.",
+      "bandMid": "Definitely - paid volunteer days strengthen morale and the local community alike."
+    },
+    {
+      "q": "Can children benefit from volunteering?",
+      "bandLow": "Yes.",
+      "bandMid": "Hugely - it builds empathy, life skills, and breaks the bubble of pure consumerism."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe a time you helped someone in your community.\n- who you helped\n- what you did\n- when this happened\n- and explain how it made you feel.",
+    "sample": "About a year ago I joined a Saturday clean-up at a riverside park near my flat. The community had complained for months about the rubbish piling up after weekends, and a local NGO finally organised a clear-out. I went alone, expecting maybe a dozen people, but more than fifty turned up, including children and elderly neighbours. We spent two hours collecting bags of plastic and shaping a small recycled-bottle planter. I left feeling tired but oddly energised - I had spoken with strangers, learned the river had once been a fishing spot, and seen visible results of my time. It also nudged me to keep my own street tidier, almost as a contagious habit.",
+    "keywords": [
+      "riverside clean-up",
+      "recycled-bottle planter",
+      "contagious habit",
+      "collective effort",
+      "small visible impact"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "Should volunteering be compulsory in schools?",
+      "hint": "character building, autonomy, motivation"
+    },
+    {
+      "q": "Why do some charities lose public trust?",
+      "hint": "transparency, scandals, overheads"
+    },
+    {
+      "q": "How can technology help volunteers?",
+      "hint": "matching apps, training, coordination"
+    },
+    {
+      "q": "Is volunteering a luxury only some can afford?",
+      "hint": "income, time, access"
+    }
+  ],
+  "shadowing": [
+    "Volunteers help prepare and serve meals from five thirty to eight thirty pm.",
+    "Free training is provided.",
+    "Background checks apply only to roles involving children or vulnerable adults.",
+    "Applications open on Monday the eighth at nine am.",
+    "Joining the run team helps us meet our funding target."
+  ],
+  "homework": [
+    "Viet 5 cau dung: volunteer, commitment, reference, fundraising, environmental.",
+    "Ghi am Part 1 cau 1, 3, 5.",
+    "Viet 80 tu ke ve mot lan tinh nguyen."
+  ],
+  "vietnameseSupport": [
+    "Section 2 - chu y so/ngay/gio chi tiet, det dau dong xen ke.",
+    "Background check (UK: DBS) - kiem tra ly lich, bat buoc voi tre em.",
+    "Fortnight = hai tuan; commitment khac frequency."
+  ]
+})
+
+LESSONS.push({
+  "id": 91,
+  "levelId": "ielts-mode",
+  "title": "Walking Tour of Old Town",
+  "titleVi": "Tour Di Bo Pho Co",
+  "objectives": {
+    "listen": "IELTS Section 2 - tour guide monologue",
+    "speak": "Du lich va lich su",
+    "vocabFocus": "Heritage"
+  },
+  "vocabulary": [
+    {
+      "word": "cobblestone",
+      "ipa": "",
+      "vi": "da lat duong",
+      "example": "Mind the cobblestone streets."
+    },
+    {
+      "word": "medieval",
+      "ipa": "",
+      "vi": "thoi trung co",
+      "example": "A medieval cathedral."
+    },
+    {
+      "word": "fortification",
+      "ipa": "",
+      "vi": "thanh quach",
+      "example": "Old fortifications surround the town."
+    },
+    {
+      "word": "monument",
+      "ipa": "",
+      "vi": "tuong dai",
+      "example": "A monument honours the founders."
+    },
+    {
+      "word": "cathedral",
+      "ipa": "",
+      "vi": "nha tho lon",
+      "example": "The cathedral was built in 1230."
+    },
+    {
+      "word": "square",
+      "ipa": "",
+      "vi": "quang truong",
+      "example": "Meet at the main square."
+    },
+    {
+      "word": "merchant",
+      "ipa": "",
+      "vi": "thuong gia",
+      "example": "Wealthy merchants funded the bridge."
+    },
+    {
+      "word": "cobbled lane",
+      "ipa": "",
+      "vi": "duong nho lat da",
+      "example": "Wander down a cobbled lane."
+    },
+    {
+      "word": "restoration",
+      "ipa": "",
+      "vi": "trung tu",
+      "example": "Restoration finished last year."
+    },
+    {
+      "word": "plaque",
+      "ipa": "",
+      "vi": "bien tuong niem",
+      "example": "A plaque marks the poet birthplace."
+    }
+  ],
+  "script": "Welcome to the old-town walking tour. My name is David and the route takes about ninety minutes. We will cover four main stops, with one short refreshment break.\nWe are now standing in Market Square, the heart of the medieval town. The square dates from the thirteenth century. Notice the stone fountain in the centre - it is the oldest functioning fountain in the region, built in twelve forty-six.\nWe walk five minutes uphill to our first stop: the cathedral. Construction began in twelve thirty and finished in fourteen ten. Look at the rose window - it survived the great fire of sixteen sixty without damage. Entry is free, but please keep voices low; services may be in progress.\nNext, the merchant quarter, ten minutes east. Wealthy merchants once lived in these tall colourful houses. Number forty-two was the residence of the famous explorer Anna Marek; a small bronze plaque marks the entrance.\nWe will pause for fifteen minutes near the river. There is a cafe with riverside tables and clean toilets. Please be back at three twenty sharp.\nOur final stop is the city walls. Two-thirds of the original fortifications still stand. You can climb the north tower for a small fee of two pounds. The view stretches for thirty kilometres on a clear day.\nA few practical points. Photography is welcome everywhere except inside the cathedral. The route includes some steep steps and uneven cobblestones - hold the handrails. There are no toilets between Market Square and the river. The walk ends at the south gate, near the bus stop for the train station.\nIf you enjoyed the tour, our evening ghost tour starts at eight pm and goes through the candlelit lanes. Tickets are six pounds and bookings on our website only.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "How long is the tour?",
+      "options": [
+        "60",
+        "75",
+        "90",
+        "120"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "The fountain was built in ____.",
+      "answer": "1246"
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Cathedral construction finished in ____.",
+      "answer": "1410"
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "What survived the great fire?",
+      "options": [
+        "the bell tower",
+        "the rose window",
+        "the altar",
+        "the spire"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "question": "Anna Marek lived at number ____.",
+      "answer": "42"
+    },
+    {
+      "id": 6,
+      "type": "fill",
+      "question": "Refreshment break: ____ minutes.",
+      "answer": "15"
+    },
+    {
+      "id": 7,
+      "type": "tfng",
+      "statement": "Photography is allowed inside the cathedral.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "question": "North tower entry fee: ____ pounds.",
+      "answer": "2"
+    },
+    {
+      "id": 9,
+      "type": "fill",
+      "question": "Clear-day view stretches ____ km.",
+      "answer": "30"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Time to be back at the cafe?",
+      "answer": "3:20"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "Do you enjoy walking tours?",
+      "bandLow": "Yes.",
+      "bandMid": "Yes, especially when a knowledgeable guide brings the streets to life."
+    },
+    {
+      "q": "Are old towns important to preserve?",
+      "bandLow": "Yes.",
+      "bandMid": "Absolutely - they anchor a community to its history and attract sustainable tourism."
+    },
+    {
+      "q": "Have you climbed an old tower?",
+      "bandLow": "Once.",
+      "bandMid": "Yes, the bell tower in Bruges - the spiral steps almost beat me but the view was worth it."
+    },
+    {
+      "q": "Do you prefer guided tours or exploring alone?",
+      "bandLow": "Alone.",
+      "bandMid": "A mix - a guided tour first to get oriented, then solo wandering to find hidden corners."
+    },
+    {
+      "q": "Has tourism damaged your city?",
+      "bandLow": "A little.",
+      "bandMid": "In some districts, yes - rents have soared and authentic shops have given way to souvenirs."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe a historical place that you would recommend.\n- where it is\n- when it was built\n- what makes it interesting\n- and explain why you would recommend it.",
+    "sample": "I would warmly recommend the imperial citadel of Hue, a vast complex on the northern bank of the Perfume River. Construction began in eighteen oh five under emperor Gia Long and stretched across nearly thirty years. Inside the outer walls you find moats, royal palaces, the Forbidden Purple City - once accessible only to royals - and beautifully restored gates. What makes it gripping is the layered history: glory under the Nguyen dynasty, severe damage in twentieth-century wars, and the painstaking ongoing restoration today. I recommend it because few sites in Vietnam combine such architectural elegance with such a tangible sense of historical loss and renewal.",
+    "keywords": [
+      "Forbidden Purple City",
+      "Nguyen dynasty",
+      "tangible sense of history",
+      "painstaking restoration",
+      "layered narrative"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "Should governments fund the restoration of old buildings?",
+      "hint": "identity, tourism revenue, opportunity cost"
+    },
+    {
+      "q": "How does mass tourism affect heritage sites?",
+      "hint": "wear and tear, congestion, commercialisation"
+    },
+    {
+      "q": "Should new buildings blend with the old?",
+      "hint": "aesthetics, regulation, creativity"
+    },
+    {
+      "q": "Why is local history often ignored?",
+      "hint": "curriculum focus, modernisation, marketing"
+    }
+  ],
+  "shadowing": [
+    "Welcome to the old-town walking tour.",
+    "The square dates from the thirteenth century.",
+    "You can climb the north tower for a small fee.",
+    "There are no toilets between the square and the river.",
+    "Tickets are six pounds and bookings on our website only."
+  ],
+  "homework": [
+    "Viet 5 cau dung: medieval, fortification, cathedral, merchant, restoration.",
+    "Ghi am Part 1 cau 1, 4, 5.",
+    "Viet 80 tu mo ta mot di tich em da tham quan."
+  ],
+  "vietnameseSupport": [
+    "Section 2 - tour-guide style; nghe so nam, gia tien, ten rieng.",
+    "Plaque /plak/ - bien dong tuong niem nho.",
+    "Cobblestones - phai noi cobble-stones, tranh nham co-bbel-stones."
+  ]
+})
+
+LESSONS.push({
+  "id": 92,
+  "levelId": "ielts-mode",
+  "title": "Marketing Project Tutorial",
+  "titleVi": "Buoi Tutorial Marketing",
+  "objectives": {
+    "listen": "IELTS Section 3 - hoi thoai hoc thuat",
+    "speak": "Lam viec nhom",
+    "vocabFocus": "Project work"
+  },
+  "vocabulary": [
+    {
+      "word": "tutor",
+      "ipa": "",
+      "vi": "giao vien tu van",
+      "example": "Our tutor is very supportive."
+    },
+    {
+      "word": "feedback",
+      "ipa": "",
+      "vi": "phan hoi",
+      "example": "I welcome any feedback."
+    },
+    {
+      "word": "methodology",
+      "ipa": "",
+      "vi": "phuong phap luan",
+      "example": "Explain your research methodology."
+    },
+    {
+      "word": "questionnaire",
+      "ipa": "",
+      "vi": "bang hoi",
+      "example": "We designed a short questionnaire."
+    },
+    {
+      "word": "sample size",
+      "ipa": "",
+      "vi": "co mau",
+      "example": "Increase the sample size to 200."
+    },
+    {
+      "word": "deadline",
+      "ipa": "",
+      "vi": "han chot",
+      "example": "The deadline is next Friday."
+    },
+    {
+      "word": "literature review",
+      "ipa": "",
+      "vi": "tong quan tai lieu",
+      "example": "Start with a literature review."
+    },
+    {
+      "word": "data analysis",
+      "ipa": "",
+      "vi": "phan tich du lieu",
+      "example": "Data analysis takes a week."
+    },
+    {
+      "word": "presentation",
+      "ipa": "",
+      "vi": "thuyet trinh",
+      "example": "Each presentation is 15 minutes."
+    },
+    {
+      "word": "workload",
+      "ipa": "",
+      "vi": "khoi luong cong viec",
+      "example": "We need to balance the workload."
+    }
+  ],
+  "script": "Tutor (Dr Lee): Hi Mia, hi James. How is the marketing project going?\nMia: Hello Dr Lee. We have done the literature review and chosen our topic - the impact of influencer marketing on Gen Z buying decisions.\nDr Lee: Good choice. Have you defined your research questions clearly?\nJames: We have three. First, do Gen Z buyers trust influencers more than traditional ads? Second, does follower count matter? Third, does authenticity beat reach?\nDr Lee: Solid. Now, methodology?\nMia: A mixed-methods approach. We plan an online questionnaire of two hundred respondents and ten follow-up interviews.\nDr Lee: Two hundred is fine for descriptive statistics. For interviews, ten is on the low side; aim for twelve to fifteen if you want strong qualitative themes.\nJames: Got it.\nDr Lee: Sampling strategy?\nMia: Convenience sampling through social media, then snowball.\nDr Lee: Acceptable for an undergraduate project, but acknowledge the bias in your discussion - your sample will lean towards active social media users.\nJames: We will note that.\nDr Lee: Timeline?\nJames: Questionnaire live on the fifteenth, closing on the twenty-eighth. Interviews early November. Data analysis end of November. Draft submitted before fifteenth December.\nDr Lee: Tight but workable. Two pieces of advice. One, pilot the questionnaire on five friends and refine wording before going live. Two, transcribe interviews within forty-eight hours - memory of nuance fades fast.\nMia: Helpful. What about software?\nDr Lee: For statistics, SPSS is fine. For qualitative coding, NVivo is overkill at this scale - colour-coded Excel works. Reference manager: Zotero, free.\nJames: One more question. Workload split?\nDr Lee: Discuss this together each week. Both should touch every section, but assign primary ownership: Mia leads the questionnaire, James leads the interviews. Swap reviewers for objectivity.\nMia: Last thing. Anything to avoid?\nDr Lee: Yes - do not over-collect data. Two hundred plus fifteen is plenty. Many groups drown in data they never analyse.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Number of research questions?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "Recommended interview sample: ____ to ____.",
+      "answer": "12, 15"
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Questionnaire goes live on the ____ th.",
+      "answer": "15"
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Draft due before ____ December.",
+      "answer": "15"
+    },
+    {
+      "id": 5,
+      "type": "tfng",
+      "statement": "NVivo is recommended for this project.",
+      "answer": "False"
+    },
+    {
+      "id": 6,
+      "type": "tfng",
+      "statement": "Zotero is suggested as the reference manager.",
+      "answer": "True"
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Suggested pilot size for the questionnaire?",
+      "options": [
+        "3",
+        "5",
+        "10",
+        "15"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "question": "Transcribe interviews within ____ hours.",
+      "answer": "48"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "Topic of the project?",
+      "answer": "influencer marketing on Gen Z buying decisions"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Mia leads which task?",
+      "answer": "questionnaire"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "Do you like working in a group?",
+      "bandLow": "It depends.",
+      "bandMid": "Mostly yes, especially when roles are clear and members hold one another accountable."
+    },
+    {
+      "q": "Is feedback important?",
+      "bandLow": "Yes.",
+      "bandMid": "Critical. Specific, kind feedback is the fastest path to improvement."
+    },
+    {
+      "q": "Have you ever missed a deadline?",
+      "bandLow": "Once.",
+      "bandMid": "Yes, in my first year I underestimated the workload of an essay and asked for a 24-hour extension."
+    },
+    {
+      "q": "How do you manage time?",
+      "bandLow": "I plan.",
+      "bandMid": "I plan in two layers - a weekly Sunday review and daily three-task lists."
+    },
+    {
+      "q": "Do you prefer projects or exams?",
+      "bandLow": "Projects.",
+      "bandMid": "Projects, generally - they let me apply ideas and showcase teamwork rather than memorise."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe a difficult task you completed with a group.\n- what the task was\n- who you worked with\n- how you divided the work\n- and explain how you finished it successfully.",
+    "sample": "In my third semester, three classmates and I were assigned a marketing research project on influencer trust among Gen Z. The task was demanding because it required a literature review, a 200-person survey, ten interviews, and a fifteen-minute final presentation - all in eight weeks. We started by mapping every deliverable on a shared sheet, then assigned primary owners while keeping all four of us reviewers for every section. I led the survey, another teammate led interviews, and we held a weekly Friday sync to track progress. Two challenges hit us: a low initial response rate and a lazy interview transcription habit. We solved them by re-launching the survey with a small voucher and by transcribing within forty-eight hours. We finished a day early and earned a distinction. Honestly, the structured planning - not pure effort - made the difference.",
+    "keywords": [
+      "shared deliverable map",
+      "primary ownership",
+      "weekly sync",
+      "voucher incentive",
+      "planning over effort"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "Why do some teams fail despite hard work?",
+      "hint": "roles, communication, leadership"
+    },
+    {
+      "q": "Should universities focus more on group work?",
+      "hint": "real-world skills, fairness, free riders"
+    },
+    {
+      "q": "How can technology improve teamwork?",
+      "hint": "shared docs, video calls, project tools"
+    },
+    {
+      "q": "Are leaders born or made?",
+      "hint": "traits, training, context"
+    }
+  ],
+  "shadowing": [
+    "Have you defined your research questions clearly?",
+    "A mixed-methods approach.",
+    "Pilot the questionnaire on five friends.",
+    "Transcribe interviews within forty-eight hours.",
+    "Many groups drown in data they never analyse."
+  ],
+  "homework": [
+    "Viet 5 cau dung: methodology, deadline, sample size, feedback, workload.",
+    "Ghi am Part 1 cau 1, 3, 4.",
+    "Viet plan 6 dong cho group project sap toi."
+  ],
+  "vietnameseSupport": [
+    "Section 3 - hoi thoai hoc thuat, thuong 2-3 nhan vat.",
+    "Mixed-methods - ket hop dinh luong + dinh tinh.",
+    "Snowball sampling - phuong phap day chuyen, chu y bias."
+  ]
+})
+
+LESSONS.push({
+  "id": 93,
+  "levelId": "ielts-mode",
+  "title": "Dissertation Topic Discussion",
+  "titleVi": "Thao Luan Chu De Luan Van",
+  "objectives": {
+    "listen": "IELTS Section 3 - student vs supervisor",
+    "speak": "Nghien cuu khoa hoc",
+    "vocabFocus": "Research"
+  },
+  "vocabulary": [
+    {
+      "word": "dissertation",
+      "ipa": "",
+      "vi": "luan van",
+      "example": "My dissertation focuses on solar energy."
+    },
+    {
+      "word": "supervisor",
+      "ipa": "",
+      "vi": "giao vien huong dan",
+      "example": "I meet my supervisor weekly."
+    },
+    {
+      "word": "hypothesis",
+      "ipa": "",
+      "vi": "gia thuyet",
+      "example": "Test the hypothesis with data."
+    },
+    {
+      "word": "variable",
+      "ipa": "",
+      "vi": "bien so",
+      "example": "Independent variable is age."
+    },
+    {
+      "word": "correlation",
+      "ipa": "",
+      "vi": "tuong quan",
+      "example": "A weak positive correlation."
+    },
+    {
+      "word": "causation",
+      "ipa": "",
+      "vi": "nguyen nhan",
+      "example": "Correlation is not causation."
+    },
+    {
+      "word": "control group",
+      "ipa": "",
+      "vi": "nhom doi chung",
+      "example": "The control group received placebo."
+    },
+    {
+      "word": "ethics approval",
+      "ipa": "",
+      "vi": "duyet dao duc",
+      "example": "Ethics approval takes 6 weeks."
+    },
+    {
+      "word": "replicate",
+      "ipa": "",
+      "vi": "lap lai",
+      "example": "Replicate the study to verify."
+    },
+    {
+      "word": "limitation",
+      "ipa": "",
+      "vi": "gioi han",
+      "example": "Acknowledge the study limitations."
+    }
+  ],
+  "script": "Supervisor (Prof. Akande): Hello Sarah. So you are leaning toward sleep and academic performance for your dissertation?\nSarah: Yes, Professor. I am interested in whether sleep duration predicts grade outcomes among first-year university students.\nProf. Akande: That is a popular field, which has pros and cons. Plenty of literature, but high risk of replicating obvious findings. How will you make yours distinctive?\nSarah: I want to add two angles. One, comparing weekday and weekend sleep separately. Two, distinguishing self-reported sleep from objective measurement using a simple wearable.\nProf. Akande: Good. The objective angle adds rigour. Have you got access to wearables?\nSarah: The psychology lab has fifteen Fitbit-style devices we can borrow for two weeks each.\nProf. Akande: That limits sample size. Roughly thirty participants, two-week windows. Manage expectations with the marker.\nSarah: I plan one hundred questionnaire respondents and a thirty-person sub-sample for objective tracking.\nProf. Akande: Reasonable. What about your hypothesis?\nSarah: My main hypothesis is that lower average weeknight sleep correlates with lower term-end averages. Secondary hypothesis: weekend over-sleeping does not compensate for weekday loss.\nProf. Akande: Good. Be careful with causal language - you can show correlation, not causation.\nSarah: Understood. I have ethics approval submission ready for next Monday.\nProf. Akande: One typical mistake. Do not collect actual student grades from the registry; that creates privacy and ethics complications. Use self-reported GPA from the previous semester. The trade-off is some inflation, but it keeps you out of the ethics quagmire.\nSarah: Helpful. What about software?\nProf. Akande: SPSS for the regression. Or jamovi if you want a free alternative. Both export results in formats your examiner expects.\nSarah: Final question. Word count breakdown for the ten-thousand-word limit?\nProf. Akande: Suggested split: introduction one thousand five hundred, literature review three thousand, methodology one thousand, results two thousand, discussion two thousand, conclusion five hundred. Adjust ten percent either way.\nSarah: Thank you. I will send the proposal by Sunday.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Sarah research focus?",
+      "options": [
+        "exam stress",
+        "sleep and grades",
+        "exercise and grades",
+        "diet and grades"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "How many wearables can be borrowed?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Sub-sample for objective tracking: ____ people.",
+      "answer": "30"
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Total questionnaire respondents: ____.",
+      "answer": "100"
+    },
+    {
+      "id": 5,
+      "type": "tfng",
+      "statement": "Sarah will collect student grades from the registry.",
+      "answer": "False"
+    },
+    {
+      "id": 6,
+      "type": "tfng",
+      "statement": "jamovi is suggested as a free alternative to SPSS.",
+      "answer": "True"
+    },
+    {
+      "id": 7,
+      "type": "fill",
+      "question": "Word limit: ____ words.",
+      "answer": "10000"
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "question": "Suggested literature review length: ____ words.",
+      "answer": "3000"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "Day Sarah will submit the proposal?",
+      "answer": "Sunday"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Two-week wearable loan window means what for sample size?",
+      "answer": "limited / about 30"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "Did you write a dissertation?",
+      "bandLow": "Yes.",
+      "bandMid": "Yes, in my final year - it was a steep learning curve in research design."
+    },
+    {
+      "q": "How important is supervision?",
+      "bandLow": "Very.",
+      "bandMid": "Crucial. A good supervisor saves months of false starts and sharpens your thinking."
+    },
+    {
+      "q": "Do you read academic papers?",
+      "bandLow": "Sometimes.",
+      "bandMid": "Regularly - mostly review papers in my field, which give the lay of the land quickly."
+    },
+    {
+      "q": "What makes a research topic interesting?",
+      "bandLow": "Originality.",
+      "bandMid": "A real-world hook, a clear gap in the literature, and a feasible method."
+    },
+    {
+      "q": "Should governments invest more in research?",
+      "bandLow": "Yes.",
+      "bandMid": "Yes - long-term economic prosperity tracks investment in basic research closely."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe a project or piece of research you worked hard on.\n- what the topic was\n- why you chose it\n- what you did\n- and explain what you learned from it.",
+    "sample": "In my final undergraduate year I researched whether weekday sleep predicts academic grades among first-year students. I chose the topic because I noticed friends pulling all-nighters and complaining about marks; I wondered if the pattern was real or anecdotal. I designed a mixed-methods study: a one-hundred-person questionnaire and a thirty-person sub-sample wearing Fitbits for two weeks. Analysing the data in SPSS, I found a moderate correlation between weeknight sleep and term-end averages, while weekend over-sleep did not compensate. The biggest lesson was epistemic - the gap between correlation and causation. I had to rewrite half my discussion to remove implicit causal language. It also taught me practical lessons in time management, ethics paperwork, and writing for academic readers.",
+    "keywords": [
+      "mixed-methods",
+      "wearable tracking",
+      "correlation not causation",
+      "epistemic humility",
+      "self-reported GPA"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "Should research findings be free for everyone to read?",
+      "hint": "open access, paywalls, public funding"
+    },
+    {
+      "q": "Why is replicating studies important?",
+      "hint": "reliability, fraud, science self-correction"
+    },
+    {
+      "q": "Should governments fund applied or basic research?",
+      "hint": "short-term vs long-term, market failure"
+    },
+    {
+      "q": "How could universities support better research?",
+      "hint": "time, mentorship, infrastructure"
+    }
+  ],
+  "shadowing": [
+    "Correlation is not causation.",
+    "Manage expectations with the marker.",
+    "I have ethics approval submission ready.",
+    "Use self-reported GPA from the previous semester.",
+    "Adjust ten percent either way."
+  ],
+  "homework": [
+    "Viet 5 cau dung: hypothesis, variable, correlation, replicate, limitation.",
+    "Ghi am Part 1 cau 2, 3, 4.",
+    "Viet 100 tu plan luan van mong muon."
+  ],
+  "vietnameseSupport": [
+    "Section 3 - student-supervisor; thuong giao vien dat cau hoi quan trong.",
+    "Causation vs correlation - quan trong band 7+.",
+    "Ethics approval (UK: REC) - thoi gian thuong 4-8 tuan."
+  ]
+})
+
+LESSONS.push({
+  "id": 94,
+  "levelId": "ielts-mode",
+  "title": "Group Presentation Planning",
+  "titleVi": "Len Ke Hoach Thuyet Trinh Nhom",
+  "objectives": {
+    "listen": "IELTS Section 3 - hoi thoai 3-4 nguoi",
+    "speak": "Lam viec nhom",
+    "vocabFocus": "Presentation"
+  },
+  "vocabulary": [
+    {
+      "word": "agenda",
+      "ipa": "",
+      "vi": "noi dung chinh",
+      "example": "What is the agenda for today?"
+    },
+    {
+      "word": "slides",
+      "ipa": "",
+      "vi": "slide thuyet trinh",
+      "example": "Use no more than 12 slides."
+    },
+    {
+      "word": "handout",
+      "ipa": "",
+      "vi": "tai lieu phat",
+      "example": "Prepare a one-page handout."
+    },
+    {
+      "word": "rehearsal",
+      "ipa": "",
+      "vi": "tap duyet",
+      "example": "A rehearsal saves embarrassment."
+    },
+    {
+      "word": "transition",
+      "ipa": "",
+      "vi": "chuyen y",
+      "example": "Smooth transitions between speakers."
+    },
+    {
+      "word": "visual aids",
+      "ipa": "",
+      "vi": "do thi minh hoa",
+      "example": "Use clear visual aids."
+    },
+    {
+      "word": "time keeper",
+      "ipa": "",
+      "vi": "nguoi giu gio",
+      "example": "Mia will be the time keeper."
+    },
+    {
+      "word": "Q and A",
+      "ipa": "",
+      "vi": "phan hoi dap",
+      "example": "Five minutes for Q and A."
+    },
+    {
+      "word": "storyboard",
+      "ipa": "",
+      "vi": "kich ban",
+      "example": "Sketch a storyboard first."
+    },
+    {
+      "word": "cue card",
+      "ipa": "",
+      "vi": "the goi y",
+      "example": "Use cue cards, not full scripts."
+    }
+  ],
+  "script": "Mia: Okay team. We have ten days until our group presentation on the future of remote work. Let us nail down the agenda.\nTom: Good idea. I think we need three big sections - benefits, problems, and possible policy responses.\nLena: Plus an introduction with a case study and a closing with predictions. So five segments.\nMia: Total time eighteen minutes plus six for Q and A.\nTom: Eighteen divided by five is roughly three and a half minutes each. Tight.\nLena: Let us flex. Intro two minutes, benefits three, problems four, policies five, closing two. That balances detail.\nMia: Agreed. Who takes which section?\nTom: I will take problems - I have read most about isolation and over-work.\nLena: Policies for me - I am drawn to the Estonian remote-work visa and Spain digital nomad law.\nMia: I will do intro plus closing. Can someone do benefits?\nTom: We are missing Sam today. Let us assign benefits to him.\nLena: Email him tonight.\nMia: Slides. Twelve total, no more. One title, one agenda, two per content section, one Q and A.\nTom: Should we use a shared template?\nMia: Yes. Same fonts, same colour palette. I will set one up tomorrow on Google Slides.\nLena: Visual aids? I think we need a chart on remote-work growth, a map for digital nomad visa adoption, and one infographic on burnout.\nTom: I can grab the data. Government statistics, OECD reports.\nMia: Rehearsals. Two full run-throughs - one Wednesday on Zoom for content, one Friday in the room for delivery.\nLena: Time keeper?\nTom: Sam if he is on top of things; otherwise me.\nMia: Cue cards, not scripts. Reading from a script kills connection.\nLena: One more thing - handouts?\nMia: A one-page summary with our three policy recommendations. Print twenty copies; they double as our notes.\nTom: Agreed. Anything to avoid?\nLena: Heavy text on slides, please. Six bullet points max, ideally three.\nMia: And practice transitions out loud. Awkward handovers cost marks.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Total presentation time?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "20"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "Q and A length: ____ minutes.",
+      "answer": "6"
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Number of slides?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Closing segment length: ____ minutes.",
+      "answer": "2"
+    },
+    {
+      "id": 5,
+      "type": "tfng",
+      "statement": "Tom will cover policies.",
+      "answer": "False"
+    },
+    {
+      "id": 6,
+      "type": "tfng",
+      "statement": "Sam will be assigned the benefits section.",
+      "answer": "True"
+    },
+    {
+      "id": 7,
+      "type": "fill",
+      "question": "Number of handout copies: ____.",
+      "answer": "20"
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "question": "Friday rehearsal happens in the ____.",
+      "answer": "room"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "Recommended max bullets per slide?",
+      "answer": "6"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Three visual aids planned?",
+      "answer": "chart, map, infographic"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "Are you good at presentations?",
+      "bandLow": "Average.",
+      "bandMid": "I have improved a lot through practice - I used to freeze, now I enjoy it."
+    },
+    {
+      "q": "Do you prefer slides or handouts?",
+      "bandLow": "Slides.",
+      "bandMid": "Slides for atmosphere, handouts for things the audience must take away."
+    },
+    {
+      "q": "How important are visuals?",
+      "bandLow": "Very.",
+      "bandMid": "Critical. A clear chart often does the work of three paragraphs."
+    },
+    {
+      "q": "Have you used Zoom for presentations?",
+      "bandLow": "Yes.",
+      "bandMid": "Yes, several times - the trick is keeping cameras on and pacing more slowly."
+    },
+    {
+      "q": "Should presentation skills be taught at school?",
+      "bandLow": "Yes.",
+      "bandMid": "Definitely - they shape confidence, careers, and democratic citizenship."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe a presentation or speech you remember.\n- where it was\n- who gave it\n- what it was about\n- and explain why you remember it.",
+    "sample": "A talk that has stayed with me was a TEDx by a young Vietnamese architect at our university last year. The topic was rebuilding flood-resilient housing in the Mekong Delta. She spoke for fifteen minutes without slides for the first eight, holding the room with stories of families displaced by saltwater intrusion. Then she revealed striking before-and-after photographs of stilt houses she had co-designed with villagers. What made it memorable was the human-first storytelling and the discipline of starting visually quiet to give weight to the photographs. I left thinking how much rhetorical choice underpins effective communication, not just content. The talk also reshaped how I plan my own university presentations.",
+    "keywords": [
+      "flood-resilient housing",
+      "rhetorical pacing",
+      "silent slides",
+      "co-design with villagers",
+      "memorable framing"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "Why do many people fear public speaking?",
+      "hint": "judgement, biology, lack of practice"
+    },
+    {
+      "q": "Are slides overused?",
+      "hint": "cognitive load, replacement for thinking, alternatives"
+    },
+    {
+      "q": "What makes a great speaker?",
+      "hint": "pacing, structure, authentic voice"
+    },
+    {
+      "q": "Will AI change how we present?",
+      "hint": "auto-slides, real-time captions, deepfakes"
+    }
+  ],
+  "shadowing": [
+    "Total time eighteen minutes plus six for Q and A.",
+    "Same fonts, same colour palette.",
+    "Cue cards, not scripts.",
+    "Awkward handovers cost marks.",
+    "A clear chart often does the work of three paragraphs."
+  ],
+  "homework": [
+    "Viet 5 cau dung: agenda, slides, rehearsal, transition, handout.",
+    "Ghi am Part 1 cau 2, 4, 5.",
+    "Viet outline 12 slides cho topic em yeu thich."
+  ],
+  "vietnameseSupport": [
+    "Section 3 - hoi thoai 3-4 nguoi, chu y phan vai/cong viec.",
+    "Q and A doc /kjuː ən ˈeɪ/.",
+    "Cue card khac flash card - dung trong public speaking."
+  ]
+})
+
+LESSONS.push({
+  "id": 95,
+  "levelId": "ielts-mode",
+  "title": "Renewable Energy Lecture",
+  "titleVi": "Bai Giang Nang Luong Tai Tao",
+  "objectives": {
+    "listen": "IELTS Section 4 - academic lecture",
+    "speak": "Bien doi khi hau",
+    "vocabFocus": "Energy"
+  },
+  "vocabulary": [
+    {
+      "word": "renewable",
+      "ipa": "",
+      "vi": "tai tao",
+      "example": "Solar is renewable."
+    },
+    {
+      "word": "fossil fuel",
+      "ipa": "",
+      "vi": "nhien lieu hoa thach",
+      "example": "Coal is a fossil fuel."
+    },
+    {
+      "word": "photovoltaic",
+      "ipa": "",
+      "vi": "quang dien",
+      "example": "Photovoltaic panels."
+    },
+    {
+      "word": "turbine",
+      "ipa": "",
+      "vi": "tuabin",
+      "example": "Wind turbine height."
+    },
+    {
+      "word": "grid",
+      "ipa": "",
+      "vi": "luoi dien",
+      "example": "Connect to the grid."
+    },
+    {
+      "word": "storage",
+      "ipa": "",
+      "vi": "luu tru",
+      "example": "Battery storage."
+    },
+    {
+      "word": "subsidy",
+      "ipa": "",
+      "vi": "tro cap",
+      "example": "Government subsidy."
+    },
+    {
+      "word": "emissions",
+      "ipa": "",
+      "vi": "khi thai",
+      "example": "Reduce emissions."
+    },
+    {
+      "word": "capacity",
+      "ipa": "",
+      "vi": "cong suat",
+      "example": "Plant capacity 50 MW."
+    },
+    {
+      "word": "levelised cost",
+      "ipa": "",
+      "vi": "gia thanh quy doi",
+      "example": "LCOE comparison."
+    }
+  ],
+  "script": "Good morning. Today we examine the rise of renewable energy. Three drivers explain the global shift: cost, climate, and security.\nFirst, cost. The levelised cost of solar electricity has fallen by roughly ninety percent since two thousand ten. Onshore wind has fallen about seventy percent. New solar in many sunny regions is now cheaper than running existing coal plants.\nSecond, climate. The Intergovernmental Panel on Climate Change concludes that limiting warming to one point five degrees requires net zero emissions globally by twenty fifty.\nThird, energy security. Russias invasion of Ukraine in twenty twenty-two pushed European gas prices up roughly fourfold. Renewables, once seen as costly, became a security asset.\nThree challenges remain. One, intermittency - the sun does not always shine. Storage helps; lithium battery prices fell ninety percent in a decade.\nTwo, grid upgrades. Solar and wind require flexible, distributed networks.\nThree, materials. Wind turbines, batteries, and solar panels rely on copper, lithium, cobalt, and rare earths. Mining must scale ethically.\nKey statistics. Global renewable capacity passed three thousand seven hundred gigawatts in twenty twenty-three. Solar alone added four hundred gigawatts that year. Coal capacity is now declining in OECD countries by about three percent annually.\nNext week we cover hydrogen, nuclear small modular reactors, and demand-side flexibility. Read pages two-twenty to two-sixty in the textbook.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Solar cost fall since 2010?",
+      "options": [
+        "50%",
+        "70%",
+        "90%",
+        "99%"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Net zero target year per IPCC?",
+      "options": [
+        "2030",
+        "2040",
+        "2050",
+        "2060"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "European gas prices rose roughly ____-fold.",
+      "answer": "four"
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Lithium battery prices fell ____ percent in a decade.",
+      "answer": "90"
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "question": "Global renewable capacity in 2023: ____ GW.",
+      "answer": "3700"
+    },
+    {
+      "id": 6,
+      "type": "fill",
+      "question": "Solar added ____ GW in 2023.",
+      "answer": "400"
+    },
+    {
+      "id": 7,
+      "type": "tfng",
+      "statement": "Coal capacity grew in OECD countries.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "type": "tfng",
+      "statement": "Onshore wind cost fell about 70%.",
+      "answer": "True"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "Three challenges?",
+      "answer": "intermittency, grid, materials"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Pages to read?",
+      "answer": "220 to 260"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "Do you think about energy use?",
+      "bandLow": "Sometimes.",
+      "bandMid": "Increasingly so - especially after my electricity bill doubled last year."
+    },
+    {
+      "q": "Do you support renewable energy?",
+      "bandLow": "Yes.",
+      "bandMid": "Strongly. The cost curves alone make the case, before climate benefits."
+    },
+    {
+      "q": "Have you seen wind turbines?",
+      "bandLow": "Yes.",
+      "bandMid": "Yes, on a coastal trip - rather elegant once you get used to the scale."
+    },
+    {
+      "q": "Should governments subsidise renewables?",
+      "bandLow": "Yes.",
+      "bandMid": "Targeted subsidies for early-stage tech, withdrawn as the market matures."
+    },
+    {
+      "q": "Are individuals responsible for climate?",
+      "bandLow": "Partly.",
+      "bandMid": "Partly - but most leverage sits with governments and major corporations."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe a positive change related to the environment.\n- what the change is\n- where you saw it\n- when it happened\n- and explain why it matters.",
+    "sample": "A change that genuinely encourages me is the rapid solar expansion in Vietnam between twenty nineteen and twenty twenty-one. Driving along Highway 1 you see whole hillsides paved with photovoltaic panels - within two years Vietnam jumped to one of the top solar markets in Southeast Asia. It happened thanks to a generous feed-in tariff that triggered a private investment boom. It matters because it cuts coal demand, creates rural construction jobs, and proves a developing economy can leapfrog into modern energy. There are challenges - grid bottlenecks and tariff design - but the trajectory shows that with smart policy, transitions can move faster than sceptics expect.",
+    "keywords": [
+      "photovoltaic boom",
+      "feed-in tariff",
+      "grid bottlenecks",
+      "leapfrog development",
+      "top regional market"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "Why do some countries resist climate action?",
+      "hint": "fossil revenue, political cost, fairness"
+    },
+    {
+      "q": "How can cities reduce emissions?",
+      "hint": "transit, buildings, urban density"
+    },
+    {
+      "q": "Will technology alone solve climate change?",
+      "hint": "behaviour, policy, justice"
+    },
+    {
+      "q": "Is nuclear power necessary?",
+      "hint": "baseload, safety, cost"
+    }
+  ],
+  "shadowing": [
+    "Limiting warming to one point five degrees.",
+    "Storage helps; lithium battery prices fell ninety percent.",
+    "Materials must be mined ethically.",
+    "Solar alone added four hundred gigawatts that year.",
+    "Read pages two-twenty to two-sixty in the textbook."
+  ],
+  "homework": [
+    "Viet 5 cau dung: renewable, fossil fuel, grid, storage, subsidy.",
+    "Ghi am Part 1 cau 1, 3, 5.",
+    "Viet 100 tu uu nhuoc cua dien mat troi."
+  ],
+  "vietnameseSupport": [
+    "Section 4 - academic lecture; chu y so lieu thong ke.",
+    "LCOE = levelised cost of electricity, gia thanh quy doi.",
+    "Intermittency - khong on dinh, dac trung cua solar/wind."
+  ]
+})
+
+LESSONS.push({
+  "id": 96,
+  "levelId": "ielts-mode",
+  "title": "Urban Planning History",
+  "titleVi": "Lich Su Quy Hoach Do Thi",
+  "objectives": {
+    "listen": "IELTS Section 4 - lecture",
+    "speak": "Thanh pho hien dai",
+    "vocabFocus": "Urban planning"
+  },
+  "vocabulary": [
+    {
+      "word": "urbanisation",
+      "ipa": "",
+      "vi": "do thi hoa",
+      "example": "Rapid urbanisation strains services."
+    },
+    {
+      "word": "sprawl",
+      "ipa": "",
+      "vi": "do thi lan rong",
+      "example": "Suburban sprawl wastes land."
+    },
+    {
+      "word": "zoning",
+      "ipa": "",
+      "vi": "phan vung",
+      "example": "Zoning rules separate uses."
+    },
+    {
+      "word": "density",
+      "ipa": "",
+      "vi": "mat do",
+      "example": "Higher density saves energy."
+    },
+    {
+      "word": "infrastructure",
+      "ipa": "",
+      "vi": "ha tang",
+      "example": "Infrastructure spending grew."
+    },
+    {
+      "word": "public transit",
+      "ipa": "",
+      "vi": "giao thong cong cong",
+      "example": "Public transit cuts emissions."
+    },
+    {
+      "word": "green space",
+      "ipa": "",
+      "vi": "khong gian xanh",
+      "example": "Green space improves health."
+    },
+    {
+      "word": "mixed-use",
+      "ipa": "",
+      "vi": "da chuc nang",
+      "example": "Mixed-use blocks reduce trips."
+    },
+    {
+      "word": "gentrification",
+      "ipa": "",
+      "vi": "tang lop hoa",
+      "example": "Gentrification displaces residents."
+    },
+    {
+      "word": "walkability",
+      "ipa": "",
+      "vi": "kha nang di bo",
+      "example": "Walkability boosts retail."
+    }
+  ],
+  "script": "Today we trace urban planning across three eras: industrial, modernist, and post-modern.\nThe industrial era - eighteen hundreds to early nineteen hundreds. Cities like Manchester and Chicago doubled in population in single generations. Public health crises forced reform: sewage systems, building codes, and parks. Frederick Law Olmsted designed Central Park, opened in eighteen fifty-eight, as a deliberate response to overcrowding.\nThe modernist era - nineteen twenties to nineteen seventies. Le Corbusier proposed the Radiant City: tall towers in parkland connected by motorways. Critics now consider many such projects failures - they isolated residents, damaged street life, and over-favoured cars.\nThe post-modernist era - nineteen eighties onwards. Jane Jacobs argued for short blocks, mixed uses, dense streets, and ageing buildings that keep rents affordable. Her ideas reshaped policy.\nSeven planning lessons stand out today. One, density done well saves carbon. Two, transit shapes growth. Three, green space pays dividends in mental health and cooling. Four, separating uses through hard zoning often increases car dependency. Five, affordability cannot be ignored - sustainable cities must remain inclusive. Six, infrastructure is upstream of equality - bus frequency matters more for low-income mobility than headline GDP. Seven, the post-pandemic shift to remote work disrupted central business districts and reopened debates about fifteen-minute neighbourhoods.\nKey statistics. By twenty fifty about sixty-eight percent of humanity will live in urban areas, up from fifty-five percent today. India and China are projected to add three hundred and sixteen million urban residents combined.\nCriticisms exist. First, fifteen-minute neighbourhoods can mask inequality.\nNext week: case studies on Singapore, Copenhagen, and Bogota. Read pages eighty to one hundred and twenty.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Year Central Park opened?",
+      "options": [
+        "1845",
+        "1858",
+        "1872",
+        "1890"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Whose Radiant City?",
+      "options": [
+        "Olmsted",
+        "Jacobs",
+        "Le Corbusier",
+        "Howard"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Urban share by 2050: ____ percent.",
+      "answer": "68"
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Current urban share: ____ percent.",
+      "answer": "55"
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "question": "India and China combined: ____ million.",
+      "answer": "316"
+    },
+    {
+      "id": 6,
+      "type": "tfng",
+      "statement": "Modernist projects are universally praised.",
+      "answer": "False"
+    },
+    {
+      "id": 7,
+      "type": "tfng",
+      "statement": "Hard zoning often increases car dependency.",
+      "answer": "True"
+    },
+    {
+      "id": 8,
+      "type": "short",
+      "question": "Three case studies next week?",
+      "answer": "Singapore, Copenhagen, Bogota"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "Pages to read?",
+      "answer": "80 to 120"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Concept linked to Jacobs?",
+      "answer": "short blocks and mixed uses"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "Do you like big cities?",
+      "bandLow": "Yes.",
+      "bandMid": "I find them stimulating but only in small doses; weekends in nature reset me."
+    },
+    {
+      "q": "Is your city well planned?",
+      "bandLow": "Partly.",
+      "bandMid": "Improving - newer districts feel deliberate, while older areas suffer from ad hoc growth."
+    },
+    {
+      "q": "How important are parks?",
+      "bandLow": "Very.",
+      "bandMid": "Crucial - they cool streets, lift moods, and democratise leisure."
+    },
+    {
+      "q": "Do you walk often?",
+      "bandLow": "Sometimes.",
+      "bandMid": "Daily, when distances allow - it is the most underrated form of urban transport."
+    },
+    {
+      "q": "Do you support tall buildings?",
+      "bandLow": "Sometimes.",
+      "bandMid": "Yes, when paired with public space and good transit; otherwise they create dead zones."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe a city you like.\n- where it is\n- what it looks like\n- what makes it special\n- and explain why you like it.",
+    "sample": "A city I really enjoy is Copenhagen, which I visited two summers ago. It sits on the eastern coast of Denmark, low-rise, leafy, threaded with cycle lanes that often outnumber car lanes in width. What sets it apart is the relentless prioritisation of bicycles and pedestrians; even the new harbour district was designed around walkability before deciding where the cars go. Add a culture of swimming in the clean inner harbour, plus accessible public art, and the city feels designed for its people rather than its tourists. I like it because it shows that planning choices, not climate or income alone, decide whether a city feels humane.",
+    "keywords": [
+      "cycle lanes",
+      "low-rise leafy",
+      "harbour swim",
+      "pedestrian-first",
+      "humane scale"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "Should governments limit private cars?",
+      "hint": "congestion pricing, transit, equity"
+    },
+    {
+      "q": "How do cities support mental health?",
+      "hint": "green space, social ties, pace"
+    },
+    {
+      "q": "Will remote work hollow city centres?",
+      "hint": "office demand, retail, repurposing"
+    },
+    {
+      "q": "Is gentrification good or bad?",
+      "hint": "investment, displacement, mix"
+    }
+  ],
+  "shadowing": [
+    "Cities like Manchester and Chicago doubled in population.",
+    "Density done well saves carbon.",
+    "Transit shapes growth.",
+    "Sustainable cities must remain inclusive.",
+    "Read pages eighty to one hundred and twenty."
+  ],
+  "homework": [
+    "Viet 5 cau dung: zoning, density, infrastructure, gentrification, walkability.",
+    "Ghi am Part 1 cau 2, 3, 4.",
+    "Viet 100 tu mo ta thanh pho ly tuong."
+  ],
+  "vietnameseSupport": [
+    "Section 4 - academic lecture; chu y mau cau bay so, danh ngon nguoi.",
+    "Mixed-use - giam phu thuoc xe, mau chot trong quy hoach moi.",
+    "Walkability /wokebility/ - khong co dau gach noi."
+  ]
+})
+
+LESSONS.push({
+  "id": 97,
+  "levelId": "ielts-mode",
+  "title": "Sleep and Memory",
+  "titleVi": "Giac Ngu va Tri Nho",
+  "objectives": {
+    "listen": "IELTS Section 4 - psychology lecture",
+    "speak": "Giac ngu va hoc tap",
+    "vocabFocus": "Sleep science"
+  },
+  "vocabulary": [
+    {
+      "word": "consolidation",
+      "ipa": "",
+      "vi": "cung co",
+      "example": "Memory consolidation in sleep."
+    },
+    {
+      "word": "REM sleep",
+      "ipa": "",
+      "vi": "giac ngu REM",
+      "example": "REM sleep aids creativity."
+    },
+    {
+      "word": "circadian",
+      "ipa": "",
+      "vi": "sinh hoc nhip ngay",
+      "example": "Circadian rhythm guides sleep."
+    },
+    {
+      "word": "melatonin",
+      "ipa": "",
+      "vi": "hormone melatonin",
+      "example": "Light suppresses melatonin."
+    },
+    {
+      "word": "sleep deprivation",
+      "ipa": "",
+      "vi": "thieu ngu",
+      "example": "Sleep deprivation harms judgement."
+    },
+    {
+      "word": "nap",
+      "ipa": "",
+      "vi": "ngu chop",
+      "example": "A short nap restores focus."
+    },
+    {
+      "word": "cognition",
+      "ipa": "",
+      "vi": "nhan thuc",
+      "example": "Sleep boosts cognition."
+    },
+    {
+      "word": "sleep debt",
+      "ipa": "",
+      "vi": "no giac ngu",
+      "example": "Weekend recovery cannot fully repay sleep debt."
+    },
+    {
+      "word": "insomnia",
+      "ipa": "",
+      "vi": "mat ngu",
+      "example": "Chronic insomnia raises risk."
+    },
+    {
+      "word": "hippocampus",
+      "ipa": "",
+      "vi": "hippocampus",
+      "example": "The hippocampus stores memory."
+    }
+  ],
+  "script": "Today we explore the relationship between sleep and memory. The take-home message: sleep is when the brain learns, not when it merely rests.\nFirst, structure. A normal night cycles through four to six rounds of about ninety minutes. Each cycle includes light non-REM, deep non-REM, and REM. Deep sleep dominates the first half of the night; REM grows in the second half.\nSecond, function. Deep non-REM stabilises new factual knowledge - what cognitive scientists call declarative memory. REM sleep handles emotional and procedural memory, plus creative recombination.\nThird, evidence. In a classic Walker and Stickgold experiment, participants who slept after learning word pairs recalled twenty to forty percent more than those kept awake. Imaging studies show coordinated activity between the hippocampus and the cortex during deep sleep, replaying daytime patterns.\nFourth, sleep deprivation. Twenty-four hours awake produces cognitive impairment comparable to a blood alcohol level of zero point one percent.\nFifth, naps. A twenty-minute nap improves alertness without grogginess. A ninety-minute nap completes a full cycle and aids creative problem solving.\nSixth, modern threats. Blue light from screens suppresses melatonin and can delay sleep onset by up to thirty minutes. Caffeine has a half-life of about six hours, meaning a four pm coffee remains active at ten pm.\nSeventh, recommendations. Adults need seven to nine hours.\nKey statistics. Roughly one in three adults sleeps under six hours nightly.\nNext week: dreaming, jet lag, and shift-work health.\nReading pages forty to seventy-five.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Cycle length?",
+      "options": [
+        "60 min",
+        "75 min",
+        "90 min",
+        "120 min"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "Sleep recall improvement: ____ to ____ percent.",
+      "answer": "20, 40"
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Twenty-four hours awake equals BAC ____ percent.",
+      "answer": "0.1"
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Short nap length: ____ minutes.",
+      "answer": "20"
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "question": "Blue light delays sleep onset by up to ____ minutes.",
+      "answer": "30"
+    },
+    {
+      "id": 6,
+      "type": "fill",
+      "question": "Caffeine half-life: ____ hours.",
+      "answer": "6"
+    },
+    {
+      "id": 7,
+      "type": "tfng",
+      "statement": "Adults need 5 to 7 hours of sleep.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "type": "tfng",
+      "statement": "Deep sleep dominates the first half of the night.",
+      "answer": "True"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "Two researchers mentioned?",
+      "answer": "Walker and Stickgold"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Pages to read?",
+      "answer": "40 to 75"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "How well do you sleep?",
+      "bandLow": "Quite well.",
+      "bandMid": "Reasonably well, though I rotate phases of insomnia during stressful weeks."
+    },
+    {
+      "q": "Do you nap?",
+      "bandLow": "Sometimes.",
+      "bandMid": "Yes, twenty-minute power naps after lunch - they recharge me without grogginess."
+    },
+    {
+      "q": "Do screens affect your sleep?",
+      "bandLow": "Yes.",
+      "bandMid": "Definitely. After half nine I switch to e-paper and warmer lighting."
+    },
+    {
+      "q": "Should schools start later?",
+      "bandLow": "Maybe.",
+      "bandMid": "Yes, particularly for teenagers whose biological clocks shift later naturally."
+    },
+    {
+      "q": "Is napping at work acceptable?",
+      "bandLow": "Depends.",
+      "bandMid": "In creative or knowledge work, more progressive companies should encourage it."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe a habit that improved your wellbeing.\n- what the habit is\n- when you started\n- how you keep it\n- and explain how it changed your life.",
+    "sample": "A habit that genuinely improved my wellbeing is going to bed at a fixed time, ten thirty pm regardless of plans. I started two winters ago after weeks of brain fog at work. To keep it, I use three small anchors: dimmer lights after eight pm, a printed book instead of my phone, and a five-minute breathing exercise. The shift was striking within a fortnight. My morning energy returned, my afternoon cravings shrank, and I stopped reaching for that fourth coffee. The deeper change is psychological - knowing I will sleep well makes me less reactive to stress during the day. It is the smallest habit with the largest payoff I have ever experimented with.",
+    "keywords": [
+      "fixed bedtime",
+      "dimmer lights",
+      "printed book wind-down",
+      "small anchors",
+      "disproportionate payoff"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "Why is sleep undervalued?",
+      "hint": "productivity culture, hustle, ignorance"
+    },
+    {
+      "q": "How can workplaces support sleep?",
+      "hint": "flexible hours, meeting limits, nap spaces"
+    },
+    {
+      "q": "Are sleep apps useful?",
+      "hint": "tracking accuracy, anxiety, behaviour change"
+    },
+    {
+      "q": "Should employers police shift health?",
+      "hint": "safety, autonomy, regulation"
+    }
+  ],
+  "shadowing": [
+    "Sleep is when the brain learns.",
+    "Deep non-REM stabilises new factual knowledge.",
+    "Twenty-four hours awake produces impairment.",
+    "A twenty-minute nap improves alertness without grogginess.",
+    "Adults need seven to nine hours."
+  ],
+  "homework": [
+    "Viet 5 cau dung: consolidation, REM sleep, melatonin, nap, sleep debt.",
+    "Ghi am Part 1 cau 1, 2, 5.",
+    "Viet 100 tu thoi quen ngu cua em."
+  ],
+  "vietnameseSupport": [
+    "Section 4 - tu khoa khoa hoc dac trung.",
+    "REM doc /rem/.",
+    "Sleep debt - khong tra het bang weekend."
+  ]
+})
+
+LESSONS.push({
+  "id": 98,
+  "levelId": "ielts-mode",
+  "title": "Course Library Tour",
+  "titleVi": "Tour Thu Vien",
+  "objectives": {
+    "listen": "IELTS Section 1 - tour thu vien",
+    "speak": "Hoc tap",
+    "vocabFocus": "Library"
+  },
+  "vocabulary": [
+    {
+      "word": "circulation desk",
+      "ipa": "",
+      "vi": "quay muon tra",
+      "example": "The circulation desk closes at 9."
+    },
+    {
+      "word": "overdue",
+      "ipa": "",
+      "vi": "qua han",
+      "example": "Overdue books incur a fine."
+    },
+    {
+      "word": "study carrel",
+      "ipa": "",
+      "vi": "cabin hoc",
+      "example": "Book a study carrel online."
+    },
+    {
+      "word": "periodicals",
+      "ipa": "",
+      "vi": "tap chi dinh ky",
+      "example": "Periodicals are on level two."
+    },
+    {
+      "word": "database",
+      "ipa": "",
+      "vi": "co so du lieu",
+      "example": "Use the JSTOR database."
+    },
+    {
+      "word": "inter-library loan",
+      "ipa": "",
+      "vi": "muon lien thu vien",
+      "example": "Inter-library loan takes a week."
+    },
+    {
+      "word": "silent zone",
+      "ipa": "",
+      "vi": "khu yen lang",
+      "example": "Top floor is a silent zone."
+    },
+    {
+      "word": "group study room",
+      "ipa": "",
+      "vi": "phong tu hoc nhom",
+      "example": "Book a group study room."
+    },
+    {
+      "word": "photocopying",
+      "ipa": "",
+      "vi": "photocopy",
+      "example": "Photocopying costs five pence."
+    },
+    {
+      "word": "librarian",
+      "ipa": "",
+      "vi": "thu vien vien",
+      "example": "A librarian can help research."
+    }
+  ],
+  "script": "Welcome to the orientation. The library has four floors. Ground floor: circulation desk and short-loan items. Level one: textbooks for first and second-year students. Level two: research collection and periodicals. Top floor: silent zone, study carrels, and group study rooms.\nOpening hours: Monday to Friday eight thirty am to ten pm. Saturday ten am to six pm. Sunday twelve to six.\nBorrowing: undergraduates can borrow up to twelve books for three weeks. Postgraduates twenty for six weeks. Renew online up to three times unless someone has reserved the book.\nFines: ten pence per day per book. Maximum five pounds.\nThe self-issue machines on the ground floor handle most loans. The circulation desk handles inter-library loans, which take roughly seven working days and cost two pounds per item.\nGroup study rooms can be booked online up to forty-eight hours in advance, in slots of two hours, maximum eight hours per week per group of four to six students.\nPrinting: ten pence per black-and-white page, twenty-five pence colour, double-sided saves twenty per cent.\nLost cards: report immediately at the desk; replacement is free for the first card and three pounds thereafter.\nThe academic skills librarians offer fifteen-minute drop-in slots Tuesday and Thursday between two and four pm.\nFinally, food: only sealed bottles of water are allowed beyond the entrance. Hot drinks must stay in the cafe.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Floor for periodicals?",
+      "options": [
+        "Ground",
+        "Level 1",
+        "Level 2",
+        "Top"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "question": "Saturday opening: ____ am.",
+      "answer": "10"
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Undergraduate loan: ____ books.",
+      "answer": "12"
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Postgraduate loan: ____ weeks.",
+      "answer": "6"
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "question": "Fine maximum: ____ pounds.",
+      "answer": "5"
+    },
+    {
+      "id": 6,
+      "type": "fill",
+      "question": "Inter-library loan cost: ____ pounds.",
+      "answer": "2"
+    },
+    {
+      "id": 7,
+      "type": "mcq",
+      "question": "Group study max hours per week?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "question": "Replacement card after first: ____ pounds.",
+      "answer": "3"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "Drop-in days for academic skills?",
+      "answer": "Tuesday and Thursday"
+    },
+    {
+      "id": 10,
+      "type": "tfng",
+      "statement": "Hot drinks are allowed inside.",
+      "answer": "False"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "Do you use libraries?",
+      "bandLow": "Yes.",
+      "bandMid": "Yes, mostly for the focused atmosphere - it pulls me out of distractions at home."
+    },
+    {
+      "q": "Print or e-books?",
+      "bandLow": "Print.",
+      "bandMid": "Print for fiction, e-books for academic articles where searching matters."
+    },
+    {
+      "q": "Do you study with friends?",
+      "bandLow": "Sometimes.",
+      "bandMid": "A balance - solo for hard problems, friends for revision and quick clarifications."
+    },
+    {
+      "q": "Are libraries still relevant?",
+      "bandLow": "Yes.",
+      "bandMid": "Highly relevant - they offer trustworthy resources, neutral space, and skilled librarians."
+    },
+    {
+      "q": "Should libraries be open longer?",
+      "bandLow": "Yes.",
+      "bandMid": "Yes, especially during exams - longer hours support equity for students without quiet homes."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe a place where you study or work well.\n- where it is\n- when you go there\n- what it looks like\n- and explain why you focus well there.",
+    "sample": "A place I work brilliantly is the third-floor silent zone of my university library. I head there most weekday mornings around eight forty-five with a printed reading list. The space is wood-panelled, lined with green-shaded reading lamps, and the only sounds are gentle keyboard taps and pages turning. What works for me is the social pressure of seeing dozens of others concentrating; my own focus rises to match the room. I also like the rule that bags must be kept under desks, which keeps the visual field clean. After two or three sessions there I almost feel allergic to working from cafes - the gentle accountability of a silent room is a productivity tool I underestimated for years.",
+    "keywords": [
+      "silent zone",
+      "green-shaded lamps",
+      "social pressure",
+      "clean visual field",
+      "accountability of presence"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "How are libraries changing?",
+      "hint": "digital, makerspaces, community hubs"
+    },
+    {
+      "q": "Should libraries be funded by government or private donors?",
+      "hint": "mission, neutrality, scale"
+    },
+    {
+      "q": "Will physical books disappear?",
+      "hint": "tactility, archive, niche"
+    },
+    {
+      "q": "How can libraries reach non-readers?",
+      "hint": "outreach, programmes, accessibility"
+    }
+  ],
+  "shadowing": [
+    "Welcome to the orientation.",
+    "Renew online up to three times.",
+    "Book a group study room online.",
+    "Hot drinks must stay in the cafe.",
+    "Drop-in slots Tuesday and Thursday between two and four pm."
+  ],
+  "homework": [
+    "Viet 5 cau dung: circulation desk, overdue, periodicals, database, librarian.",
+    "Ghi am Part 1 cau 1, 4, 5.",
+    "Viet 80 tu mo ta thu vien em hay den."
+  ],
+  "vietnameseSupport": [
+    "Section 1 - chi tiet so/gia/ngay quan trong.",
+    "Inter-library loan - dich vu vay sach giua thu vien.",
+    "Carrel - khong phai car-rel; cabin doc nho."
+  ]
+})
+
+LESSONS.push({
+  "id": 99,
+  "levelId": "ielts-mode",
+  "title": "Music and the Brain",
+  "titleVi": "Am Nhac va Nao Bo",
+  "objectives": {
+    "listen": "IELTS Section 4 - lecture",
+    "speak": "Am nhac",
+    "vocabFocus": "Neuroscience"
+  },
+  "vocabulary": [
+    {
+      "word": "neural pathway",
+      "ipa": "",
+      "vi": "duong than kinh",
+      "example": "Music strengthens neural pathways."
+    },
+    {
+      "word": "dopamine",
+      "ipa": "",
+      "vi": "dopamine",
+      "example": "Pleasure releases dopamine."
+    },
+    {
+      "word": "auditory cortex",
+      "ipa": "",
+      "vi": "vo nao thinh giac",
+      "example": "The auditory cortex processes sound."
+    },
+    {
+      "word": "rhythm",
+      "ipa": "",
+      "vi": "nhip dieu",
+      "example": "Rhythm aids motor control."
+    },
+    {
+      "word": "pitch",
+      "ipa": "",
+      "vi": "cao do",
+      "example": "Pitch perception varies."
+    },
+    {
+      "word": "timbre",
+      "ipa": "",
+      "vi": "am sac",
+      "example": "Timbre distinguishes instruments."
+    },
+    {
+      "word": "mirror neurons",
+      "ipa": "",
+      "vi": "no ron guong",
+      "example": "Mirror neurons mimic action."
+    },
+    {
+      "word": "synesthesia",
+      "ipa": "",
+      "vi": "cam giac giao thoa",
+      "example": "Some experience musical synesthesia."
+    },
+    {
+      "word": "motor cortex",
+      "ipa": "",
+      "vi": "vo nao van dong",
+      "example": "Drumming activates the motor cortex."
+    },
+    {
+      "word": "plasticity",
+      "ipa": "",
+      "vi": "tinh deo cua nao",
+      "example": "Brain plasticity declines with age."
+    }
+  ],
+  "script": "Today we examine music and the brain. Three claims structure the lecture: music engages most of the brain; music influences mood and cognition; and music can support clinical recovery.\nFirst, breadth of engagement. fMRI studies show that listening to a single song activates the auditory cortex, the motor cortex even without dancing, the limbic system, and language areas. Few human activities recruit so much neural real estate at once.\nSecond, mood and cognition. A favourite song triggers dopamine release similar in scale to food or social rewards. The Mozart Effect, much hyped in the nineteen nineties, showed only a brief lift in spatial reasoning, lasting roughly fifteen minutes. The strongest evidence is for music as a mood regulator, not a permanent IQ booster.\nThird, clinical use. Stroke patients can sometimes sing words they cannot speak.\nFourth, music and learning. Background music with lyrics tends to harm reading comprehension; instrumental music with steady tempo can improve repetitive task performance.\nFifth, age and plasticity. Children who learn an instrument before age seven show denser white matter in the corpus callosum, the bridge between the brain hemispheres. Adult learners still benefit, just more modestly.\nSixth, criticisms. Many famous music studies fail to replicate. Single-session effects do not equal long-term cognitive gains.\nKey statistics. The global value of music therapy services exceeded three point five billion US dollars in twenty twenty-three.\nNext week: language and music overlap. Read pages one hundred to one hundred and forty.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "How long does the Mozart Effect last?",
+      "options": [
+        "5 min",
+        "15 min",
+        "30 min",
+        "60 min"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "White matter density was found in?",
+      "options": [
+        "amygdala",
+        "corpus callosum",
+        "cerebellum",
+        "thalamus"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Music therapy services value: ____ billion USD.",
+      "answer": "3.5"
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Critical age for instrument learning: before age ____.",
+      "answer": "7"
+    },
+    {
+      "id": 5,
+      "type": "tfng",
+      "statement": "Music with lyrics helps reading comprehension.",
+      "answer": "False"
+    },
+    {
+      "id": 6,
+      "type": "tfng",
+      "statement": "Many music studies fail to replicate.",
+      "answer": "True"
+    },
+    {
+      "id": 7,
+      "type": "fill",
+      "question": "Music releases ____ similar to food rewards.",
+      "answer": "dopamine"
+    },
+    {
+      "id": 8,
+      "type": "short",
+      "question": "Three claims of the lecture?",
+      "answer": "engagement, mood and cognition, clinical recovery"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "Key brain area for sound?",
+      "answer": "auditory cortex"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Pages to read?",
+      "answer": "100 to 140"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "What music do you like?",
+      "bandLow": "Pop.",
+      "bandMid": "I drift between indie folk for studying and electronic for runs."
+    },
+    {
+      "q": "Did you learn an instrument?",
+      "bandLow": "No.",
+      "bandMid": "I picked up the ukulele last year - small, forgiving, and shockingly satisfying."
+    },
+    {
+      "q": "How does music affect you?",
+      "bandLow": "Mood.",
+      "bandMid": "It anchors my mood quickly - one song can shift a whole afternoon."
+    },
+    {
+      "q": "Do you listen while studying?",
+      "bandLow": "Sometimes.",
+      "bandMid": "For revision yes, but for difficult reading I switch to silence."
+    },
+    {
+      "q": "Should children learn music?",
+      "bandLow": "Yes.",
+      "bandMid": "Strongly - the brain benefits matter, but the joy and discipline matter more."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe a song that means a lot to you.\n- what the song is\n- when you first heard it\n- the lyrics or melody\n- and explain why it is meaningful.",
+    "sample": "A song that I keep returning to is Imagine by John Lennon. I first heard it through my fathers vinyl collection when I was around twelve, on a quiet Sunday afternoon. The melody is deceptively simple - a slow piano figure repeating like a heartbeat - while the lyrics imagine a borderless world without possessions or war. What makes it meaningful is the contrast: a soft, almost lullaby texture carrying a radical political wish. As I grew older, the song stopped being naive and started feeling like a calm protest. I play it on long bus rides, on rainy days, and on December eighth, the anniversary of his death. It reminds me that gentleness can be its own form of resistance.",
+    "keywords": [
+      "piano figure",
+      "soft protest",
+      "borderless wish",
+      "heartbeat tempo",
+      "gentleness as resistance"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "Should music education be compulsory?",
+      "hint": "cultural literacy, brain benefits, time"
+    },
+    {
+      "q": "How has streaming changed music?",
+      "hint": "income, discovery, attention spans"
+    },
+    {
+      "q": "Can AI write good music?",
+      "hint": "novelty, soul, copyright"
+    },
+    {
+      "q": "Why does music unite people?",
+      "hint": "rhythm, emotion, shared identity"
+    }
+  ],
+  "shadowing": [
+    "Music engages most of the brain.",
+    "Music releases dopamine similar to food.",
+    "Music can support clinical recovery.",
+    "Single-session effects do not equal long-term gains.",
+    "Read pages one hundred to one hundred and forty."
+  ],
+  "homework": [
+    "Viet 5 cau dung: rhythm, pitch, dopamine, plasticity, mirror neurons.",
+    "Ghi am Part 1 cau 1, 3, 5.",
+    "Viet 100 tu ve bai hat yeu thich."
+  ],
+  "vietnameseSupport": [
+    "Section 4 - lecture; nghe tu khoa khoa hoc lap di lap lai.",
+    "Mozart Effect - chu y dung phong dai.",
+    "Synesthesia /sinasthizia/."
+  ]
+})
+
+LESSONS.push({
+  "id": 100,
+  "levelId": "ielts-mode",
+  "title": "Climate Change Adaptation",
+  "titleVi": "Thich Ung Bien Doi Khi Hau",
+  "objectives": {
+    "listen": "IELTS Section 4 - lecture chuyen sau",
+    "speak": "Bien doi khi hau",
+    "vocabFocus": "Climate"
+  },
+  "vocabulary": [
+    {
+      "word": "mitigation",
+      "ipa": "",
+      "vi": "giam thieu",
+      "example": "Mitigation cuts emissions."
+    },
+    {
+      "word": "adaptation",
+      "ipa": "",
+      "vi": "thich ung",
+      "example": "Adaptation handles unavoidable change."
+    },
+    {
+      "word": "resilience",
+      "ipa": "",
+      "vi": "kha nang chong chiu",
+      "example": "Coastal resilience matters."
+    },
+    {
+      "word": "flood plain",
+      "ipa": "",
+      "vi": "vung lu",
+      "example": "Flood plains absorb water."
+    },
+    {
+      "word": "sea wall",
+      "ipa": "",
+      "vi": "de chan bien",
+      "example": "Sea walls protect cities."
+    },
+    {
+      "word": "managed retreat",
+      "ipa": "",
+      "vi": "rut lui co quan ly",
+      "example": "Managed retreat moves villages inland."
+    },
+    {
+      "word": "heat island",
+      "ipa": "",
+      "vi": "dao nhiet do thi",
+      "example": "Heat islands raise summer deaths."
+    },
+    {
+      "word": "crop yield",
+      "ipa": "",
+      "vi": "nang suat cay trong",
+      "example": "Crop yields could fall 10 percent."
+    },
+    {
+      "word": "biodiversity",
+      "ipa": "",
+      "vi": "da dang sinh hoc",
+      "example": "Biodiversity loss affects ecosystems."
+    },
+    {
+      "word": "climate justice",
+      "ipa": "",
+      "vi": "cong bang khi hau",
+      "example": "Climate justice raises ethical questions."
+    }
+  ],
+  "script": "Today we focus on adaptation - what we do when emissions cuts arrive too slowly.\nFirst, why adaptation matters now. Even with strong mitigation, the planet has roughly one point three degrees of warming locked in.\nSecond, examples by sector. Coastal cities: the Netherlands raised dikes and built room-for-the-river flood plains.\nAgriculture: drought-resistant maize varieties in sub-Saharan Africa lifted yields by twenty to thirty percent in trial plots.\nUrban heat: Athens appointed a chief heat officer in twenty twenty-one.\nThird, principles of good adaptation. Plan for the long term, not just today. Use nature where possible. Centre vulnerable groups - elderly, low-income, outdoor workers. Combine grey infrastructure - sea walls, drainage - with green infrastructure - wetlands, urban forests.\nFourth, the financing gap. Developing countries need an estimated three hundred to four hundred billion US dollars annually by twenty thirty for adaptation. Pledged finance is roughly fifty billion. The shortfall slows protection and concentrates climate risk on the poorest.\nFifth, criticisms and tensions. Maladaptation - actions that worsen risk - is widespread. A sea wall that protects one district may worsen flooding in the next.\nSixth, behavioural angle. Households underinvest in adaptation because flood and heat events are infrequent yet catastrophic.\nKey statistics. Global insured losses from natural catastrophes hit one hundred and twenty-three billion dollars in twenty twenty-three, the second-highest on record. Adaptation pays roughly four to ten dollars in benefits per dollar invested.\nNext week: governance, climate migration, and tipping points.\nReading pages one hundred and eighty to two hundred and twenty in Pelling.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "fill",
+      "question": "Warming locked in: ____ degrees.",
+      "answer": "1.3"
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Athens appointed chief ____ officer in 2021.",
+      "options": [
+        "flood",
+        "heat",
+        "snow",
+        "wind"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "type": "fill",
+      "question": "Drought-resistant maize lifted yields ____ to ____ percent.",
+      "answer": "20, 30"
+    },
+    {
+      "id": 4,
+      "type": "fill",
+      "question": "Adaptation finance need by 2030: ____ to ____ billion USD.",
+      "answer": "300, 400"
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "question": "Pledged finance: roughly ____ billion.",
+      "answer": "50"
+    },
+    {
+      "id": 6,
+      "type": "tfng",
+      "statement": "Maladaptation can worsen risk.",
+      "answer": "True"
+    },
+    {
+      "id": 7,
+      "type": "tfng",
+      "statement": "Insured losses in 2023 were the highest ever.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "question": "Adaptation benefit per dollar: ____ to ____ dollars.",
+      "answer": "4, 10"
+    },
+    {
+      "id": 9,
+      "type": "short",
+      "question": "Author of the textbook?",
+      "answer": "Pelling"
+    },
+    {
+      "id": 10,
+      "type": "short",
+      "question": "Pages to read?",
+      "answer": "180 to 220"
+    }
+  ],
+  "speakingPart1": [
+    {
+      "q": "Have you noticed climate impacts?",
+      "bandLow": "Yes.",
+      "bandMid": "Yes - heatwaves in my hometown are noticeably longer and harsher than my childhood."
+    },
+    {
+      "q": "Do you trust climate news?",
+      "bandLow": "Mostly.",
+      "bandMid": "Mostly, although I cross-check sources because some outlets sensationalise."
+    },
+    {
+      "q": "What can individuals do?",
+      "bandLow": "Save energy.",
+      "bandMid": "Beyond personal habits, I think we underrate the influence of voting, donating, and pressuring employers."
+    },
+    {
+      "q": "Should rich countries pay more?",
+      "bandLow": "Yes.",
+      "bandMid": "Yes - they emitted more historically and have more capacity to act."
+    },
+    {
+      "q": "Are you optimistic about climate?",
+      "bandLow": "A bit.",
+      "bandMid": "Cautiously optimistic - cost curves are positive, but politics often lags science."
+    }
+  ],
+  "speakingPart2": {
+    "cueCard": "Describe an environmental problem in your area.\n- what the problem is\n- how it affects people\n- what is being done\n- and explain what more should be done.",
+    "sample": "A pressing problem in my hometown is annual flash flooding during the rainy season. Streets that were drainable a decade ago now turn into shallow rivers within an hour of heavy rain, mostly because concrete has replaced fields, drains are clogged, and rivers have been narrowed by construction. The impact is real - shops close for a day, motorbikes are damaged, and the elderly struggle to leave home. The local government has started cleaning drains more often and built two retention basins, which helps. What I think is missing is a serious land-use shift: stricter rules on paving private compounds, more permeable surfaces, and city-funded street trees that absorb water. Adaptation has to combine engineering, ecology, and a slightly humbler attitude towards how much concrete a tropical city can really handle.",
+    "keywords": [
+      "flash flooding",
+      "permeable surfaces",
+      "retention basin",
+      "clogged drains",
+      "humbler concrete"
+    ]
+  },
+  "speakingPart3": [
+    {
+      "q": "Why do governments delay climate action?",
+      "hint": "short cycles, lobby, voter cost"
+    },
+    {
+      "q": "Should there be climate taxes?",
+      "hint": "fairness, behaviour, revenue use"
+    },
+    {
+      "q": "How can cities adapt?",
+      "hint": "green roofs, drainage, cooling centres"
+    },
+    {
+      "q": "Is climate migration inevitable?",
+      "hint": "sea level, heat, conflict"
+    }
+  ],
+  "shadowing": [
+    "Plan for the long term, not just today.",
+    "Use nature where possible.",
+    "Maladaptation is widespread.",
+    "Adaptation pays four to ten dollars per dollar invested.",
+    "Reading pages one hundred and eighty to two hundred and twenty."
+  ],
+  "homework": [
+    "Viet 5 cau dung: mitigation, adaptation, resilience, biodiversity, climate justice.",
+    "Ghi am Part 1 cau 1, 4, 5.",
+    "Viet 120 tu plan thich ung khi hau cho thanh pho em."
+  ],
+  "vietnameseSupport": [
+    "Section 4 - lecture; chu y connection logic giua so lieu va y nghia.",
+    "Maladaptation - thich ung sai cach, nguy hiem.",
+    "Climate justice - xuat hien o Writing Task 2 va Speaking Part 3."
+  ]
+})
+
+
+
+LESSONS.push({
+  id: 6,
+  levelId: "foundation",
+  title: "Weather and Seasons",
+  titleVi: "Thời Tiết Và Mùa",
+  objectives: { listen: "Nghe miêu tả thời tiết, mùa, dự báo", speak: "Nói về thời tiết yêu thích", vocabFocus: "Thời tiết & mùa" },
+  vocabulary: [
+    { word: "forecast",       ipa: "/ˈfɔː.kɑːst/",  vi: "dự báo",          example: "Check the forecast before going out." },
+    { word: "humid",          ipa: "/ˈhjuː.mɪd/",   vi: "ẩm",               example: "Hanoi summers are very humid." },
+    { word: "drizzle",        ipa: "/ˈdrɪz.əl/",    vi: "mưa phùn",         example: "It's just a light drizzle." },
+    { word: "heatwave",       ipa: "/ˈhiːt.weɪv/",  vi: "đợt nóng",         example: "We had a heatwave last week." },
+    { word: "chilly",         ipa: "/ˈtʃɪl.i/",     vi: "se lạnh",          example: "It feels chilly tonight." },
+    { word: "unpredictable",  ipa: "",              vi: "khó đoán",         example: "Hanoi weather is unpredictable." },
+    { word: "blooming",       ipa: "",              vi: "nở rộ",            example: "Flowers are blooming." },
+    { word: "golden hour",    ipa: "",              vi: "giờ vàng",         example: "Photos look great in the golden hour." },
+    { word: "four seasons",   ipa: "",              vi: "bốn mùa",          example: "Hanoi has four seasons." },
+    { word: "rainy season",   ipa: "",              vi: "mùa mưa",          example: "The rainy season starts in May." },
+  ],
+  script: "Nam: It's so hot today. The forecast said 38 degrees!\nLinh: Hanoi summers are getting more unpredictable. Last week it was raining non-stop.\nNam: Yeah, we had a small heatwave for three days, then a sudden drizzle for two. I miss spring.\nLinh: Spring in Hanoi is my favourite. The streets are full of blooming flowers, and the temperature is just right.\nNam: Do you have a favourite weather?\nLinh: Cool autumn evenings. Around five o'clock, the golden hour makes the city look like a painting.\nNam: I love rainy afternoons. Sitting in a small café with hot tea and watching the rain — pure peace.\nLinh: Is it true that some places only have two seasons?\nNam: Yes. In southern Vietnam, they have only a dry and a rainy season. The rainy season starts around May.\nLinh: I'd love to visit Da Lat in winter. People say it's foggy and the air smells of pine trees.\nNam: Da Lat is amazing in December. Pack warm clothes — it can get really chilly at night.\nLinh: I'll plan a trip. The weather there is more predictable than Hanoi.\nNam: Did you check tomorrow's forecast? They say there might be a thunderstorm.\nLinh: Oh no, I have outdoor plans. I should bring an umbrella, just in case.",
+  questions: [
+    { id: 1, type: "mcq",  question: "What was the temperature today?", options: ["28°C","32°C","38°C","40°C"], correct: 2 },
+    { id: 2, type: "mcq",  question: "How long did the heatwave last?", options: ["1 day","2 days","3 days","5 days"], correct: 2 },
+    { id: 3, type: "fill", question: "Linh's favourite season is ____.", answer: "spring" },
+    { id: 4, type: "fill", question: "Nam loves ____ afternoons.",       answer: "rainy" },
+    { id: 5, type: "tfng", statement: "Da Lat is hot in December.",       answer: "False" },
+    { id: 6, type: "tfng", statement: "Southern Vietnam has four seasons.", answer: "False" },
+    { id: 7, type: "tfng", statement: "The rainy season in the south starts around May.", answer: "True" },
+    { id: 8, type: "short",question: "What might happen tomorrow afternoon?", answer: "thunderstorm" },
+    { id: 9, type: "short",question: "What does the air smell like in Da Lat?", answer: "pine trees" },
+    { id: 10,type: "short",question: "What does Linh plan to bring?",     answer: "an umbrella" },
+  ],
+  speakingPart1: [
+    { q: "What's the weather like today?",                    bandLow: "Today is hot.",                                bandMid: "It's unbearably hot today, around 38 degrees and very humid." },
+    { q: "What's your favourite season and why?",              bandLow: "Summer because I can swim.",                   bandMid: "My favourite season is autumn because the temperature in Hanoi is just right." },
+    { q: "Does the weather affect your mood?",                  bandLow: "Yes.",                                         bandMid: "Definitely. I feel sluggish on humid days but refreshed on cool autumn mornings." },
+    { q: "Has the climate in your city changed in recent years?", bandLow: "Yes, it is hotter.",                          bandMid: "I've noticed that summers are hotter and the rainy season is more unpredictable." },
+    { q: "Do you check the weather forecast every day?",        bandLow: "Sometimes.",                                   bandMid: "Yes, especially when I have outdoor plans like cycling or photography." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a memorable weather experience.\n- what the weather was\n- when and where it happened\n- what you were doing\n- and explain why it was memorable.",
+    sample: "The most memorable weather experience I've had was a thunderstorm during my trip to Sapa last summer. We were hiking up to a small village when dark clouds rolled in suddenly. Heavy rain poured down with strong wind. We had to shelter under a wooden hut owned by a local family. We sat around their wood stove, drank hot ginger tea, and listened to the rain hitting the roof. That storm forced us to slow down and connect with strangers, which is something I rarely do in everyday life.",
+    keywords: ["roll in","soaking wet","wood stove","connect with strangers","slow down"],
+  },
+  speakingPart3: [
+    { q: "How does extreme weather affect daily life?",                       hint: "outdoor work, transport, crops" },
+    { q: "Should governments do more about climate change?",                  hint: "policy, education, energy" },
+    { q: "Are people in your country worried about global warming?",          hint: "rising sea, heatwaves, awareness" },
+    { q: "Do you think weather forecasts are reliable?",                       hint: "tech, accuracy, short-term vs long-term" },
+  ],
+  shadowing: [
+    "It's so hot today.",
+    "Hanoi summers are getting more unpredictable.",
+    "The streets are full of blooming flowers.",
+    "Sitting in a small café with hot tea — that's pure peace.",
+    "Maybe I should bring an umbrella, just in case.",
+  ],
+  homework: [
+    "Viết 5 câu dùng forecast, unpredictable, chilly, heatwave, just in case.",
+    "Trả lời 3 câu Part 1 — ghi âm.",
+    "Tóm tắt bài nghe trong 3-5 câu.",
+  ],
+  vietnameseSupport: [
+    "just in case = phòng khi, khác in case (trong trường hợp).",
+    "unpredictable trang trọng hơn hard to guess.",
+    "the golden hour = giờ vàng (1 giờ trước hoàng hôn).",
+  ],
+})
+
+LESSONS.push({
+  id: 7,
+  levelId: "foundation",
+  title: "My Hometown",
+  titleVi: "Quê Hương",
+  objectives: { listen: "Nghe miêu tả thành phố quê hương", speak: "Tự hào kể về quê", vocabFocus: "City life vocab" },
+  vocabulary: [
+    { word: "lively",         ipa: "/ˈlaɪv.li/",     vi: "sôi động",       example: "The night market is lively." },
+    { word: "peaceful",       ipa: "/ˈpiːs.fəl/",    vi: "yên bình",       example: "Hue feels peaceful." },
+    { word: "landmark",       ipa: "/ˈlænd.mɑːk/",   vi: "địa điểm nổi bật", example: "The Imperial City is a landmark." },
+    { word: "crowded",        ipa: "/ˈkraʊ.dɪd/",    vi: "đông",           example: "Saigon streets are crowded." },
+    { word: "local specialty",ipa: "",                vi: "đặc sản",         example: "Bun bo is the local specialty." },
+    { word: "hospitable",     ipa: "/hɒˈspɪt.ə.bəl/",vi: "hiếu khách",     example: "Locals are hospitable." },
+    { word: "countryside",    ipa: "/ˈkʌn.tri.saɪd/", vi: "vùng quê",       example: "I miss the countryside." },
+    { word: "urban",          ipa: "/ˈɜː.bən/",      vi: "thành thị",       example: "Urban life is fast." },
+    { word: "grow up in",     ipa: "",                vi: "lớn lên ở",       example: "I grew up in Hue." },
+    { word: "take pride in",  ipa: "",                vi: "tự hào về",       example: "I take pride in my hometown." },
+  ],
+  script: "I'm Phong. I want to talk about my hometown — Hue, a small but very meaningful city in central Vietnam. I grew up there until I moved to Ho Chi Minh City for university. The first thing people notice about Hue is how peaceful it feels. Compared to big cities like Hanoi or Saigon, Hue is much less crowded. The streets are wide, the trees are old and tall, and the Perfume River runs slowly through the centre. The most famous landmark is the Imperial City, where Vietnamese kings used to live. Hue is also famous for its local specialties: bun bo Hue, com hen, and a hundred kinds of che. Whenever I'm back home, my grandmother makes bun bo early in the morning. People in Hue speak softly. We are also known for being hospitable. If a foreigner gets lost on the street, locals will guide them, sometimes even by motorbike. I take pride in my hometown. Hue has something bigger cities don't have: time. Time to drink tea, time to sit by the river, time to listen to old songs. Whenever I feel exhausted with city life, I just book a train ticket and go back. Even three days in Hue is enough to recharge my energy. Hue is not just a city; it's a feeling.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Where did Phong grow up?",                  options: ["Hanoi","Saigon","Hue","Da Lat"], correct: 2 },
+    { id: 2, type: "mcq",  question: "What is Hue's most famous landmark?",        options: ["Pagoda","Imperial City","Perfume River","Temple"], correct: 1 },
+    { id: 3, type: "fill", question: "The Perfume River runs slowly through the ____.", answer: "centre" },
+    { id: 4, type: "fill", question: "Hue is famous for ____ kinds of che.",       answer: "a hundred" },
+    { id: 5, type: "tfng", statement: "Phong's grandmother's bun bo is better than restaurants'.", answer: "True" },
+    { id: 6, type: "tfng", statement: "Hue people speak quickly.",                  answer: "False" },
+    { id: 7, type: "tfng", statement: "Locals will help foreigners by motorbike sometimes.", answer: "True" },
+    { id: 8, type: "short",question: "Phong says Hue gives him something cities don't — what?", answer: "time" },
+    { id: 9, type: "short",question: "How long is enough for Phong to recharge?",   answer: "three days" },
+    { id: 10,type: "short",question: "Hue is not just a city; it's a ____.",         answer: "feeling" },
+  ],
+  speakingPart1: [
+    { q: "Where is your hometown?",                bandLow: "Hue.",                            bandMid: "My hometown is Hue, a small but charming city in central Vietnam." },
+    { q: "Is it a big or small place?",             bandLow: "Small.",                          bandMid: "It's a small city with a population of around 350,000." },
+    { q: "What's special about your hometown?",     bandLow: "It is peaceful.",                 bandMid: "What makes Hue special is its slow pace of life and rich culinary culture." },
+    { q: "Do you visit your hometown often?",       bandLow: "Yes.",                            bandMid: "I make sure to go back at least twice a year, especially during Tet." },
+    { q: "Would you like to live there in future?", bandLow: "Maybe.",                          bandMid: "Possibly, when I'm older — Hue is the perfect place to slow down." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe your hometown.\n- where it is\n- what it is famous for\n- what you usually do there\n- and explain why you like or don't like it.",
+    sample: "My hometown is Hue, located in central Vietnam, about 700 kilometres south of Hanoi. It's most famous for being a former imperial capital, with the Imperial City and the Perfume River as iconic landmarks. Whenever I'm home, I usually start the day with a bowl of bun bo Hue at a small alley near my grandmother's house, then take a slow bicycle ride around the citadel. What I love about Hue is its peaceful pace. Unlike Hanoi or Saigon, the streets here are quiet, and people speak softly. It helps me unplug from city stress.",
+    keywords: ["former imperial capital","slow pace","peaceful streets","speak softly","unplug"],
+  },
+  speakingPart3: [
+    { q: "How important is one's hometown to a person's identity?", hint: "memories, culture, language" },
+    { q: "Why are people moving away from rural areas?",            hint: "jobs, education, infrastructure" },
+    { q: "Are small towns disappearing in your country?",            hint: "migration, ageing, schools closing" },
+    { q: "Should governments support small hometowns?",              hint: "tourism, agriculture, balance" },
+  ],
+  shadowing: [
+    "I grew up there until I moved to Ho Chi Minh City.",
+    "The streets are wide, the trees are old and tall.",
+    "Hue is also famous for its local specialties.",
+    "I take pride in my hometown.",
+    "Hue is not just a city; it's a feeling.",
+  ],
+  homework: [
+    "Viết 5 câu dùng take pride in, grew up in, hospitable, local specialty, recharge.",
+    "Trả lời Part 1 câu 1, 3, 4 — ghi âm.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "take pride in formal hơn be proud of.",
+    "not just X, but Y — cấu trúc tăng band.",
+    "charm (sự quyến rũ) khác charming (mang tính từ).",
+  ],
+})
+
+LESSONS.push({
+  id: 8,
+  levelId: "foundation",
+  title: "Work and Studies",
+  titleVi: "Công Việc Và Học Tập",
+  objectives: { listen: "Nghe về deadline, áp lực, ưu tiên", speak: "Mô tả công việc/áp lực", vocabFocus: "Workload vocab" },
+  vocabulary: [
+    { word: "workload",    ipa: "/ˈwɜːk.ləʊd/",   vi: "khối lượng công việc", example: "My workload is heavy." },
+    { word: "deadline",    ipa: "/ˈded.laɪn/",    vi: "hạn chót",             example: "I have three deadlines this week." },
+    { word: "multitask",   ipa: "/ˌmʌl.tiˈtɑːsk/",vi: "làm nhiều việc cùng lúc", example: "I have to multitask at work." },
+    { word: "challenging", ipa: "/ˈtʃæl.ɪn.dʒɪŋ/",vi: "thách thức",          example: "It's a challenging project." },
+    { word: "rewarding",   ipa: "/rɪˈwɔː.dɪŋ/",   vi: "đáng giá",             example: "Teaching is rewarding." },
+    { word: "major in",    ipa: "",                vi: "học chuyên ngành",     example: "I major in marketing." },
+    { word: "internship",  ipa: "/ˈɪn.tɜːn.ʃɪp/", vi: "thực tập",             example: "I'm doing an internship." },
+    { word: "burnt out",   ipa: "",                vi: "kiệt sức",             example: "I feel almost burnt out." },
+    { word: "take a break",ipa: "",                vi: "nghỉ giải lao",         example: "Take a break every two hours." },
+    { word: "set priorities",ipa: "",              vi: "đặt thứ tự ưu tiên",   example: "Set priorities every morning." },
+  ],
+  script: "Mai: How was your day? You look exhausted.\nKhang: I am. I had three deadlines this week and I feel almost burnt out.\nMai: That's a lot. What's your job again?\nKhang: I'm a junior digital marketer. I run social media campaigns for two clients and write content for a third. The workload is heavy, but the work is rewarding.\nMai: How do you handle so many things?\nKhang: I set priorities every Monday morning. I list my tasks, mark the urgent ones, and break big projects into small steps.\nMai: I should do that for my studies. I'm in my final year, majoring in International Business, and I'm doing an internship at a logistics company.\nKhang: Burnout is real. Make sure you take a break every couple of hours. Even ten minutes of fresh air helps.\nMai: I will. Do you ever regret choosing marketing?\nKhang: Not really. There are stressful days, but I love seeing a campaign succeed and getting feedback from real customers.\nMai: Last week I helped solve a delivery problem and the client thanked me directly. That five-second moment made the long hours worth it.\nKhang: That's why we do it. Now let's go grab dinner. We deserve it.",
+  questions: [
+    { id: 1, type: "mcq",  question: "What is Khang's job?",                              options: ["accountant","teacher","marketer","engineer"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Mai is in her ____ year of university.",            options: ["first","second","third","final"], correct: 3 },
+    { id: 3, type: "fill", question: "Khang sets priorities every ____ morning.",           answer: "Monday" },
+    { id: 4, type: "fill", question: "Mai is doing an internship at a ____ company.",       answer: "logistics" },
+    { id: 5, type: "tfng", statement: "Khang regrets choosing marketing.",                  answer: "False" },
+    { id: 6, type: "tfng", statement: "Burnout is mentioned as a real issue.",              answer: "True" },
+    { id: 7, type: "tfng", statement: "The client thanked Mai over the phone.",             answer: "Not Given" },
+    { id: 8, type: "short",question: "How many deadlines did Khang have this week?",        answer: "three" },
+    { id: 9, type: "short",question: "What does Khang say even ten minutes of can help?",   answer: "fresh air" },
+    { id: 10,type: "short", question: "What do they decide to do at the end?",              answer: "grab dinner" },
+  ],
+  speakingPart1: [
+    { q: "Do you work or are you a student?",     bandLow: "I am a student.",                                bandMid: "I'm a final-year student majoring in International Business and currently doing an internship." },
+    { q: "What do you like about your job/studies?", bandLow: "I like marketing.",                            bandMid: "What I enjoy most is solving real problems for real clients." },
+    { q: "Is your workload heavy?",                 bandLow: "Yes.",                                          bandMid: "It's quite heavy, but I try to set priorities every Monday." },
+    { q: "How do you deal with stress?",             bandLow: "I sleep.",                                      bandMid: "When stress hits, I take short breaks for fresh air rather than push through." },
+    { q: "Do you prefer working in a team or alone?", bandLow: "Team.",                                        bandMid: "It depends on the task. For brainstorming I love teams; for deep work I prefer alone." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a time when you felt very busy.\n- when it happened\n- why you were busy\n- what you did to manage\n- and explain how you felt afterwards.",
+    sample: "I'd like to talk about my final exam season last December. I had four exams and a major project deadline within ten days. To handle it, I made a daily schedule, broke each subject into small revision blocks, and kept my phone in another room while studying. I also made sure to sleep at least seven hours a night. After it was over, I felt completely drained but also incredibly proud of myself. That experience taught me how powerful good time management is.",
+    keywords: ["packed schedule","time management","break into blocks","drained","proud"],
+  },
+  speakingPart3: [
+    { q: "Why are young people often stressed?",            hint: "expectations, social media, competition" },
+    { q: "Should companies offer mental health support?",   hint: "productivity, retention, wellbeing" },
+    { q: "Is multitasking always good?",                     hint: "focus, errors, attention residue" },
+    { q: "How can students balance study and life?",         hint: "schedule, hobbies, sleep" },
+  ],
+  shadowing: [
+    "I had three deadlines this week.",
+    "I feel almost burnt out.",
+    "I try to set priorities every Monday.",
+    "Burnout is real.",
+    "When the work gives back, all the stress feels temporary.",
+  ],
+  homework: [
+    "Viết 5 câu dùng workload, deadline, burnt out, set priorities, rewarding.",
+    "Ghi âm Part 1 câu 1, 3, 4.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "burnt out (Anh-Anh) = burned out (Anh-Mỹ).",
+    "break X into small steps = chia X thành các bước nhỏ.",
+    "the work gives back — câu nâng band rõ.",
+  ],
+})
+
+LESSONS.push({
+  id: 9,
+  levelId: "foundation",
+  title: "Friends",
+  titleVi: "Bạn Bè",
+  objectives: { listen: "Nghe miêu tả tình bạn", speak: "Nói về bạn thân", vocabFocus: "Friendship vocab" },
+  vocabulary: [
+    { word: "close friend",     ipa: "",            vi: "bạn thân",        example: "She is my close friend." },
+    { word: "lifelong friend",  ipa: "",            vi: "bạn cả đời",      example: "He is a lifelong friend." },
+    { word: "trustworthy",      ipa: "/ˈtrʌstˌwɜː.ði/", vi: "đáng tin",     example: "She is incredibly trustworthy." },
+    { word: "supportive",       ipa: "/səˈpɔː.tɪv/", vi: "hỗ trợ",         example: "My friends are supportive." },
+    { word: "catch up",         ipa: "",            vi: "gặp lại để cập nhật", example: "Let's catch up next week." },
+    { word: "have a lot in common", ipa: "",        vi: "có nhiều điểm chung", example: "We have a lot in common." },
+    { word: "peer",             ipa: "/pɪər/",      vi: "bạn cùng lứa",     example: "Peer pressure is real." },
+    { word: "fall out",         ipa: "",            vi: "cãi nhau",         example: "We fell out for a week." },
+    { word: "cheer up",         ipa: "",            vi: "làm vui lên",      example: "She always cheers me up." },
+    { word: "there for me",     ipa: "",            vi: "bên cạnh tôi",     example: "She's always there for me." },
+  ],
+  script: "Today I want to talk about my best friend, Trang. We've known each other since we were six years old. We grew up on the same street, went to the same schools, and even chose the same university. People often joke that we are like sisters, just without the same DNA. What makes Trang my best friend is that she's incredibly trustworthy. I can tell her anything and I know she'll never spread it. Whenever I'm sad, she somehow knows. She'll send me a song, drop by with milk tea, or just sit beside me and stay quiet. We have a lot in common — we both love bookstores, sad movies, and walking around West Lake at sunset. But we're also different. She's calm and patient; I'm loud and impulsive. We've had our share of tiny fights. Once we fell out for almost a week because of a misunderstanding about a group trip. But neither of us could keep being upset, and we always end up apologising over a bowl of pho. Now we live in different cities, so catching up takes more effort. Still, we video-call every Sunday night for at least an hour. When I have good news, she's the first person I want to tell. When I'm down, she always knows what to say to cheer me up. A real friendship is one that grows even when life gets busy.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How long have they been friends?", options: ["since 6 years old","since 10","since high school","since university"], correct: 0 },
+    { id: 2, type: "fill", question: "People say they are like ____.",   answer: "sisters" },
+    { id: 3, type: "fill", question: "When the speaker is sad, Trang sometimes sends a ____.", answer: "song" },
+    { id: 4, type: "tfng", statement: "They went to different universities.", answer: "False" },
+    { id: 5, type: "tfng", statement: "Trang is calm and patient.",            answer: "True" },
+    { id: 6, type: "tfng", statement: "They had a fight that lasted exactly a week.", answer: "False" },
+    { id: 7, type: "short",question: "How often do they video-call?",         answer: "every Sunday night" },
+    { id: 8, type: "short",question: "Where do they like to walk together?",   answer: "West Lake" },
+    { id: 9, type: "short",question: "What food do they often share when apologising?", answer: "pho" },
+    { id: 10,type: "short", question: "Who is the first person the speaker tells good news?", answer: "Trang" },
+  ],
+  speakingPart1: [
+    { q: "Do you have many close friends?",          bandLow: "I have one best friend.",                       bandMid: "I have a small group of close friends, maybe four or five." },
+    { q: "How often do you meet your friends?",       bandLow: "On weekend.",                                    bandMid: "We try to meet at least once a month, usually for brunch or coffee." },
+    { q: "What activities do you do together?",       bandLow: "We chat.",                                       bandMid: "We do all sorts of things — coffee chats, photography walks, and weekend hikes." },
+    { q: "What qualities do you look for in a friend?", bandLow: "Kind.",                                         bandMid: "Trustworthiness and the ability to be there during tough times." },
+    { q: "Have you kept friends from your childhood?", bandLow: "Yes.",                                            bandMid: "Yes, my best friend Trang and I have known each other since we were six." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe your best friend.\n- who this person is\n- how you became friends\n- what you usually do together\n- and explain why this friendship is special.",
+    sample: "My best friend is Trang. We've known each other since we were six because we grew up on the same street and went to the same schools. What makes our friendship special is that she's incredibly trustworthy and supportive. Whenever I'm sad, she somehow shows up — with milk tea or a song. We share a lot in common, like bookstores and sad movies, but we're also different in ways that balance each other out. Even though we now live in different cities, we video-call every Sunday and our bond keeps growing.",
+    keywords: ["lifelong friend","balance each other","unspoken understanding","there for me","grow over time"],
+  },
+  speakingPart3: [
+    { q: "Why do childhood friendships last longer?", hint: "shared memories, formative years, no competition" },
+    { q: "Are online friendships real friendships?",  hint: "long distance, sincerity, depth" },
+    { q: "Should families be more important than friends?", hint: "blood ties, emotional support, individual choice" },
+    { q: "Do men and women make friends differently?", hint: "communication style, activities, openness" },
+  ],
+  shadowing: [
+    "We've known each other since we were six.",
+    "She's incredibly trustworthy.",
+    "We have a lot in common.",
+    "She always knows what to say to cheer me up.",
+    "Real friendship is one that grows even when life gets busy.",
+  ],
+  homework: [
+    "Viết 5 câu dùng trustworthy, catch up, fall out, have a lot in common, cheer up.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "fall out (with) = cãi nhau, không phải rơi/ngã.",
+    "catch up (bạn bè) = gặp lại để cập nhật cuộc sống.",
+    "real friendship grows... — học thuộc, dùng được trong essay.",
+  ],
+})
+
+LESSONS.push({
+  id: 10,
+  levelId: "foundation",
+  title: "Travel and Holidays",
+  titleVi: "Du Lịch",
+  objectives: { listen: "Nghe lịch trình du lịch, ngân sách", speak: "Nói về chuyến đi đáng nhớ", vocabFocus: "Travel vocab" },
+  vocabulary: [
+    { word: "itinerary",        ipa: "/aɪˈtɪn.ər.ər.i/", vi: "lịch trình",     example: "Send me your itinerary." },
+    { word: "budget",           ipa: "/ˈbʌdʒ.ɪt/",      vi: "ngân sách / tiết kiệm", example: "I'm on a tight budget." },
+    { word: "backpacking",      ipa: "",                vi: "du lịch bụi",     example: "I love backpacking." },
+    { word: "souvenir",         ipa: "/ˌsuː.vəˈnɪər/",  vi: "quà lưu niệm",    example: "I bought a small souvenir." },
+    { word: "off the beaten track", ipa: "",            vi: "ít người biết",    example: "I prefer off the beaten track places." },
+    { word: "tourist trap",     ipa: "",                vi: "chỗ chặt chém",    example: "Avoid that tourist trap." },
+    { word: "accommodation",    ipa: "/əˌkɒm.əˈdeɪ.ʃən/", vi: "chỗ ở",          example: "Book accommodation early." },
+    { word: "book in advance",  ipa: "",                vi: "đặt trước",        example: "Book in advance to save." },
+    { word: "layover",          ipa: "/ˈleɪ.əʊ.vər/",   vi: "chờ chuyển chuyến", example: "I had a long layover." },
+    { word: "wanderlust",       ipa: "/ˈwɒn.də.lʌst/",  vi: "khao khát đi xa",  example: "Wanderlust runs in my family." },
+  ],
+  script: "Tom: I'm planning a short holiday and I really need your advice. Where should I go in Vietnam?\nMai: How long is your trip?\nTom: About six days. Budget travel.\nMai: Six days is perfect for central Vietnam. I'd suggest Hue, Hoi An, and Da Nang. They are close to each other.\nTom: Do you have a sample itinerary?\nMai: Day one and two: explore Hue. Day three: take a train to Da Nang. Spend the afternoon at My Khe Beach. Day four and five: Hoi An ancient town. Walk around the lantern streets, take a boat ride, and rent a bicycle to visit the rice fields. Day six: fly home from Da Nang.\nTom: What about accommodation?\nMai: Book in advance. Budget hostels in Hoi An are around five to ten dollars per night. For something more local, try a homestay in An Bang village.\nTom: Any tips to avoid tourist traps?\nMai: Stay away from places with menus only in English near big landmarks. The food is overpriced.\nTom: Where should I buy souvenirs?\nMai: Lanterns are iconic in Hoi An. Tailored shirts are also famous, but choose a reputable shop.\nTom: Do I need to book trains in advance?\nMai: Yes. Train tickets sell out fast, especially on weekends.\nTom: Thanks, Mai. You've just saved me hours of research.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How many days does Tom plan to travel?",       options: ["3","5","6","8"], correct: 2 },
+    { id: 2, type: "mcq",  question: "On day 3, Tom takes a ____ to Da Nang.",       options: ["plane","train","bus","taxi"], correct: 1 },
+    { id: 3, type: "fill", question: "Budget hostels in Hoi An cost around ____ to ____ dollars per night.", answer: "five, ten" },
+    { id: 4, type: "fill", question: "Iconic souvenir for Hoi An: ____.",            answer: "lanterns" },
+    { id: 5, type: "tfng", statement: "Tom is travelling on a budget.",               answer: "True" },
+    { id: 6, type: "tfng", statement: "Tailored shirts are not common in Hoi An.",    answer: "False" },
+    { id: 7, type: "tfng", statement: "The food near big landmarks is usually overpriced.", answer: "True" },
+    { id: 8, type: "short",question: "Where should Tom go for a homestay?",           answer: "An Bang village" },
+    { id: 9, type: "short",question: "When do train tickets sell out fastest?",        answer: "weekends" },
+    { id: 10,type: "short", question: "What should Tom do with train tickets?",       answer: "book in advance" },
+  ],
+  speakingPart1: [
+    { q: "Do you like travelling?",                            bandLow: "Yes I love.",                                              bandMid: "I absolutely love travelling, especially budget trips with friends." },
+    { q: "What kind of places do you prefer — cities or beaches?", bandLow: "Beaches.",                                              bandMid: "I generally enjoy small towns more than big cities; they feel more authentic." },
+    { q: "Do you travel alone or with others?",                  bandLow: "With family.",                                            bandMid: "It depends. I like solo trips for reflection, but group trips are great for memories." },
+    { q: "How often do you travel?",                              bandLow: "Once a year.",                                            bandMid: "Two or three times a year, usually short trips during long weekends." },
+    { q: "Do you take photos when you travel?",                   bandLow: "Yes.",                                                    bandMid: "Yes, photography is part of the experience for me — it forces me to slow down and notice details." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a memorable trip you have taken.\n- where you went and when\n- who you went with\n- what you did there\n- and explain why this trip was memorable.",
+    sample: "The trip I'd like to talk about is my first solo backpacking trip to Hoi An last summer. I spent four days exploring the ancient town with only a small backpack. During the day, I walked through the lantern-lit streets, took photos of old yellow walls, and rented a bicycle to ride through the rice fields. In the evenings, I joined cooking classes and met other backpackers from around the world. What made it memorable was the freedom — I could change my plan whenever I wanted. That trip taught me I could enjoy my own company.",
+    keywords: ["solo trip","lantern-lit streets","old yellow walls","cooking classes","enjoy my own company"],
+  },
+  speakingPart3: [
+    { q: "Has the way people travel changed in the last 20 years?", hint: "low-cost flights, social media, online booking" },
+    { q: "Why do some people prefer staycations to travelling abroad?", hint: "cost, simplicity, environment" },
+    { q: "Should travel destinations limit the number of tourists?",   hint: "overtourism, locals, environment" },
+    { q: "How does travelling change a person?",                       hint: "open-minded, resilient, cultural sense" },
+  ],
+  shadowing: [
+    "I'm planning a short holiday.",
+    "Six days is perfect for central Vietnam.",
+    "Book in advance.",
+    "Walk one or two streets further and you'll find better local food.",
+    "You've just saved me hours of research.",
+  ],
+  homework: [
+    "Viết 5 câu dùng itinerary, budget, book in advance, off the beaten track, tourist trap.",
+    "Ghi âm Part 1 câu 1, 2, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "book in advance — bắt buộc dùng in advance, không phải before.",
+    "off the beaten track = chỗ ít người biết.",
+    "budget vừa là danh từ vừa là tính từ: budget hotel.",
+  ],
+})
+
+LESSONS.push({
+  id: 11,
+  levelId: "foundation",
+  title: "Shopping",
+  titleVi: "Mua Sắm",
+  objectives: { listen: "Nghe miêu tả mua sắm online vs offline", speak: "Nói về món hàng mới mua", vocabFocus: "Shopping vocab" },
+  vocabulary: [
+    { word: "window shopping", ipa: "", vi: "đi xem không mua",  example: "Let's go window shopping." },
+    { word: "on sale",         ipa: "", vi: "đang giảm giá",     example: "This jacket is on sale." },
+    { word: "bargain",         ipa: "/ˈbɑː.ɡɪn/", vi: "món hời",  example: "What a bargain!" },
+    { word: "refund",          ipa: "/ˈriː.fʌnd/",vi: "hoàn tiền", example: "I got a full refund." },
+    { word: "exchange",        ipa: "/ɪksˈtʃeɪndʒ/", vi: "đổi",   example: "Can I exchange this size?" },
+    { word: "receipt",         ipa: "/rɪˈsiːt/", vi: "hoá đơn",   example: "Keep your receipt." },
+    { word: "impulse buy",     ipa: "", vi: "mua bốc đồng",       example: "That was an impulse buy." },
+    { word: "e-commerce",      ipa: "", vi: "thương mại điện tử", example: "E-commerce is huge in Vietnam." },
+    { word: "picky",           ipa: "/ˈpɪk.i/", vi: "kén",         example: "I'm a picky shopper." },
+    { word: "discount",        ipa: "/ˈdɪs.kaʊnt/", vi: "giảm giá", example: "I got a 30% discount." },
+  ],
+  script: "Hoa: Where did you get that jacket? It looks really nice.\nLinh: I bought it online last weekend. It was on sale, only 350 thousand dong.\nHoa: That's a real bargain.\nLinh: The trick is to read reviews carefully and pick shops with a return policy. I always check if I can get a refund or exchange.\nHoa: I prefer physical stores. I'm a picky shopper. I need to see the quality and try things on.\nLinh: Last month I went to AEON Mall and just walked around for hours. Pure window shopping.\nHoa: Do you save your receipts?\nLinh: Always. My friend bought a pair of headphones, didn't keep the receipt, and the shop refused to help.\nHoa: What about impulse buys?\nLinh: Last week I bought a candle just because the box was beautiful.\nHoa: Where do you usually shop online?\nLinh: Mostly Shopee and Lazada. Both have decent discounts during eleven-eleven and twelve-twelve sales.\nHoa: Maybe we can plan a small online shopping spree.\nLinh: Deal. Let's set a budget though, otherwise we'll regret it next month.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Linh's jacket was on sale for ____.", options: ["250k","300k","350k","500k"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Hoa prefers shopping ____.",          options: ["online","at malls","in physical stores","at markets"], correct: 2 },
+    { id: 3, type: "fill", question: "Linh always checks for ____.",        answer: "return policy" },
+    { id: 4, type: "fill", question: "The example impulse buy was a ____.", answer: "candle" },
+    { id: 5, type: "tfng", statement: "Linh bought clothes at AEON last month.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Hoa's friend kept the receipt for the headphones.", answer: "False" },
+    { id: 7, type: "tfng", statement: "Both Shopee and Lazada have eleven-eleven and twelve-twelve sales.", answer: "True" },
+    { id: 8, type: "short",question: "Why does Linh keep her receipts?",     answer: "to be able to return" },
+    { id: 9, type: "short",question: "What do they plan to do together?",     answer: "online shopping spree" },
+    { id: 10,type: "short",question: "What should they set first?",            answer: "a budget" },
+  ],
+  speakingPart1: [
+    { q: "Do you enjoy shopping?",                    bandLow: "Yes, I like shopping.",                          bandMid: "I do enjoy shopping, especially window shopping at malls." },
+    { q: "Do you prefer shopping online or in stores?", bandLow: "Online.",                                       bandMid: "I tend to shop online for clothes but go to stores for groceries." },
+    { q: "How often do you go shopping?",              bandLow: "Once a month.",                                  bandMid: "I shop online weekly but only visit physical stores once or twice a month." },
+    { q: "Do you usually plan before you shop?",       bandLow: "Yes.",                                            bandMid: "I always make a list and set a small budget to avoid impulse buys." },
+    { q: "Have you ever regretted a purchase?",        bandLow: "Yes.",                                            bandMid: "Definitely. Most regretted buys are impulse purchases at midnight on Shopee." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe something you bought recently that you really like.\n- what it was\n- where and when you bought it\n- why you bought it\n- and explain why you like it.",
+    sample: "The item I'd like to talk about is a black bomber jacket I bought online about two weeks ago. I found it on Shopee during a flash sale — only 350,000 dong. The reason I went for it was that I'd been looking for a versatile piece for autumn, and the reviews were full of high-quality photos. When it arrived, the fabric felt much better than I expected. I love it because it goes with almost everything in my wardrobe and the price was unbeatable.",
+    keywords: ["flash sale","versatile","unbeatable price","high-quality reviews","goes with everything"],
+  },
+  speakingPart3: [
+    { q: "Has online shopping changed people's habits?", hint: "convenience, impulse, returns" },
+    { q: "Why are sales so successful?",                  hint: "psychology, fear of missing out, social pressure" },
+    { q: "Should children be taught to manage money?",   hint: "saving, budgeting, financial literacy" },
+    { q: "Is fast fashion a problem?",                    hint: "environment, labour, throwaway culture" },
+  ],
+  shadowing: [
+    "It was on sale, only 350 thousand dong.",
+    "That's a real bargain.",
+    "I always check if I can get a refund or exchange.",
+    "I'm guilty of impulse buys.",
+    "Let's set a budget.",
+  ],
+  homework: [
+    "Viết 5 câu dùng bargain, refund, impulse buy, on sale, set a budget.",
+    "Ghi âm Part 1 câu 1, 2, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "bargain (n) = món hời, không phải thương lượng.",
+    "try X on (thử quần áo) khác try X out (dùng thử công nghệ).",
+    "impulse buy là cụm danh từ.",
+  ],
+})
+
+LESSONS.push({
+  id: 12,
+  levelId: "foundation",
+  title: "Health and Lifestyle",
+  titleVi: "Sức Khỏe Và Lối Sống",
+  objectives: { listen: "Nghe lời khuyên của bác sĩ", speak: "Nói về thói quen lành mạnh", vocabFocus: "Health vocab" },
+  vocabulary: [
+    { word: "work out",       ipa: "", vi: "tập thể dục",          example: "I work out three times a week." },
+    { word: "balanced diet",  ipa: "", vi: "ăn cân bằng",          example: "Try to keep a balanced diet." },
+    { word: "cut down on",    ipa: "", vi: "giảm",                  example: "Cut down on fast food." },
+    { word: "stay in shape",  ipa: "", vi: "giữ dáng",              example: "Walking helps me stay in shape." },
+    { word: "sleep schedule", ipa: "", vi: "lịch ngủ",              example: "Fix your sleep schedule." },
+    { word: "hydrated",       ipa: "/haɪˈdreɪ.tɪd/", vi: "đủ nước", example: "Stay hydrated all day." },
+    { word: "mental health",  ipa: "", vi: "sức khỏe tinh thần",   example: "Mental health matters." },
+    { word: "snack",          ipa: "/snæk/", vi: "đồ ăn vặt",       example: "I snack while studying." },
+    { word: "screen time",    ipa: "", vi: "thời gian màn hình",    example: "Reduce your screen time." },
+    { word: "pace yourself",  ipa: "", vi: "đi từ từ",              example: "Pace yourself on the run." },
+  ],
+  script: "Doctor: Mai, you've been feeling tired all the time. Tell me about your routine.\nMai: I go to bed at midnight and wake up at six thirty. I drink coffee in the morning and at noon.\nDoctor: Do you exercise?\nMai: I used to jog three times a week, but I stopped almost two months ago.\nDoctor: Start with twenty minutes of walking, three times a week. Pace yourself.\nMai: That sounds doable.\nDoctor: Watch your sleep schedule. Try to be in bed by eleven.\nMai: I'll try.\nDoctor: How is your diet?\nMai: I eat fast food about three times a week.\nDoctor: Cut down on fast food gradually. Add one vegetable to each meal, drink more water, stay hydrated.\nMai: What about coffee?\nDoctor: Two cups is fine, but stop after two pm. It interferes with sleep.\nMai: And screen time?\nDoctor: Put down your phone an hour before bed. Sleep, movement, and a calm mind — these three together are what we call a healthy lifestyle.",
+  questions: [
+    { id: 1, type: "mcq",  question: "What time does Mai go to bed?",         options: ["10pm","11pm","midnight","1am"], correct: 2 },
+    { id: 2, type: "mcq",  question: "How long has she stopped exercising?",  options: ["2 weeks","1 month","2 months","3 months"], correct: 2 },
+    { id: 3, type: "fill", question: "The doctor suggests starting with ____ minutes of walking.", answer: "twenty" },
+    { id: 4, type: "fill", question: "She should be in bed by ____.",          answer: "eleven" },
+    { id: 5, type: "tfng", statement: "The doctor says coffee is completely banned.", answer: "False" },
+    { id: 6, type: "tfng", statement: "The doctor says screen time affects mental health.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Mai eats enough vegetables.",            answer: "False" },
+    { id: 8, type: "short",question: "How many times a week is jogging suggested?", answer: "three" },
+    { id: 9, type: "short",question: "When should Mai stop drinking coffee daily?", answer: "after 2pm" },
+    { id: 10,type: "short", question: "What three things together make a healthy lifestyle?", answer: "sleep, movement, calm mind" },
+  ],
+  speakingPart1: [
+    { q: "Do you exercise regularly?",      bandLow: "I run sometimes.",                              bandMid: "I work out three to four times a week — a mix of jogging and home workouts." },
+    { q: "What do you eat to stay healthy?", bandLow: "I eat fruit.",                                  bandMid: "I aim for a balanced diet with vegetables in every meal." },
+    { q: "Do you sleep well?",                bandLow: "Yes.",                                          bandMid: "Most nights I get around seven hours, though I'm not always consistent." },
+    { q: "How important is mental health?",  bandLow: "Very important.",                                bandMid: "Mental health is just as important as physical health, if not more." },
+    { q: "Do you spend a lot of time on screens?", bandLow: "Yes.",                                     bandMid: "Probably too much. I'm trying to reduce my evening screen time." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a healthy habit you have or want to develop.\n- what the habit is\n- when and how you started\n- how often you do it\n- and explain how it affects your life.",
+    sample: "The habit I'm proudest of is my morning walk. I started it during the lockdown two years ago when gyms were closed. Now I walk for thirty minutes every morning around the lake. It clears my mind and gives me fresh air. Since I started, I sleep better and have more energy.",
+    keywords: ["morning walk","clears the mind","fresh air","energy boost","small commitment"],
+  },
+  speakingPart3: [
+    { q: "Why are healthy habits hard to maintain?",        hint: "motivation, habits, environment" },
+    { q: "Should schools teach health more seriously?",      hint: "obesity, lifestyle, mental health" },
+    { q: "Are people in your country fitter than before?",   hint: "gyms, awareness, urban lifestyle" },
+    { q: "How does technology affect health?",                hint: "screens, sleep, sedentary" },
+  ],
+  shadowing: [
+    "I usually go to bed around midnight.",
+    "Don't push too hard. Pace yourself.",
+    "A balanced diet is more important than a strict one.",
+    "It interferes with sleep.",
+    "Sleep, movement, and a calm mind.",
+  ],
+  homework: [
+    "Viết 5 câu dùng work out, balanced diet, cut down on, screen time, pace yourself.",
+    "Ghi âm Part 1 câu 1, 3, 4.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "work out = tập thể dục, khác figure out (hiểu).",
+    "interfere with sleep — formal, nâng band.",
+    "bare minimum không phải naked minimum.",
+  ],
+})
+
+LESSONS.push({
+  id: 13,
+  levelId: "foundation",
+  title: "Technology and Smartphones",
+  titleVi: "Công Nghệ Và Điện Thoại",
+  objectives: { listen: "Nghe về thói quen dùng điện thoại", speak: "Nói về thiết bị công nghệ", vocabFocus: "Tech vocab" },
+  vocabulary: [
+    { word: "addicted to",     ipa: "", vi: "nghiện",                example: "I'm addicted to my phone." },
+    { word: "notification",    ipa: "/ˌnəʊ.tɪ.fɪˈkeɪ.ʃən/", vi: "thông báo", example: "I turned off notifications." },
+    { word: "battery life",    ipa: "", vi: "thời lượng pin",        example: "Updates improve battery life." },
+    { word: "update",          ipa: "/ʌpˈdeɪt/", vi: "cập nhật",      example: "Update your phone." },
+    { word: "social media",    ipa: "", vi: "mạng xã hội",          example: "Social media is everywhere." },
+    { word: "screen-free time",ipa: "", vi: "thời gian không màn hình", example: "Set screen-free time daily." },
+    { word: "smartphone",      ipa: "/ˈsmɑːt.fəʊn/", vi: "điện thoại thông minh", example: "Smartphones changed life." },
+    { word: "app",             ipa: "/æp/", vi: "ứng dụng",          example: "Open the app." },
+    { word: "distraction",     ipa: "/dɪˈstræk.ʃən/", vi: "thứ gây mất tập trung", example: "Phones are a major distraction." },
+    { word: "dependent on",    ipa: "", vi: "phụ thuộc vào",        example: "We're dependent on phones." },
+  ],
+  script: "Khoa: I'm seriously trying to use my phone less.\nLinh: Are you addicted to it?\nKhoa: Yesterday my screen time was eight hours.\nLinh: What apps eat the most?\nKhoa: Social media — TikTok and Instagram. The notifications drag me back.\nLinh: Have you tried turning off notifications?\nKhoa: I just did last week. By the third day I was less anxious.\nLinh: I started screen-free time two months ago. One hour before bed and one hour after waking up.\nKhoa: How do you survive in the morning?\nLinh: I read on paper, write in a journal, or just look out the window.\nKhoa: I should try. I keep saying I'll do it but I never do.\nLinh: Charge it in the kitchen. Small change but it works.\nKhoa: What about updates?\nLinh: Updates fix bugs and improve battery life. Just don't update before a long flight.\nKhoa: Smartphones are useful, but I want to be the one in control.\nLinh: Exactly. The phone should serve us, not the other way around.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Khoa's screen time yesterday was ____.", options: ["4 hours","6 hours","8 hours","10 hours"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Which apps eat the most of his time?",   options: ["games","social media","messaging","news"], correct: 1 },
+    { id: 3, type: "fill", question: "Linh's screen-free time is one hour before ____ and one hour after ____.", answer: "bed, waking up" },
+    { id: 4, type: "fill", question: "Linh suggests charging the phone in the ____.", answer: "kitchen" },
+    { id: 5, type: "tfng", statement: "Khoa felt less anxious by the third day.", answer: "True" },
+    { id: 6, type: "tfng", statement: "Updates usually improve battery life.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Linh writes a journal in the morning.", answer: "True" },
+    { id: 8, type: "short",question: "Why doesn't Linh update before a long flight?", answer: "battery life" },
+    { id: 9, type: "short",question: "What does Khoa want to control?",         answer: "his phone use" },
+    { id: 10,type: "short", question: "What sentence summarises the lesson?",   answer: "phone should serve us" },
+  ],
+  speakingPart1: [
+    { q: "How many hours a day do you use your phone?", bandLow: "Many hours.",                                       bandMid: "Probably about six hours, mostly social media and study apps." },
+    { q: "What apps do you use most?",                   bandLow: "TikTok.",                                            bandMid: "Mostly social media — TikTok, Instagram — and a couple of study apps." },
+    { q: "Has your phone ever distracted you?",          bandLow: "Yes.",                                                bandMid: "Definitely. I've started turning off notifications to focus." },
+    { q: "Could you live without a phone?",               bandLow: "Hard.",                                              bandMid: "It would be challenging because so much of my work and family contact runs through it." },
+    { q: "Are smartphones good or bad?",                  bandLow: "Both.",                                              bandMid: "It depends entirely on how we use them — they can connect or distract." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a piece of technology you cannot live without.\n- what it is\n- how often you use it\n- what you use it for\n- and explain why it is so important to you.",
+    sample: "The piece of technology I rely on most is, unsurprisingly, my smartphone. I use it for almost everything — communication, work emails, photography, music, navigation, and even paying bills. Without it, my whole life would slow down. What makes it essential is its ability to connect me with the world in real time. I'm aware of the downside, though, so I've started building screen-free hours each day.",
+    keywords: ["essential","real-time connection","downside","screen-free hours","balance"],
+  },
+  speakingPart3: [
+    { q: "How has technology changed family life?", hint: "video calls, less face-to-face, screen at meals" },
+    { q: "Are children too dependent on devices?",  hint: "education, social skills, screen limits" },
+    { q: "Is technology making us less social?",     hint: "isolation, online groups, depth of interaction" },
+    { q: "What technology will be popular in ten years?", hint: "AI, VR/AR, smart home" },
+  ],
+  shadowing: [
+    "I think I'm addicted to it.",
+    "The notifications drag me back every time.",
+    "Charge it in the kitchen.",
+    "It's a small change, but it works.",
+    "The phone should serve us, not the other way around.",
+  ],
+  homework: [
+    "Viết 5 câu dùng addicted to, screen-free time, notification, distraction, dependent on.",
+    "Ghi âm Part 1 câu 1, 2, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "addicted to + N/V-ing.",
+    "not the other way around = không phải ngược lại.",
+    "screen-free time là cụm tự đặt nhưng tự nhiên.",
+  ],
+})
+
+LESSONS.push({
+  id: 14,
+  levelId: "foundation",
+  title: "Sports",
+  titleVi: "Thể Thao",
+  objectives: { listen: "Nghe miêu tả thói quen thể thao và chấn thương", speak: "Nói về môn thể thao yêu thích", vocabFocus: "Sports vocab" },
+  vocabulary: [
+    { word: "work up a sweat",  ipa: "", vi: "đổ mồ hôi",          example: "I work up a sweat at the gym." },
+    { word: "team sport",       ipa: "", vi: "môn đồng đội",       example: "Football is a team sport." },
+    { word: "individual sport", ipa: "", vi: "môn cá nhân",         example: "Swimming is an individual sport." },
+    { word: "fitness level",    ipa: "", vi: "mức thể lực",         example: "My fitness level has improved." },
+    { word: "cardio",           ipa: "/ˈkɑː.di.əʊ/", vi: "tim mạch", example: "I do cardio twice a week." },
+    { word: "injury",           ipa: "/ˈɪn.dʒər.i/", vi: "chấn thương", example: "I tweaked my ankle." },
+    { word: "warm up",          ipa: "", vi: "khởi động",           example: "Always warm up first." },
+    { word: "cool down",        ipa: "", vi: "giãn cơ",              example: "Cool down after running." },
+    { word: "rivalry",          ipa: "/ˈraɪ.vəl.ri/", vi: "sự cạnh tranh", example: "Football rivalry is intense." },
+    { word: "coach",            ipa: "/kəʊtʃ/", vi: "huấn luyện viên", example: "A good coach matters." },
+  ],
+  script: "Phong: Are you free this Sunday? My team needs one more player for football.\nHieu: I'd love to, but I tweaked my ankle last week.\nPhong: How did it happen?\nHieu: I forgot to warm up properly. After ten minutes I felt a sharp pain.\nPhong: Lesson learned. Always warm up.\nHieu: Do you only play football?\nPhong: Mostly. I also do cardio at the gym twice a week.\nHieu: I prefer individual sports. I do badminton and swimming because I can go at my own pace.\nPhong: Team sports give me energy because of the rivalry. When my team wins, the feeling is unbeatable.\nHieu: For me, sports are about clearing my head. When I swim, I forget about deadlines.\nPhong: We laugh, we shout, we cool down together with a beer.\nHieu: Our team has a young coach now. He pushes us hard but his training is structured. My fitness level has improved a lot in three months.\nPhong: A good coach makes a huge difference.\nHieu: I'll come on Sunday next week if my ankle is better.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Why can't Hieu play this Sunday?",      options: ["busy","injured","tired","away"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Phong does cardio ____ a week.",         options: ["once","twice","three times","every day"], correct: 1 },
+    { id: 3, type: "fill", question: "Hieu prefers ____ sports.",                answer: "individual" },
+    { id: 4, type: "fill", question: "Phong's team has a young ____.",            answer: "coach" },
+    { id: 5, type: "tfng", statement: "Hieu warmed up before exercising.",        answer: "False" },
+    { id: 6, type: "tfng", statement: "Football is the only sport Phong does.",    answer: "False" },
+    { id: 7, type: "tfng", statement: "Phong's fitness level has improved.",       answer: "True" },
+    { id: 8, type: "short",question: "For Hieu, what is the main benefit of sport?", answer: "clearing his head" },
+    { id: 9, type: "short",question: "What does the coach remind them to do?",      answer: "cool down" },
+    { id: 10,type: "short", question: "When does Hieu plan to join?",              answer: "next Sunday" },
+  ],
+  speakingPart1: [
+    { q: "Do you play any sports?",                              bandLow: "I play football.",                          bandMid: "I'm into football for fun and badminton for fitness." },
+    { q: "Do you prefer team sports or individual sports?",      bandLow: "Team.",                                     bandMid: "I prefer team sports because the social side keeps me motivated." },
+    { q: "How often do you exercise?",                            bandLow: "Twice a week.",                              bandMid: "I exercise three to four times a week, mixing cardio and team sports." },
+    { q: "Did you play sports as a child?",                       bandLow: "Yes.",                                       bandMid: "I played football and badminton constantly with friends after school." },
+    { q: "Are sports important in your country?",                 bandLow: "Yes very.",                                  bandMid: "Sports, especially football, are huge in Vietnam — both watching and playing." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a sport you enjoy or want to try.\n- what it is\n- when and how you play it\n- what skills it requires\n- and explain why you enjoy it.",
+    sample: "The sport I enjoy most is football. I've been playing since I was twelve, mostly with friends after work or on weekends. It requires teamwork, stamina, quick decision-making, and a bit of skill on the ball. What I love is the rush of energy when we score and the camaraderie afterwards.",
+    keywords: ["teamwork","stamina","camaraderie","cool down together","quick decision-making"],
+  },
+  speakingPart3: [
+    { q: "Why are some sports more popular than others?",  hint: "media coverage, accessibility, role models" },
+    { q: "Should governments invest more in sports?",        hint: "health, youth, infrastructure" },
+    { q: "Is winning the most important part of sport?",      hint: "values, learning, enjoyment" },
+    { q: "How do sports teach life skills?",                  hint: "discipline, teamwork, resilience" },
+  ],
+  shadowing: [
+    "I tweaked my ankle last week.",
+    "I forgot to warm up properly.",
+    "I prefer individual sports.",
+    "When I swim, I forget about deadlines for an hour.",
+    "A good coach makes a huge difference.",
+  ],
+  homework: [
+    "Viết 5 câu dùng warm up, cool down, injury, cardio, fitness level.",
+    "Ghi âm Part 1 câu 2, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "warm up (khởi động) khác warm-up (danh từ).",
+    "clear my head = làm đầu óc thoáng — câu rất tự nhiên.",
+    "different strokes là rút gọn của different strokes for different folks.",
+  ],
+})
+
+LESSONS.push({
+  id: 15,
+  levelId: "foundation",
+  title: "Music",
+  titleVi: "Âm Nhạc",
+  objectives: { listen: "Nghe miêu tả thị hiếu âm nhạc + concert", speak: "Nói về bài hát yêu thích", vocabFocus: "Music vocab" },
+  vocabulary: [
+    { word: "catchy",            ipa: "/ˈkætʃ.i/", vi: "dễ nhớ giai điệu", example: "The melody is catchy." },
+    { word: "lyrics",            ipa: "/ˈlɪr.ɪks/", vi: "lời bài hát",     example: "The lyrics are heartbreaking." },
+    { word: "genre",             ipa: "/ˈʒɒn.rə/", vi: "thể loại",         example: "What's your favourite genre?" },
+    { word: "tune",              ipa: "/tjuːn/", vi: "giai điệu",          example: "I love this tune." },
+    { word: "perform",           ipa: "/pəˈfɔːm/", vi: "biểu diễn",         example: "She performed live." },
+    { word: "concert",           ipa: "/ˈkɒn.sət/", vi: "đêm nhạc",         example: "I attended a concert." },
+    { word: "playlist",          ipa: "", vi: "danh sách bài",              example: "Open my comfort playlist." },
+    { word: "cover",             ipa: "", vi: "bản hát lại",               example: "I love indie covers." },
+    { word: "background music",  ipa: "", vi: "nhạc nền",                  example: "Lo-fi is my background music." },
+    { word: "mood booster",      ipa: "", vi: "làm tâm trạng tốt lên",      example: "Music is a mood booster." },
+  ],
+  script: "Linh: I just discovered the most addictive song last night.\nTom: What is it?\nLinh: A Vietnamese indie cover of Khong The Cung Nhau Suot Kiep. The melody is catchy and the lyrics are heartbreaking.\nTom: Indie music in Vietnam has grown so much.\nLinh: True. What's your favourite genre?\nTom: Mostly acoustic and lo-fi. I use lo-fi as background music while I work.\nLinh: I do the same when I study. Without lo-fi, my mind keeps jumping around.\nTom: Have you ever been to a live concert?\nLinh: Yes, twice. The first one was insane — twenty thousand people singing along together.\nTom: I'm planning to attend my first concert in Vietnam next month.\nLinh: Take cash, charge your power bank, and stay close to the exits.\nTom: Good tips.\nLinh: Music is genuinely my mood booster. Whenever I feel low, I open my comfort playlist and feel better in five minutes.\nTom: Music is honestly underrated in mental health discussions.\nLinh: Do you sing?\nTom: I'm terrible. But in karaoke with friends, I become a superstar — at least in my own head.\nLinh: Let's go to karaoke this weekend then.\nTom: Deal. As long as we both pretend we sound great.",
+  questions: [
+    { id: 1, type: "mcq",  question: "What kind of song did Linh discover?",   options: ["pop","indie cover","rap","ballad"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Tom uses lo-fi as ____ music.",          options: ["dance","background","classical","study"], correct: 1 },
+    { id: 3, type: "fill", question: "The first concert had about ____ people.", answer: "twenty thousand" },
+    { id: 4, type: "fill", question: "Linh's playlist is called her ____ playlist.", answer: "comfort" },
+    { id: 5, type: "tfng", statement: "Tom has been to many concerts in Vietnam.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Tom plans to attend a music festival next month.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Linh thinks music is good for mental health.", answer: "True" },
+    { id: 8, type: "short",question: "What three things does Linh advise Tom to bring?", answer: "cash, power bank, exits" },
+    { id: 9, type: "short",question: "What do they plan to do this weekend?",   answer: "go to karaoke" },
+    { id: 10,type: "short", question: "Where does Tom feel like a superstar?",   answer: "in his own head" },
+  ],
+  speakingPart1: [
+    { q: "What kind of music do you listen to?",         bandLow: "Pop music.",                                   bandMid: "I listen to indie ballads when relaxing and lo-fi while working." },
+    { q: "When do you usually listen to music?",          bandLow: "On phone.",                                    bandMid: "Mostly during commutes and when I'm working from home." },
+    { q: "Do you go to concerts?",                         bandLow: "Yes.",                                          bandMid: "I've been to a couple of concerts; the energy is something else." },
+    { q: "Can you play any musical instrument?",           bandLow: "No.",                                           bandMid: "I picked up the guitar two years ago, though I'm still very much a beginner." },
+    { q: "Has your taste in music changed?",                bandLow: "Yes.",                                           bandMid: "Quite a lot — I used to love loud pop, but now I prefer slower indie songs." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a song or piece of music that means a lot to you.\n- what the song is\n- when you first heard it\n- how often you listen to it\n- and explain why it means a lot to you.",
+    sample: "The song that means the most to me is an indie cover of Khong The Cung Nhau Suot Kiep. I first heard it during a long bus ride home after a tough exam season. The melody is gentle, but the lyrics talk about the bittersweet feeling of growing up. Every time I listen to it, I'm taken back to that moment of exhaustion and quiet hope.",
+    keywords: ["indie cover","bittersweet lyrics","go-to comfort song","emotionally drained","nostalgic"],
+  },
+  speakingPart3: [
+    { q: "Why do people listen to sad songs when they're sad?", hint: "validation, catharsis, empathy" },
+    { q: "Has streaming changed the music industry?",            hint: "spotify, indie artists, royalties" },
+    { q: "Should children learn a musical instrument?",           hint: "creativity, discipline, brain development" },
+    { q: "Is live music important in modern life?",               hint: "real connection, community, festivals" },
+  ],
+  shadowing: [
+    "The melody is so catchy.",
+    "Lo-fi keeps me focused.",
+    "I almost cried at the concert.",
+    "Music is my mood booster.",
+    "As long as we both pretend we sound great.",
+  ],
+  homework: [
+    "Viết 5 câu dùng catchy, genre, lyrics, mood booster, playlist.",
+    "Ghi âm Part 1 câu 1, 2, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "as long as = miễn là (điều kiện).",
+    "underrated = bị đánh giá thấp — band cao dùng được.",
+    "comfort playlist / comfort song — cụm tự đặt nhưng tự nhiên.",
+  ],
+})
+
+LESSONS.push({
+  id: 16,
+  levelId: "foundation",
+  title: "Education",
+  titleVi: "Giáo Dục",
+  objectives: { listen: "Nghe so sánh hệ thống giáo dục", speak: "Nói về môn học yêu thích", vocabFocus: "Education vocab" },
+  vocabulary: [
+    { word: "subject",          ipa: "/ˈsʌb.dʒɪkt/", vi: "môn học",        example: "My favourite subject is history." },
+    { word: "tuition fee",      ipa: "", vi: "học phí",                    example: "Tuition fees are increasing." },
+    { word: "scholarship",      ipa: "/ˈskɒl.ə.ʃɪp/", vi: "học bổng",      example: "She won a scholarship." },
+    { word: "lifelong learning",ipa: "", vi: "học suốt đời",               example: "Lifelong learning is essential." },
+    { word: "by heart",         ipa: "", vi: "học thuộc lòng",             example: "I learned the poem by heart." },
+    { word: "creativity",       ipa: "/ˌkriː.eɪˈtɪv.ə.ti/", vi: "sự sáng tạo", example: "Schools should encourage creativity." },
+    { word: "exam pressure",    ipa: "", vi: "áp lực thi cử",              example: "Exam pressure is real." },
+    { word: "homeschool",       ipa: "", vi: "học tại nhà",                 example: "Some kids are homeschooled." },
+    { word: "extracurricular",  ipa: "/ˌek.strə.kəˈrɪk.jə.lər/", vi: "ngoại khóa", example: "Sports are extracurricular." },
+    { word: "qualification",    ipa: "", vi: "bằng cấp",                   example: "Qualifications matter for jobs." },
+  ],
+  script: "Mark: How was your high school experience in Vietnam?\nThao: Honestly, intense. We had classes from seven am to five pm, then extra tutoring at night.\nMark: Wow. In the UK we usually finish at three thirty.\nThao: Lucky you. Vietnamese students focus a lot on memorising — we even learn many things by heart for exams.\nMark: That's a tough way to learn. Did you have time for sports or arts?\nThao: Some, but not enough. Extracurricular activities are improving though. My younger brother now joins a coding club after school.\nMark: That's encouraging.\nThao: Did you have to pay tuition fees?\nMark: Public school was free. University, however, was around nine thousand pounds a year.\nThao: That's expensive. In Vietnam, public university is more affordable, around ten to twenty million dong per year. But private schools can cost a fortune.\nMark: How important are scholarships?\nThao: Very. They are the main path for talented students from less wealthy families. I had a partial scholarship in university and it changed my life.\nMark: Education really opens doors.\nThao: It does. But I think the future is lifelong learning — courses, certificates, online classes — not just one degree.\nMark: Couldn't agree more. With AI changing everything, qualifications need to evolve.",
+  questions: [
+    { id: 1, type: "mcq",  question: "What time do Vietnamese students usually finish school?", options: ["3:30","4:00","5:00","6:00"], correct: 2 },
+    { id: 2, type: "mcq",  question: "How much was Mark's university tuition?",                  options: ["3,000","6,000","9,000","12,000"], correct: 2 },
+    { id: 3, type: "fill", question: "Thao's brother joins a ____ club after school.",            answer: "coding" },
+    { id: 4, type: "fill", question: "Vietnamese public universities cost ____ to ____ million dong.", answer: "ten, twenty" },
+    { id: 5, type: "tfng", statement: "Mark thinks memorising is the best way to learn.",          answer: "False" },
+    { id: 6, type: "tfng", statement: "Thao had a full scholarship in university.",                answer: "False" },
+    { id: 7, type: "tfng", statement: "They both think lifelong learning is important.",            answer: "True" },
+    { id: 8, type: "short",question: "What did Thao do for exams?",                                answer: "memorising / by heart" },
+    { id: 9, type: "short",question: "Why are scholarships important?",                            answer: "for talented students from less wealthy families" },
+    { id: 10,type: "short", question: "What changes the way qualifications work?",                  answer: "AI" },
+  ],
+  speakingPart1: [
+    { q: "What was your favourite subject at school?", bandLow: "I like English.",                              bandMid: "My favourite was history because it explained why the world is the way it is." },
+    { q: "Did you enjoy school?",                       bandLow: "Yes.",                                          bandMid: "Mostly yes, although I disliked the heavy exam pressure." },
+    { q: "Are exams a fair way to assess students?",     bandLow: "Sometimes.",                                    bandMid: "Not entirely; they only measure one type of intelligence." },
+    { q: "Do students in your country have a lot of pressure?", bandLow: "Yes a lot.",                              bandMid: "Definitely. Family, peers and society all add to the pressure." },
+    { q: "Would you study abroad if you had the chance?", bandLow: "Yes.",                                           bandMid: "Absolutely, mainly to experience different teaching methods and cultures." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a teacher who has influenced you.\n- who this person is\n- what they taught\n- when you met them\n- and explain why they are special.",
+    sample: "The teacher who influenced me most is Mrs Hoa, my literature teacher in grade ten. She didn't make us memorise; instead, she asked questions that pushed us to think and feel. I still remember the day she made the whole class write a letter to a future version of ourselves. Five years later, I read mine and almost cried. She taught me that education is not about answers, but about meaningful questions.",
+    keywords: ["meaningful questions","push us to think","empathetic","life-long impact","creative method"],
+  },
+  speakingPart3: [
+    { q: "Should schools focus more on creativity than exams?", hint: "innovation, soft skills, real life" },
+    { q: "Why is private tutoring popular?",                     hint: "competition, exam pressure, parents" },
+    { q: "Does your country need education reform?",              hint: "outdated curriculum, screen-heavy, mental health" },
+    { q: "Will online learning replace traditional classrooms?",  hint: "flexibility, social interaction, hybrid model" },
+  ],
+  shadowing: [
+    "Vietnamese students focus a lot on memorising.",
+    "Public school was free.",
+    "Education really opens doors.",
+    "Scholarships are the main path for talented students.",
+    "The future is lifelong learning.",
+  ],
+  homework: [
+    "Viết 5 câu dùng tuition fee, scholarship, by heart, lifelong learning, exam pressure.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "by heart = học thuộc lòng — không phải bằng tim.",
+    "open doors = mở ra cơ hội (idiom).",
+    "qualifications need to evolve — câu band 6.5+.",
+  ],
+})
+
+LESSONS.push({
+  id: 17,
+  levelId: "foundation",
+  title: "City vs Countryside",
+  titleVi: "Thành Phố Và Vùng Quê",
+  objectives: { listen: "Nghe so sánh thành phố và nông thôn", speak: "So sánh nơi sống lý tưởng", vocabFocus: "Place vocab" },
+  vocabulary: [
+    { word: "rush hour",       ipa: "", vi: "giờ cao điểm",         example: "Rush hour starts at 5pm." },
+    { word: "fresh air",       ipa: "", vi: "không khí trong lành", example: "I love the fresh air here." },
+    { word: "fast-paced",      ipa: "", vi: "nhịp sống nhanh",       example: "City life is fast-paced." },
+    { word: "laid-back",       ipa: "/leɪdˈbæk/", vi: "thư giãn",   example: "Da Lat has a laid-back vibe." },
+    { word: "skyscraper",      ipa: "/ˈskaɪˌskreɪ.pər/", vi: "toà cao tầng", example: "Skyscrapers fill the city." },
+    { word: "open space",      ipa: "", vi: "không gian rộng",       example: "Countryside has open spaces." },
+    { word: "convenient",      ipa: "/kənˈviː.ni.ənt/", vi: "tiện",   example: "Cities are very convenient." },
+    { word: "tight-knit",      ipa: "", vi: "gắn bó chặt",            example: "A tight-knit village community." },
+    { word: "cost of living",  ipa: "", vi: "chi phí sinh hoạt",     example: "Cost of living is rising." },
+    { word: "commute time",    ipa: "", vi: "thời gian đi lại",       example: "Long commute time is exhausting." },
+  ],
+  script: "Hieu: My uncle just retired and moved from Hanoi to a small village in Hoa Binh.\nLan: That's a big change. Does he like it?\nHieu: He loves it. He says he sleeps better, breathes fresher air, and eats fresher food.\nLan: I can imagine. Hanoi is so fast-paced. Rush hour alone takes two hours of my day.\nHieu: Yeah, the commute time is brutal. But everything is convenient — supermarkets, hospitals, food delivery in twenty minutes.\nLan: Convenience comes with a cost. The cost of living in Hanoi keeps going up. Rent, food, parking — everything.\nHieu: True. In the countryside, my uncle pays almost nothing for rent. Many neighbours give him vegetables for free.\nLan: That's a tight-knit community. In the city, I sometimes don't even know my next-door neighbour.\nHieu: Honestly, that's the saddest part of city life.\nLan: But cities have benefits — better schools, more jobs, more events. My career simply can't grow in a small village.\nHieu: I get that. Maybe the dream is the city for work, the countryside for retirement.\nLan: Or maybe a town in between — fresh air, open spaces, but still close to amenities.\nHieu: Like Da Lat. Laid-back, beautiful, growing fast.\nLan: Exactly. I'd consider moving there in five years.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Where did Hieu's uncle move to?",      options: ["Saigon","Hoa Binh","Da Lat","Da Nang"], correct: 1 },
+    { id: 2, type: "mcq",  question: "How long does Lan's rush hour take?",   options: ["1 hour","2 hours","3 hours","4 hours"], correct: 1 },
+    { id: 3, type: "fill", question: "In countryside, the uncle pays almost ____ for rent.", answer: "nothing" },
+    { id: 4, type: "fill", question: "Lan considers moving to ____ in five years.", answer: "Da Lat" },
+    { id: 5, type: "tfng", statement: "Hieu's uncle dislikes village life.",   answer: "False" },
+    { id: 6, type: "tfng", statement: "Lan knows her next-door neighbour well.", answer: "False" },
+    { id: 7, type: "tfng", statement: "Da Lat is described as fast-paced.",    answer: "False" },
+    { id: 8, type: "short",question: "What three things rise in cost in Hanoi?", answer: "rent, food, parking" },
+    { id: 9, type: "short",question: "What does the countryside offer in food?", answer: "free vegetables" },
+    { id: 10,type: "short", question: "What is Lan's dream balance?",            answer: "city for work, countryside for retirement" },
+  ],
+  speakingPart1: [
+    { q: "Do you live in a city or the countryside?", bandLow: "City.",                                          bandMid: "I live in central Hanoi, in a fairly busy district." },
+    { q: "What do you like about your area?",          bandLow: "Many shops.",                                     bandMid: "It's really convenient — shops, cafés and metro stations are all walkable." },
+    { q: "What don't you like?",                        bandLow: "Traffic.",                                        bandMid: "The traffic during rush hour and the rising cost of living." },
+    { q: "Would you like to live in the countryside?",  bandLow: "Maybe.",                                          bandMid: "Possibly when I retire — I'd love the fresh air and slower pace." },
+    { q: "Has your area changed in recent years?",       bandLow: "Yes.",                                            bandMid: "It has changed dramatically — more skyscrapers but also more traffic." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a place where you feel most relaxed.\n- where it is\n- when you usually go there\n- what you do there\n- and explain why it makes you relaxed.",
+    sample: "The place I feel most relaxed is my grandmother's small house in Hoa Binh. I usually go there during long weekends. I read books on the porch, help my grandmother in the garden, and listen to crickets at night. The air is incredibly fresh, and the silence is something Hanoi can never offer. After even two days there, I feel completely recharged and ready to face the city again.",
+    keywords: ["fresh air","slow pace","tight-knit community","disconnect","recharge"],
+  },
+  speakingPart3: [
+    { q: "Why are people moving to cities?",            hint: "jobs, education, healthcare" },
+    { q: "Are big cities becoming overcrowded?",        hint: "infrastructure, pollution, housing" },
+    { q: "Should governments support rural development?", hint: "agriculture, internet, balance" },
+    { q: "How can cities be more livable?",              hint: "green spaces, public transport, planning" },
+  ],
+  shadowing: [
+    "He sleeps better and breathes fresher air.",
+    "Rush hour alone takes two hours.",
+    "Convenience comes with a cost.",
+    "I sometimes don't even know my next-door neighbour.",
+    "Maybe a town in between.",
+  ],
+  homework: [
+    "Viết 5 câu dùng rush hour, fresh air, fast-paced, laid-back, cost of living.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "fast-paced khác high-speed (vận tốc).",
+    "tight-knit dùng cho cộng đồng / gia đình.",
+    "city for work, countryside for retirement — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 18,
+  levelId: "foundation",
+  title: "Money and Saving",
+  titleVi: "Tiền Bạc Và Tiết Kiệm",
+  objectives: { listen: "Nghe lời khuyên tiết kiệm và quản lý tiền", speak: "Nói về thói quen tài chính", vocabFocus: "Money vocab" },
+  vocabulary: [
+    { word: "save up",         ipa: "", vi: "tiết kiệm dần",       example: "I save up for a laptop." },
+    { word: "spend money on",  ipa: "", vi: "tiêu tiền vào",       example: "I spend money on books." },
+    { word: "broke",           ipa: "/brəʊk/", vi: "hết tiền",      example: "I'm broke this week." },
+    { word: "salary",          ipa: "/ˈsæl.ə.ri/", vi: "lương",      example: "She earns a good salary." },
+    { word: "expenses",        ipa: "/ɪkˈspens.ɪz/", vi: "chi phí",  example: "Track your expenses." },
+    { word: "budget",          ipa: "/ˈbʌdʒ.ɪt/", vi: "ngân sách",  example: "Stick to your budget." },
+    { word: "investment",      ipa: "/ɪnˈvest.mənt/", vi: "đầu tư",   example: "Education is an investment." },
+    { word: "credit card",     ipa: "", vi: "thẻ tín dụng",          example: "I rarely use a credit card." },
+    { word: "afford",          ipa: "/əˈfɔːd/", vi: "đủ tiền cho",   example: "I can't afford that." },
+    { word: "rainy day fund",  ipa: "", vi: "quỹ phòng thân",        example: "Keep a rainy day fund." },
+  ],
+  script: "Mai: I just got my first salary. Any advice?\nKhang: Congratulations. First, divide it into three: needs, wants, and savings.\nMai: Like the 50-30-20 rule?\nKhang: Yeah. 50 percent for rent, food and transport. 30 percent for fun. 20 percent for savings.\nMai: Sounds doable. I tend to spend on clothes a lot.\nKhang: Set a fixed limit each month. Track all your expenses with an app.\nMai: What about a credit card?\nKhang: Use it carefully. Pay the full amount every month. Otherwise the interest is brutal.\nMai: Got it. And savings?\nKhang: Build a rainy day fund first — at least three months of expenses. Then start small investments.\nMai: I'm scared of investing. I might lose money.\nKhang: Start with index funds. They're not exciting, but they grow steadily over years.\nMai: How long did it take you to save your first big amount?\nKhang: About two years. Honestly, the trick is consistency, not big income.\nMai: Inspiring. I always thought you needed a high salary to save.\nKhang: Many people with high salaries are still broke at the end of the month. Habit beats income.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Khang's rule splits salary into ____ parts.",   options: ["2","3","4","5"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Savings should be at least ____ percent.",       options: ["10","20","30","50"], correct: 1 },
+    { id: 3, type: "fill", question: "A rainy day fund covers at least ____ months.",  answer: "three" },
+    { id: 4, type: "fill", question: "Khang took about ____ years to save his first big amount.", answer: "two" },
+    { id: 5, type: "tfng", statement: "Khang says credit cards are dangerous if not used carefully.", answer: "True" },
+    { id: 6, type: "tfng", statement: "Khang recommends starting with risky stocks.",  answer: "False" },
+    { id: 7, type: "tfng", statement: "Many high-salary people are still broke.",      answer: "True" },
+    { id: 8, type: "short",question: "What does Mai spend a lot on?",                  answer: "clothes" },
+    { id: 9, type: "short",question: "What kind of fund covers grows steadily?",        answer: "index funds" },
+    { id: 10,type: "short", question: "What does Khang say beats income?",              answer: "habit" },
+  ],
+  speakingPart1: [
+    { q: "Do you save money regularly?",         bandLow: "Yes.",                                          bandMid: "I try to save at least 20 percent of my income each month." },
+    { q: "Do you prefer cash or card?",            bandLow: "Card.",                                          bandMid: "I prefer cards for convenience but carry cash for street food." },
+    { q: "What do you spend most of your money on?", bandLow: "Food.",                                         bandMid: "Mostly rent, food, and a small budget for hobbies like photography." },
+    { q: "Have you ever lent money to a friend?",   bandLow: "Yes.",                                           bandMid: "Yes, but only small amounts and only to people I trust." },
+    { q: "Do you think you are good with money?",   bandLow: "Not really.",                                    bandMid: "I'd say I'm getting better — I started tracking expenses recently." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a time when you saved money for something important.\n- what you saved for\n- how long it took\n- how you saved\n- and explain how you felt afterwards.",
+    sample: "I saved for almost a year to buy my first laptop for university. I worked part-time at a café, cut down on coffee shops, and tracked every expense in an app. The day I finally paid for the laptop in cash, I felt enormous pride — much more than if I had bought it on credit. That experience taught me the power of consistency over income.",
+    keywords: ["consistency","track expenses","cut down","feel proud","financial discipline"],
+  },
+  speakingPart3: [
+    { q: "Should children learn about money in school?", hint: "financial literacy, early habits, future" },
+    { q: "Why do many people overspend?",                  hint: "advertising, social pressure, instant gratification" },
+    { q: "Are credit cards good or bad?",                  hint: "convenience, debt, discipline" },
+    { q: "How does saving help in retirement?",             hint: "compound interest, security, freedom" },
+  ],
+  shadowing: [
+    "Divide it into three: needs, wants, and savings.",
+    "Track all your expenses with an app.",
+    "Build a rainy day fund first.",
+    "The trick is consistency, not big income.",
+    "Habit beats income.",
+  ],
+  homework: [
+    "Viết 5 câu dùng save up, expenses, budget, afford, rainy day fund.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "broke (tính từ) = hết tiền tạm thời, khác poor (nghèo).",
+    "rainy day fund là idiom — học vào.",
+    "Habit beats income — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 19,
+  levelId: "foundation",
+  title: "Pets and Animals",
+  titleVi: "Thú Cưng Và Động Vật",
+  objectives: { listen: "Nghe miêu tả thú cưng và lý do nuôi", speak: "Nói về thú cưng yêu thích", vocabFocus: "Pet vocab" },
+  vocabulary: [
+    { word: "loyal",          ipa: "/ˈlɔɪ.əl/", vi: "trung thành", example: "Dogs are loyal companions." },
+    { word: "companion",      ipa: "/kəmˈpæn.jən/", vi: "bạn đồng hành", example: "My cat is a great companion." },
+    { word: "rescue (v/n)",   ipa: "", vi: "cứu / nuôi cứu hộ",   example: "We rescued a kitten." },
+    { word: "groom",          ipa: "/ɡruːm/", vi: "chải lông",     example: "Groom the dog weekly." },
+    { word: "vet",            ipa: "/vet/", vi: "bác sĩ thú y",    example: "Take it to the vet." },
+    { word: "leash",          ipa: "/liːʃ/", vi: "dây xích",       example: "Walk the dog on a leash." },
+    { word: "shed (fur)",     ipa: "", vi: "rụng lông",            example: "Cats shed a lot in summer." },
+    { word: "well-behaved",   ipa: "", vi: "ngoan",                  example: "He is well-behaved." },
+    { word: "stray (animal)", ipa: "", vi: "động vật hoang",         example: "We adopted a stray cat." },
+    { word: "vaccinate",      ipa: "/ˈvæk.sɪ.neɪt/", vi: "tiêm phòng", example: "Vaccinate your pet on time." },
+  ],
+  script: "Linh: I never thought I'd be a cat person, but here I am.\nKhoa: When did you adopt one?\nLinh: Last March. We rescued a stray kitten near our office. She was tiny, hungry, and limping. We took her to the vet, vaccinated her, and named her Mochi.\nKhoa: That's a lovely story.\nLinh: She has changed my routine. I wake up earlier because she pats my face. I groom her twice a week and trim her nails monthly. It's a big commitment.\nKhoa: I imagine. I've thought about getting a dog, but my apartment is small.\nLinh: Dogs need walks twice a day, leash training, and more space. They are loyal but high maintenance.\nKhoa: What about cats? Do they really sleep all the time?\nLinh: Around sixteen hours, yes. But the four hours they're awake make up for it. Mochi cuddles with me when I work.\nKhoa: Does she shed much?\nLinh: Quite a lot, especially in summer. I bought a robot vacuum within a month.\nKhoa: That's another expense.\nLinh: Pets cost money — food, litter, vet, toys. But honestly, the companionship is priceless. After a hard day, hearing her purr resets my mind.\nKhoa: That sells it. Maybe I'll consider a low-shedding breed someday.\nLinh: If you do, please consider adopting from a shelter first.",
+  questions: [
+    { id: 1, type: "mcq",  question: "When did Linh adopt Mochi?",        options: ["last January","last March","last May","last August"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Cats sleep about ____ hours a day.", options: ["10","12","14","16"], correct: 3 },
+    { id: 3, type: "fill", question: "Linh trims Mochi's nails ____.",      answer: "monthly" },
+    { id: 4, type: "fill", question: "Linh bought a ____ ____ within a month.", answer: "robot vacuum" },
+    { id: 5, type: "tfng", statement: "Mochi was found near a market.",     answer: "False" },
+    { id: 6, type: "tfng", statement: "Khoa's apartment is large enough for a big dog.", answer: "False" },
+    { id: 7, type: "tfng", statement: "Linh recommends adopting from a shelter first.", answer: "True" },
+    { id: 8, type: "short",question: "How often does Linh groom Mochi?",     answer: "twice a week" },
+    { id: 9, type: "short",question: "Why does Linh wake up earlier now?",    answer: "Mochi pats her face" },
+    { id: 10,type: "short", question: "What helps Linh after a hard day?",   answer: "hearing her cat purr" },
+  ],
+  speakingPart1: [
+    { q: "Do you have a pet?",                            bandLow: "Yes a cat.",                                       bandMid: "I have a rescue cat named Mochi who completely changed my morning routine." },
+    { q: "What pets are popular in your country?",         bandLow: "Dogs and cats.",                                   bandMid: "Dogs and cats are by far the most popular, with rabbits and fish gaining ground." },
+    { q: "Did you have pets as a child?",                  bandLow: "No.",                                              bandMid: "Not really, my parents were not keen on pets, but I always wanted a dog." },
+    { q: "Are pets good for children?",                     bandLow: "Yes.",                                              bandMid: "I think so — they teach responsibility and empathy from a young age." },
+    { q: "Do you think cities are good places for pets?",   bandLow: "Not always.",                                       bandMid: "It depends on the species; cats fit small flats better than active dogs." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a pet you like (yours or someone else's).\n- what kind of pet it is\n- where you met it\n- what it is like\n- and explain why you like it.",
+    sample: "The pet I love most is my cat Mochi. We rescued her near our office last March. She was tiny, hungry, and limping. After several vet visits, she's now a very playful cat with a soft cream-coloured coat. She purrs whenever I work, follows me around the apartment, and even tries to read books with me. The reason I love her is that she taught me patience and unconditional care.",
+    keywords: ["rescue cat","cream-coloured coat","unconditional care","companion","priceless"],
+  },
+  speakingPart3: [
+    { q: "Should people keep wild animals as pets?",      hint: "ethics, safety, conservation" },
+    { q: "How do pets affect mental health?",              hint: "loneliness, routine, stress reduction" },
+    { q: "Should city planning consider pets?",            hint: "parks, vet access, noise rules" },
+    { q: "Do animals have feelings like humans?",           hint: "research, empathy, bonding" },
+  ],
+  shadowing: [
+    "We rescued a stray kitten.",
+    "We took her to the vet, vaccinated her, and named her Mochi.",
+    "Cats sleep around sixteen hours a day.",
+    "After a hard day, hearing her purr resets my mind.",
+    "Please consider adopting from a shelter first.",
+  ],
+  homework: [
+    "Viết 5 câu dùng companion, rescue, groom, vet, leash.",
+    "Ghi âm Part 1 câu 1, 3, 4.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "loyal vs faithful — gần nghĩa, faithful trang trọng hơn.",
+    "stray (động vật hoang) khác strange (lạ).",
+    "purr là âm thanh của mèo khi vui — tự nhiên, tăng band.",
+  ],
+})
+
+LESSONS.push({
+  id: 20,
+  levelId: "foundation",
+  title: "A Memorable Day",
+  titleVi: "Ngày Đáng Nhớ",
+  objectives: { listen: "Nghe kể về một ngày đáng nhớ", speak: "Kể câu chuyện cá nhân ngắn", vocabFocus: "Storytelling vocab" },
+  vocabulary: [
+    { word: "out of the blue",  ipa: "", vi: "bất ngờ",            example: "She called me out of the blue." },
+    { word: "burst into tears", ipa: "", vi: "oà khóc",             example: "I burst into tears of joy." },
+    { word: "speechless",       ipa: "/ˈspiːtʃ.ləs/", vi: "không nói nên lời", example: "I was speechless." },
+    { word: "looking back",     ipa: "", vi: "nhìn lại",            example: "Looking back, I'm grateful." },
+    { word: "unforgettable",    ipa: "/ˌʌn.fəˈɡet.ə.bəl/", vi: "khó quên", example: "It was unforgettable." },
+    { word: "vivid",            ipa: "/ˈvɪv.ɪd/", vi: "sống động",  example: "I have vivid memories." },
+    { word: "turning point",    ipa: "", vi: "bước ngoặt",          example: "It was a turning point in my life." },
+    { word: "heartwarming",     ipa: "/ˈhɑːtˌwɔː.mɪŋ/", vi: "ấm lòng", example: "A heartwarming surprise." },
+    { word: "surprise party",   ipa: "", vi: "tiệc bất ngờ",         example: "They threw a surprise party." },
+    { word: "treasure (v)",     ipa: "", vi: "trân trọng",           example: "I will treasure this day." },
+  ],
+  script: "Today I want to talk about the most unforgettable day of my life. It was my eighteenth birthday, three years ago. I had been busy with exams, and I honestly thought no one would remember. After my last paper, I went home with a heavy backpack and an empty stomach. The moment I opened the door, the lights came on and a loud Happy Birthday burst out. My family, my best friends, even my high-school teacher Mrs Hoa were all there. I was speechless. They had organised a surprise party while I was sitting in the exam room. My mother had made bun cha, my favourite dish. My father, who rarely shows emotion, hugged me and said he was proud of me. That alone made me burst into tears. Mrs Hoa gave me a small notebook with a handwritten note inside: Never stop asking questions. I keep that notebook on my desk to this day. We ate, sang, and laughed for hours. At one point I just sat in the corner watching everyone, and I realised how lucky I was. Looking back, that day was a turning point. Before, I always felt I had to prove myself to deserve love. After that party, I learned that love does not always require proof. Three years later, the memory is still vivid. Whenever I'm tired, I close my eyes and replay it. That is what I treasure most about being human — the people who show up for us out of the blue.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How old was the speaker?",      options: ["sixteen","seventeen","eighteen","nineteen"], correct: 2 },
+    { id: 2, type: "mcq",  question: "What dish did the mother make?", options: ["pho","bun cha","com tam","banh mi"], correct: 1 },
+    { id: 3, type: "fill", question: "The high-school teacher's name is Mrs ____.", answer: "Hoa" },
+    { id: 4, type: "fill", question: "She gave a small ____.",         answer: "notebook" },
+    { id: 5, type: "tfng", statement: "The speaker expected the surprise party.", answer: "False" },
+    { id: 6, type: "tfng", statement: "The father is usually emotional.", answer: "False" },
+    { id: 7, type: "tfng", statement: "The day became a turning point.",  answer: "True" },
+    { id: 8, type: "short",question: "What was written in the notebook?", answer: "Never stop asking questions" },
+    { id: 9, type: "short",question: "How many years ago did this happen?", answer: "three" },
+    { id: 10,type: "short", question: "What lesson did the speaker learn?", answer: "love does not always require proof" },
+  ],
+  speakingPart1: [
+    { q: "Do you remember a special day from last year?", bandLow: "Yes my birthday.",                                  bandMid: "Definitely, my eighteenth birthday — my family threw a surprise party." },
+    { q: "Do you celebrate birthdays?",                    bandLow: "Yes.",                                                bandMid: "Usually a small dinner with close friends, nothing extravagant." },
+    { q: "Are surprises good or bad?",                      bandLow: "Good.",                                               bandMid: "I love thoughtful surprises, but I'm not a fan of being put on the spot in public." },
+    { q: "How do people celebrate special days in Vietnam?", bandLow: "Eat dinner.",                                          bandMid: "We typically gather with family, share food, and exchange small gifts." },
+    { q: "Do you take photos to remember days?",             bandLow: "Yes.",                                                bandMid: "I take photos almost every day; my phone is full of small moments." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a memorable day in your life.\n- when it happened\n- where you were\n- what you did\n- and explain why you remember it.",
+    sample: "The day I'd like to talk about is my eighteenth birthday three years ago. After my last exam, I came home expecting a quiet night. The moment I opened the door, my family and friends jumped out for a surprise party. My mother had made bun cha, my favourite dish, and my normally reserved father hugged me. The day was a turning point because I realised love doesn't always need to be earned. Even today, I still close my eyes and replay it whenever I feel tired.",
+    keywords: ["surprise party","reserved father","turning point","emotional","unforgettable"],
+  },
+  speakingPart3: [
+    { q: "Why do people remember some days more than others?", hint: "emotion, novelty, meaning" },
+    { q: "Has the way we celebrate changed?",                   hint: "social media, virtual parties, smaller gatherings" },
+    { q: "Should special days always include family?",          hint: "tradition, choice, distance" },
+    { q: "Do you think we focus too much on big moments?",       hint: "everyday joy, mindfulness, gratitude" },
+  ],
+  shadowing: [
+    "I had been busy with exams.",
+    "The moment I opened the door, the lights came on.",
+    "I was speechless.",
+    "Looking back, that day was a turning point.",
+    "Love does not always require proof.",
+  ],
+  homework: [
+    "Viết 5 câu dùng out of the blue, burst into tears, speechless, turning point, treasure.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "out of the blue = bất ngờ — idiom phổ biến.",
+    "burst into tears (oà khóc) khác break into pieces (vỡ vụn).",
+    "love does not always require proof — câu band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 21,
+  levelId: "basic-ielts",
+  title: "Greetings and Small Talk",
+  titleVi: "Chào Hỏi Và Nói Chuyện Phiếm",
+  objectives: { listen: "Nghe small talk thực tế", speak: "Bắt chuyện ngắn tự nhiên", vocabFocus: "Greeting & filler" },
+  vocabulary: [
+    { word: "How's it going?",     ipa: "", vi: "khoẻ không",        example: "Hey, how's it going?" },
+    { word: "long time no see",    ipa: "", vi: "lâu không gặp",     example: "Long time no see, mate!" },
+    { word: "catch up later",      ipa: "", vi: "lát gặp",            example: "Let's catch up later." },
+    { word: "by the way",          ipa: "", vi: "nhân tiện",          example: "By the way, I moved house." },
+    { word: "speaking of",         ipa: "", vi: "nhắc đến",           example: "Speaking of food, I'm hungry." },
+    { word: "small talk",          ipa: "", vi: "nói chuyện phiếm",  example: "I'm bad at small talk." },
+    { word: "break the ice",       ipa: "", vi: "phá tan im lặng",    example: "A joke can break the ice." },
+    { word: "awkward silence",     ipa: "/ˈɔːk.wəd/", vi: "khoảng lặng ngại", example: "Then there was an awkward silence." },
+    { word: "nice to bump into you", ipa: "", vi: "rất vui gặp được bạn", example: "Nice to bump into you here." },
+    { word: "have a good one",     ipa: "", vi: "chúc một ngày tốt",   example: "Take care, have a good one." },
+  ],
+  script: "Mai: Khoa! Long time no see! How's it going?\nKhoa: Mai! Doing okay. Just stopping by for a coffee. You?\nMai: Same. Honestly, I'm bad at small talk, but I'll try.\nKhoa: Haha. So how's work?\nMai: Busy. We just launched a new campaign last week. Eighty hours over five days.\nKhoa: That's intense. Are you sleeping enough?\nMai: Barely. By the way, did you move to a new place?\nKhoa: Yeah, I shifted to District 3 two months ago. Closer to my office and quieter than my old place.\nMai: Nice. I'm still in the same flat near the lake.\nKhoa: Speaking of the lake, the new walking path is finally open.\nMai: Really? I should check it out tonight.\nKhoa: It's lovely at sunset. Bring a friend.\nMai: I will. So, are you still seeing Hanh?\nKhoa: Yes, almost a year now. We're planning a small trip to Da Lat next month.\nMai: That's wonderful. Send me photos.\nKhoa: For sure. Sorry, I have a meeting in fifteen minutes. Let's catch up properly next weekend?\nMai: Definitely. Saturday brunch?\nKhoa: Sounds good. Take care, Mai. Have a good one.\nMai: You too. Nice to bump into you here.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Where are they meeting?",       options: ["bookstore","coffee shop","gym","office"], correct: 1 },
+    { id: 2, type: "mcq",  question: "How many hours did Mai work in 5 days?", options: ["50","60","70","80"], correct: 3 },
+    { id: 3, type: "fill", question: "Khoa moved to District ____.",   answer: "3" },
+    { id: 4, type: "fill", question: "Mai still lives near the ____.", answer: "lake" },
+    { id: 5, type: "tfng", statement: "Khoa's new place is louder.",   answer: "False" },
+    { id: 6, type: "tfng", statement: "Khoa is going to Da Lat alone.", answer: "False" },
+    { id: 7, type: "tfng", statement: "They will meet again on Saturday brunch.", answer: "True" },
+    { id: 8, type: "short",question: "Who is Khoa dating?",            answer: "Hanh" },
+    { id: 9, type: "short",question: "What just opened near the lake?", answer: "walking path" },
+    { id: 10,type: "short", question: "What does Mai say at the end?", answer: "nice to bump into you" },
+  ],
+  speakingPart1: [
+    { q: "Do you enjoy small talk?",                    bandLow: "Sometimes.",                                 bandMid: "Honestly, I find small talk hard but useful, especially in professional settings." },
+    { q: "What do people in your country talk about?",   bandLow: "Weather.",                                    bandMid: "Weather, food, and local news are the typical topics." },
+    { q: "How do you start a conversation with strangers?", bandLow: "Say hi.",                                    bandMid: "I usually compliment something specific or ask an open question to break the ice." },
+    { q: "Do you remember names easily?",                  bandLow: "No.",                                          bandMid: "Not always — I have to repeat the name in my head right after hearing it." },
+    { q: "Have you bumped into someone unexpectedly?",      bandLow: "Yes.",                                          bandMid: "Yes, last week I bumped into an old classmate at a small coffee shop." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a short conversation you had recently.\n- who you talked to\n- where it happened\n- what you talked about\n- and explain how you felt about it.",
+    sample: "Last week I unexpectedly bumped into Khoa, an old colleague, at a coffee shop near my flat. We hadn't seen each other for almost a year. We chatted for around fifteen minutes about work, his recent move to District 3, and his upcoming trip to Da Lat. I felt genuinely happy because such surprise meetings remind me that life isn't only about big plans; small moments matter too.",
+    keywords: ["bump into","catch up","small moments matter","reconnect","brief but meaningful"],
+  },
+  speakingPart3: [
+    { q: "Why is small talk important?",                hint: "trust, social glue, networking" },
+    { q: "Are people becoming worse at face-to-face conversation?", hint: "phones, awkwardness, attention" },
+    { q: "Do men and women talk about different topics?", hint: "stereotypes, generation, context" },
+    { q: "How can technology help or harm conversations?", hint: "video call, distractions, distance" },
+  ],
+  shadowing: [
+    "Long time no see! How's it going?",
+    "I'm bad at small talk, but I'll try.",
+    "By the way, did you move to a new place?",
+    "Let's catch up properly next weekend.",
+    "Take care, have a good one.",
+  ],
+  homework: [
+    "Viết 5 câu dùng how's it going, by the way, speaking of, break the ice, have a good one.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "long time no see (lâu không gặp) — idiom phổ biến.",
+    "speaking of dùng để dẫn ý liên quan, không phải nói về.",
+    "have a good one = have a nice day, kiểu thân thiện hơn.",
+  ],
+})
+
+LESSONS.push({
+  id: 22,
+  levelId: "basic-ielts",
+  title: "How I Spend My Free Time",
+  titleVi: "Cách Tôi Dùng Thời Gian Rảnh",
+  objectives: { listen: "Nghe miêu tả nhiều hoạt động giải trí", speak: "Speaking Part 1 + Part 2 ngắn", vocabFocus: "Leisure vocab" },
+  vocabulary: [
+    { word: "wind down",      ipa: "", vi: "thư giãn cuối ngày", example: "I wind down with music." },
+    { word: "binge-watch",    ipa: "/bɪndʒ.wɒtʃ/", vi: "xem dồn", example: "I binge-watched a series." },
+    { word: "scroll endlessly", ipa: "", vi: "lướt vô tận",       example: "I scroll endlessly on TikTok." },
+    { word: "hang out",       ipa: "", vi: "đi chơi",             example: "We hang out on weekends." },
+    { word: "do nothing",     ipa: "", vi: "không làm gì",         example: "Sometimes I just do nothing." },
+    { word: "recharge",       ipa: "/ˌriːˈtʃɑːdʒ/", vi: "nạp năng lượng", example: "I need a day to recharge." },
+    { word: "side hustle",    ipa: "", vi: "nghề tay trái",        example: "Photography is my side hustle." },
+    { word: "stay in",        ipa: "", vi: "ở nhà",                example: "I prefer to stay in tonight." },
+    { word: "go out",         ipa: "", vi: "ra ngoài",              example: "Let's go out for dinner." },
+    { word: "me time",        ipa: "", vi: "thời gian cho bản thân", example: "I need some me time." },
+  ],
+  script: "Linh: How was your week?\nKhoa: Crazy busy. I really need some me time.\nLinh: Same. What are you doing this weekend?\nKhoa: Honestly? Doing nothing. I'm just going to stay in, watch a movie, and maybe binge-watch a series.\nLinh: That sounds like the dream. Last weekend I scrolled endlessly on TikTok and felt awful afterwards.\nKhoa: Social media is a trap when you're tired.\nLinh: Tell me about it.\nKhoa: How about you? Going out?\nLinh: A bit of both. Saturday morning I'll hang out with my younger sister at a café. Then in the afternoon I'm staying in to read.\nKhoa: Reading sounds nice. Any book?\nLinh: A novel called The Midnight Library. It's about a woman who can try alternate lives.\nKhoa: Sounds deep. Add it to my list.\nLinh: Sunday I have a small side hustle — I edit photos for a friend's business. About four hours of work, but they pay well.\nKhoa: That's smart. I should start one too.\nLinh: It's also nice because it doesn't feel like a real job. I just listen to music and edit.\nKhoa: That's the dream side hustle.\nLinh: Anyway, the trick to a great weekend is balance. A bit of going out, a bit of staying in, a bit of work, a bit of nothing.\nKhoa: I love that. Bit-of-nothing time is underrated.\nLinh: Couldn't agree more.",
+  questions: [
+    { id: 1, type: "mcq",  question: "What does Khoa plan to do this weekend?", options: ["travel","binge-watch","work overtime","party"], correct: 1 },
+    { id: 2, type: "mcq",  question: "What is Linh's side hustle?",              options: ["writing","photo editing","tutoring","cooking"], correct: 1 },
+    { id: 3, type: "fill", question: "Linh hangs out with her ____ ____ at a café.", answer: "younger sister" },
+    { id: 4, type: "fill", question: "Linh's side hustle takes about ____ hours.", answer: "four" },
+    { id: 5, type: "tfng", statement: "Linh likes scrolling on TikTok when tired.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Khoa already has a side hustle.",          answer: "False" },
+    { id: 7, type: "tfng", statement: "Linh sees side hustle as work-like.",      answer: "False" },
+    { id: 8, type: "short",question: "What is Linh reading?",                     answer: "The Midnight Library" },
+    { id: 9, type: "short",question: "Linh says the trick to a great weekend is what?", answer: "balance" },
+    { id: 10,type: "short", question: "What kind of time does Khoa say is underrated?", answer: "bit-of-nothing time" },
+  ],
+  speakingPart1: [
+    { q: "How do you usually spend your weekends?",  bandLow: "I sleep.",                                       bandMid: "I split weekends between catching up on sleep, hanging out with friends, and a bit of side work." },
+    { q: "Do you prefer staying in or going out?",   bandLow: "Stay in.",                                        bandMid: "Honestly, both — I usually stay in on Saturday and go out on Sunday." },
+    { q: "Do you have a side hustle?",                bandLow: "No.",                                              bandMid: "Yes, I edit photos for a friend's business — it pays for my coffee habit." },
+    { q: "Is doing nothing important?",               bandLow: "Yes.",                                              bandMid: "Definitely. Doing nothing is how I let my mind reset and stay creative." },
+    { q: "Do you watch TV series?",                    bandLow: "Yes.",                                              bandMid: "I binge-watch occasionally, but I try not to let it eat my whole weekend." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a perfect weekend.\n- what you would do in the morning\n- what you would do in the afternoon\n- who you would spend it with\n- and explain why this would be perfect.",
+    sample: "My ideal weekend starts slow with a long breakfast and a coffee at a quiet café near my house. In the afternoon I'd meet my sister for a short walk by the lake, then go home for a binge-watch session of a Korean drama. I'd want my close friends to drop by in the evening for a small dinner. The reason this is perfect is that it balances rest, connection, and a bit of nothing — three things modern life rarely allows.",
+    keywords: ["balance","quiet café","binge-watch","drop by","modern life rarely allows"],
+  },
+  speakingPart3: [
+    { q: "Why are people always so busy?",            hint: "expectations, tech, hustle culture" },
+    { q: "Is leisure becoming more digital?",          hint: "streaming, gaming, online" },
+    { q: "Should companies offer four-day work weeks?", hint: "productivity, wellbeing, evidence" },
+    { q: "How does free time differ across generations?", hint: "youth, parents, technology" },
+  ],
+  shadowing: [
+    "I really need some me time.",
+    "Doing nothing. Just staying in.",
+    "Social media is a trap when you're tired.",
+    "It doesn't feel like a real job.",
+    "Bit-of-nothing time is underrated.",
+  ],
+  homework: [
+    "Viết 5 câu dùng wind down, binge-watch, hang out, side hustle, me time.",
+    "Ghi âm Part 1 câu 1, 2, 3.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "binge-watch (xem dồn) là từ trẻ phổ biến — band 6+.",
+    "side hustle là cách hiện đại nói về nghề tay trái.",
+    "underrated dùng nhiều trong IELTS Speaking band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 23,
+  levelId: "basic-ielts",
+  title: "Eating Habits and Cooking",
+  titleVi: "Thói Quen Ăn Uống Và Nấu Ăn",
+  objectives: { listen: "Nghe miêu tả thói quen ăn + lý do nấu", speak: "Speaking về món tự nấu", vocabFocus: "Cooking & meal vocab" },
+  vocabulary: [
+    { word: "home-cooked",     ipa: "", vi: "tự nấu",                example: "I love home-cooked meals." },
+    { word: "ready meal",      ipa: "", vi: "đồ ăn sẵn",            example: "Ready meals save time." },
+    { word: "skip a meal",     ipa: "", vi: "bỏ bữa",                example: "Don't skip breakfast." },
+    { word: "comfort food",    ipa: "", vi: "đồ ăn xoa dịu",         example: "Pho is my comfort food." },
+    { word: "leftovers",       ipa: "/ˈleftˌəʊ.vəz/", vi: "đồ ăn thừa", example: "I packed the leftovers." },
+    { word: "fridge",          ipa: "/frɪdʒ/", vi: "tủ lạnh",         example: "Check the fridge." },
+    { word: "ingredients",     ipa: "/ɪnˈɡriː.di.ənts/", vi: "nguyên liệu", example: "Buy fresh ingredients." },
+    { word: "stir-fry",        ipa: "", vi: "xào",                    example: "Quick stir-fry for dinner." },
+    { word: "meal prep",       ipa: "", vi: "chuẩn bị bữa ăn",        example: "Meal prep on Sundays." },
+    { word: "go-to dish",      ipa: "", vi: "món tủ",                 example: "Pasta is my go-to dish." },
+  ],
+  script: "Tom: I'm trying to cook more, but I always end up ordering food.\nMai: Same problem here a year ago. Now I cook five days a week.\nTom: How did you start?\nMai: Sunday meal prep. I cook three different dishes that last me Monday through Wednesday.\nTom: Three dishes in one Sunday morning?\nMai: Yes. A stir-fry, a soup, and a rice or noodle base. About two hours of cooking, plus thirty minutes of cleaning.\nTom: That's smart. Less cooking on busy nights.\nMai: Exactly. Most weeknights I just heat up leftovers, add fresh greens, and dinner's ready in ten minutes.\nTom: What's your go-to dish?\nMai: A simple chicken stir-fry. I always have ginger, garlic, soy sauce, and frozen vegetables in the fridge.\nTom: Sounds doable. I tend to skip dinner when I'm tired.\nMai: Don't. Skipping meals leads to overeating later. Even instant noodles with an egg is better than nothing.\nTom: Fair point.\nMai: Also, ready meals from the supermarket can be okay sometimes. Read the labels though — high salt is a problem.\nTom: I should start with one home-cooked dinner a week and slowly build up.\nMai: Smart. Don't overcommit. The biggest reason people quit cooking is burnout.\nTom: I'll text you photos of my first attempt.\nMai: Please do. Even messy ones.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How many days a week does Mai cook?",  options: ["3","4","5","7"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Mai's meal prep takes about ____.",     options: ["1 hour","1.5 hours","2 hours","3 hours"], correct: 2 },
+    { id: 3, type: "fill", question: "Mai's go-to dish is a chicken ____.",   answer: "stir-fry" },
+    { id: 4, type: "fill", question: "Mai keeps ____, ____, soy sauce, frozen vegetables in the fridge.", answer: "ginger, garlic" },
+    { id: 5, type: "tfng", statement: "Tom currently cooks four times a week.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Mai says ready meals are always bad.", answer: "False" },
+    { id: 7, type: "tfng", statement: "The biggest reason people quit cooking is burnout.", answer: "True" },
+    { id: 8, type: "short",question: "What does Mai add when reheating leftovers?", answer: "fresh greens" },
+    { id: 9, type: "short",question: "What does Tom plan to start with?",        answer: "one home-cooked dinner a week" },
+    { id: 10,type: "short", question: "What should Tom check on ready meal labels?", answer: "high salt" },
+  ],
+  speakingPart1: [
+    { q: "Do you cook for yourself?",                    bandLow: "Sometimes.",                                  bandMid: "I cook around five times a week thanks to a Sunday meal prep routine." },
+    { q: "What is your favourite dish to cook?",          bandLow: "Stir-fry.",                                    bandMid: "My go-to dish is a quick chicken stir-fry — fast, balanced, and forgiving." },
+    { q: "Did your parents teach you to cook?",            bandLow: "Yes.",                                          bandMid: "My mum taught me the basics, but most of my recipes now come from YouTube." },
+    { q: "Do you eat out often?",                          bandLow: "Yes.",                                          bandMid: "Two or three times a week, mostly for lunch with colleagues." },
+    { q: "Is healthy food expensive in your country?",      bandLow: "A bit.",                                        bandMid: "Eating healthy can be reasonable if you cook at home and shop smart at local markets." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a meal you enjoy preparing.\n- what the meal is\n- what ingredients you need\n- how you prepare it\n- and explain why you enjoy it.",
+    sample: "The meal I most enjoy preparing is a simple chicken stir-fry with rice. I usually need chicken thighs, garlic, ginger, soy sauce, and a mix of frozen vegetables. The whole process takes around twenty minutes — chop, marinate, then stir-fry on high heat. I love it because it's fast, healthy, and forgiving even on tired weeknights. Plus the smell of garlic hitting hot oil makes any apartment feel like home.",
+    keywords: ["chicken thighs","forgiving recipe","high heat","weeknight dinner","smell of garlic"],
+  },
+  speakingPart3: [
+    { q: "Should schools teach cooking?",                   hint: "life skills, health, independence" },
+    { q: "Why are some young people not cooking?",          hint: "convenience, time, apartment size" },
+    { q: "How does eating habit affect health?",             hint: "lifestyle disease, energy, mood" },
+    { q: "Will fast food disappear in the future?",          hint: "regulation, taste, cost" },
+  ],
+  shadowing: [
+    "I cook five days a week.",
+    "I just heat up leftovers, add fresh greens.",
+    "Don't skip meals.",
+    "Even instant noodles with an egg is better than nothing.",
+    "Don't overcommit. Burnout makes people quit.",
+  ],
+  homework: [
+    "Viết 5 câu dùng leftovers, meal prep, go-to dish, stir-fry, comfort food.",
+    "Ghi âm Part 1 câu 1, 2, 4.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "go-to dish (món tủ) — band 6+.",
+    "meal prep là khái niệm hiện đại, dùng được trong essay.",
+    "skip meals khác than skip class — đều dùng skip + N.",
+  ],
+})
+
+LESSONS.push({
+  id: 24,
+  levelId: "basic-ielts",
+  title: "Workouts and Staying Active",
+  titleVi: "Tập Luyện Và Năng Động",
+  objectives: { listen: "Nghe miêu tả routine tập gym", speak: "Nói về thói quen tập luyện", vocabFocus: "Workout vocab" },
+  vocabulary: [
+    { word: "lift weights",      ipa: "", vi: "tập tạ",                example: "I lift weights at the gym." },
+    { word: "build muscle",      ipa: "", vi: "tăng cơ",                example: "Protein helps build muscle." },
+    { word: "lose weight",       ipa: "", vi: "giảm cân",               example: "He wants to lose weight." },
+    { word: "burn calories",     ipa: "", vi: "đốt calo",               example: "Cardio burns calories fast." },
+    { word: "workout routine",   ipa: "", vi: "lịch tập",               example: "I follow a workout routine." },
+    { word: "personal trainer",  ipa: "", vi: "PT",                     example: "I hired a personal trainer." },
+    { word: "rest day",          ipa: "", vi: "ngày nghỉ tập",          example: "Sunday is my rest day." },
+    { word: "muscle soreness",   ipa: "", vi: "đau cơ",                 example: "Soreness lasts 2 days." },
+    { word: "stretch",           ipa: "/stretʃ/", vi: "giãn cơ",         example: "Stretch before bed." },
+    { word: "consistency",       ipa: "/kənˈsɪs.tən.si/", vi: "nhất quán", example: "Consistency beats intensity." },
+  ],
+  script: "Linh: I started going to the gym last month and I love it.\nNam: Really? You used to hate exercise.\nLinh: That was before I hired a personal trainer. He's strict but in a good way. He plans my workout routine and makes sure I do every move correctly.\nNam: How often do you go?\nLinh: Four times a week. Two days for lifting weights, two days for cardio.\nNam: Are you trying to lose weight or build muscle?\nLinh: Both, in that order. I want to drop some fat first, then focus on muscle.\nNam: Smart. Have you noticed any change?\nLinh: I sleep deeper, and my stress is lower. The first two weeks were brutal. Muscle soreness everywhere.\nNam: That's normal. Did you stretch?\nLinh: Not enough. My trainer scolded me. Now I stretch ten minutes before bed.\nNam: How is your diet?\nLinh: Slightly cleaner. More protein, less fried food. I still eat pho twice a week — that one I refuse to give up.\nNam: Honestly, sustainable beats strict.\nLinh: Exactly. The biggest lesson is consistency. I show up even when I don't feel like it. Even thirty minutes is enough on lazy days.\nNam: That's the tough part. Most people quit by week three.\nLinh: True. The trick is to make it boring and routine, not exciting and unsustainable.\nNam: I might join you next week.\nLinh: Please do. Bring water and a small towel.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How many days a week does Linh go to the gym?", options: ["3","4","5","6"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Linh's first goal is to ____.",                  options: ["build muscle","lose weight","gain weight","stay flexible"], correct: 1 },
+    { id: 3, type: "fill", question: "Linh stretches ____ minutes before bed.",        answer: "ten" },
+    { id: 4, type: "fill", question: "She still eats pho ____ a week.",                answer: "twice" },
+    { id: 5, type: "tfng", statement: "Linh used to love exercise.",                    answer: "False" },
+    { id: 6, type: "tfng", statement: "Linh's trainer is described as relaxed.",        answer: "False" },
+    { id: 7, type: "tfng", statement: "Linh thinks consistency is the key.",            answer: "True" },
+    { id: 8, type: "short",question: "Two changes Linh has noticed?",                   answer: "deeper sleep, lower stress" },
+    { id: 9, type: "short",question: "What is the trick to keep going?",                 answer: "make it boring and routine" },
+    { id: 10,type: "short", question: "What should Nam bring to the gym?",                answer: "water and a small towel" },
+  ],
+  speakingPart1: [
+    { q: "Do you go to the gym?",                bandLow: "Yes.",                                          bandMid: "I started about a month ago and now I go four times a week." },
+    { q: "Do you prefer cardio or weights?",     bandLow: "Weights.",                                       bandMid: "I split my week — two cardio days and two weight days." },
+    { q: "Do you have a personal trainer?",       bandLow: "No.",                                            bandMid: "Yes, having a trainer keeps me accountable, especially on lazy days." },
+    { q: "Have you ever tried yoga?",              bandLow: "Once.",                                           bandMid: "I tried it briefly during the lockdown and found it surprisingly tough." },
+    { q: "Why do many people quit exercising?",   bandLow: "Lazy.",                                           bandMid: "Mostly because they overcommit, get sore, and feel discouraged in week three." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a workout routine you have or admire.\n- what it includes\n- how often it happens\n- who designed it\n- and explain why it works.",
+    sample: "I'd like to talk about my current workout routine, designed by my personal trainer. It runs four days a week — two days lifting weights, two days cardio. Each session lasts about an hour. The reason it works is that it's boring on purpose. There's no hype, no fancy equipment, just steady progress. After six weeks I sleep deeper, feel less stressed, and have built a small habit that survives lazy days.",
+    keywords: ["boring on purpose","steady progress","sustainable","accountability","habit"],
+  },
+  speakingPart3: [
+    { q: "Why is exercise often skipped?",            hint: "tiredness, busy life, motivation" },
+    { q: "Should employers encourage fitness?",        hint: "productivity, mental health, gyms" },
+    { q: "Are extreme workouts dangerous?",            hint: "injury, hormones, overtraining" },
+    { q: "How can technology support fitness?",         hint: "wearables, apps, gamification" },
+  ],
+  shadowing: [
+    "He plans my workout routine.",
+    "Two days for lifting weights, two days for cardio.",
+    "Sustainable beats strict.",
+    "Consistency beats intensity.",
+    "I show up even when I don't feel like it.",
+  ],
+  homework: [
+    "Viết 5 câu dùng workout routine, lift weights, burn calories, rest day, consistency.",
+    "Ghi âm Part 1 câu 1, 2, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "lift weights = tập tạ — không phải lift heavy.",
+    "muscle soreness = đau cơ sau tập.",
+    "consistency beats intensity — câu band 7.",
+  ],
+})
+
+LESSONS.push({
+  id: 25,
+  levelId: "basic-ielts",
+  title: "Travel Plans and Booking",
+  titleVi: "Kế Hoạch Du Lịch Và Đặt Vé",
+  objectives: { listen: "Nghe trao đổi đặt phòng và lịch trình", speak: "Speaking về chuyến đi sắp tới", vocabFocus: "Travel vocab" },
+  vocabulary: [
+    { word: "book a flight",     ipa: "", vi: "đặt vé bay",         example: "I booked a flight to Da Nang." },
+    { word: "round trip",        ipa: "", vi: "khứ hồi",             example: "I prefer a round trip ticket." },
+    { word: "one-way",           ipa: "", vi: "một chiều",           example: "It's a one-way flight." },
+    { word: "carry-on",          ipa: "", vi: "hành lý xách tay",    example: "Pack light for carry-on." },
+    { word: "boarding pass",     ipa: "", vi: "thẻ lên máy bay",     example: "Show your boarding pass." },
+    { word: "gate",              ipa: "/ɡeɪt/", vi: "cửa lên máy bay", example: "Gate 12 closes soon." },
+    { word: "stopover",          ipa: "/ˈstɒp.əʊ.vər/", vi: "điểm dừng", example: "We have a 4-hour stopover." },
+    { word: "homestay",          ipa: "", vi: "nhà nghỉ địa phương", example: "We stayed at a homestay." },
+    { word: "travel insurance",  ipa: "", vi: "bảo hiểm du lịch",    example: "Get travel insurance." },
+    { word: "tour guide",        ipa: "", vi: "hướng dẫn viên",      example: "Our tour guide was amazing." },
+  ],
+  script: "Mai: Hi, I'd like to confirm my booking for next month.\nAgent: Sure, can I have your name and reservation number?\nMai: Pham Thi Mai. Reservation 7892.\nAgent: Yes, I see it. A round trip from Hanoi to Da Nang, leaving August fifth and returning August ninth.\nMai: That's correct. I have a quick question. Can I add a carry-on bag?\nAgent: For your fare class, you have one personal item and one carry-on included. Anything heavier needs to be checked in.\nMai: Perfect. What about seat selection?\nAgent: You can pick a seat for free up to twenty-four hours before departure. After that, the system assigns one randomly.\nMai: Got it. Also, where is the homestay you recommended in An Bang?\nAgent: It's about three kilometres from Hoi An ancient town. The owner can pick you up from the airport for a fee, or you can take a Grab.\nMai: I'll take a Grab. One more thing — should I get travel insurance?\nAgent: For domestic flights it's optional, but I'd still recommend it. It covers medical emergencies, flight cancellations, and lost luggage. The cost is around two hundred thousand dong.\nMai: Two hundred thousand for peace of mind, sounds fair. I'll add it.\nAgent: Done. Your boarding pass will be available twenty-four hours before take-off through the app. Just remember the gate may change.\nMai: Always check the gate. Thank you so much.\nAgent: My pleasure. Have a great trip.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Where is Mai flying to?",        options: ["Hue","Da Nang","Saigon","Da Lat"], correct: 1 },
+    { id: 2, type: "mcq",  question: "What ticket type is it?",         options: ["one-way","round trip","open","group"], correct: 1 },
+    { id: 3, type: "fill", question: "Mai's reservation number is ____.", answer: "7892" },
+    { id: 4, type: "fill", question: "She returns on August ____.",      answer: "ninth" },
+    { id: 5, type: "tfng", statement: "Seat selection is free until 24 hours before departure.", answer: "True" },
+    { id: 6, type: "tfng", statement: "Travel insurance is mandatory for domestic flights.", answer: "False" },
+    { id: 7, type: "tfng", statement: "The boarding pass will be ready 24 hours before.", answer: "True" },
+    { id: 8, type: "short",question: "How far is the homestay from Hoi An ancient town?", answer: "three kilometres" },
+    { id: 9, type: "short",question: "What does insurance cover (3 things)?", answer: "medical emergencies, cancellations, lost luggage" },
+    { id: 10,type: "short", question: "What should Mai always check before boarding?", answer: "the gate" },
+  ],
+  speakingPart1: [
+    { q: "Do you enjoy planning trips?",         bandLow: "Yes.",                                          bandMid: "I love the planning phase as much as the trip itself — it builds anticipation." },
+    { q: "Do you prefer flights or trains?",      bandLow: "Flights.",                                       bandMid: "Flights for distance, trains for short scenic trips like Hanoi to Da Nang." },
+    { q: "Have you taken any holidays this year?", bandLow: "Yes.",                                            bandMid: "Yes, a four-day trip to Da Nang and Hoi An last August." },
+    { q: "Do you usually buy travel insurance?",   bandLow: "No.",                                            bandMid: "Always for international, sometimes for domestic — it's cheap peace of mind." },
+    { q: "Where would you love to travel next?",   bandLow: "Japan.",                                         bandMid: "Probably Japan in autumn, mainly for the food and historic temples in Kyoto." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a trip you are planning.\n- where you want to go\n- when and with whom\n- what you will do there\n- and explain why this trip matters to you.",
+    sample: "I'm planning a four-day trip to Da Nang and Hoi An next month with two close friends. We've booked a round-trip flight and a small homestay in An Bang village, three kilometres from Hoi An ancient town. We plan to swim at My Khe Beach, take photos in the lantern streets, and rent bicycles to explore the rice fields. This trip matters because all three of us have been swamped with work and we badly need a slow, social reset.",
+    keywords: ["round-trip","homestay","lantern streets","slow reset","catch up"],
+  },
+  speakingPart3: [
+    { q: "Why has travel become more accessible?",   hint: "low-cost flights, online booking, social media" },
+    { q: "Is mass tourism harmful?",                  hint: "environment, locals, culture" },
+    { q: "Should governments promote local tourism?",  hint: "economy, jobs, infrastructure" },
+    { q: "How will travel change in the future?",      hint: "AI, sustainability, virtual" },
+  ],
+  shadowing: [
+    "Round trip from Hanoi to Da Nang, August fifth to ninth.",
+    "Anything heavier needs to be checked in.",
+    "Two hundred thousand for peace of mind.",
+    "Always check the gate.",
+    "Have a great trip.",
+  ],
+  homework: [
+    "Viết 5 câu dùng round trip, carry-on, stopover, homestay, travel insurance.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "round trip vs return ticket — đều khứ hồi.",
+    "carry-on (xách tay) khác checked baggage (gửi).",
+    "peace of mind (yên tâm) — band 6.5+.",
+  ],
+})
+
+LESSONS.push({
+  id: 26,
+  levelId: "basic-ielts",
+  title: "Cinema and Movies",
+  titleVi: "Rạp Phim Và Phim Ảnh",
+  objectives: { listen: "Nghe đánh giá phim, gợi ý xem", speak: "Nói về phim yêu thích", vocabFocus: "Movie vocab" },
+  vocabulary: [
+    { word: "blockbuster",   ipa: "/ˈblɒkˌbʌs.tər/", vi: "bom tấn",       example: "It's a Hollywood blockbuster." },
+    { word: "rom-com",       ipa: "", vi: "phim hài lãng mạn",            example: "I love a good rom-com." },
+    { word: "thriller",      ipa: "/ˈθrɪl.ər/", vi: "phim ly kỳ",         example: "The thriller kept me up." },
+    { word: "plot twist",    ipa: "", vi: "cú twist trong cốt truyện",    example: "The plot twist shocked me." },
+    { word: "subtitle",      ipa: "/ˈsʌbˌtaɪ.təl/", vi: "phụ đề",         example: "I read English subtitles." },
+    { word: "dubbed",        ipa: "/dʌbd/", vi: "lồng tiếng",             example: "Some kids prefer dubbed films." },
+    { word: "spoiler",       ipa: "/ˈspɔɪ.lər/", vi: "tiết lộ nội dung",   example: "No spoilers, please." },
+    { word: "premiere",      ipa: "/ˈprem.i.eər/", vi: "buổi công chiếu",  example: "We attended the premiere." },
+    { word: "tear-jerker",   ipa: "", vi: "phim làm khóc",                  example: "That movie is a tear-jerker." },
+    { word: "binge-worthy",  ipa: "", vi: "đáng xem dồn",                   example: "This series is binge-worthy." },
+  ],
+  script: "Mai: Have you watched anything good lately?\nKhang: I just finished a Korean thriller called Dark Glory. It's binge-worthy. I watched the whole series in three nights.\nMai: Sounds intense.\nKhang: It is. The plot twists keep coming.\nMai: I'm in the mood for something light. Maybe a rom-com.\nKhang: Try the new film 'Em Va Trinh Hua'. It's sweet but not too cheesy.\nMai: With subtitles or dubbed?\nKhang: I'd watch the original with subtitles. The voice acting is part of the charm.\nMai: I prefer the cinema for big movies though. The sound is unbeatable.\nKhang: Same. For blockbusters, the cinema. For series, my couch.\nMai: Did you go to the latest premiere at Lotte?\nKhang: I missed it. Tickets sold out in two hours. Apparently the queue was massive.\nMai: A friend gave me spoilers though. I almost killed her.\nKhang: That's the worst.\nMai: Anyway, I want a good tear-jerker for Sunday. Recommend?\nKhang: Coco. Pixar animation. You'll cry, but in the best way.\nMai: Done. Pizza, blanket, Coco.\nKhang: The classic recipe.",
+  questions: [
+    { id: 1, type: "mcq",  question: "What did Khang watch recently?",   options: ["a comedy","a Korean thriller","a documentary","a horror"], correct: 1 },
+    { id: 2, type: "mcq",  question: "What does Mai want to watch?",       options: ["thriller","action","rom-com","horror"], correct: 2 },
+    { id: 3, type: "fill", question: "Khang prefers the original with ____.", answer: "subtitles" },
+    { id: 4, type: "fill", question: "Tickets at the Lotte premiere sold out in ____ hours.", answer: "two" },
+    { id: 5, type: "tfng", statement: "Khang watched Dark Glory in one night.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Mai's friend told her spoilers.",      answer: "True" },
+    { id: 7, type: "tfng", statement: "Khang prefers cinema for series.",    answer: "False" },
+    { id: 8, type: "short",question: "What recommendation for tear-jerker?",   answer: "Coco" },
+    { id: 9, type: "short",question: "What does Mai want for Sunday?",        answer: "pizza, blanket, Coco" },
+    { id: 10,type: "short", question: "What kind of film is Coco?",            answer: "Pixar animation" },
+  ],
+  speakingPart1: [
+    { q: "Do you go to the cinema often?",   bandLow: "Sometimes.",                                       bandMid: "Maybe twice a month, usually for big screen blockbusters." },
+    { q: "What kind of films do you like?",   bandLow: "Action.",                                           bandMid: "I'm into thrillers and Pixar animations — basically anything with strong storytelling." },
+    { q: "Do you prefer subtitles or dubbing?", bandLow: "Subtitles.",                                       bandMid: "Always subtitles — the original voice acting is half the experience." },
+    { q: "Do you watch movies alone or with others?", bandLow: "Alone.",                                       bandMid: "It depends on the genre — thrillers alone, comedies with friends." },
+    { q: "Has streaming changed how you watch movies?", bandLow: "Yes.",                                         bandMid: "Hugely — I now binge an entire series in a weekend if it's good enough." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a film that left a strong impression on you.\n- what film it was\n- when you watched it\n- what it was about\n- and explain why it left an impression.",
+    sample: "The film I'd like to talk about is Coco, a Pixar animation I watched two years ago with my sister. It's about a young boy who travels to the land of the dead to discover his family's secret. What made it powerful was the message: people only truly disappear when they're forgotten. By the end, my sister and I were both quietly crying. Honestly, no other film has moved me so deeply with such warm storytelling.",
+    keywords: ["Pixar animation","land of the dead","quietly crying","warm storytelling","unforgettable"],
+  },
+  speakingPart3: [
+    { q: "Why do people enjoy sad films?",                hint: "catharsis, empathy, perspective" },
+    { q: "Should children watch fewer animations?",        hint: "imagination vs reality, screen time" },
+    { q: "Has streaming hurt cinemas?",                    hint: "convenience vs experience, prices" },
+    { q: "Do films reflect society or shape it?",           hint: "two-way effect, examples" },
+  ],
+  shadowing: [
+    "It's binge-worthy.",
+    "The plot twists keep coming.",
+    "For blockbusters, the cinema. For series, my couch.",
+    "A friend gave me spoilers, I almost killed her.",
+    "Pizza, blanket, Coco. The classic recipe.",
+  ],
+  homework: [
+    "Viết 5 câu dùng plot twist, subtitle, spoiler, blockbuster, binge-worthy.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "rom-com = romantic comedy.",
+    "tear-jerker dùng cho phim/khoảnh khắc làm rơi nước mắt.",
+    "binge-worthy là cách hiện đại để nói đáng xem dồn.",
+  ],
+})
+
+LESSONS.push({
+  id: 27,
+  levelId: "basic-ielts",
+  title: "Public Transport",
+  titleVi: "Phương Tiện Công Cộng",
+  objectives: { listen: "Nghe miêu tả hệ thống giao thông công cộng", speak: "So sánh phương tiện đi lại", vocabFocus: "Transport vocab" },
+  vocabulary: [
+    { word: "metro",            ipa: "/ˈmet.rəʊ/", vi: "tàu điện ngầm", example: "Hanoi just opened its first metro." },
+    { word: "fare",             ipa: "/feər/", vi: "vé/giá vé",         example: "The fare is reasonable." },
+    { word: "rush hour",        ipa: "", vi: "giờ cao điểm",            example: "Rush hour starts at 5pm." },
+    { word: "schedule",         ipa: "/ˈʃedjuːl/", vi: "lịch chạy",      example: "Check the bus schedule." },
+    { word: "stuck in traffic", ipa: "", vi: "tắc đường",                 example: "I was stuck in traffic." },
+    { word: "ride-hailing",     ipa: "", vi: "đặt xe công nghệ",          example: "Ride-hailing is convenient." },
+    { word: "monthly pass",     ipa: "", vi: "vé tháng",                  example: "I bought a monthly pass." },
+    { word: "punctual",         ipa: "/ˈpʌŋk.tʃu.əl/", vi: "đúng giờ",   example: "Trains are very punctual." },
+    { word: "commuter",         ipa: "/kəˈmjuː.tər/", vi: "người đi làm bằng phương tiện", example: "Daily commuters fill the train." },
+    { word: "infrastructure",   ipa: "/ˈɪn.frə.strʌk.tʃər/", vi: "cơ sở hạ tầng", example: "Public infrastructure improves quality of life." },
+  ],
+  script: "Reporter: Good morning. We're at Cat Linh Station to talk about the new metro line.\nLan: Hi, I take the metro every day to my office in Ha Dong.\nReporter: Why do you choose the metro over a motorbike?\nLan: Three reasons. First, the fare is only fifteen thousand dong per ride. Second, no rush-hour traffic. Third, the metro is punctual.\nReporter: Did you buy a monthly pass?\nLan: Yes, two hundred thousand a month — much cheaper than petrol.\nReporter: Do you still use ride-hailing apps?\nLan: Sometimes for short evening trips, but during the day the metro saves both time and money.\nReporter: How long does your commute take?\nLan: Twenty-five minutes door to door. By motorbike, it used to be forty-five minutes during rush hour.\nReporter: That's significant. Are there downsides?\nLan: Of course. The trains are crowded between seven thirty and nine. And the station network is still small. We need more lines.\nReporter: Will the metro change Hanoi long-term?\nLan: I believe so. Better public transport means less pollution, less stress, and a cleaner city. Honestly, we just need the infrastructure to grow faster.\nReporter: Thank you, Lan. Wishing you a smooth ride.\nLan: Thanks. See you on the next train.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How much is one ride?",            options: ["10k","12k","15k","20k"], correct: 2 },
+    { id: 2, type: "mcq",  question: "How much is a monthly pass?",       options: ["100k","150k","180k","200k"], correct: 3 },
+    { id: 3, type: "fill", question: "Lan's commute by metro takes ____ minutes.", answer: "twenty-five" },
+    { id: 4, type: "fill", question: "By motorbike during rush hour, it took ____ minutes.", answer: "forty-five" },
+    { id: 5, type: "tfng", statement: "Lan still uses ride-hailing during the day.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Trains are crowded from 7:30 to 9.",   answer: "True" },
+    { id: 7, type: "tfng", statement: "Lan thinks Hanoi has enough metro lines.", answer: "False" },
+    { id: 8, type: "short",question: "Three reasons Lan chose the metro?",   answer: "low fare, no traffic, punctual" },
+    { id: 9, type: "short",question: "What does she say is needed long-term?", answer: "more lines / infrastructure to grow" },
+    { id: 10,type: "short", question: "What three benefits does better public transport bring?", answer: "less pollution, less stress, cleaner city" },
+  ],
+  speakingPart1: [
+    { q: "How do you usually travel in your city?",       bandLow: "Motorbike.",                                bandMid: "Mostly by motorbike, though I've started taking the new metro line during peak hours." },
+    { q: "Is public transport good in your city?",         bandLow: "Not yet.",                                   bandMid: "It's improving — Hanoi just opened its first metro and people are gradually adopting it." },
+    { q: "Do you prefer driving or being driven?",          bandLow: "Driven.",                                     bandMid: "I prefer being driven so I can read or rest, especially after a long day." },
+    { q: "Have you been in a serious traffic jam?",         bandLow: "Yes.",                                        bandMid: "Yes, last month I got stuck for nearly two hours due to a flooded street." },
+    { q: "How could traffic be reduced?",                    bandLow: "More buses.",                                 bandMid: "By expanding metro lines, encouraging working from home, and improving urban planning." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a transport system you have used.\n- what kind of system it is\n- when you used it\n- what it was like\n- and explain whether you would use it again.",
+    sample: "I'd like to talk about Hanoi's first metro line, which I started using two months ago. The journey from Ha Dong to Cat Linh takes around twenty-five minutes door to door, much faster than my motorbike during rush hour. The trains are clean, punctual, and air-conditioned. The biggest advantage is that I save both time and money — about ten dollars a month versus petrol. The downside is that crowds at peak hours are intense, but overall I would absolutely use it again.",
+    keywords: ["punctual","door to door","peak hours","save time and money","clean carriages"],
+  },
+  speakingPart3: [
+    { q: "Why do many cities have traffic problems?", hint: "population, planning, vehicles" },
+    { q: "Should governments make public transport free?", hint: "subsidy, encouragement, fairness" },
+    { q: "How will transport look in 20 years?",        hint: "EV, autonomous, shared mobility" },
+    { q: "What can individuals do to reduce traffic?",   hint: "carpool, remote work, public transport" },
+  ],
+  shadowing: [
+    "I take the metro every day to my office in Ha Dong.",
+    "The fare is only fifteen thousand dong per ride.",
+    "Twenty-five minutes door to door.",
+    "Better public transport means less pollution, less stress, and a cleaner city.",
+    "We just need the infrastructure to grow faster.",
+  ],
+  homework: [
+    "Viết 5 câu dùng metro, fare, rush hour, monthly pass, punctual.",
+    "Ghi âm Part 1 câu 1, 2, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "fare (giá vé) khác fee (phí dịch vụ).",
+    "stuck in traffic = bị kẹt xe — câu nói tự nhiên.",
+    "punctual nâng band so với on time.",
+  ],
+})
+
+LESSONS.push({
+  id: 28,
+  levelId: "basic-ielts",
+  title: "Mobile Phones in Daily Life",
+  titleVi: "Điện Thoại Trong Đời Sống",
+  objectives: { listen: "Nghe phỏng vấn về thói quen dùng điện thoại", speak: "Speaking về vai trò điện thoại", vocabFocus: "Mobile usage" },
+  vocabulary: [
+    { word: "indispensable",  ipa: "/ˌɪn.dɪˈspen.sə.bəl/", vi: "không thể thiếu", example: "My phone is indispensable." },
+    { word: "data plan",      ipa: "", vi: "gói data",                      example: "My data plan is unlimited." },
+    { word: "battery saver",  ipa: "", vi: "chế độ tiết kiệm pin",          example: "Turn on battery saver." },
+    { word: "screen time",    ipa: "", vi: "thời gian dùng màn hình",       example: "Reduce your screen time." },
+    { word: "messaging app",  ipa: "", vi: "ứng dụng nhắn tin",             example: "Zalo is the top messaging app here." },
+    { word: "QR code",        ipa: "", vi: "mã QR",                          example: "Scan the QR code to pay." },
+    { word: "cashless",       ipa: "", vi: "không tiền mặt",                example: "Cashless payments are growing." },
+    { word: "two-factor authentication", ipa: "", vi: "xác thực 2 lớp",      example: "Enable two-factor authentication." },
+    { word: "scammer",        ipa: "/ˈskæm.ər/", vi: "kẻ lừa đảo",          example: "Be careful of phone scammers." },
+    { word: "delete an app",  ipa: "", vi: "xoá ứng dụng",                   example: "I deleted three apps last night." },
+  ],
+  script: "Reporter: Good morning. We're asking people about how mobile phones changed daily life. May I ask you a few questions?\nThao: Sure, go ahead.\nReporter: How many hours a day do you use your phone?\nThao: Probably six. Most of it is messaging, scrolling news, and paying bills.\nReporter: Do you pay with QR code?\nThao: All the time. I've gone almost cashless. I rarely carry cash now, except for street food.\nReporter: That's a big shift. What about scammers?\nThao: They're a real problem. I get one or two scam calls a week. I always enable two-factor authentication on my bank app.\nReporter: Smart. Have you ever been tricked?\nThao: Almost. Last year a fake delivery message tried to get me to click a link. Luckily, I noticed the URL was wrong.\nReporter: Good catch. Do you find your phone too distracting?\nThao: Yes. I deleted Facebook and Instagram three months ago. My screen time dropped from eight hours to five.\nReporter: Three hours a day saved. That's like a part-time job.\nThao: Exactly. I also use battery saver mode all the time. My phone lasts longer and notifications are slower, which is a feature, not a bug.\nReporter: Could you live without a phone for a week?\nThao: Maybe for the weekend. But a full week would be tough — work, navigation, payments, even my house keys are digital. The phone has become indispensable.\nReporter: Thank you for your time.\nThao: Anytime.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How many hours does Thao use her phone daily?", options: ["3","5","6","8"], correct: 2 },
+    { id: 2, type: "mcq",  question: "How often does she get scam calls?",            options: ["daily","1-2 a week","rarely","never"], correct: 1 },
+    { id: 3, type: "fill", question: "She rarely carries ____.",                       answer: "cash" },
+    { id: 4, type: "fill", question: "Her screen time dropped to ____ hours.",         answer: "five" },
+    { id: 5, type: "tfng", statement: "Thao still has Facebook and Instagram.",        answer: "False" },
+    { id: 6, type: "tfng", statement: "She uses battery saver all the time.",          answer: "True" },
+    { id: 7, type: "tfng", statement: "She thinks she could live a full week without a phone.", answer: "False" },
+    { id: 8, type: "short",question: "How long ago did she delete the apps?",           answer: "three months" },
+    { id: 9, type: "short",question: "What protects her bank app?",                     answer: "two-factor authentication" },
+    { id: 10,type: "short", question: "What kept her safe from the fake delivery message?", answer: "URL was wrong" },
+  ],
+  speakingPart1: [
+    { q: "Is your phone important to you?",        bandLow: "Yes very.",                                       bandMid: "It's basically indispensable — payments, navigation, and even my house keys live on it." },
+    { q: "Do you use cashless payment?",            bandLow: "Yes.",                                              bandMid: "Daily. Vietnam has shifted to QR payments at almost every café and street stall." },
+    { q: "Have you ever lost your phone?",          bandLow: "Yes.",                                              bandMid: "Once during a trip — I felt completely paralysed for half a day." },
+    { q: "Do you worry about phone scams?",          bandLow: "Yes.",                                              bandMid: "Increasingly. I always check URLs and enable two-factor authentication." },
+    { q: "Do phones disconnect or connect us?",      bandLow: "Both.",                                              bandMid: "It's a paradox — they connect us across distances but disconnect us in the same room." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a way mobile phones have changed your daily life.\n- what the change is\n- when it happened\n- how it affects you\n- and explain whether the change is positive or negative.",
+    sample: "The biggest change is cashless payments. Two years ago I still carried a wallet full of cash; now I leave my wallet at home and pay everything by QR code, even at small street vendors. It saves me time and feels safer than carrying cash. The downside is that I impulse-spend more easily because the friction is gone. Overall it is a positive change, but it taught me to track my spending more carefully.",
+    keywords: ["cashless","QR payment","impulse spending","track expenses","seamless"],
+  },
+  speakingPart3: [
+    { q: "Are mobile phones making people more isolated?", hint: "physical presence, online communities" },
+    { q: "How can governments protect people from scams?",  hint: "law, awareness, technology" },
+    { q: "Should phones be banned in classrooms?",          hint: "focus, research, age" },
+    { q: "What features will future phones have?",          hint: "AI, foldable, biometric" },
+  ],
+  shadowing: [
+    "I've gone almost cashless.",
+    "I get one or two scam calls a week.",
+    "I deleted Facebook and Instagram three months ago.",
+    "Notifications are slower, which is a feature, not a bug.",
+    "The phone has become indispensable.",
+  ],
+  homework: [
+    "Viết 5 câu dùng indispensable, data plan, screen time, cashless, scammer.",
+    "Ghi âm Part 1 câu 1, 3, 4.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "indispensable nâng band hơn very important.",
+    "two-factor authentication = bảo mật 2 lớp — band 6.5+.",
+    "feature, not a bug — câu nói lóng nhưng tự nhiên trong speaking.",
+  ],
+})
+
+LESSONS.push({
+  id: 29,
+  levelId: "basic-ielts",
+  title: "Studying Habits",
+  titleVi: "Thói Quen Học Tập",
+  objectives: { listen: "Nghe trao đổi mẹo học hiệu quả", speak: "Nói về thói quen học cá nhân", vocabFocus: "Study vocab" },
+  vocabulary: [
+    { word: "focus mode",       ipa: "", vi: "chế độ tập trung",  example: "Turn on focus mode." },
+    { word: "Pomodoro",         ipa: "", vi: "kỹ thuật 25/5",      example: "I use the Pomodoro technique." },
+    { word: "study group",      ipa: "", vi: "nhóm học",           example: "Join a study group." },
+    { word: "flashcards",       ipa: "", vi: "thẻ học",            example: "I review flashcards daily." },
+    { word: "spaced repetition",ipa: "", vi: "lặp lại ngắt quãng", example: "Spaced repetition works." },
+    { word: "active recall",    ipa: "", vi: "gợi nhớ chủ động",   example: "Active recall beats rereading." },
+    { word: "highlighter",      ipa: "/ˈhaɪˌlaɪ.tər/", vi: "bút highlight", example: "Use a highlighter sparingly." },
+    { word: "cram",             ipa: "/kræm/", vi: "ôn nhồi",       example: "Don't cram before exam day." },
+    { word: "self-discipline",  ipa: "", vi: "tính kỷ luật",        example: "Self-discipline is key." },
+    { word: "study buddy",      ipa: "", vi: "bạn học cùng",        example: "Find a study buddy." },
+  ],
+  script: "Lan: How was your test today?\nMinh: Better than expected. I changed my method last month.\nLan: What did you change?\nMinh: I stopped cramming the night before. Instead, I now use spaced repetition with flashcards.\nLan: What's that?\nMinh: I review flashcards every day, but the cards I know well show up less. The cards I struggle with show up more often.\nLan: That sounds like an app I tried. Anki?\nMinh: Exactly. I also study in twenty-five minute Pomodoros, then take a five-minute break. After four rounds, I rest twenty minutes.\nLan: Doesn't constant breaking interrupt your flow?\nMinh: It feels weird at first. After a week, my brain learned that focused study is short. So when I sit down, I focus harder.\nLan: I should try.\nMinh: One more thing — active recall. I close the book and try to explain everything from memory. If I can't, I look it up.\nLan: That's harder than rereading.\nMinh: Much harder, and that's why it works. Easy studying gives easy results.\nLan: Do you study alone or with a group?\nMinh: Both. Alone for memorisation. With a study buddy for problem-solving. We push each other in a healthy way.\nLan: Self-discipline is the missing piece for me.\nMinh: For everyone. The trick is to make routine boring so willpower isn't needed.",
+  questions: [
+    { id: 1, type: "mcq",  question: "What did Minh stop doing?",       options: ["studying","cramming","group study","pomodoro"], correct: 1 },
+    { id: 2, type: "mcq",  question: "How long is one Pomodoro?",        options: ["15 min","20 min","25 min","30 min"], correct: 2 },
+    { id: 3, type: "fill", question: "After 4 rounds, he rests ____ minutes.", answer: "twenty" },
+    { id: 4, type: "fill", question: "He uses ____ ____ with flashcards.",      answer: "spaced repetition" },
+    { id: 5, type: "tfng", statement: "Active recall is easier than rereading.", answer: "False" },
+    { id: 6, type: "tfng", statement: "He studies only alone.",                  answer: "False" },
+    { id: 7, type: "tfng", statement: "Easy studying gives easy results.",       answer: "True" },
+    { id: 8, type: "short",question: "What technique besides Pomodoro does he use?", answer: "active recall" },
+    { id: 9, type: "short",question: "What app might be similar?",               answer: "Anki" },
+    { id: 10,type: "short", question: "What's the trick to study without willpower?", answer: "make routine boring" },
+  ],
+  speakingPart1: [
+    { q: "How do you usually study?",                bandLow: "I read.",                                          bandMid: "I use Pomodoros and flashcards with spaced repetition." },
+    { q: "Are you a morning or night studier?",       bandLow: "Morning.",                                          bandMid: "Definitely a morning person — my focus drops after lunch." },
+    { q: "Do you study alone or with friends?",        bandLow: "Alone.",                                            bandMid: "Alone for memorising, with a study buddy for problem-solving." },
+    { q: "Do you take breaks while studying?",         bandLow: "Sometimes.",                                        bandMid: "Yes, after every Pomodoro — short breaks keep me focused longer." },
+    { q: "Have you ever crammed?",                      bandLow: "Yes.",                                              bandMid: "Often when I was younger. Cramming feels productive but rarely lasts." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a study technique that worked well for you.\n- what the technique is\n- when you started using it\n- how often you use it\n- and explain why it works.",
+    sample: "The technique that changed my studying is active recall combined with spaced repetition. I started six months ago after a YouTube video showed how rereading is mostly an illusion of learning. Now I write questions instead of notes, then close my book and answer from memory. Every wrong answer becomes a flashcard reviewed at increasing intervals. After a few weeks, things stick without effort. The reason it works is simple — your brain only strengthens what it actively retrieves.",
+    keywords: ["illusion of learning","retrieve","increasing intervals","stick without effort","strengthens"],
+  },
+  speakingPart3: [
+    { q: "Why do students dislike studying?",     hint: "passive method, exam pressure, motivation" },
+    { q: "Should schools teach study skills?",     hint: "metacognition, productivity, preparation" },
+    { q: "Is online learning effective?",           hint: "self-paced, distractions, interaction" },
+    { q: "How will AI change studying?",            hint: "personalised, instant feedback, ethics" },
+  ],
+  shadowing: [
+    "I stopped cramming the night before.",
+    "I review flashcards every day.",
+    "Active recall beats rereading.",
+    "Easy studying gives easy results.",
+    "Make routine boring so willpower isn't needed.",
+  ],
+  homework: [
+    "Viết 5 câu dùng spaced repetition, active recall, Pomodoro, study buddy, self-discipline.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "spaced repetition (lặp lại ngắt quãng) — dùng được cả essay.",
+    "study buddy gần nghĩa partner nhưng casual hơn.",
+    "willpower vs self-discipline — khác sắc thái.",
+  ],
+})
+
+LESSONS.push({
+  id: 30,
+  levelId: "basic-ielts",
+  title: "Job Interviews",
+  titleVi: "Phỏng Vấn Việc",
+  objectives: { listen: "Nghe phỏng vấn xin việc", speak: "Trả lời câu hỏi phỏng vấn ngắn", vocabFocus: "Interview vocab" },
+  vocabulary: [
+    { word: "résumé",         ipa: "/ˈrez.juː.meɪ/", vi: "CV",          example: "Send your résumé." },
+    { word: "applicant",      ipa: "/ˈæp.lɪ.kənt/", vi: "ứng viên",     example: "We have many applicants." },
+    { word: "strengths",      ipa: "/streŋθs/", vi: "điểm mạnh",       example: "List your strengths." },
+    { word: "weaknesses",     ipa: "", vi: "điểm yếu",                  example: "Talk about a weakness." },
+    { word: "team player",    ipa: "", vi: "người làm việc nhóm",       example: "I'm a team player." },
+    { word: "work ethic",     ipa: "", vi: "đạo đức nghề nghiệp",       example: "She has a strong work ethic." },
+    { word: "starting salary",ipa: "", vi: "lương khởi điểm",           example: "What's the starting salary?" },
+    { word: "benefits",       ipa: "", vi: "phúc lợi",                   example: "The benefits are great." },
+    { word: "follow up",      ipa: "", vi: "theo dõi sau",                example: "I'll follow up by email." },
+    { word: "reference letter", ipa: "", vi: "thư giới thiệu",            example: "Bring a reference letter." },
+  ],
+  script: "HR: Thank you for coming, Mai. Could you tell me a bit about yourself?\nMai: Sure. My name is Mai, twenty-three. I graduated from Foreign Trade University last year, majoring in International Business. After graduation, I joined a logistics start-up as an intern, and was offered a full-time role three months later. I've been there for nine months now.\nHR: Why are you applying for this role?\nMai: I admire your company's brand. The position matches my interest in supply chain analytics, and I want to work in a more structured environment.\nHR: Can you describe a strength?\nMai: I'm detail-oriented. I usually catch small errors that others miss. For example, I noticed a wrong incoterm in a shipment last quarter and saved my client roughly a thousand dollars.\nHR: That's impressive. And a weakness?\nMai: I tend to take on too much. I've improved by setting weekly priorities and saying no when needed.\nHR: Are you a team player?\nMai: Definitely. In my current role, I work daily with sales, finance, and customer service. Communication is my strongest soft skill.\nHR: What about salary expectations?\nMai: Based on my research, my expected starting salary is fifteen million dong, but I'm flexible if there are strong learning opportunities and benefits.\nHR: Final question. Do you have any questions for us?\nMai: Yes. What does success look like in this role within the first six months?\nHR: Great question. We'll send a follow-up by Friday.\nMai: Thank you for your time.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How long has Mai been at the start-up?", options: ["6 months","9 months","1 year","2 years"], correct: 1 },
+    { id: 2, type: "mcq",  question: "What is Mai's expected salary (million)?", options: ["10","12","15","20"], correct: 2 },
+    { id: 3, type: "fill", question: "Mai noticed a wrong incoterm and saved about ____ dollars.", answer: "a thousand" },
+    { id: 4, type: "fill", question: "She fixes weakness by setting weekly ____.", answer: "priorities" },
+    { id: 5, type: "tfng", statement: "Mai's major was Marketing.",                answer: "False" },
+    { id: 6, type: "tfng", statement: "She values structured environment.",        answer: "True" },
+    { id: 7, type: "tfng", statement: "She is rigid about salary.",                answer: "False" },
+    { id: 8, type: "short",question: "What is her strongest soft skill?",          answer: "communication" },
+    { id: 9, type: "short",question: "What question did she ask the HR?",          answer: "what success looks like in 6 months" },
+    { id: 10,type: "short", question: "When will HR follow up?",                    answer: "by Friday" },
+  ],
+  speakingPart1: [
+    { q: "Have you had a job interview before?",         bandLow: "Yes.",                                            bandMid: "Yes, I've been through three interviews — two for internships and one for my current role." },
+    { q: "What makes a good interview answer?",           bandLow: "Confident.",                                       bandMid: "Specific examples, calm tone, and a clear connection to the role." },
+    { q: "Are you good at talking about yourself?",        bandLow: "Sometimes.",                                       bandMid: "I'm getting better — preparing two or three signature stories really helps." },
+    { q: "What kind of jobs interest you?",                 bandLow: "Marketing.",                                       bandMid: "Roles that combine analytics and human interaction, like supply chain analyst." },
+    { q: "Would you ever start your own business?",         bandLow: "Maybe.",                                           bandMid: "Eventually, after gaining solid corporate experience and saving a runway fund." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a successful interview or test you have prepared for.\n- what it was for\n- how you prepared\n- what happened\n- and explain why it went well.",
+    sample: "I'd like to talk about my interview for a logistics start-up role last year. I prepared by studying their core products, drafting two signature stories about my internship, and rehearsing with a friend over Zoom. During the interview, I focused on giving specific numbers — like saving a client a thousand dollars by catching a wrong incoterm. The HR team noticed and asked deeper questions. I was offered the job within two days. The reason it went well was preparation plus calm storytelling, not memorised lines.",
+    keywords: ["signature stories","specific numbers","calm storytelling","rehearse","preparation pays off"],
+  },
+  speakingPart3: [
+    { q: "Why are interviews stressful?", hint: "uncertainty, judgement, stakes" },
+    { q: "Are interviews a fair way to choose people?", hint: "biases, performance vs reality" },
+    { q: "Should companies hire based on attitude or skill?", hint: "trainable, mindset, culture fit" },
+    { q: "How will AI change hiring?",   hint: "screening, video analysis, ethics" },
+  ],
+  shadowing: [
+    "Could you tell me a bit about yourself?",
+    "I'm detail-oriented.",
+    "I tend to take on too much.",
+    "Communication is my strongest soft skill.",
+    "We'll send a follow-up by Friday.",
+  ],
+  homework: [
+    "Viết 5 câu dùng résumé, applicant, work ethic, starting salary, follow up.",
+    "Ghi âm Part 1 câu 2, 3, 4.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "résumé thường dùng ở Mỹ; CV thông dụng hơn ở Anh và Việt Nam.",
+    "soft skill = kỹ năng mềm (giao tiếp, làm nhóm).",
+    "follow up vs follow-up — verb không gạch, noun có gạch.",
+  ],
+})
+
+LESSONS.push({
+  id: 31,
+  levelId: "basic-ielts",
+  title: "Asking for Directions",
+  titleVi: "Hỏi Đường",
+  objectives: { listen: "Nghe chỉ đường thật", speak: "Hỏi/chỉ đường tự nhiên", vocabFocus: "Direction vocab" },
+  vocabulary: [
+    { word: "around the corner", ipa: "", vi: "ngay gần đây",      example: "It's just around the corner." },
+    { word: "go straight",       ipa: "", vi: "đi thẳng",           example: "Go straight for two blocks." },
+    { word: "turn left/right",   ipa: "", vi: "rẽ trái/phải",       example: "Turn left at the lights." },
+    { word: "block",             ipa: "/blɒk/", vi: "dãy phố",      example: "Two blocks away." },
+    { word: "intersection",      ipa: "/ˌɪn.təˈsek.ʃən/", vi: "giao lộ", example: "Wait at the intersection." },
+    { word: "traffic lights",    ipa: "", vi: "đèn giao thông",     example: "Stop at the lights." },
+    { word: "landmark",          ipa: "/ˈlænd.mɑːk/", vi: "địa điểm dễ thấy", example: "It's near a famous landmark." },
+    { word: "opposite",          ipa: "/ˈɒp.ə.zɪt/", vi: "đối diện", example: "Opposite the bank." },
+    { word: "next to",           ipa: "", vi: "kế bên",              example: "Next to the post office." },
+    { word: "between",           ipa: "/bɪˈtwiːn/", vi: "giữa",       example: "Between the café and the shop." },
+  ],
+  script: "Tourist: Excuse me, could you help me find Hoan Kiem Lake?\nLocal: Of course. Are you walking or taking a Grab?\nTourist: Walking. Is it far from here?\nLocal: Not at all. About a ten-minute walk. Go straight on this street for two blocks until you see traffic lights.\nTourist: Two blocks, traffic lights. Got it.\nLocal: At the lights, turn left. You'll see a small park on your right and a bookshop on your left.\nTourist: Okay.\nLocal: Walk past the bookshop, and you'll reach an intersection. Cross the street carefully — it's busy.\nTourist: Always careful here.\nLocal: After crossing, turn right and walk for about three minutes. The lake will be on your left, opposite a big yellow building.\nTourist: A big yellow building. Easy to spot.\nLocal: Yes, that's the post office, a famous landmark in the area.\nTourist: Perfect. By the way, is there a good coffee shop near the lake?\nLocal: Many, but try the one between Cafe Giang and a small temple. They serve real Vietnamese egg coffee.\nTourist: Sounds amazing.\nLocal: One more tip — at the lake, walk clockwise. The view is better that direction.\nTourist: Wow, thank you so much for the detail.\nLocal: My pleasure. Enjoy Hanoi.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How far is the lake?",       options: ["5 min","10 min","15 min","30 min"], correct: 1 },
+    { id: 2, type: "mcq",  question: "After the lights, turn ____.", options: ["left","right","around","stop"], correct: 0 },
+    { id: 3, type: "fill", question: "Walk past the ____.",          answer: "bookshop" },
+    { id: 4, type: "fill", question: "The lake is opposite a big ____ ____.", answer: "yellow building" },
+    { id: 5, type: "tfng", statement: "The post office is the famous landmark.", answer: "True" },
+    { id: 6, type: "tfng", statement: "The local says walk clockwise around the lake.", answer: "True" },
+    { id: 7, type: "tfng", statement: "There are no coffee shops nearby.", answer: "False" },
+    { id: 8, type: "short",question: "How long after crossing do you walk?",  answer: "three minutes" },
+    { id: 9, type: "short",question: "Which café is the suggested one between?", answer: "Cafe Giang and a small temple" },
+    { id: 10,type: "short", question: "What kind of coffee do they serve?",     answer: "Vietnamese egg coffee" },
+  ],
+  speakingPart1: [
+    { q: "Are you good at giving directions?",     bandLow: "Sometimes.",                                       bandMid: "I'm decent if I know the area, but I always double-check on Google Maps." },
+    { q: "Do you use map apps?",                    bandLow: "Yes.",                                              bandMid: "Daily. Google Maps for navigation, Grab for ride estimates." },
+    { q: "Have you ever got lost?",                  bandLow: "Yes.",                                              bandMid: "Multiple times in old quarters where streets are narrow and signs are missing." },
+    { q: "Do tourists often ask for directions?",    bandLow: "Yes.",                                              bandMid: "In Hanoi very often, especially around the old quarter and Hoan Kiem Lake." },
+    { q: "How do you ask for directions politely?",  bandLow: "Excuse me.",                                        bandMid: "I always start with Excuse me, sorry to bother you and end with thanks regardless of the answer." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a time you got lost.\n- where you were\n- when it happened\n- how you found your way\n- and explain how you felt afterwards.",
+    sample: "Last year I got lost in Hanoi's old quarter at night. I had been visiting a friend and underestimated how confusing the small alleys are. My phone battery was almost dead. I asked a small shop owner for directions; she gave me a hand-drawn map on a piece of paper. Twenty minutes later I reached the main road. Looking back, that small piece of paper meant much more than any GPS. I felt grateful and a bit embarrassed.",
+    keywords: ["small alleys","hand-drawn map","battery almost dead","kindness of strangers","grateful"],
+  },
+  speakingPart3: [
+    { q: "Are people in your country helpful to strangers?", hint: "culture, region, situation" },
+    { q: "Has GPS ruined our sense of direction?",            hint: "memory, exploration, dependence" },
+    { q: "Should children learn to read paper maps?",          hint: "skills, emergency, cognitive" },
+    { q: "Why do tourists get lost more often?",                hint: "language, signage, layout" },
+  ],
+  shadowing: [
+    "Excuse me, could you help me find Hoan Kiem Lake?",
+    "Go straight for two blocks until you see traffic lights.",
+    "Cross the street carefully — it's busy.",
+    "The lake will be on your left, opposite a big yellow building.",
+    "Walk clockwise. The view is better that direction.",
+  ],
+  homework: [
+    "Viết 5 câu dùng go straight, turn left, intersection, opposite, between.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "around the corner = ngay gần — không phải vòng quanh.",
+    "block (Anh-Mỹ) ≈ một dãy phố giữa hai ngã tư.",
+    "kindness of strangers — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 32,
+  levelId: "basic-ielts",
+  title: "Holidays and Festivals",
+  titleVi: "Lễ Hội Và Ngày Lễ",
+  objectives: { listen: "Nghe miêu tả lễ hội văn hoá", speak: "Mô tả ngày lễ yêu thích", vocabFocus: "Festival vocab" },
+  vocabulary: [
+    { word: "celebrate",      ipa: "/ˈsel.ə.breɪt/", vi: "ăn mừng",     example: "We celebrate Tet for a week." },
+    { word: "tradition",      ipa: "/trəˈdɪʃ.ən/", vi: "truyền thống",  example: "It's a long-standing tradition." },
+    { word: "decorate",       ipa: "/ˈdek.ə.reɪt/", vi: "trang trí",     example: "We decorate the house with peach blossoms." },
+    { word: "lunar calendar", ipa: "", vi: "âm lịch",                    example: "Tet follows the lunar calendar." },
+    { word: "fireworks",      ipa: "/ˈfaɪə.wɜːks/", vi: "pháo hoa",      example: "Fireworks light up the sky." },
+    { word: "lucky money",    ipa: "", vi: "lì xì",                       example: "Children love lucky money." },
+    { word: "reunion",        ipa: "/riːˈjuː.ni.ən/", vi: "đoàn tụ",     example: "Tet is a family reunion time." },
+    { word: "ancestor",       ipa: "/ˈæn.ses.tər/", vi: "tổ tiên",        example: "We honour our ancestors." },
+    { word: "atmosphere",     ipa: "/ˈæt.məs.fɪər/", vi: "không khí",     example: "The atmosphere is electric." },
+    { word: "holiday season", ipa: "", vi: "mùa lễ hội",                   example: "The holiday season is busy." },
+  ],
+  script: "Anna: I read that Tet is the most important festival in Vietnam.\nMinh: Yes, by far. Tet means the Lunar New Year. Most Vietnamese return home from across the country to celebrate with family.\nAnna: Like a national reunion?\nMinh: Exactly. Trains and flights are packed weeks before. Some people start cleaning their houses, paying off debts, and buying new clothes a month in advance.\nAnna: That's serious preparation.\nMinh: There's a saying: how you start the new year affects the whole year. So families try to enter Tet with a clean home, a peaceful mind, and good food on the table.\nAnna: What about decorations?\nMinh: In the north we have peach blossoms, in the south yellow apricot blossoms, and everywhere a kumquat tree. We also display banh chung, a traditional sticky rice cake, on the family altar to honour our ancestors.\nAnna: Are there fireworks?\nMinh: Big public fireworks on New Year's Eve, usually thirty minutes. After that, people visit relatives, give lucky money to children, and eat continuously for three days.\nAnna: Lucky money?\nMinh: Small red envelopes with cash inside. Adults give them to kids and elders. The amount is symbolic, the gesture matters.\nAnna: How long does Tet last?\nMinh: Officially seven days off, but many small shops close for two weeks.\nAnna: Sounds like the whole country pauses.\nMinh: It does. The atmosphere is unique — quiet streets, family laughter, and the smell of incense at altars.\nAnna: I'd love to experience a real Tet.\nMinh: Come stay with my family next year.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Tet means ____.",                options: ["Mid-Autumn","Lunar New Year","Independence Day","Buddha's birthday"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Northern flower for Tet?",         options: ["yellow apricot","peach blossom","sunflower","rose"], correct: 1 },
+    { id: 3, type: "fill", question: "Banh chung is placed on the ____ ____ for ancestors.", answer: "family altar" },
+    { id: 4, type: "fill", question: "Fireworks last about ____ minutes.", answer: "thirty" },
+    { id: 5, type: "tfng", statement: "Most Vietnamese stay in the city during Tet.", answer: "False" },
+    { id: 6, type: "tfng", statement: "The amount in lucky money is symbolic.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Some shops close for two weeks.", answer: "True" },
+    { id: 8, type: "short",question: "How long is the official Tet holiday?", answer: "seven days" },
+    { id: 9, type: "short",question: "What three things do people do before Tet?", answer: "clean houses, pay debts, buy new clothes" },
+    { id: 10,type: "short", question: "What is the unique smell at altars?",  answer: "incense" },
+  ],
+  speakingPart1: [
+    { q: "What is the most important holiday in your country?", bandLow: "Tet.",                                            bandMid: "By far it's Tet, our Lunar New Year — a long family reunion." },
+    { q: "How do you celebrate it?",                            bandLow: "With family.",                                     bandMid: "We clean the house, decorate with peach blossoms, and visit relatives for several days." },
+    { q: "Do you give or receive gifts during festivals?",       bandLow: "Yes.",                                              bandMid: "We give and receive lucky money — small red envelopes that are symbolic rather than financial." },
+    { q: "Have festivals changed over time?",                    bandLow: "A bit.",                                            bandMid: "They've become slightly more relaxed and digital, but core traditions still hold." },
+    { q: "Do young people care about traditional festivals?",     bandLow: "Yes.",                                              bandMid: "Many still value Tet, although the way they celebrate is more flexible than the older generation." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a festival you enjoy.\n- what the festival is\n- when and where it takes place\n- what people do during it\n- and explain why you enjoy it.",
+    sample: "The festival I enjoy most is Tet, the Lunar New Year in Vietnam. It usually falls in late January or early February. My whole family gathers at my grandparents' house in Hue. We clean the house, prepare banh chung, and decorate with peach blossoms. On New Year's Eve we watch the fireworks, then visit relatives across the next three days, giving lucky money to children. What I love is the rare sense that the entire country pauses together, allowing families to slow down and reconnect.",
+    keywords: ["family reunion","banh chung","peach blossoms","fireworks","national pause"],
+  },
+  speakingPart3: [
+    { q: "Should governments protect traditional festivals?", hint: "identity, tourism, funding" },
+    { q: "Are festivals becoming too commercial?",            hint: "shopping sales, sponsorship, meaning" },
+    { q: "How do festivals strengthen communities?",            hint: "ritual, shared experience, memory" },
+    { q: "Will future festivals be virtual?",                   hint: "online, hybrid, generations" },
+  ],
+  shadowing: [
+    "Tet means the Lunar New Year.",
+    "Trains and flights are packed weeks before.",
+    "How you start the new year affects the whole year.",
+    "We honour our ancestors.",
+    "The whole country pauses.",
+  ],
+  homework: [
+    "Viết 5 câu dùng celebrate, tradition, lunar calendar, reunion, atmosphere.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "lunar calendar (âm lịch) khác solar calendar (dương lịch).",
+    "ancestor (tổ tiên) khác relative (họ hàng).",
+    "atmosphere is electric — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 33,
+  levelId: "basic-ielts",
+  title: "Online Learning",
+  titleVi: "Học Trực Tuyến",
+  objectives: { listen: "Nghe ưu nhược của học online", speak: "Nói trải nghiệm học trực tuyến", vocabFocus: "E-learning vocab" },
+  vocabulary: [
+    { word: "MOOC",            ipa: "/muːk/", vi: "khoá học mở online", example: "I joined a free MOOC." },
+    { word: "self-paced",      ipa: "", vi: "học theo nhịp riêng",      example: "Self-paced courses suit me." },
+    { word: "live class",      ipa: "", vi: "lớp trực tiếp online",     example: "We had a live class on Zoom." },
+    { word: "recorded lecture",ipa: "", vi: "bài giảng ghi sẵn",         example: "I rewatch recorded lectures." },
+    { word: "interactive",     ipa: "/ˌɪn.təˈræk.tɪv/", vi: "tương tác", example: "The platform is interactive." },
+    { word: "certificate",     ipa: "/səˈtɪf.ɪ.kət/", vi: "chứng chỉ",   example: "I got a certificate after the course." },
+    { word: "engagement",      ipa: "/ɪnˈɡeɪdʒ.mənt/", vi: "mức tương tác", example: "Student engagement varies online." },
+    { word: "drop out",        ipa: "", vi: "bỏ học",                   example: "Many students drop out of MOOCs." },
+    { word: "screen fatigue",  ipa: "", vi: "mỏi mắt do màn hình",      example: "Screen fatigue is real." },
+    { word: "discussion forum",ipa: "", vi: "diễn đàn thảo luận",        example: "The forum builds community." },
+  ],
+  script: "Lan: I just finished a six-week MOOC on data analysis.\nKhang: Was it worth it?\nLan: Surprisingly yes. I expected another half-watched course, but this one was self-paced with weekly live classes.\nKhang: How was the engagement?\nLan: Higher than I thought. The instructor used breakout rooms, polls, and a discussion forum that was active twenty-four seven.\nKhang: Did you get a certificate?\nLan: Yes, I had to submit a final project. They reviewed it personally.\nKhang: Honestly, that's better than most universities.\nLan: Right? But online learning has weak points too. After two hours of screen time my eyes burn. Screen fatigue is a real thing.\nKhang: How did you manage?\nLan: Twenty-five minutes of class, five-minute eye break. I took notes by hand to reduce screen time. Recorded lectures helped — I could rewatch tricky parts.\nKhang: What about motivation? People drop out of MOOCs all the time.\nLan: True. The completion rate is below ten percent in many courses. I joined a small study group of three. We met every Saturday on Zoom for one hour. That kept me on track.\nKhang: Smart. Accountability solves most things.\nLan: Exactly. Plus the platform was interactive, not just videos. There were quizzes, peer reviews, and even a final group presentation.\nKhang: I might join one. Any recommendation?\nLan: Look for courses with live components. Pure recorded videos are easy to abandon.\nKhang: Got it.\nLan: Also, set a deadline. Without one, you'll never finish.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How long was the course?",   options: ["3 weeks","4 weeks","6 weeks","12 weeks"], correct: 2 },
+    { id: 2, type: "mcq",  question: "How long was each study group meeting?", options: ["30 min","45 min","1 hour","2 hours"], correct: 2 },
+    { id: 3, type: "fill", question: "Lan got a ____ after the final project.", answer: "certificate" },
+    { id: 4, type: "fill", question: "MOOC completion rate is below ____ percent.", answer: "ten" },
+    { id: 5, type: "tfng", statement: "Lan thinks pure recorded videos are easy to finish.", answer: "False" },
+    { id: 6, type: "tfng", statement: "The forum was active 24/7.",                answer: "True" },
+    { id: 7, type: "tfng", statement: "Lan joined a study group of five.",         answer: "False" },
+    { id: 8, type: "short",question: "What rule managed screen fatigue?",          answer: "25 min class, 5 min eye break" },
+    { id: 9, type: "short",question: "What did the platform have besides videos?", answer: "quizzes, peer reviews, group presentation" },
+    { id: 10,type: "short", question: "What advice does Lan give to finish a MOOC?", answer: "set a deadline" },
+  ],
+  speakingPart1: [
+    { q: "Have you taken any online courses?",     bandLow: "Yes one.",                                       bandMid: "I've done two MOOCs and a part-time IELTS class on Zoom." },
+    { q: "What do you like about online learning?",  bandLow: "Flexible.",                                       bandMid: "The flexibility — I can pause and rewind whenever I want." },
+    { q: "What is the hardest part of online study?", bandLow: "Stay focused.",                                   bandMid: "Maintaining motivation; without a study group I would drop out for sure." },
+    { q: "Can online learning replace traditional school?", bandLow: "Maybe.",                                     bandMid: "It can replace lectures, but social aspects of campus life are hard to recreate." },
+    { q: "Will online learning grow in your country?", bandLow: "Yes.",                                            bandMid: "Definitely. It already has, especially in tech and language education." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe an online course you have taken.\n- what the course was about\n- when and how long\n- how you studied\n- and explain whether you would recommend it.",
+    sample: "I'd like to talk about a six-week MOOC on data analysis I completed last summer. It mixed self-paced videos with weekly live classes on Zoom. I joined a small study group of three; we met every Saturday morning to discuss assignments. By the final week we had to submit a real-world project that was peer-reviewed. I would absolutely recommend this course because it was interactive enough to keep me engaged, and the certificate carried real weight when I added it to my résumé.",
+    keywords: ["self-paced","live components","peer review","study group","carries weight"],
+  },
+  speakingPart3: [
+    { q: "Why are MOOC completion rates low?",         hint: "motivation, no deadline, accountability" },
+    { q: "Are online certificates trusted by employers?", hint: "depends on platform, project portfolio" },
+    { q: "How can teachers boost online engagement?",   hint: "interactive tools, breakout rooms, frequent feedback" },
+    { q: "Will universities go fully online?",           hint: "hybrid model, social value, costs" },
+  ],
+  shadowing: [
+    "I just finished a six-week MOOC.",
+    "I expected another half-watched course.",
+    "Twenty-five minutes of class, five-minute eye break.",
+    "Accountability solves most things.",
+    "Set a deadline.",
+  ],
+  homework: [
+    "Viết 5 câu dùng MOOC, self-paced, certificate, engagement, drop out.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "MOOC = Massive Open Online Course.",
+    "self-paced khác self-taught (tự học).",
+    "carries weight (có sức nặng) — band 7.",
+  ],
+})
+
+LESSONS.push({
+  id: 34,
+  levelId: "basic-ielts",
+  title: "Volunteering",
+  titleVi: "Hoạt Động Tình Nguyện",
+  objectives: { listen: "Nghe trải nghiệm tình nguyện", speak: "Nói về hoạt động xã hội", vocabFocus: "Volunteer vocab" },
+  vocabulary: [
+    { word: "volunteer",     ipa: "/ˌvɒl.ənˈtɪər/", vi: "tình nguyện viên", example: "I volunteer at a shelter." },
+    { word: "give back",     ipa: "", vi: "cho đi/ủng hộ",            example: "I want to give back to society." },
+    { word: "charity",       ipa: "/ˈtʃær.ə.ti/", vi: "tổ chức từ thiện", example: "Donate to a local charity." },
+    { word: "fundraiser",    ipa: "/ˈfʌndˌreɪ.zər/", vi: "sự kiện gây quỹ", example: "We organised a fundraiser." },
+    { word: "raise awareness", ipa: "", vi: "nâng cao nhận thức",      example: "We raise awareness of climate change." },
+    { word: "community",     ipa: "/kəˈmjuː.nə.ti/", vi: "cộng đồng",   example: "A strong community helps everyone." },
+    { word: "make a difference", ipa: "", vi: "tạo khác biệt",          example: "Small actions make a difference." },
+    { word: "underprivileged",ipa: "/ˌʌn.dəˈprɪv.ɪ.lɪdʒd/", vi: "thiệt thòi", example: "Help underprivileged children." },
+    { word: "teach skills",  ipa: "", vi: "dạy kỹ năng",                example: "Volunteers teach computer skills." },
+    { word: "donate",        ipa: "/dəʊˈneɪt/", vi: "quyên góp",         example: "I donate every month." },
+  ],
+  script: "Reporter: Welcome back. Today we're at the Hanoi Children's Library, where volunteers run reading sessions every Sunday. With me is Linh.\nLinh: Hi, thank you for having me.\nReporter: How long have you been volunteering here?\nLinh: Almost two years. I started right after I graduated.\nReporter: Why did you choose this place?\nLinh: I love books and I wanted to give back. Many kids here come from underprivileged families. The library is a safe space where they can read, learn, and dream beyond their daily situation.\nReporter: That's beautiful. What does your typical Sunday look like?\nLinh: I arrive at nine, set up the reading corner, and welcome around twenty children. We read aloud together, then split into small groups for activities — drawing, storytelling, even simple coding.\nReporter: You teach coding too?\nLinh: Just basics. Other volunteers teach English, art, or music. We rotate based on who is available.\nReporter: What about funding?\nLinh: We rely on a charity foundation, plus small fundraisers four times a year. Last month we organised a book fair. We raised twenty-eight million dong in three days.\nReporter: Impressive. What is the biggest reward for you?\nLinh: Watching a quiet child slowly open up. One girl barely spoke when she joined. Last week she stood in front of everyone and read her favourite poem.\nReporter: That gives me chills.\nLinh: Volunteering really makes a difference, both for the kids and for us. I genuinely believe small actions, repeated weekly, change lives.\nReporter: Thank you, Linh. How can people support you?\nLinh: Donate, volunteer, or simply share our page online to raise awareness.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How long has Linh been volunteering?", options: ["6 months","1 year","2 years","3 years"], correct: 2 },
+    { id: 2, type: "mcq",  question: "How many children attend?",            options: ["10","15","20","30"], correct: 2 },
+    { id: 3, type: "fill", question: "Each session starts at ____ am.",       answer: "nine" },
+    { id: 4, type: "fill", question: "The book fair raised ____ ____ million dong.", answer: "twenty-eight" },
+    { id: 5, type: "tfng", statement: "Linh teaches advanced coding.",         answer: "False" },
+    { id: 6, type: "tfng", statement: "Volunteers rotate teaching subjects.", answer: "True" },
+    { id: 7, type: "tfng", statement: "The charity foundation is the only source of funding.", answer: "False" },
+    { id: 8, type: "short",question: "What was the quiet child's transformation?", answer: "stood up and read her favourite poem" },
+    { id: 9, type: "short",question: "How often do they have fundraisers?",        answer: "four times a year" },
+    { id: 10,type: "short", question: "What three ways can people support?",        answer: "donate, volunteer, share page" },
+  ],
+  speakingPart1: [
+    { q: "Have you ever volunteered?",     bandLow: "Yes once.",                                          bandMid: "Yes, I've volunteered at a children's library every Sunday for almost two years." },
+    { q: "Why do people volunteer?",        bandLow: "To help.",                                            bandMid: "To give back, gain experience, and feel they're contributing to something bigger." },
+    { q: "Should volunteering be encouraged in schools?", bandLow: "Yes.",                                  bandMid: "Absolutely — it builds empathy and exposes students to social realities." },
+    { q: "Do companies in your country support volunteering?", bandLow: "Some.",                            bandMid: "Many large companies offer paid volunteer hours — a good practice spreading slowly." },
+    { q: "Would you rather donate money or time?", bandLow: "Time.",                                         bandMid: "Time, when possible. Money helps but consistent presence has deeper impact." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a time you helped a stranger or a community.\n- what you did\n- when and where\n- who benefited\n- and explain how it made you feel.",
+    sample: "I'd like to talk about my Sunday volunteering at the Hanoi Children's Library. Two years ago, I started reading aloud with around twenty kids from underprivileged families. We've added drawing, storytelling and even basic coding sessions. The most rewarding moment was watching a quiet girl who barely spoke at first eventually stand up and read her favourite poem to the entire group. That moment told me small consistent actions really change lives, and changed mine too.",
+    keywords: ["give back","underprivileged kids","consistent actions","quiet to confident","mutual change"],
+  },
+  speakingPart3: [
+    { q: "Why don't more young people volunteer?", hint: "time, awareness, work pressure" },
+    { q: "Should governments fund volunteer programmes?", hint: "education, social bonds, fairness" },
+    { q: "Are online charity campaigns effective?", hint: "reach, scams, transparency" },
+    { q: "What problems in your community need volunteers most?", hint: "education, environment, elderly care" },
+  ],
+  shadowing: [
+    "I love books and I wanted to give back.",
+    "Many kids come from underprivileged families.",
+    "Watching a quiet child slowly open up.",
+    "Small actions, repeated weekly, change lives.",
+    "Donate, volunteer, or simply share our page online.",
+  ],
+  homework: [
+    "Viết 5 câu dùng give back, charity, fundraiser, raise awareness, make a difference.",
+    "Ghi âm Part 1 câu 1, 2, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "give back (cho đi cộng đồng) khác return (trả lại).",
+    "underprivileged trang trọng hơn poor.",
+    "make a difference — câu band cao, dùng nhiều.",
+  ],
+})
+
+LESSONS.push({
+  id: 35,
+  levelId: "basic-ielts",
+  title: "Saving the Environment",
+  titleVi: "Bảo Vệ Môi Trường",
+  objectives: { listen: "Nghe hành động thân thiện môi trường", speak: "Nói thói quen bảo vệ môi trường", vocabFocus: "Environment vocab" },
+  vocabulary: [
+    { word: "single-use plastic", ipa: "", vi: "nhựa dùng một lần",   example: "Avoid single-use plastic." },
+    { word: "reusable",           ipa: "", vi: "tái dùng được",       example: "Bring a reusable bag." },
+    { word: "carbon footprint",   ipa: "", vi: "lượng phát thải",     example: "Reduce your carbon footprint." },
+    { word: "recycle",            ipa: "/ˌriːˈsaɪ.kəl/", vi: "tái chế", example: "Recycle paper, plastic, metal." },
+    { word: "compost",            ipa: "/ˈkɒm.pɒst/", vi: "ủ phân hữu cơ", example: "I compost food scraps." },
+    { word: "renewable energy",   ipa: "", vi: "năng lượng tái tạo",  example: "Solar power is renewable." },
+    { word: "deforestation",      ipa: "/diːˌfɒr.ɪˈsteɪ.ʃən/", vi: "phá rừng", example: "Deforestation worsens flooding." },
+    { word: "go green",           ipa: "", vi: "sống xanh",           example: "Companies are going green." },
+    { word: "biodegradable",      ipa: "/ˌbaɪ.əʊ.dɪˈɡreɪ.də.bəl/", vi: "phân huỷ sinh học", example: "Biodegradable bags decompose." },
+    { word: "sustainable",        ipa: "/səˈsteɪ.nə.bəl/", vi: "bền vững", example: "We need a sustainable lifestyle." },
+  ],
+  script: "Mai: I joined a green-living challenge for thirty days last month.\nKhang: Cool. What changes did you make?\nMai: Five small things. First, no single-use plastic. I bring my own bottle, cup, and reusable bag every day.\nKhang: Tough at first?\nMai: Awkward for a week. Now it's automatic.\nKhang: What's the second?\nMai: Composting. I keep a small bin in the kitchen for fruit peels and vegetable scraps. After a month, I have ready compost for my plants.\nKhang: Smart.\nMai: Third, I cut meat to twice a week. Plant-based meals taste better than I expected.\nKhang: That alone reduces a lot of carbon footprint.\nMai: Fourth, I switched lightbulbs to LED. The electricity bill dropped fifteen percent.\nKhang: Fifth?\nMai: I take public transport or walk for trips under three kilometres. My motorbike use halved.\nKhang: That's huge. Did you measure overall impact?\nMai: A rough estimate said I cut my carbon footprint by twenty percent in thirty days.\nKhang: Honestly impressive.\nMai: But the planet won't change with one person. Companies and governments matter more. Renewable energy, anti-deforestation laws, public transport investment.\nKhang: Still, individual habits matter — they normalise sustainability.\nMai: Exactly. Going green is now my default.\nKhang: I might start small. One reusable bottle for next month.\nMai: Perfect first step.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How many changes did Mai make?",   options: ["3","4","5","6"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Mai cut meat to ____ a week.",       options: ["once","twice","three times","never"], correct: 1 },
+    { id: 3, type: "fill", question: "Electricity bill dropped ____ percent.", answer: "fifteen" },
+    { id: 4, type: "fill", question: "Carbon footprint cut by ____ percent.", answer: "twenty" },
+    { id: 5, type: "tfng", statement: "Mai stopped eating meat completely.", answer: "False" },
+    { id: 6, type: "tfng", statement: "She walks for trips under 3 km.",     answer: "True" },
+    { id: 7, type: "tfng", statement: "Mai thinks one person can fix the planet.", answer: "False" },
+    { id: 8, type: "short",question: "Three things Mai brings every day?",   answer: "bottle, cup, reusable bag" },
+    { id: 9, type: "short",question: "What does she compost?",                answer: "fruit peels, vegetable scraps" },
+    { id: 10,type: "short", question: "Khang's first step?",                   answer: "one reusable bottle" },
+  ],
+  speakingPart1: [
+    { q: "Do you recycle?",                            bandLow: "Sometimes.",                                       bandMid: "Yes, I separate paper, plastic, and metal — Hanoi has more recycling points now." },
+    { q: "What environmental issues worry you?",        bandLow: "Pollution.",                                        bandMid: "Air pollution and ocean plastic concern me the most, especially in big Vietnamese cities." },
+    { q: "Do you use a reusable bottle?",                bandLow: "Yes.",                                              bandMid: "Always, partly to save money and partly to reduce single-use plastic." },
+    { q: "Should companies be punished for pollution?",   bandLow: "Yes.",                                              bandMid: "Definitely — without strong penalties they prioritise profit over environment." },
+    { q: "Are people in your country aware of the environment?", bandLow: "Some.",                                       bandMid: "Awareness is rising, especially among the younger generation, although habits change slowly." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe an environmentally friendly habit you have or want to start.\n- what the habit is\n- when you started or plan to start\n- how often you do it\n- and explain its impact.",
+    sample: "The habit I'm proudest of is bringing my own reusable items everywhere — a stainless-steel bottle, a foldable bag, and a glass cup. I started during a thirty-day green-living challenge last month. Now refusing single-use plastic is automatic. The impact is small at individual level, but I see it as a daily reminder that personal habits add up. I've also influenced two friends to do the same, which is a multiplier effect I didn't expect.",
+    keywords: ["reusable","single-use plastic","green-living challenge","multiplier effect","daily reminder"],
+  },
+  speakingPart3: [
+    { q: "How effective are individual actions?",  hint: "habits, normalisation, scale" },
+    { q: "Should plastic be banned?",                hint: "alternatives, cost, enforcement" },
+    { q: "Are renewables the future?",                hint: "solar, wind, infrastructure" },
+    { q: "What can schools do for the environment?",  hint: "education, action projects, leadership" },
+  ],
+  shadowing: [
+    "No single-use plastic.",
+    "Plant-based meals taste better than I expected.",
+    "The electricity bill dropped fifteen percent.",
+    "Companies and governments matter more.",
+    "Going green is now my default.",
+  ],
+  homework: [
+    "Viết 5 câu dùng single-use plastic, reusable, carbon footprint, recycle, sustainable.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "carbon footprint = lượng phát thải cá nhân.",
+    "go green vs save the planet — go green dùng cho hành vi cụ thể.",
+    "multiplier effect = hiệu ứng lan toả — band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 36,
+  levelId: "basic-ielts",
+  title: "Social Media Habits",
+  titleVi: "Thói Quen Mạng Xã Hội",
+  objectives: { listen: "Nghe phỏng vấn về MXH", speak: "Speaking về thời gian dùng MXH", vocabFocus: "Social media vocab" },
+  vocabulary: [
+    { word: "newsfeed",       ipa: "", vi: "trang chủ tin",         example: "I scroll my newsfeed every morning." },
+    { word: "reels / shorts", ipa: "", vi: "video ngắn",             example: "I watch reels for hours." },
+    { word: "follower",       ipa: "/ˈfɒl.əʊ.ər/", vi: "người theo dõi", example: "She has a million followers." },
+    { word: "post (n/v)",     ipa: "/pəʊst/", vi: "bài đăng",        example: "I post once a week." },
+    { word: "filter",         ipa: "", vi: "bộ lọc/làm đẹp",         example: "Don't trust filtered photos." },
+    { word: "viral",          ipa: "/ˈvaɪə.rəl/", vi: "lan truyền",   example: "The video went viral overnight." },
+    { word: "comparison trap",ipa: "", vi: "bẫy so sánh",             example: "Avoid the comparison trap online." },
+    { word: "doomscroll",     ipa: "", vi: "lướt tin xấu liên tục",   example: "I doomscroll late at night." },
+    { word: "digital detox",  ipa: "", vi: "cai mạng",                example: "I tried a weekend digital detox." },
+    { word: "engagement",     ipa: "", vi: "lượt tương tác",          example: "Engagement matters for creators." },
+  ],
+  script: "Reporter: We're asking young people about social media use. May I ask you a few questions?\nLan: Sure.\nReporter: How much time do you spend on social media daily?\nLan: Honestly, around three hours, mostly Instagram and TikTok.\nReporter: Do you post often?\nLan: Maybe twice a week, plus daily Stories. Nothing too curated.\nReporter: Does social media affect your mood?\nLan: It used to. I fell into the comparison trap — every friend looked happier, fitter, richer. After a while I realised most posts are filtered highlights, not real life.\nReporter: How did you change?\nLan: I unfollowed accounts that made me feel anxious and followed creators who post real, useful content. My feed is now more boring but healthier.\nReporter: Do you doomscroll?\nLan: Late at night, yes. I'm trying to put my phone in another room before bed. It works about half the time.\nReporter: What about a digital detox?\nLan: I did one full weekend last month. The first six hours were strange, but afterwards I felt incredibly calm. I read two books and spoke to my parents on video call.\nReporter: Would you recommend it?\nLan: Definitely. Even half a day helps reset.\nReporter: Has social media impacted your career?\nLan: Mostly positively. I network with industry people through LinkedIn, and even got a freelance job through a tweet.\nReporter: Any last advice?\nLan: Engagement online is fine, but never mistake it for real connection. Friends in real life still beat followers online.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How long does Lan spend on social media daily?", options: ["1 hour","2 hours","3 hours","5 hours"], correct: 2 },
+    { id: 2, type: "mcq",  question: "How often does she post (besides Stories)?",     options: ["daily","twice a week","once a week","once a month"], correct: 1 },
+    { id: 3, type: "fill", question: "She fell into the ____ ____.",                    answer: "comparison trap" },
+    { id: 4, type: "fill", question: "Her feed is now more ____ but healthier.",        answer: "boring" },
+    { id: 5, type: "tfng", statement: "She always succeeds in keeping her phone out of bed.", answer: "False" },
+    { id: 6, type: "tfng", statement: "She did a digital detox for one weekend.",       answer: "True" },
+    { id: 7, type: "tfng", statement: "She got a job through Instagram.",               answer: "False" },
+    { id: 8, type: "short",question: "What two platforms does she use most?",            answer: "Instagram, TikTok" },
+    { id: 9, type: "short",question: "What did she do during the detox?",               answer: "read books, video call parents" },
+    { id: 10,type: "short", question: "What does she remind us at the end?",              answer: "real friends beat followers" },
+  ],
+  speakingPart1: [
+    { q: "Which social media do you use?",            bandLow: "TikTok and Instagram.",                              bandMid: "Mostly Instagram for friends and TikTok for short videos." },
+    { q: "How much time do you spend on it?",          bandLow: "A few hours.",                                        bandMid: "Probably three to four hours daily, which is a bit too much in my view." },
+    { q: "Do you post regularly?",                      bandLow: "Sometimes.",                                          bandMid: "I post about twice a week, mostly travel photos and small wins." },
+    { q: "Has social media affected your sleep?",        bandLow: "Yes.",                                                bandMid: "Definitely — I doomscroll late at night, although I'm working on a phone-out-of-bedroom rule." },
+    { q: "Are influencers a positive force?",            bandLow: "Some yes.",                                            bandMid: "It depends. Some inspire growth; others fuel comparison culture." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe an experience you had with social media.\n- what happened\n- when and where\n- how it affected you\n- and explain what you learned.",
+    sample: "I'd like to talk about a digital detox weekend I did last month. I locked my phone in a drawer for forty-eight hours. The first six hours were strange — I kept reaching for my pocket. After dinner, my mind quieted down. I read two books, spoke to my parents on a video call, and went for a long walk. By Sunday night I felt mentally lighter. The lesson is simple: social media should serve us, not consume us. Now I do a half-day detox every weekend.",
+    keywords: ["digital detox","mentally lighter","reset","comparison trap","serve us not consume us"],
+  },
+  speakingPart3: [
+    { q: "Why is social media so addictive?",     hint: "dopamine, algorithms, novelty" },
+    { q: "Should there be age limits for apps?",   hint: "mental health, parental control" },
+    { q: "Has social media changed friendships?",   hint: "depth, distance, exposure" },
+    { q: "Will social media still exist in 20 years?", hint: "evolution, AI, attention economy" },
+  ],
+  shadowing: [
+    "I fell into the comparison trap.",
+    "Most posts are filtered highlights, not real life.",
+    "I'm trying to put my phone in another room before bed.",
+    "Even half a day helps reset.",
+    "Real friends beat followers online.",
+  ],
+  homework: [
+    "Viết 5 câu dùng newsfeed, viral, doomscroll, digital detox, engagement.",
+    "Ghi âm Part 1 câu 1, 2, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "doomscroll = lướt tin xấu — band cao, dùng trong essay.",
+    "digital detox là cụm hiện đại, examiner thích.",
+    "comparison trap thường gặp trong IELTS Speaking band 7.",
+  ],
+})
+
+LESSONS.push({
+  id: 37,
+  levelId: "basic-ielts",
+  title: "Books and Reading",
+  titleVi: "Sách Và Đọc Sách",
+  objectives: { listen: "Nghe trao đổi về sách yêu thích", speak: "Nói thói quen đọc", vocabFocus: "Reading vocab" },
+  vocabulary: [
+    { word: "page-turner",   ipa: "", vi: "sách hấp dẫn",         example: "This thriller is a real page-turner." },
+    { word: "fiction",       ipa: "/ˈfɪk.ʃən/", vi: "tiểu thuyết",  example: "I prefer fiction." },
+    { word: "non-fiction",   ipa: "", vi: "sách phi hư cấu",       example: "Non-fiction teaches me a lot." },
+    { word: "self-help",     ipa: "", vi: "sách phát triển bản thân", example: "Self-help books are popular." },
+    { word: "audiobook",     ipa: "", vi: "sách nói",                example: "I listen to audiobooks while driving." },
+    { word: "e-reader",      ipa: "", vi: "máy đọc sách",            example: "A Kindle is my e-reader." },
+    { word: "highlight",     ipa: "", vi: "đánh dấu",                example: "I highlight powerful sentences." },
+    { word: "bookworm",      ipa: "", vi: "mọt sách",                example: "He's a total bookworm." },
+    { word: "skim through",  ipa: "", vi: "đọc lướt",                example: "I skim through reviews first." },
+    { word: "thought-provoking", ipa: "", vi: "kích thích suy nghĩ", example: "A thought-provoking book." },
+  ],
+  script: "Linh: How many books do you read in a year?\nKhang: About fifteen, sometimes twenty if I commit. You?\nLinh: Around eight. Mostly fiction.\nKhang: Any genre you avoid?\nLinh: Pure self-help, honestly. After three or four books, the ideas repeat.\nKhang: Fair point. I've moved more to non-fiction — biographies and behavioural science.\nLinh: Any current favourites?\nKhang: Atomic Habits. Practical, short chapters. I highlight one sentence per chapter and apply it for a week.\nLinh: That's smart. I just finished The Midnight Library. A page-turner — I read it in two evenings.\nKhang: I've heard about it. Worth it?\nLinh: Yes, very thought-provoking. It made me reflect on choices and regret.\nKhang: Do you read paper or e-reader?\nLinh: Both. E-reader for travel, paper at home. I love the smell of a real book.\nKhang: Same. Audiobooks?\nLinh: When I drive or walk. Speed varies. For dense non-fiction I slow it down to 0.9. For fiction I go 1.2 to feel the pace.\nKhang: That's clever.\nLinh: Last tip — when you don't enjoy a book by chapter three, drop it. Life is too short.\nKhang: Permission to quit. I love that.\nLinh: Books should serve us, not guilt us.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How many books does Khang read in a year?", options: ["10","15","20","30"], correct: 1 },
+    { id: 2, type: "mcq",  question: "What does Linh prefer?",                     options: ["non-fiction","fiction","self-help","biography"], correct: 1 },
+    { id: 3, type: "fill", question: "Linh finished The Midnight Library in ____ evenings.", answer: "two" },
+    { id: 4, type: "fill", question: "Khang highlights ____ sentence per chapter.", answer: "one" },
+    { id: 5, type: "tfng", statement: "Linh reads only on her Kindle.",            answer: "False" },
+    { id: 6, type: "tfng", statement: "Linh slows audiobooks down for fiction.",   answer: "False" },
+    { id: 7, type: "tfng", statement: "Linh thinks you should finish every book.", answer: "False" },
+    { id: 8, type: "short",question: "What audiobook speed for dense non-fiction?", answer: "0.9" },
+    { id: 9, type: "short",question: "Khang's favourite book?",                     answer: "Atomic Habits" },
+    { id: 10,type: "short", question: "When should you drop a book?",                answer: "if not enjoying by chapter three" },
+  ],
+  speakingPart1: [
+    { q: "Do you read books regularly?",   bandLow: "Sometimes.",                                       bandMid: "I aim for two to three books a month, mostly in the evening." },
+    { q: "What kind of books do you like?",  bandLow: "Fiction.",                                          bandMid: "Modern fiction and behavioural science non-fiction are my go-to genres." },
+    { q: "Paper or digital?",                  bandLow: "Both.",                                              bandMid: "Both — paper at home for the smell, e-reader on flights for convenience." },
+    { q: "Do you reread books?",                bandLow: "Sometimes.",                                       bandMid: "Once a year I reread a few classics; you notice different layers each time." },
+    { q: "Should children read more?",          bandLow: "Yes.",                                              bandMid: "Definitely — early reading builds focus, vocabulary, and empathy that screens cannot." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a book that had an impact on you.\n- what the book is\n- when you read it\n- what it is about\n- and explain how it impacted you.",
+    sample: "The book I'd like to talk about is The Midnight Library by Matt Haig. I read it in two evenings last spring, hooked from page one. It tells the story of a woman in a magical library where each book represents an alternative life she could have lived. By the end I realised how much regret we carry over choices that, in hindsight, were perfectly fine. Since reading it, I've stopped second-guessing my decisions as much.",
+    keywords: ["page-turner","alternative lives","regret","second-guessing","mental shift"],
+  },
+  speakingPart3: [
+    { q: "Why do many people stop reading?", hint: "screens, time, attention" },
+    { q: "Are libraries still important?",     hint: "free access, community, study" },
+    { q: "How can governments encourage reading?", hint: "free books, school programs, ads" },
+    { q: "Will physical books disappear?",      hint: "tactile experience, gifts, market" },
+  ],
+  shadowing: [
+    "About fifteen books a year, sometimes twenty.",
+    "I highlight one sentence per chapter.",
+    "It's a page-turner.",
+    "Permission to quit. I love that.",
+    "Books should serve us, not guilt us.",
+  ],
+  homework: [
+    "Viết 5 câu dùng page-turner, fiction, non-fiction, audiobook, thought-provoking.",
+    "Ghi âm Part 1 câu 1, 2, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "page-turner (sách cuốn hút) khác turner of pages.",
+    "skim through (đọc lướt) khác scan (quét tìm chi tiết).",
+    "books should serve us, not guilt us — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 38,
+  levelId: "basic-ielts",
+  title: "Sleep and Routines",
+  titleVi: "Giấc Ngủ Và Lịch Sinh Hoạt",
+  objectives: { listen: "Nghe lời khuyên cải thiện giấc ngủ", speak: "Nói thói quen ngủ", vocabFocus: "Sleep vocab" },
+  vocabulary: [
+    { word: "insomnia",       ipa: "/ɪnˈsɒm.ni.ə/", vi: "mất ngủ",   example: "I had insomnia for weeks." },
+    { word: "wind down",      ipa: "", vi: "thư giãn cuối ngày",   example: "I wind down with a book." },
+    { word: "alarm",          ipa: "/əˈlɑːm/", vi: "báo thức",       example: "Set an alarm at 6." },
+    { word: "snooze",         ipa: "/snuːz/", vi: "ngủ thêm",         example: "Don't hit snooze." },
+    { word: "circadian rhythm",ipa: "", vi: "nhịp sinh học",          example: "Light affects circadian rhythm." },
+    { word: "deep sleep",     ipa: "", vi: "ngủ sâu",                  example: "Deep sleep restores the body." },
+    { word: "blue light",     ipa: "", vi: "ánh sáng xanh",            example: "Blue light suppresses melatonin." },
+    { word: "naps",           ipa: "", vi: "giấc ngủ ngắn",            example: "Short naps boost focus." },
+    { word: "well-rested",    ipa: "", vi: "ngủ đủ giấc",              example: "I feel well-rested today." },
+    { word: "screen-free",    ipa: "", vi: "không màn hình",           example: "Screen-free hour before bed." },
+  ],
+  script: "Sleep coach: Tell me about your sleep, Mai.\nMai: I sleep around midnight and wake up at six thirty. Lately I've had insomnia.\nCoach: Do you scroll on your phone before bed?\nMai: Yes, around forty-five minutes.\nCoach: That's blue light killing your melatonin. Try a screen-free hour before sleep.\nMai: An hour without phone? Sounds painful.\nCoach: Replace it. Read paper. Stretch. Journal. Even shower with dim lights.\nMai: I'll try. What about caffeine?\nCoach: Stop after 2 pm. Caffeine has a half-life of six hours.\nMai: Got it.\nCoach: Also, fix a wake-up time even on weekends. Your circadian rhythm hates surprises.\nMai: I usually sleep in until ten on Sundays.\nCoach: That makes Monday harder. Try wake at the same hour every day. You can take a short nap if needed.\nMai: How long should the nap be?\nCoach: Twenty minutes max. Anything longer and you'll feel groggy.\nMai: Snoozing the alarm?\nCoach: Stop. Set one alarm and get up. Snoozing fragments your last sleep cycle.\nMai: Tough love.\nCoach: One more — sunlight in the morning. Ten minutes outside resets your rhythm faster than any pill.\nMai: I can do that.\nCoach: Sleep is not just rest. It's recovery. Treat it like a project.",
+  questions: [
+    { id: 1, type: "mcq",  question: "When should Mai stop caffeine?", options: ["12pm","2pm","4pm","6pm"], correct: 1 },
+    { id: 2, type: "mcq",  question: "How long should naps be?",        options: ["10 min","20 min","30 min","60 min"], correct: 1 },
+    { id: 3, type: "fill", question: "Caffeine half-life is ____ hours.", answer: "six" },
+    { id: 4, type: "fill", question: "Sunlight outside for ____ minutes.", answer: "ten" },
+    { id: 5, type: "tfng", statement: "Coach allows snoozing the alarm.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Sleeping in on weekends is recommended.", answer: "False" },
+    { id: 7, type: "tfng", statement: "Coach calls sleep recovery, not just rest.", answer: "True" },
+    { id: 8, type: "short",question: "How long does Mai scroll before bed?", answer: "forty-five minutes" },
+    { id: 9, type: "short",question: "Three replacements for screen?",        answer: "read, stretch, journal" },
+    { id: 10,type: "short", question: "Why same wake-up time?",                 answer: "circadian rhythm hates surprises" },
+  ],
+  speakingPart1: [
+    { q: "How many hours do you sleep?",       bandLow: "Six.",                                                   bandMid: "Around seven hours on weekdays, sometimes eight on weekends." },
+    { q: "Do you take naps?",                   bandLow: "Sometimes.",                                              bandMid: "Twenty-minute power naps after lunch keep me sharp through the afternoon." },
+    { q: "Do you have a bedtime routine?",       bandLow: "Yes.",                                                   bandMid: "I try a screen-free hour before bed — paper book, stretching, dim lights." },
+    { q: "Do you snooze the alarm?",              bandLow: "Yes.",                                                   bandMid: "Trying to stop. Snoozing fragments my last sleep cycle and ruins my morning." },
+    { q: "Is sleep important for you?",            bandLow: "Yes very.",                                               bandMid: "Critically — without quality sleep, my focus, mood and creativity all crumble." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a time when you didn't sleep well.\n- when it happened\n- why\n- what you did\n- and explain how you felt afterwards.",
+    sample: "Last December I had two weeks of awful sleep due to year-end work pressure. I would scroll my phone until midnight, then wake up at five with my mind racing. By the second week my mood crashed. I spoke to a sleep coach who pushed three changes: a screen-free hour before bed, a fixed wake-up time, and ten minutes of morning sunlight. Within a week I was sleeping deeper and waking up genuinely well-rested. The lesson is that sleep responds to small consistent inputs, not heroic efforts.",
+    keywords: ["mind racing","screen-free hour","fixed wake-up time","well-rested","consistent inputs"],
+  },
+  speakingPart3: [
+    { q: "Why do people sleep less than before?", hint: "screens, work, stress" },
+    { q: "Should companies allow naps at work?",   hint: "productivity, culture, design" },
+    { q: "Is sleep equally important for all ages?", hint: "children, adults, elderly" },
+    { q: "How can technology improve sleep?",       hint: "wearables, light, sounds" },
+  ],
+  shadowing: [
+    "I sleep around midnight and wake up at six thirty.",
+    "Replace your phone with a paper book.",
+    "Stop caffeine after 2 pm.",
+    "Snoozing fragments your last sleep cycle.",
+    "Sleep is recovery. Treat it like a project.",
+  ],
+  homework: [
+    "Viết 5 câu dùng insomnia, wind down, blue light, deep sleep, well-rested.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "circadian rhythm = nhịp sinh học — band cao.",
+    "snooze (ngủ thêm 5 phút) ≠ snore (ngáy).",
+    "treat it like a project — câu band 7.",
+  ],
+})
+
+LESSONS.push({
+  id: 39,
+  levelId: "basic-ielts",
+  title: "Goal Setting",
+  titleVi: "Đặt Mục Tiêu",
+  objectives: { listen: "Nghe miêu tả cách đặt mục tiêu cá nhân", speak: "Speaking về kế hoạch tương lai", vocabFocus: "Goal vocab" },
+  vocabulary: [
+    { word: "set a goal",      ipa: "", vi: "đặt mục tiêu",          example: "Set a goal for next month." },
+    { word: "achievable",      ipa: "/əˈtʃiːv.ə.bəl/", vi: "có thể đạt", example: "Make it achievable." },
+    { word: "milestone",       ipa: "/ˈmaɪl.stəʊn/", vi: "cột mốc",   example: "Each milestone matters." },
+    { word: "long-term",       ipa: "", vi: "dài hạn",                  example: "Long-term goals need patience." },
+    { word: "short-term",      ipa: "", vi: "ngắn hạn",                 example: "Short-term wins build motivation." },
+    { word: "SMART goal",      ipa: "", vi: "mục tiêu SMART",           example: "I follow the SMART goal model." },
+    { word: "track progress",  ipa: "", vi: "theo dõi tiến độ",         example: "Track your progress weekly." },
+    { word: "stay motivated",  ipa: "", vi: "giữ động lực",            example: "Routines help you stay motivated." },
+    { word: "stretch yourself",ipa: "", vi: "vượt giới hạn",            example: "Stretch yourself a little each week." },
+    { word: "accountability partner", ipa: "", vi: "người đồng hành kiểm soát", example: "Find an accountability partner." },
+  ],
+  script: "Khoa: I'm setting goals for the next twelve months. Want to hear them?\nLan: Sure, let's hear.\nKhoa: One — get IELTS 7.0. Two — save fifty million dong. Three — run a half marathon.\nLan: All three? Bold.\nKhoa: Maybe too bold. That's why I want your feedback.\nLan: Are these SMART?\nKhoa: Specific, measurable, time-bound — yes. The trick is making them achievable. So I'm breaking each into milestones.\nLan: Good. Tell me one.\nKhoa: For IELTS, milestone one is take a real test in three months — target 6.0. Milestone two is reach 6.5 in six months. Milestone three is hit 7.0 in twelve.\nLan: Stairs, not jumps. Good.\nKhoa: For saving, I track expenses weekly. I set up an automatic transfer of three million on payday.\nLan: Pay yourself first. Classic.\nKhoa: For running, I follow a twelve-week beginner plan. I add five minutes every week.\nLan: How will you stay motivated?\nKhoa: Three things. Visible tracker on my wall. Accountability partner — that's where you come in. Reward myself at each milestone.\nLan: I accept partner duty. I'll text you every Sunday for updates.\nKhoa: Perfect.\nLan: One last tip — don't forget to enjoy the process. Goals are useful, but life happens between milestones.\nKhoa: True. Stretch but don't break.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How many goals does Khoa have?",      options: ["1","2","3","4"], correct: 2 },
+    { id: 2, type: "mcq",  question: "His IELTS target?",                    options: ["6.0","6.5","7.0","7.5"], correct: 2 },
+    { id: 3, type: "fill", question: "He auto-transfers ____ million on payday.", answer: "three" },
+    { id: 4, type: "fill", question: "Half-marathon training is ____ weeks.", answer: "twelve" },
+    { id: 5, type: "tfng", statement: "Khoa wants to hit 6.5 in three months.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Lan agrees to be his accountability partner.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Khoa adds five minutes weekly to his runs.", answer: "True" },
+    { id: 8, type: "short",question: "Three motivation tools?",                answer: "tracker, partner, reward" },
+    { id: 9, type: "short",question: "Lan's last tip?",                        answer: "enjoy the process" },
+    { id: 10,type: "short", question: "What does Khoa say about goals?",        answer: "stretch but don't break" },
+  ],
+  speakingPart1: [
+    { q: "Do you set goals each year?",         bandLow: "Yes.",                                          bandMid: "I usually set three goals — one for career, one for finance, one for health." },
+    { q: "What goal are you working on now?",    bandLow: "IELTS.",                                        bandMid: "I'm aiming for IELTS 7.0 within twelve months by hitting milestones every quarter." },
+    { q: "How do you track progress?",            bandLow: "Notes.",                                         bandMid: "A visible tracker on my wall plus a weekly check-in with an accountability partner." },
+    { q: "Have you ever quit a goal?",            bandLow: "Yes.",                                           bandMid: "Definitely. I quit several gym goals because they were unrealistic from day one." },
+    { q: "What makes a goal achievable?",          bandLow: "Realistic.",                                     bandMid: "Realistic milestones, daily tiny actions, and a clear deadline keep goals achievable." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a goal you have set.\n- what the goal is\n- when you set it\n- how you plan to achieve it\n- and explain why this goal matters.",
+    sample: "I'd like to talk about my IELTS 7.0 goal, which I set three months ago. To get there, I follow a SMART roadmap. My short-term milestones are 6.0 in three months, 6.5 in six, and 7.0 in twelve. I track progress on a wall calendar and have a weekly call with an accountability partner. The reason this matters is twofold: it unlocks scholarships and forces me to read, write, listen and speak in English daily — habits I'd never build otherwise.",
+    keywords: ["SMART roadmap","milestones","accountability partner","wall calendar","unlocks scholarships"],
+  },
+  speakingPart3: [
+    { q: "Why do many goals fail?",         hint: "unrealistic, no system, motivation" },
+    { q: "Are short-term or long-term goals more important?", hint: "balance, momentum" },
+    { q: "Should companies set goals for employees?", hint: "OKRs, fairness, autonomy" },
+    { q: "How does culture affect goal setting?",      hint: "individual vs collective, family expectations" },
+  ],
+  shadowing: [
+    "Specific, measurable, time-bound.",
+    "Stairs, not jumps.",
+    "Pay yourself first.",
+    "Stretch but don't break.",
+    "Enjoy the process.",
+  ],
+  homework: [
+    "Viết 5 câu dùng set a goal, milestone, achievable, track progress, accountability partner.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "SMART goal: Specific, Measurable, Achievable, Relevant, Time-bound.",
+    "milestone (cột mốc) khác milestone-nature trong dự án dài hạn.",
+    "stretch but don't break — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 40,
+  levelId: "basic-ielts",
+  title: "First Job Experience",
+  titleVi: "Công Việc Đầu Tiên",
+  objectives: { listen: "Nghe chia sẻ trải nghiệm đi làm đầu tiên", speak: "Nói về công việc đầu", vocabFocus: "Workplace vocab" },
+  vocabulary: [
+    { word: "onboarding",     ipa: "/ˈɒn.bɔː.dɪŋ/", vi: "đào tạo nhập môn", example: "Onboarding lasted two weeks." },
+    { word: "mentor",         ipa: "/ˈmen.tɔːr/", vi: "người hướng dẫn",    example: "I had a great mentor." },
+    { word: "feedback",       ipa: "/ˈfiːd.bæk/", vi: "góp ý",              example: "I welcome direct feedback." },
+    { word: "deliverable",    ipa: "/dɪˈlɪv.ər.ə.bəl/", vi: "sản phẩm bàn giao", example: "Send the deliverable by Friday." },
+    { word: "deadline",       ipa: "", vi: "hạn chót",                       example: "I missed the deadline once." },
+    { word: "promotion",      ipa: "/prəˈməʊ.ʃən/", vi: "thăng chức",        example: "She got a promotion." },
+    { word: "probation",      ipa: "/prəˈbeɪ.ʃən/", vi: "thử việc",          example: "Probation is two months." },
+    { word: "remote work",    ipa: "", vi: "làm từ xa",                      example: "Remote work suits me." },
+    { word: "office culture", ipa: "", vi: "văn hoá văn phòng",              example: "Office culture matters." },
+    { word: "career path",    ipa: "", vi: "lộ trình nghề",                  example: "Plan your career path." },
+  ],
+  script: "Mai: How was your first month at the new job?\nKhang: Intense but rewarding. Onboarding lasted two weeks — meetings every day, lots of paperwork, but also great context for the role.\nMai: Did they assign a mentor?\nKhang: Yes, a senior team member. We have a thirty-minute one-on-one each Friday.\nMai: That's golden. What did you learn so far?\nKhang: Three big things. First, I underestimated the office culture. Communication style here is direct. Vague messages get ignored. Second, deadlines are taken seriously. Even a five-minute delay needs a quick heads-up. Third, feedback is constant. People literally ask 'how am I doing?' after meetings.\nMai: Sounds healthy.\nKhang: Honestly very. I came from a workplace where feedback was rare and indirect. Here, even my mentor pointed out a mistake in my email layout — and I appreciated it.\nMai: How is your workload?\nKhang: Manageable. The first week was lighter on purpose. Now they're slowly increasing my deliverables.\nMai: Probation period?\nKhang: Two months. After that, performance review and full benefits.\nMai: Remote work?\nKhang: Two days a week. The rest is in office because they value collaborative culture.\nMai: Long-term plan?\nKhang: I see a possible promotion within two years if I deliver consistently. My career path is clearer than at my last company.\nMai: Sounds like you're set.\nKhang: I am for now. The biggest lesson — pick a workplace not just for money, but for how it grows you.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How long was onboarding?",        options: ["1 week","2 weeks","1 month","2 months"], correct: 1 },
+    { id: 2, type: "mcq",  question: "How long is probation?",            options: ["1 month","2 months","3 months","6 months"], correct: 1 },
+    { id: 3, type: "fill", question: "One-on-one with mentor lasts ____ minutes.", answer: "thirty" },
+    { id: 4, type: "fill", question: "Khang works remotely ____ days a week.", answer: "two" },
+    { id: 5, type: "tfng", statement: "Khang's previous workplace gave a lot of feedback.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Even small delays require a heads-up.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Khang sees a possible promotion in 5 years.", answer: "False" },
+    { id: 8, type: "short",question: "Three things he learned?",         answer: "office culture, deadlines, feedback" },
+    { id: 9, type: "short",question: "What did the mentor point out?",    answer: "mistake in email layout" },
+    { id: 10,type: "short", question: "Biggest lesson at the end?",        answer: "pick workplace for how it grows you" },
+  ],
+  speakingPart1: [
+    { q: "What was your first job?",                bandLow: "Internship.",                                       bandMid: "My first job was a marketing internship at a logistics start-up." },
+    { q: "Did you enjoy it?",                        bandLow: "Yes.",                                              bandMid: "I did, mostly because of the fast pace and supportive mentor." },
+    { q: "What was the hardest part?",                bandLow: "Pressure.",                                          bandMid: "Adapting to direct communication and tight deadlines." },
+    { q: "What skills did you learn?",                 bandLow: "Communication.",                                     bandMid: "Communication, time management, and how to ask for feedback proactively." },
+    { q: "Would you recommend that workplace?",        bandLow: "Yes.",                                              bandMid: "Absolutely — they invested in my onboarding and growth from day one." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe your first work experience.\n- what the job was\n- where it was\n- what you did\n- and explain how it shaped you.",
+    sample: "I'd like to talk about my first job, a junior digital marketing role I started two months ago. Onboarding lasted two weeks with daily meetings and a weekly mentor session. The biggest surprise was the office culture — direct communication, strict deadlines, and constant feedback. My mentor once pointed out a small mistake in my email layout, and that micro-feedback shaped how I write today. The role taught me that growth happens in tiny daily corrections, not big career moves.",
+    keywords: ["onboarding","direct culture","micro-feedback","tight deadlines","tiny daily corrections"],
+  },
+  speakingPart3: [
+    { q: "Should young people work part-time during studies?", hint: "experience, time management, soft skills" },
+    { q: "Are office jobs disappearing?",                       hint: "remote, hybrid, gig economy" },
+    { q: "What makes a great manager?",                          hint: "feedback, empathy, vision" },
+    { q: "Is loyalty to one company outdated?",                   hint: "career paths, mobility, learning" },
+  ],
+  shadowing: [
+    "Onboarding lasted two weeks.",
+    "Vague messages get ignored.",
+    "Even a five-minute delay needs a quick heads-up.",
+    "Feedback is constant.",
+    "Pick a workplace not just for money, but for how it grows you.",
+  ],
+  homework: [
+    "Viết 5 câu dùng onboarding, mentor, feedback, deadline, career path.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "onboarding khác training (đào tạo nói chung).",
+    "deliverable (sản phẩm bàn giao) — band cao.",
+    "pick a workplace for how it grows you — câu chốt band 7.",
+  ],
+})
+
+LESSONS.push({
+  id: 41,
+  levelId: "intermediate",
+  title: "University Life",
+  titleVi: "Đời Sống Đại Học",
+  objectives: { listen: "Nghe trao đổi đời sống sinh viên", speak: "Speaking Part 2 về kỷ niệm đại học", vocabFocus: "Campus vocab" },
+  vocabulary: [
+    { word: "freshman year",   ipa: "", vi: "năm nhất",                  example: "My freshman year was overwhelming." },
+    { word: "lecture",         ipa: "/ˈlek.tʃər/", vi: "bài giảng",       example: "Three lectures back to back." },
+    { word: "seminar",         ipa: "/ˈsem.ɪ.nɑːr/", vi: "seminar",       example: "Seminars are more interactive." },
+    { word: "deadline",        ipa: "", vi: "hạn nộp bài",                 example: "Two essay deadlines this week." },
+    { word: "GPA",             ipa: "", vi: "điểm trung bình",             example: "My GPA is 3.6." },
+    { word: "campus",          ipa: "/ˈkæm.pəs/", vi: "khuôn viên",         example: "I love my campus library." },
+    { word: "club",            ipa: "/klʌb/", vi: "câu lạc bộ",             example: "I joined a debate club." },
+    { word: "internship",      ipa: "", vi: "thực tập",                    example: "I did a summer internship." },
+    { word: "scholarship",     ipa: "", vi: "học bổng",                     example: "I'm working towards a scholarship." },
+    { word: "all-nighter",     ipa: "", vi: "thức trắng đêm",                example: "I pulled an all-nighter." },
+  ],
+  script: "Linh: How is your second year going?\nMinh: Way busier than freshman year. Three lectures, two seminars, two club meetings — every week.\nLinh: Are you on top of the workload?\nMinh: Mostly. The trick is splitting big essays into small daily pieces. I wrote my last 3,000-word paper in twelve sittings of forty-five minutes.\nLinh: That's discipline. I usually pull an all-nighter the night before.\nMinh: Don't. My GPA crashed in semester one when I did that. Sleep is part of studying.\nLinh: Fair. What clubs are you in?\nMinh: Debate club and a small research group on supply chains. The research group counts toward extra-credit and might lead to an internship next summer.\nLinh: Networking from year two — smart.\nMinh: Honestly, university is half academic, half people. The friends and connections matter as much as the GPA.\nLinh: How about scholarships?\nMinh: I missed it freshman year by half a point. This year I'm aiming for the Dean's list. I keep a tracker — every week I review average grades, missed lectures, and energy level.\nLinh: That sounds intense.\nMinh: It's about ten minutes a week, but it gives me data. Most students fly blind.\nLinh: Any campus tip you'd give a freshman?\nMinh: Three things. Eat well — instant noodles aren't a meal. Sleep at least seven hours. And go to office hours of professors. Ten minutes one-on-one beats a hundred pages of textbook.\nLinh: That last one is gold.\nMinh: Most freshmen are too shy to use it.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How many lectures per week?",         options: ["1","2","3","5"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Length of one writing sitting?",        options: ["30 min","45 min","60 min","90 min"], correct: 1 },
+    { id: 3, type: "fill", question: "He missed scholarship by ____ ____ point.", answer: "half a" },
+    { id: 4, type: "fill", question: "Tracker takes about ____ minutes a week.", answer: "ten" },
+    { id: 5, type: "tfng", statement: "Minh recommends pulling all-nighters.", answer: "False" },
+    { id: 6, type: "tfng", statement: "He keeps a personal performance tracker.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Office hours are widely used by freshmen.", answer: "False" },
+    { id: 8, type: "short",question: "Three campus tips for freshmen?",         answer: "eat well, sleep enough, use office hours" },
+    { id: 9, type: "short",question: "How many sittings did the 3,000-word essay take?", answer: "twelve" },
+    { id: 10,type: "short", question: "What does Minh say about university?",      answer: "half academic, half people" },
+  ],
+  speakingPart1: [
+    { q: "Did you enjoy university?",                bandLow: "Yes.",                                              bandMid: "I enjoyed it overall — academics were tough but the people made it worth it." },
+    { q: "What was your favourite subject?",          bandLow: "Marketing.",                                         bandMid: "Consumer behaviour, because it explains why we buy things we don't need." },
+    { q: "Did you join any clubs?",                    bandLow: "Debate club.",                                       bandMid: "I joined a debate club and a research group on supply chains." },
+    { q: "How did you balance study and fun?",         bandLow: "Schedule.",                                          bandMid: "Splitting big tasks into daily blocks and using weekends for friends and rest." },
+    { q: "What advice would you give freshmen?",        bandLow: "Sleep enough.",                                      bandMid: "Sleep, eat properly, and go to office hours — ten minutes there beats a hundred pages." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a memorable university experience.\n- when it happened\n- what you did\n- who was involved\n- and explain why it is memorable.",
+    sample: "I'd like to talk about my first research project in the second year. I joined a small supply chain research group with three classmates. Over twelve weeks we collected data from local logistics firms, presented twice to the professor, and wrote a final paper. The most memorable moment was the final presentation — we were nervous but the questions from the panel pushed our thinking further. That project taught me that academic work is collaborative, iterative, and sometimes more emotional than expected.",
+    keywords: ["research group","collaborative","iterative","panel questions","emotional growth"],
+  },
+  speakingPart3: [
+    { q: "Should universities focus on theory or practice?", hint: "career relevance, depth, hybrid" },
+    { q: "Are tuition fees too high?",                        hint: "access, returns, scholarships" },
+    { q: "Should students work during studies?",               hint: "experience, balance, finances" },
+    { q: "How will universities change with AI?",               hint: "personalised learning, plagiarism, jobs" },
+  ],
+  shadowing: [
+    "Way busier than freshman year.",
+    "Sleep is part of studying.",
+    "Networking from year two — smart.",
+    "I keep a tracker — every week I review.",
+    "Ten minutes one-on-one beats a hundred pages.",
+  ],
+  homework: [
+    "Viết 5 câu dùng GPA, lecture, seminar, scholarship, all-nighter.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "all-nighter (thức trắng đêm) là danh từ.",
+    "office hours (giờ tiếp sinh viên) — band 6.5+.",
+    "fly blind (đi không biết hướng) — idiom band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 42,
+  levelId: "intermediate",
+  title: "Working from Home",
+  titleVi: "Làm Việc Tại Nhà",
+  objectives: { listen: "Nghe trao đổi remote work", speak: "Speaking về work from home", vocabFocus: "Remote work vocab" },
+  vocabulary: [
+    { word: "remote work",   ipa: "", vi: "làm từ xa",            example: "Remote work changed everything." },
+    { word: "hybrid model",  ipa: "", vi: "kết hợp on-off",       example: "Our hybrid model is 3 days office." },
+    { word: "stand-up meeting", ipa: "", vi: "họp đứng nhanh",     example: "Daily stand-up at 9am." },
+    { word: "zoom fatigue",  ipa: "", vi: "mệt vì họp Zoom",       example: "Zoom fatigue is real." },
+    { word: "asynchronous",  ipa: "/eɪˈsɪŋ.krə.nəs/", vi: "không đồng bộ", example: "We work async across time zones." },
+    { word: "set boundaries",ipa: "", vi: "đặt ranh giới",          example: "Set boundaries with email after hours." },
+    { word: "burnout",       ipa: "", vi: "kiệt sức",                example: "Remote burnout is sneaky." },
+    { word: "co-working space", ipa: "", vi: "không gian làm việc chung", example: "I rent a co-working desk twice a week." },
+    { word: "productivity",  ipa: "/ˌprɒd.ʌkˈtɪv.ə.ti/", vi: "năng suất", example: "My productivity is highest in the morning." },
+    { word: "work-life balance", ipa: "", vi: "cân bằng công việc-cuộc sống", example: "Work-life balance is a daily fight." },
+  ],
+  script: "Mai: How is remote life for you so far?\nKhang: Honestly, mixed feelings. Productivity is fine, but boundaries are tough.\nMai: What do you mean?\nKhang: My laptop is always within reach. I find myself answering emails at 10 pm. The kitchen, the bed, the desk — they all feel like the office.\nMai: Set boundaries.\nKhang: Trying. I now close the laptop at 6 pm and physically move it into a drawer.\nMai: That's a small ritual but powerful. Same for me.\nKhang: How about meetings?\nMai: We've cut meetings by half using async messages. Anything that can be a Loom video or a Notion doc — we don't book a Zoom for it.\nKhang: That alone saves my afternoons.\nMai: We still keep a daily fifteen-minute stand-up at nine. Quick blockers, then quiet hours until lunch.\nKhang: I love that.\nMai: For deep work, I rent a co-working space two days a week. The change of environment helps.\nKhang: Smart.\nMai: Burnout is sneakier in remote work. Without commute and office cues, I worked nights without realising it last December. Took two weeks to recover.\nKhang: Same trap, different version.\nMai: My current rule — define a hard stop time, take a real lunch, and exercise even fifteen minutes outdoors.\nKhang: That last one is critical.\nMai: Honestly, remote work isn't a vacation. It's a different kind of work that needs different skills — communication, self-management, and self-care.\nKhang: Couldn't agree more.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Mai cut meetings by ____ percent.", options: ["20%","30%","50%","75%"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Daily stand-up lasts ____ minutes.", options: ["10","15","20","30"], correct: 1 },
+    { id: 3, type: "fill", question: "Khang closes laptop at ____ pm.",     answer: "6" },
+    { id: 4, type: "fill", question: "Mai rents a co-working desk ____ days a week.", answer: "two" },
+    { id: 5, type: "tfng", statement: "Mai still works late nights regularly.", answer: "False" },
+    { id: 6, type: "tfng", statement: "She took two weeks to recover from burnout.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Remote work is a vacation according to Mai.", answer: "False" },
+    { id: 8, type: "short",question: "Two tools that replace meetings?",   answer: "Loom video, Notion doc" },
+    { id: 9, type: "short",question: "Mai's hard rule includes (3 things)?", answer: "hard stop, real lunch, exercise outdoors" },
+    { id: 10,type: "short", question: "Three skills remote work needs?",     answer: "communication, self-management, self-care" },
+  ],
+  speakingPart1: [
+    { q: "Have you worked from home?",          bandLow: "Yes.",                                            bandMid: "Yes, two years now in a hybrid model — three days office, two remote." },
+    { q: "What do you like about remote work?",  bandLow: "Comfortable.",                                     bandMid: "I save commute time and have more flexibility for deep work." },
+    { q: "What do you dislike?",                  bandLow: "Boring.",                                          bandMid: "Boundaries blur and I miss the energy of an office team." },
+    { q: "Do you take regular breaks?",            bandLow: "Yes.",                                            bandMid: "I follow Pomodoros and step outside at least once before lunch." },
+    { q: "Will remote work continue to grow?",     bandLow: "Yes.",                                            bandMid: "Yes, but smart hybrid will likely beat fully remote in most industries." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a typical remote workday.\n- when you start and end\n- what you do\n- where you work\n- and explain how you feel about it.",
+    sample: "On a typical remote day I start at 8:30 with a coffee and a quick to-do list. From 9 to noon I focus on deep work with no notifications. After lunch, I have a short stand-up followed by review meetings. Around 3 pm I rent a desk at a nearby co-working space if I need a change of environment. I end work at 6 pm sharp and put my laptop in a drawer to mark the boundary. Overall, I feel productive but I also know remote burnout is sneakier than office stress.",
+    keywords: ["deep work","stand-up","co-working space","hard stop","sneakier burnout"],
+  },
+  speakingPart3: [
+    { q: "Will offices disappear?", hint: "real estate, culture, hybrid" },
+    { q: "Is it harder to manage remote teams?", hint: "trust, communication, async" },
+    { q: "How does WFH affect family life?", hint: "boundaries, presence, distractions" },
+    { q: "Should governments support remote work?", hint: "infrastructure, taxes, transport" },
+  ],
+  shadowing: [
+    "My laptop is always within reach.",
+    "I now close the laptop at 6 pm and physically move it into a drawer.",
+    "We've cut meetings by half.",
+    "Burnout is sneakier in remote work.",
+    "Define a hard stop time.",
+  ],
+  homework: [
+    "Viết 5 câu dùng remote work, hybrid model, set boundaries, productivity, work-life balance.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "asynchronous (async) — band 7+, ngôn ngữ chuyên môn.",
+    "zoom fatigue khác screen fatigue (mỏi mắt).",
+    "sneakier burnout — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 43,
+  levelId: "intermediate",
+  title: "Friendship in the Digital Age",
+  titleVi: "Tình Bạn Thời Số",
+  objectives: { listen: "Nghe phỏng vấn về kết bạn online", speak: "Speaking về bạn cũ - bạn mới", vocabFocus: "Friendship & internet" },
+  vocabulary: [
+    { word: "long-distance friend", ipa: "", vi: "bạn xa",         example: "Most of my long-distance friends are online." },
+    { word: "stay in touch",        ipa: "", vi: "giữ liên lạc",   example: "We stay in touch through Zalo." },
+    { word: "drift apart",          ipa: "", vi: "nhạt dần",        example: "Old classmates often drift apart." },
+    { word: "reconnect",            ipa: "", vi: "kết nối lại",     example: "I reconnected with a childhood friend." },
+    { word: "video call",           ipa: "", vi: "gọi video",       example: "We video-call every Sunday." },
+    { word: "online community",     ipa: "", vi: "cộng đồng online", example: "I belong to a writing community." },
+    { word: "shared interest",      ipa: "", vi: "sở thích chung",   example: "We share an interest in films." },
+    { word: "mutual friend",        ipa: "", vi: "bạn chung",        example: "We met through a mutual friend." },
+    { word: "ghost (v)",            ipa: "/ɡəʊst/", vi: "biến mất không nói", example: "Don't ghost your friends." },
+    { word: "deep conversation",    ipa: "", vi: "trò chuyện sâu",   example: "We had a deep conversation last night." },
+  ],
+  script: "Reporter: Welcome to the show. Today's topic is friendship in the digital age. With me is Lan, a creator of an online book community.\nLan: Hi.\nReporter: Tell us about your community.\nLan: It started in 2021 during lockdown. Just twenty book lovers on a Discord server. Now we have around fifteen thousand members across Vietnam, US, and Australia.\nReporter: Are these real friendships or just usernames?\nLan: Both, depending on the person. Some are casual lurkers. Others have become my closest friends. I have flown to Australia twice for our annual book retreat.\nReporter: Wow.\nLan: For me, the secret is shared interest. With a mutual passion, even strangers find depth fast.\nReporter: How do you keep these friendships alive long-term?\nLan: Three habits. One — weekly group video calls every Saturday. Two — voice messages instead of long texts. Three — yearly meet-ups, in person if possible.\nReporter: What about people drifting apart?\nLan: Inevitable. Some friends ghost. Others get busy. I don't take it personally — life seasons change.\nReporter: Healthy mindset.\nLan: I also reconnect with old classmates twice a year, just sending a simple hi. About thirty percent reply, and a few become close again.\nReporter: Do you think digital friendships are real friendships?\nLan: Real means different things. The deepest test is whether they show up when you fall. I've had online friends fly thousands of kilometres after my surgery. That's real.\nReporter: Final words?\nLan: Friendships need maintenance. Like plants — water, sunlight, and a little patience. The platform doesn't matter; the intention does.",
+  questions: [
+    { id: 1, type: "mcq",  question: "When did the community start?",         options: ["2019","2020","2021","2022"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Roughly how many members?",              options: ["1,000","5,000","10,000","15,000"], correct: 3 },
+    { id: 3, type: "fill", question: "Lan flew to Australia ____ times.",      answer: "twice" },
+    { id: 4, type: "fill", question: "Group video calls every ____.",          answer: "Saturday" },
+    { id: 5, type: "tfng", statement: "She ignores friends who drift apart.",   answer: "False" },
+    { id: 6, type: "tfng", statement: "About 30% of old classmates reply.",    answer: "True" },
+    { id: 7, type: "tfng", statement: "She thinks platform matters most.",     answer: "False" },
+    { id: 8, type: "short",question: "Three habits to keep digital friendships?", answer: "weekly calls, voice messages, yearly meet-ups" },
+    { id: 9, type: "short",question: "Deepest test of real friendship?",        answer: "show up when you fall" },
+    { id: 10,type: "short", question: "Friendship is like a plant — what does it need?", answer: "water, sunlight, patience" },
+  ],
+  speakingPart1: [
+    { q: "Have you made friends online?",        bandLow: "Yes.",                                          bandMid: "Several, mostly through a book community on Discord." },
+    { q: "How do you stay in touch?",              bandLow: "Messages.",                                     bandMid: "Voice messages and weekly group video calls." },
+    { q: "Have you ever lost a close friend?",      bandLow: "Yes.",                                          bandMid: "Yes, life seasons change and people drift apart, but I try to reconnect once a year." },
+    { q: "Do you trust people you meet online?",     bandLow: "Carefully.",                                    bandMid: "I trust gradually based on consistency, not on online persona." },
+    { q: "Are friendships harder now?",              bandLow: "Maybe.",                                         bandMid: "They are easier to start but harder to deepen because attention is fragmented." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe an online friend you have.\n- how you met them\n- what you usually do\n- how often you communicate\n- and explain why this friendship is meaningful.",
+    sample: "I'd like to talk about Alex, a friend I met in an online book community in 2021. He's based in Sydney; we instantly bonded over a love for short novels. We voice-message almost every day, video-call every Saturday, and have met in person twice — once in Hanoi, once in Sydney. The friendship matters because Alex helped me through a recent surgery; he flew over for two weeks. That experience proved that distance doesn't reduce friendship; intention does.",
+    keywords: ["bonded over","voice-message","weekly call","intention over distance","showed up"],
+  },
+  speakingPart3: [
+    { q: "Are online friendships less real?",        hint: "depth, presence, shared experience" },
+    { q: "Why do friendships fade over time?",         hint: "life seasons, distance, busyness" },
+    { q: "Should children make friends online?",        hint: "safety, communication, balance" },
+    { q: "Will the metaverse change friendships?",       hint: "presence, identity, ethics" },
+  ],
+  shadowing: [
+    "Some friends ghost. Others get busy.",
+    "I don't take it personally — life seasons change.",
+    "The deepest test is whether they show up when you fall.",
+    "Like plants — water, sunlight, and a little patience.",
+    "The platform doesn't matter; the intention does.",
+  ],
+  homework: [
+    "Viết 5 câu dùng stay in touch, drift apart, reconnect, ghost, deep conversation.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "ghost (động từ) trong tình bạn = biến mất không nói.",
+    "life seasons change — câu band 7.",
+    "intention over distance — câu chốt band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 44,
+  levelId: "intermediate",
+  title: "Travel for Self-Discovery",
+  titleVi: "Du Lịch Khám Phá Bản Thân",
+  objectives: { listen: "Nghe phỏng vấn về solo travel", speak: "Speaking về chuyến đi thay đổi bạn", vocabFocus: "Travel & growth vocab" },
+  vocabulary: [
+    { word: "solo travel",     ipa: "", vi: "du lịch một mình",    example: "Solo travel taught me a lot." },
+    { word: "comfort zone",    ipa: "", vi: "vùng an toàn",        example: "Step out of your comfort zone." },
+    { word: "wanderlust",      ipa: "/ˈwɒn.də.lʌst/", vi: "khao khát đi xa", example: "Wanderlust never leaves me." },
+    { word: "broaden horizons",ipa: "", vi: "mở mang tầm nhìn",     example: "Travelling broadens horizons." },
+    { word: "culture shock",   ipa: "", vi: "sốc văn hoá",          example: "Mild culture shock at first." },
+    { word: "adapt to",        ipa: "", vi: "thích nghi",            example: "I quickly adapted to local food." },
+    { word: "self-reliant",    ipa: "", vi: "tự lực",                example: "Solo travel makes me self-reliant." },
+    { word: "spontaneous",     ipa: "/spɒnˈteɪ.ni.əs/", vi: "ngẫu hứng", example: "Spontaneous decisions made the trip magical." },
+    { word: "pack light",      ipa: "", vi: "đi gọn nhẹ",            example: "Pack light for backpacking." },
+    { word: "off the grid",    ipa: "", vi: "không kết nối mạng",     example: "I went off the grid for five days." },
+  ],
+  script: "Reporter: We're joined by Mai, who travelled solo through Southeast Asia for three months. Mai, why solo?\nMai: I needed space to think. After a tough year, I packed light and bought a one-way ticket to Bangkok.\nReporter: Were you scared?\nMai: Honestly, the first night yes. New city, no Vietnamese around. By day three, I learned to ask for help, eat alone, and walk instead of using ride apps.\nReporter: Did you experience culture shock?\nMai: Mild. Each country had its own rhythm. Cambodia felt slow and gentle, Thailand chaotic and bright, Malaysia diverse and balanced. Adapting was uncomfortable but rewarding.\nReporter: What surprised you?\nMai: How easy it was to make friends from other countries. Hostels, walking tours, and shared kitchens are friendship factories. I keep in touch with at least eight people across four countries.\nReporter: Wow.\nMai: Solo travel forces you to be self-reliant. You navigate, budget, and recover from mistakes alone. By month two, my decision-making had improved noticeably.\nReporter: Did you get bored?\nMai: Twice — week three and week eight. Both times I went off the grid for two days, slept a lot, and journaled. Boredom is sometimes a signal, not a problem.\nReporter: Best memory?\nMai: A spontaneous boat ride to a tiny island in Krabi with two strangers I met that morning. We watched the sunset, ate grilled fish, and had no signal for hours. Pure presence.\nReporter: How did you change?\nMai: I came home calmer, more curious, and more willing to take small risks. Solo travel doesn't fix problems. It just gives you a clearer mirror.\nReporter: Beautiful. Thank you, Mai.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How long was Mai's trip?",     options: ["1 month","2 months","3 months","6 months"], correct: 2 },
+    { id: 2, type: "mcq",  question: "She started in ____.",          options: ["Hanoi","Bangkok","Singapore","Yangon"], correct: 1 },
+    { id: 3, type: "fill", question: "She kept in touch with at least ____ people.", answer: "eight" },
+    { id: 4, type: "fill", question: "She went off the grid for ____ days.", answer: "two" },
+    { id: 5, type: "tfng", statement: "She felt no fear at all.",      answer: "False" },
+    { id: 6, type: "tfng", statement: "Her decision-making improved.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Solo travel fixed her problems.", answer: "False" },
+    { id: 8, type: "short",question: "Three places that felt different?", answer: "Cambodia, Thailand, Malaysia" },
+    { id: 9, type: "short",question: "Best memory?",                    answer: "boat ride in Krabi" },
+    { id: 10,type: "short", question: "What does solo travel give you?",  answer: "a clearer mirror" },
+  ],
+  speakingPart1: [
+    { q: "Do you like travelling alone?",         bandLow: "Sometimes.",                                       bandMid: "I find short solo trips clarifying — perfect for big decisions or burnout reset." },
+    { q: "What was your most adventurous trip?",   bandLow: "Backpacking.",                                      bandMid: "A three-month solo trip through Southeast Asia by hostels and night buses." },
+    { q: "Did travelling change you?",              bandLow: "Yes.",                                              bandMid: "It made me more self-reliant, calmer, and surprisingly more open to strangers." },
+    { q: "Do you make plans or improvise?",         bandLow: "Both.",                                              bandMid: "I plan transport and accommodation but leave activities open for spontaneity." },
+    { q: "Where would you travel next?",             bandLow: "Japan.",                                            bandMid: "Probably Hokkaido in winter — quiet hot springs and a chance to disconnect." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a trip that changed you.\n- where you went\n- when and how long\n- what you did\n- and explain how it changed you.",
+    sample: "The trip I'd like to talk about is my three-month solo backpacking through Southeast Asia. I started in Bangkok with a one-way ticket and packed only a thirty-litre backpack. By day three I had learned to navigate, eat alone, and ask strangers for help. I made friends in hostels and shared kitchens, watched a sunset on a tiny island near Krabi with two strangers I met that morning, and went off the grid for two days when I felt overwhelmed. The trip didn't fix my problems, but it gave me a clearer mirror — I came home calmer, more curious, and willing to take small risks daily.",
+    keywords: ["solo backpacking","one-way ticket","clearer mirror","off the grid","small risks daily"],
+  },
+  speakingPart3: [
+    { q: "Why is solo travel becoming popular?",      hint: "freedom, social media, mental health" },
+    { q: "Should travel be educational?",              hint: "cultural awareness, language, history" },
+    { q: "How does travel shape young people?",         hint: "independence, perspective, adaptability" },
+    { q: "Will virtual travel replace real travel?",    hint: "VR, climate, accessibility" },
+  ],
+  shadowing: [
+    "I needed space to think.",
+    "Adapting was uncomfortable but rewarding.",
+    "Hostels are friendship factories.",
+    "Boredom is sometimes a signal, not a problem.",
+    "Solo travel doesn't fix problems. It just gives you a clearer mirror.",
+  ],
+  homework: [
+    "Viết 5 câu dùng comfort zone, broaden horizons, culture shock, self-reliant, off the grid.",
+    "Ghi âm Part 1 câu 1, 2, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "off the grid = không kết nối/đi xa khỏi tiện ích.",
+    "friendship factory là cụm tự đặt nhưng tự nhiên — tăng band.",
+    "clearer mirror — câu band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 45,
+  levelId: "intermediate",
+  title: "Healthy Eating in Real Life",
+  titleVi: "Ăn Uống Lành Mạnh Trong Đời Thật",
+  objectives: { listen: "Nghe lời khuyên ăn uống của chuyên gia", speak: "Speaking về thay đổi ăn uống", vocabFocus: "Nutrition vocab" },
+  vocabulary: [
+    { word: "macronutrients", ipa: "/ˌmæk.rəʊˈnjuː.tri.ənts/", vi: "đa lượng (đạm/đường/béo)", example: "Balance your macronutrients." },
+    { word: "fibre",          ipa: "/ˈfaɪ.bər/", vi: "chất xơ",     example: "Vegetables are rich in fibre." },
+    { word: "processed food", ipa: "", vi: "đồ chế biến sẵn",       example: "Reduce processed food." },
+    { word: "moderation",     ipa: "/ˌmɒd.ərˈeɪ.ʃən/", vi: "vừa phải", example: "Sweets in moderation are fine." },
+    { word: "intuitive eating",ipa: "", vi: "ăn theo bản năng",      example: "Intuitive eating respects hunger cues." },
+    { word: "calorie",        ipa: "/ˈkæl.ər.i/", vi: "calo",        example: "Don't obsess over calories." },
+    { word: "binge eat",      ipa: "/bɪndʒ/", vi: "ăn lu bù",        example: "Binge eating after restriction is common." },
+    { word: "hydration",      ipa: "", vi: "uống nước đủ",            example: "Hydration affects energy." },
+    { word: "meal timing",    ipa: "", vi: "giờ ăn",                  example: "Meal timing influences sleep." },
+    { word: "balanced plate", ipa: "", vi: "đĩa cân bằng",             example: "Half the plate should be vegetables." },
+  ],
+  script: "Coach Nam: First question, Mai. Are you trying to lose weight, gain muscle, or feel better in general?\nMai: Honestly all three, but mostly feel better. I'm tired by 3 pm.\nCoach: That's energy, not weight. Tell me about a typical day.\nMai: Skip breakfast. Iced coffee. Banh mi at noon. Snacks. Fast food at night.\nCoach: That's a sugar rollercoaster. Three things to fix first.\nMai: Go.\nCoach: One — eat breakfast within an hour of waking. Doesn't have to be big. Eggs, oats, even leftovers.\nMai: Why?\nCoach: Sets your metabolism, stabilises blood sugar, prevents 3 pm crashes.\nMai: Two?\nCoach: Build a balanced plate. Half vegetables, a quarter protein, a quarter carbs. The plate is your map.\nMai: Bun cha works?\nCoach: Add more greens, perfect.\nMai: Three?\nCoach: Hydration. You're probably under-drinking. Sip water through the day, not chug at meals.\nMai: I drink coffee instead.\nCoach: Coffee dehydrates. Match each cup with one glass of water.\nMai: What about calories?\nCoach: Don't count yet. Build the habit of balanced meals first. Numbers without habits cause stress.\nMai: What about cravings?\nCoach: Allow yourself sweets in moderation. Total restriction leads to binges later.\nMai: Last question — meal timing for sleep?\nCoach: Stop heavy meals two hours before bed. A small protein snack is okay if you're hungry.\nMai: Got it. Three changes, no calorie counting, balance over restriction.\nCoach: Exactly. Sustainable beats strict. Always.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Mai's main problem?",          options: ["weight","muscle","energy","sleep"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Half of the plate should be ____.", options: ["protein","vegetables","carbs","fat"], correct: 1 },
+    { id: 3, type: "fill", question: "Eat breakfast within ____ of waking.", answer: "an hour" },
+    { id: 4, type: "fill", question: "Match each coffee with ____ glass of water.", answer: "one" },
+    { id: 5, type: "tfng", statement: "Coach tells Mai to count calories now.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Total restriction can lead to binges.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Heavy meals are okay before bed.",     answer: "False" },
+    { id: 8, type: "short",question: "Three priorities Coach gives?",         answer: "breakfast, balanced plate, hydration" },
+    { id: 9, type: "short",question: "What does sustainable beat?",            answer: "strict" },
+    { id: 10,type: "short", question: "What is the plate?",                    answer: "your map" },
+  ],
+  speakingPart1: [
+    { q: "Do you eat breakfast?",                bandLow: "Sometimes.",                                       bandMid: "Now I do, within an hour of waking — usually eggs and oats." },
+    { q: "Do you count calories?",                bandLow: "No.",                                              bandMid: "Not at all. I focus on plate balance and hunger cues instead." },
+    { q: "How much water do you drink?",           bandLow: "Two liters.",                                       bandMid: "Around two and a half litres, sipped throughout the day rather than chugged at meals." },
+    { q: "Do you have unhealthy habits?",            bandLow: "Yes.",                                              bandMid: "Late-night snacking is my main weak point — I'm replacing it with herbal tea." },
+    { q: "Has your diet changed in recent years?",   bandLow: "A bit.",                                            bandMid: "Significantly — fewer processed snacks, more home-cooked meals." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a healthy eating change you have made.\n- what the change is\n- when you started\n- how it has affected you\n- and explain whether you would recommend it.",
+    sample: "The change I'd like to share is adopting a balanced-plate approach last March. Each meal now follows a simple rule: half vegetables, a quarter protein, a quarter carbs. I also stopped skipping breakfast and matched every cup of coffee with a glass of water. Within three weeks, my afternoon energy crashes disappeared and my sleep deepened. I would absolutely recommend this method because it's flexible, easy to follow at street stalls, and doesn't require obsessive calorie counting.",
+    keywords: ["balanced plate","afternoon crash","stable energy","flexible method","no calorie counting"],
+  },
+  speakingPart3: [
+    { q: "Why is unhealthy eating common in cities?", hint: "fast food, busy lifestyle, marketing" },
+    { q: "Should governments regulate junk food?",     hint: "tax, ads, school meals" },
+    { q: "Are food trends helpful or harmful?",         hint: "keto, intermittent fasting, evidence" },
+    { q: "Will personalised nutrition become mainstream?", hint: "DNA tests, AI, cost" },
+  ],
+  shadowing: [
+    "Eat breakfast within an hour of waking.",
+    "Half vegetables, a quarter protein, a quarter carbs.",
+    "Sip water through the day.",
+    "Allow yourself sweets in moderation.",
+    "Sustainable beats strict.",
+  ],
+  homework: [
+    "Viết 5 câu dùng macronutrients, fibre, processed food, moderation, balanced plate.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "macronutrients (đa lượng) — band 7 trong essay sức khoẻ.",
+    "intuitive eating khác mindful eating — gần nghĩa.",
+    "sustainable beats strict — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 46,
+  levelId: "intermediate",
+  title: "Climate Change in Daily Life",
+  titleVi: "Biến Đổi Khí Hậu Trong Đời Sống",
+  objectives: { listen: "Nghe phỏng vấn về tác động khí hậu", speak: "Speaking về hành động cá nhân", vocabFocus: "Climate vocab" },
+  vocabulary: [
+    { word: "global warming",  ipa: "", vi: "nóng lên toàn cầu", example: "Global warming is accelerating." },
+    { word: "extreme weather", ipa: "", vi: "thời tiết cực đoan", example: "Extreme weather has doubled." },
+    { word: "carbon emissions",ipa: "", vi: "phát thải carbon",  example: "Carbon emissions must drop." },
+    { word: "renewable",       ipa: "/rɪˈnjuː.ə.bəl/", vi: "tái tạo",  example: "Solar is fully renewable." },
+    { word: "fossil fuels",    ipa: "", vi: "nhiên liệu hoá thạch", example: "Fossil fuels still dominate." },
+    { word: "deforestation",   ipa: "", vi: "phá rừng",            example: "Deforestation worsens flooding." },
+    { word: "drought",         ipa: "/draʊt/", vi: "hạn hán",       example: "Long drought damages crops." },
+    { word: "rising sea levels", ipa: "", vi: "nước biển dâng",     example: "Rising sea levels threaten the Mekong." },
+    { word: "carbon footprint",ipa: "", vi: "dấu chân carbon",      example: "Reduce your carbon footprint." },
+    { word: "sustainable",     ipa: "", vi: "bền vững",              example: "Sustainable choices add up." },
+  ],
+  script: "Reporter: We're at the National Climate Forum. With me is Dr Hoa, a climate scientist.\nDr Hoa: Hello.\nReporter: How is climate change visible in Vietnam right now?\nDr Hoa: Three signals. One — heatwaves. Hanoi recorded its longest streak of forty-degree days last summer. Two — flooding. Central provinces had three major floods in two years, double the historical average. Three — saltwater intrusion. The Mekong Delta lost twenty percent of rice yield last season because of saltwater pushing inland.\nReporter: That's serious.\nDr Hoa: It's already changing food security. Some farmers are switching from rice to shrimp because freshwater is unreliable.\nReporter: What about cities?\nDr Hoa: Heat islands are intensifying. Concrete absorbs heat. Without enough trees, indoor temperatures stay high overnight, harming sleep and health.\nReporter: Solutions?\nDr Hoa: At the system level we need to phase out fossil fuels, expand renewables, and protect forests. At the city level, plant more trees, design heat-resilient buildings, and invest in public transport. At the individual level, reduce meat consumption, avoid single-use plastic, and support brands with transparent supply chains.\nReporter: Aren't individual actions small?\nDr Hoa: Small but cumulative. They also normalise sustainable behaviour, which pressures companies and policymakers.\nReporter: Hopeful or worried?\nDr Hoa: Both. The next ten years are critical. We have the technology. The question is political will.\nReporter: Final thought?\nDr Hoa: Treat climate change as a daily issue, not a far-off topic. Every air conditioner, every grocery bag, every car ride is a vote.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How many major floods in 2 years in central?", options: ["1","2","3","4"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Mekong rice yield loss?",                       options: ["10%","15%","20%","30%"], correct: 2 },
+    { id: 3, type: "fill", question: "Some farmers switch from rice to ____.",        answer: "shrimp" },
+    { id: 4, type: "fill", question: "Cities need to plant more ____.",                answer: "trees" },
+    { id: 5, type: "tfng", statement: "Heatwaves in Hanoi reached forty degrees.", answer: "True" },
+    { id: 6, type: "tfng", statement: "Saltwater intrusion is reducing.",          answer: "False" },
+    { id: 7, type: "tfng", statement: "Individual actions are useless.",           answer: "False" },
+    { id: 8, type: "short",question: "Three system-level solutions?",                answer: "phase out fossil fuels, expand renewables, protect forests" },
+    { id: 9, type: "short",question: "Three individual actions?",                     answer: "less meat, no single-use plastic, transparent brands" },
+    { id: 10,type: "short", question: "Final metaphor — every choice is a ____?",     answer: "vote" },
+  ],
+  speakingPart1: [
+    { q: "Do you worry about climate change?",     bandLow: "Yes.",                                              bandMid: "Increasingly. Every summer feels hotter and the news of floods is constant." },
+    { q: "What can individuals do?",                bandLow: "Recycle.",                                           bandMid: "Reduce meat consumption, refuse single-use plastic, and use public transport." },
+    { q: "Should governments do more?",              bandLow: "Yes.",                                              bandMid: "Definitely — only governments can phase out fossil fuels and rebuild infrastructure at scale." },
+    { q: "Do you eat less meat now?",                 bandLow: "Yes.",                                              bandMid: "I cut to twice a week — surprisingly easy after the first month." },
+    { q: "Will future generations face worse weather?", bandLow: "Yes.",                                            bandMid: "Almost certainly, unless we cut emissions sharply within this decade." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe an environmental issue in your area.\n- what the issue is\n- how it affects daily life\n- what is being done\n- and explain what more should be done.",
+    sample: "I'd like to talk about heat islands in central Hanoi. Concrete absorbs heat all day, and at night the air barely cools down, which destroys sleep and forces constant air-conditioning. The city has started planting trees along main streets and replacing some asphalt with permeable surfaces. However, much more is needed — strict green-roof regulations for new buildings, stronger public-transport investment, and a campaign to reduce single-use plastic in markets. The current pace simply isn't enough for the scale of the issue.",
+    keywords: ["heat islands","permeable surfaces","green roofs","scale of the issue","cumulative actions"],
+  },
+  speakingPart3: [
+    { q: "Should rich countries do more?",     hint: "historical emissions, capacity, fairness" },
+    { q: "How can children help the planet?",  hint: "education, behaviour, advocacy" },
+    { q: "Will electric vehicles solve transport?", hint: "energy source, batteries, infrastructure" },
+    { q: "Are eco-friendly products affordable?", hint: "premium pricing, scale, subsidies" },
+  ],
+  shadowing: [
+    "Heatwaves are intensifying.",
+    "Three major floods in two years, double the historical average.",
+    "Concrete absorbs heat.",
+    "Small but cumulative.",
+    "Every car ride is a vote.",
+  ],
+  homework: [
+    "Viết 5 câu dùng global warming, carbon footprint, renewable, fossil fuels, sustainable.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "saltwater intrusion (xâm nhập mặn) — band 7 chuyên ngành.",
+    "heat island = đảo nhiệt đô thị, band cao.",
+    "every choice is a vote — câu chốt band 7.",
+  ],
+})
+
+LESSONS.push({
+  id: 47,
+  levelId: "intermediate",
+  title: "Stress Management",
+  titleVi: "Quản Lý Căng Thẳng",
+  objectives: { listen: "Nghe trao đổi cách giảm stress", speak: "Speaking về kỹ thuật giảm stress", vocabFocus: "Stress vocab" },
+  vocabulary: [
+    { word: "burnout",         ipa: "/ˈbɜːn.aʊt/", vi: "kiệt sức",      example: "Burnout is preventable." },
+    { word: "trigger",         ipa: "/ˈtrɪɡ.ər/", vi: "thứ kích hoạt",  example: "Identify your stress triggers." },
+    { word: "coping mechanism",ipa: "/ˈkəʊ.pɪŋ/", vi: "cách đối phó",   example: "Healthy coping mechanisms matter." },
+    { word: "decompress",      ipa: "/ˌdiː.kəmˈpres/", vi: "xả áp",     example: "I decompress with music." },
+    { word: "support system",  ipa: "", vi: "hệ thống hỗ trợ",          example: "Build a strong support system." },
+    { word: "mindful",         ipa: "/ˈmaɪnd.fəl/", vi: "chánh niệm",   example: "Be mindful while eating." },
+    { word: "breathing exercise", ipa: "", vi: "bài tập thở",           example: "Try a 4-7-8 breathing exercise." },
+    { word: "perfectionism",   ipa: "/pəˈfek.ʃən.ɪ.zəm/", vi: "chủ nghĩa hoàn hảo", example: "Perfectionism fuels stress." },
+    { word: "set limits",      ipa: "", vi: "đặt giới hạn",             example: "Set limits on overtime." },
+    { word: "let off steam",   ipa: "", vi: "xả hơi",                    example: "Exercise lets off steam." },
+  ],
+  script: "Mai: I had three migraines this month. My therapist said I'm bordering on burnout.\nKhang: That's serious. Have you found your triggers?\nMai: Three. One — perfectionism at work. I rewrote a presentation seven times. Two — endless notifications. My phone buzzed three hundred times yesterday alone. Three — comparing myself online.\nKhang: Classic combo.\nMai: My therapist gave me a coping toolkit. First, breathing exercises — four counts in, seven hold, eight out. Two cycles, three times a day.\nKhang: Sounds simple.\nMai: It is. Lowers heart rate within a minute. Second, scheduled worry time — fifteen minutes at 4 pm to write down anxious thoughts. Once on paper, my brain stops looping.\nKhang: Smart trick.\nMai: Third, real conversations. Voice messages or face-to-face, no text-only. The body feels less alone.\nKhang: I'd never thought about that.\nMai: Fourth, set limits. No emails after seven, no work on Sundays, no news first thing in the morning.\nKhang: Bold.\nMai: Last — let off steam physically. I run thirty minutes three times a week. Sometimes shout in a karaoke room with friends. The body needs to release.\nKhang: Are you better?\nMai: Migraines dropped from three a month to one. Sleep returned. I still have stressful days but I have tools now.\nKhang: That's huge.\nMai: Final lesson — stress isn't avoidable. Burnout is, if you build a support system early.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How many migraines this month?",  options: ["1","2","3","5"], correct: 2 },
+    { id: 2, type: "mcq",  question: "How many times did the phone buzz yesterday?", options: ["100","200","300","500"], correct: 2 },
+    { id: 3, type: "fill", question: "Breathing pattern: in ____, hold ____, out ____.", answer: "4, 7, 8" },
+    { id: 4, type: "fill", question: "Scheduled worry time at ____ pm.", answer: "4" },
+    { id: 5, type: "tfng", statement: "Mai prefers text-only communication.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Migraines dropped to one per month.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Mai believes stress is fully avoidable.", answer: "False" },
+    { id: 8, type: "short",question: "Three triggers Mai identified?",     answer: "perfectionism, notifications, comparing online" },
+    { id: 9, type: "short",question: "Two physical ways to let off steam?", answer: "running, karaoke" },
+    { id: 10,type: "short", question: "What is preventable?",                answer: "burnout" },
+  ],
+  speakingPart1: [
+    { q: "How do you manage stress?",                bandLow: "Sleep.",                                              bandMid: "Breathing exercises, scheduled worry time, and cutting evening notifications." },
+    { q: "What makes you most stressed?",             bandLow: "Work.",                                                bandMid: "Tight deadlines combined with my own perfectionism." },
+    { q: "Do you talk to others when stressed?",       bandLow: "Yes.",                                                  bandMid: "Yes, voice messages or face-to-face — text alone doesn't help." },
+    { q: "Is exercise good for stress?",                bandLow: "Yes.",                                                  bandMid: "Definitely — it lets off steam and lowers cortisol within minutes." },
+    { q: "Has your stress level changed?",               bandLow: "A bit.",                                                bandMid: "It's lower now thanks to a coping toolkit and clear boundaries." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a stressful period in your life and how you handled it.\n- when it happened\n- what caused it\n- what you did\n- and explain what you learned.",
+    sample: "Last December I hit a wall at work. I had three migraines in one month, and my therapist told me I was bordering on burnout. The triggers were perfectionism, endless phone notifications, and constant social-media comparison. I built a coping toolkit — 4-7-8 breathing twice a day, scheduled worry time at 4 pm, voice messages instead of texts, no email after seven, and three runs a week to let off steam. Within six weeks the migraines dropped to one a month and my sleep returned. The lesson is that stress isn't avoidable, but burnout is — if you build a support system early.",
+    keywords: ["bordering on burnout","coping toolkit","scheduled worry","4-7-8 breathing","let off steam"],
+  },
+  speakingPart3: [
+    { q: "Why are young people more stressed?", hint: "expectations, social media, uncertainty" },
+    { q: "Should companies offer therapy?",      hint: "wellbeing, productivity, culture" },
+    { q: "Is meditation useful?",                hint: "evidence, accessibility, consistency" },
+    { q: "How does stress show in the body?",     hint: "headache, sleep, immune system" },
+  ],
+  shadowing: [
+    "I had three migraines this month.",
+    "Lowers heart rate within a minute.",
+    "Once on paper, my brain stops looping.",
+    "The body needs to release.",
+    "Burnout is preventable if you build a support system early.",
+  ],
+  homework: [
+    "Viết 5 câu dùng burnout, trigger, coping mechanism, mindful, set limits.",
+    "Ghi âm Part 1 câu 1, 2, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "decompress (xả áp) — band cao.",
+    "scheduled worry time — kỹ thuật phổ biến trong CBT.",
+    "burnout is preventable — câu chốt band 7.",
+  ],
+})
+
+LESSONS.push({
+  id: 48,
+  levelId: "intermediate",
+  title: "Future Career Plans",
+  titleVi: "Kế Hoạch Sự Nghiệp Tương Lai",
+  objectives: { listen: "Nghe trao đổi định hướng nghề", speak: "Speaking về 5-năm tới", vocabFocus: "Career vocab" },
+  vocabulary: [
+    { word: "career path",     ipa: "", vi: "lộ trình nghề nghiệp",   example: "Plan your career path early." },
+    { word: "skill set",       ipa: "", vi: "bộ kỹ năng",              example: "My skill set includes data analysis." },
+    { word: "promotion",       ipa: "", vi: "thăng chức",              example: "I'm aiming for a promotion." },
+    { word: "specialise",      ipa: "/ˈspeʃ.əl.aɪz/", vi: "chuyên sâu", example: "I want to specialise in supply chain." },
+    { word: "industry",        ipa: "/ˈɪn.də.stri/", vi: "ngành",       example: "The tech industry moves fast." },
+    { word: "freelance",       ipa: "/ˈfriː.lɑːns/", vi: "tự do",       example: "Many writers go freelance." },
+    { word: "side project",    ipa: "", vi: "dự án phụ",                example: "My side project is a podcast." },
+    { word: "transferable skill", ipa: "", vi: "kỹ năng dùng được nhiều ngành", example: "Communication is transferable." },
+    { word: "five-year plan",  ipa: "", vi: "kế hoạch 5 năm",          example: "My five-year plan starts now." },
+    { word: "upskill",         ipa: "/ˈʌp.skɪl/", vi: "nâng cao kỹ năng", example: "Upskill every quarter." },
+  ],
+  script: "Linh: Where do you see yourself in five years?\nKhang: Honestly, I've been writing a five-year plan. Want to hear it?\nLinh: Please.\nKhang: Years one to two — stay in my current marketing role, master analytics, and ship one big campaign per quarter. Year three — get promoted to senior, lead a small team. Years four to five — pivot toward growth strategy, possibly join a start-up.\nLinh: Bold pivot. Why start-ups?\nKhang: Faster learning, broader skill set, ownership over outcomes. The downside is uncertainty.\nLinh: Risk tolerance shows.\nKhang: I'm building safety nets. Three months of expenses saved. A side project — a marketing podcast — already at five thousand listeners. Both upskill me and create optionality.\nLinh: Smart hedging.\nKhang: My biggest concern is not the job itself, but the skills I might need in five years. AI is rewriting marketing weekly.\nLinh: How are you upskilling?\nKhang: Twenty percent of my paycheck goes to learning. Online courses, books, conferences, and mentor calls.\nLinh: That's serious investment.\nKhang: Most people overestimate one year and underestimate five. I'm betting on the second.\nLinh: Will you stay in marketing forever?\nKhang: Probably not. Long-term, I'd love to teach — workshops, courses, even guest lectures. Sharing knowledge is a different kind of joy.\nLinh: Sounds like a clear vision.\nKhang: It's blurry too. The plan is a compass, not a map.\nLinh: That's a great line.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Years 1-2 plan?",                  options: ["promotion","master analytics","start-up","teach"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Year 3 target?",                    options: ["promotion","start-up","teach","freelance"], correct: 0 },
+    { id: 3, type: "fill", question: "Side project listeners: ____ thousand.", answer: "five" },
+    { id: 4, type: "fill", question: "Khang invests ____ percent of paycheck in learning.", answer: "twenty" },
+    { id: 5, type: "tfng", statement: "He plans to stay in marketing forever.", answer: "False" },
+    { id: 6, type: "tfng", statement: "He has 3 months of expenses saved.", answer: "True" },
+    { id: 7, type: "tfng", statement: "His five-year plan is rigid.",       answer: "False" },
+    { id: 8, type: "short",question: "Why does he like start-ups (3 reasons)?", answer: "faster learning, broader skill set, ownership" },
+    { id: 9, type: "short",question: "Long-term passion?",                  answer: "teaching" },
+    { id: 10,type: "short", question: "What does he say a plan is?",        answer: "a compass, not a map" },
+  ],
+  speakingPart1: [
+    { q: "Do you have a career plan?",         bandLow: "Yes.",                                              bandMid: "I follow a five-year plan with quarterly milestones." },
+    { q: "What career excites you?",            bandLow: "Marketing.",                                         bandMid: "Growth strategy in tech — fast learning and clear ownership of results." },
+    { q: "Do you have a side project?",          bandLow: "Yes.",                                              bandMid: "A marketing podcast that reached five thousand listeners last month." },
+    { q: "Are you good at planning?",             bandLow: "Sort of.",                                           bandMid: "I plan with a compass mindset — direction over precision." },
+    { q: "Have your career goals changed?",        bandLow: "Yes.",                                              bandMid: "Significantly — I started chasing titles and now I chase skills and ownership." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a career goal you have.\n- what the goal is\n- when you started thinking about it\n- how you plan to achieve it\n- and explain why it matters.",
+    sample: "I'd like to talk about my five-year goal of moving from junior marketer to growth strategist at a start-up. I started planning a year ago. The roadmap is split into three phases: master analytics in years one and two, lead a small team in year three, and pivot to growth strategy by year five. I save three months of expenses, invest twenty percent of my paycheck in learning, and run a side podcast that already has five thousand listeners. The goal matters because I want both speed of learning and clear ownership of outcomes — two things rare in big corporates.",
+    keywords: ["five-year roadmap","growth strategist","invest in learning","side project","ownership"],
+  },
+  speakingPart3: [
+    { q: "Are people changing careers more often?", hint: "lifelong learning, AI, side hustles" },
+    { q: "Should universities prepare students for changing jobs?", hint: "soft skills, transferable, lifelong" },
+    { q: "How will AI change careers?", hint: "automation, augmentation, new roles" },
+    { q: "Is salary the most important factor in choosing a job?", hint: "growth, culture, balance" },
+  ],
+  shadowing: [
+    "Where do you see yourself in five years?",
+    "Faster learning, broader skill set, ownership over outcomes.",
+    "Most people overestimate one year and underestimate five.",
+    "AI is rewriting marketing weekly.",
+    "The plan is a compass, not a map.",
+  ],
+  homework: [
+    "Viết 5 câu dùng career path, skill set, specialise, side project, upskill.",
+    "Ghi âm Part 1 câu 1, 4, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "transferable skills (kỹ năng dùng được nhiều ngành) — band 7.",
+    "compass not a map — câu band cao.",
+    "overestimate one year and underestimate five — quote nổi tiếng.",
+  ],
+})
+
+LESSONS.push({
+  id: 49,
+  levelId: "intermediate",
+  title: "Volunteering Abroad",
+  titleVi: "Tình Nguyện Nước Ngoài",
+  objectives: { listen: "Nghe phỏng vấn tình nguyện viên quốc tế", speak: "Speaking về trải nghiệm thay đổi", vocabFocus: "Volunteer abroad" },
+  vocabulary: [
+    { word: "host family",      ipa: "", vi: "gia đình bản xứ",    example: "I lived with a host family in Laos." },
+    { word: "non-profit",       ipa: "", vi: "phi lợi nhuận",      example: "I joined a non-profit." },
+    { word: "language barrier", ipa: "", vi: "rào cản ngôn ngữ",   example: "Smiles broke the language barrier." },
+    { word: "broaden horizons", ipa: "", vi: "mở mang tầm nhìn",    example: "Volunteering broadens horizons." },
+    { word: "make a difference",ipa: "", vi: "tạo khác biệt",        example: "Even small projects make a difference." },
+    { word: "fundraising",      ipa: "", vi: "gây quỹ",             example: "We did fundraising for two months." },
+    { word: "long-term impact", ipa: "", vi: "tác động dài hạn",    example: "Long-term impact takes patience." },
+    { word: "cross-cultural",   ipa: "", vi: "đa văn hoá",          example: "Cross-cultural skills are valuable." },
+    { word: "sustainable project", ipa: "", vi: "dự án bền vững",   example: "We built a sustainable project." },
+    { word: "homesick",         ipa: "/ˈhəʊm.sɪk/", vi: "nhớ nhà",  example: "I felt homesick the first week." },
+  ],
+  script: "Reporter: Welcome back. With us is Anh, who spent six months teaching English in northern Laos. Anh, why did you choose this experience?\nAnh: I wanted to step outside my Vietnamese bubble and contribute to something concrete. A small non-profit in Hanoi connected me with a school in a remote province of Laos.\nReporter: Talk us through preparation.\nAnh: Three months of fundraising — about forty million dong from friends and family. Online basic Lao classes. Vaccinations and a health check.\nReporter: How was the first week?\nAnh: Brutal. Slow internet, no shop nearby, language barrier. I was homesick by day three. By week two I had built a small routine and the host family treated me like a daughter.\nReporter: Best moment?\nAnh: My eight-year-old student, Bounmy, asked me to write his English name. I wrote 'Bunny'. He smiled for the entire afternoon. Tiny moments, big meaning.\nReporter: Hardest part?\nAnh: Realising my impact was limited. I taught for six months; the kids needed sustained, structured education for years. I had to accept being one small piece of a long puzzle.\nReporter: That's a mature view.\nAnh: It taught me to design for long-term impact. We trained two local teaching assistants who could continue after I left.\nReporter: Cross-cultural lessons?\nAnh: Patience. Slowness is not laziness. Many decisions there are made over food, not in meetings. I had to listen more and rush less.\nReporter: Would you do it again?\nAnh: Differently — for a longer period and more focused on training locals.\nReporter: Final advice?\nAnh: Volunteer abroad if you can. But measure your value by what continues without you, not what you do while you're there.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How long did Anh teach in Laos?",   options: ["3 months","6 months","9 months","12 months"], correct: 1 },
+    { id: 2, type: "mcq",  question: "How much money did she raise?",      options: ["20m","30m","40m","50m"], correct: 2 },
+    { id: 3, type: "fill", question: "Her host family treated her like a ____.", answer: "daughter" },
+    { id: 4, type: "fill", question: "She trained ____ local teaching assistants.", answer: "two" },
+    { id: 5, type: "tfng", statement: "She felt homesick on day one.",     answer: "False" },
+    { id: 6, type: "tfng", statement: "She believes her impact was huge.",  answer: "False" },
+    { id: 7, type: "tfng", statement: "She would volunteer abroad again.",  answer: "True" },
+    { id: 8, type: "short",question: "What did she learn about decisions?", answer: "made over food, not in meetings" },
+    { id: 9, type: "short",question: "Best moment?",                        answer: "naming Bounmy as Bunny" },
+    { id: 10,type: "short", question: "Final yardstick of value?",          answer: "what continues without you" },
+  ],
+  speakingPart1: [
+    { q: "Have you volunteered abroad?",        bandLow: "No.",                                                 bandMid: "Yes, six months teaching English in northern Laos." },
+    { q: "Why do people volunteer overseas?",    bandLow: "Help.",                                                bandMid: "To contribute, broaden horizons, and gain cross-cultural experience." },
+    { q: "What challenges might you face?",       bandLow: "Language.",                                            bandMid: "Language barrier, homesickness, and limited resources." },
+    { q: "Do you think volunteering changes you?", bandLow: "Yes.",                                                  bandMid: "Definitely — it forces patience and reframes what real impact looks like." },
+    { q: "What advice would you give first-time volunteers?", bandLow: "Open mind.",                                  bandMid: "Plan training for locals so the impact continues after you leave." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a volunteer experience that changed you.\n- where it was\n- what you did\n- when and how long\n- and explain how it changed you.",
+    sample: "I'd like to talk about six months teaching English in northern Laos at a small remote school. I lived with a host family with no shops nearby and limited internet. The first week I was homesick, but by week two a quiet routine emerged. The most touching moment was naming a young student Bunny — he smiled for the whole afternoon. The biggest lesson was about long-term impact: I trained two local teaching assistants so the program continues without me. The experience taught me to measure my value by what continues, not what I produce on the spot.",
+    keywords: ["host family","training locals","long-term impact","value continues","cross-cultural"],
+  },
+  speakingPart3: [
+    { q: "Is short-term volunteering useful?",       hint: "good intentions, sustainability, training" },
+    { q: "Should companies offer volunteer leave?",   hint: "wellbeing, employer branding, social impact" },
+    { q: "How does volunteering shape young people?", hint: "perspective, empathy, leadership" },
+    { q: "Are international volunteer programs ethical?", hint: "voluntourism, local needs, dependency" },
+  ],
+  shadowing: [
+    "I wanted to step outside my Vietnamese bubble.",
+    "Tiny moments, big meaning.",
+    "Slowness is not laziness.",
+    "Listen more and rush less.",
+    "Measure your value by what continues without you.",
+  ],
+  homework: [
+    "Viết 5 câu dùng host family, language barrier, broaden horizons, sustainable project, long-term impact.",
+    "Ghi âm Part 1 câu 1, 4, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "voluntourism = du lịch + tình nguyện, có tranh cãi đạo đức.",
+    "slowness is not laziness — câu band cao.",
+    "what continues without you — câu chốt band 7.",
+  ],
+})
+
+LESSONS.push({
+  id: 50,
+  levelId: "intermediate",
+  title: "Smart Spending in Your 20s",
+  titleVi: "Tiêu Tiền Thông Minh Tuổi 20",
+  objectives: { listen: "Nghe phỏng vấn về quản lý tài chính trẻ", speak: "Speaking về thói quen chi tiêu", vocabFocus: "Money management" },
+  vocabulary: [
+    { word: "lifestyle inflation", ipa: "", vi: "lạm phát chi tiêu",  example: "Beware of lifestyle inflation." },
+    { word: "fixed expenses",      ipa: "", vi: "chi phí cố định",     example: "Track all fixed expenses." },
+    { word: "variable expenses",   ipa: "", vi: "chi phí thay đổi",    example: "Variable expenses are easy to cut." },
+    { word: "compound interest",   ipa: "/ˈkɒm.paʊnd/", vi: "lãi kép", example: "Compound interest builds wealth slowly." },
+    { word: "emergency fund",      ipa: "", vi: "quỹ khẩn cấp",        example: "Save a 3-month emergency fund." },
+    { word: "subscription",        ipa: "/səbˈskrɪp.ʃən/", vi: "đăng ký dài hạn", example: "Subscriptions add up." },
+    { word: "needs vs wants",      ipa: "", vi: "cần vs muốn",          example: "Distinguish needs vs wants." },
+    { word: "delayed gratification",ipa: "", vi: "trì hoãn thoả mãn",   example: "Delayed gratification builds wealth." },
+    { word: "passive income",      ipa: "", vi: "thu nhập thụ động",    example: "Index funds give passive income." },
+    { word: "invest early",        ipa: "", vi: "đầu tư sớm",            example: "Invest early to harness compound interest." },
+  ],
+  script: "Reporter: Today we talk to Hieu, a personal finance creator who recently turned thirty. Hieu, what's the biggest mistake you see in your audience?\nHieu: Lifestyle inflation. They get a salary bump and immediately upgrade rent, food, gadgets. Net savings stay near zero.\nReporter: How do you avoid it?\nHieu: Three rules. One, save the bump first. Whatever increase you get, put fifty percent into savings before you taste it. Two, separate fixed and variable expenses. Three, track subscriptions monthly. Most people pay for things they no longer use.\nReporter: How much should young people save?\nHieu: A baseline emergency fund of three months of fixed expenses, then twenty percent of after-tax income. Hard at first, automatic later.\nReporter: Investing?\nHieu: Index funds for most people. Cheap, diversified, boring on purpose. Compound interest is your best friend. A small monthly contribution at twenty-five beats a huge one at forty.\nReporter: What about credit cards?\nHieu: Use them like debit cards. Pay full every month. Interest rates can hit twenty-five percent annually.\nReporter: Common temptations?\nHieu: Online flash sales, food delivery, and impulse upgrades on phones. I once bought a six-million-dong jacket on a midnight sale. Returned it the next day.\nReporter: Real talk.\nHieu: Final lesson — financial freedom is built by daily habits, not by lottery moves.\nReporter: Couldn't agree more.\nHieu: One last thing — talk about money openly. Silence is expensive.\nReporter: Powerful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Hieu's biggest mistake?",       options: ["overinvesting","lifestyle inflation","missing taxes","gambling"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Recommended savings rate after-tax?", options: ["10%","15%","20%","30%"], correct: 2 },
+    { id: 3, type: "fill", question: "Emergency fund: ____ months of fixed expenses.", answer: "three" },
+    { id: 4, type: "fill", question: "Save ____ percent of any salary bump first.", answer: "fifty" },
+    { id: 5, type: "tfng", statement: "Hieu recommends paying credit cards in full monthly.", answer: "True" },
+    { id: 6, type: "tfng", statement: "He says interest rates of credit cards can be 10%.", answer: "False" },
+    { id: 7, type: "tfng", statement: "Hieu kept the 6-million jacket.",   answer: "False" },
+    { id: 8, type: "short",question: "Three temptations he listed?",      answer: "flash sales, food delivery, phone upgrades" },
+    { id: 9, type: "short",question: "Best friend in finance?",            answer: "compound interest" },
+    { id: 10,type: "short", question: "Closing line on money?",            answer: "silence is expensive" },
+  ],
+  speakingPart1: [
+    { q: "Do you save money each month?",       bandLow: "Sometimes.",                                       bandMid: "I auto-save twenty percent of my income before any spending." },
+    { q: "Do you use credit cards?",             bandLow: "Yes.",                                              bandMid: "I treat them like debit cards and pay the full balance every month." },
+    { q: "Are subscriptions worth it?",           bandLow: "Some.",                                              bandMid: "Only when used weekly — I audit them monthly." },
+    { q: "Do you invest?",                         bandLow: "Not yet.",                                           bandMid: "Yes, simple index funds — boring on purpose." },
+    { q: "Have you ever made an impulse buy?",     bandLow: "Yes.",                                              bandMid: "Once a six-million-dong jacket at midnight on a flash sale, returned next day." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a financial decision you made.\n- what it was\n- when you made it\n- how you decided\n- and explain whether it was a good decision.",
+    sample: "The financial decision I'd like to talk about is starting a monthly index-fund auto-investment two years ago. I committed two million dong every payday, before any expenses. The decision came after reading about compound interest, lifestyle inflation, and the mistakes that high-earning friends were making. Two years in, the portfolio is up modestly but the bigger win is psychological — I never feel guilty buying coffee because the savings already happened. It was clearly a good decision and I plan to scale up another two million in six months.",
+    keywords: ["auto-investment","compound interest","lifestyle inflation","savings happened first","scale up"],
+  },
+  speakingPart3: [
+    { q: "Should personal finance be taught in schools?", hint: "literacy, debt, retirement" },
+    { q: "Why do many young people overspend?",            hint: "social media, ads, instant gratification" },
+    { q: "Is it harder to save now than 20 years ago?",   hint: "housing, inflation, expectations" },
+    { q: "Will cash disappear in the future?",              hint: "digital, privacy, financial inclusion" },
+  ],
+  shadowing: [
+    "Save the bump first.",
+    "Boring on purpose.",
+    "A small monthly contribution at twenty-five beats a huge one at forty.",
+    "Daily habits, not lottery moves.",
+    "Silence is expensive.",
+  ],
+  homework: [
+    "Viết 5 câu dùng emergency fund, compound interest, subscription, lifestyle inflation, passive income.",
+    "Ghi âm Part 1 câu 1, 4, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "lifestyle inflation = lạm phát chi tiêu — band 7.",
+    "compound interest (lãi kép) — học vào.",
+    "silence is expensive — câu chốt band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 51,
+  levelId: "intermediate",
+  title: "AI in Daily Life",
+  titleVi: "AI Trong Đời Sống",
+  objectives: { listen: "Nghe phỏng vấn về tác động AI", speak: "Speaking về AI và công việc", vocabFocus: "AI vocab" },
+  vocabulary: [
+    { word: "artificial intelligence", ipa: "", vi: "trí tuệ nhân tạo", example: "AI is becoming everyday tech." },
+    { word: "automation",       ipa: "/ˌɔː.təˈmeɪ.ʃən/", vi: "tự động hoá", example: "Automation replaces routine tasks." },
+    { word: "algorithm",        ipa: "/ˈæl.ɡə.rɪð.əm/", vi: "thuật toán", example: "The algorithm picks our newsfeed." },
+    { word: "data privacy",     ipa: "", vi: "quyền riêng tư dữ liệu", example: "Data privacy is a growing concern." },
+    { word: "machine learning", ipa: "", vi: "học máy",                example: "Machine learning improves with data." },
+    { word: "biased data",      ipa: "", vi: "dữ liệu thiên kiến",     example: "Biased data leads to biased AI." },
+    { word: "augment",          ipa: "/ɔːɡˈment/", vi: "bổ trợ",        example: "AI augments human creativity." },
+    { word: "adapt",            ipa: "/əˈdæpt/", vi: "thích nghi",       example: "Workers must adapt to AI." },
+    { word: "ethical",          ipa: "/ˈeθ.ɪ.kəl/", vi: "đạo đức",       example: "Ethical AI is essential." },
+    { word: "future-proof",     ipa: "", vi: "phòng cho tương lai",      example: "Future-proof your skills." },
+  ],
+  script: "Reporter: We're at a tech conference. Our guest is Linh, a product manager working on AI tools. Linh, how is AI affecting daily life?\nLinh: Quietly but quickly. Most people use AI ten times before breakfast — translation, photo enhancement, spam filtering, navigation. They just don't notice.\nReporter: What changes have you seen at work?\nLinh: Two big shifts. First, repetitive tasks are disappearing. My junior teammates spend less time formatting reports because tools draft them. Second, the bar for craft is rising. With AI doing the easy parts, the difference between average and excellent is now sharper.\nReporter: Are jobs disappearing?\nLinh: Some yes, but most are transforming. The roles that vanish are narrow and routine. The roles that grow are creative, cross-disciplinary, and human-centred.\nReporter: How should young people prepare?\nLinh: Three things. One, build deep skills, not just shallow ones. AI handles shallow well. Two, develop soft skills — communication, empathy, leadership. Three, learn to work with AI, not against it. Use it as a junior assistant.\nReporter: Concerns?\nLinh: Data privacy and biased data. AI trained on biased data discriminates at scale. Regulation is lagging behind innovation.\nReporter: Will AI replace teachers, doctors, writers?\nLinh: Augment, not replace. The best AI of next decade is likely a great assistant, not a great peer.\nReporter: One advice for parents?\nLinh: Don't fear AI. Teach kids how to question AI outputs. Critical thinking is the new literacy.\nReporter: Beautifully said.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Linh says people use AI before breakfast about ____ times.", options: ["3","5","10","20"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Two big shifts at work?", options: ["bigger meetings","repetitive tasks gone","new languages","slow internet"], correct: 1 },
+    { id: 3, type: "fill", question: "AI is likely a great ____, not a great peer.", answer: "assistant" },
+    { id: 4, type: "fill", question: "Critical thinking is the new ____.",        answer: "literacy" },
+    { id: 5, type: "tfng", statement: "All jobs will disappear because of AI.",   answer: "False" },
+    { id: 6, type: "tfng", statement: "Regulation moves faster than innovation.", answer: "False" },
+    { id: 7, type: "tfng", statement: "Soft skills are increasingly valuable.",    answer: "True" },
+    { id: 8, type: "short",question: "Three preparation tips for young people?",   answer: "deep skills, soft skills, work with AI" },
+    { id: 9, type: "short",question: "Two main concerns Linh mentions?",           answer: "data privacy, biased data" },
+    { id: 10,type: "short", question: "Advice for parents?",                       answer: "teach kids to question AI outputs" },
+  ],
+  speakingPart1: [
+    { q: "How often do you use AI?",          bandLow: "Sometimes.",                                       bandMid: "Daily — translation, calendar suggestions, smart photo edits." },
+    { q: "What is AI good at?",                bandLow: "Quick tasks.",                                      bandMid: "Repetitive, pattern-based work like spam filtering and basic drafts." },
+    { q: "What can humans do better?",          bandLow: "Feel.",                                            bandMid: "Creativity, empathy, judgement under uncertainty." },
+    { q: "Will AI replace your job?",            bandLow: "Maybe.",                                            bandMid: "Likely transform it — repetitive parts disappear, judgement parts grow." },
+    { q: "Do you trust AI?",                      bandLow: "Sort of.",                                          bandMid: "I trust outputs only after I question them; AI confidently states wrong things." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a piece of technology you find impressive.\n- what it is\n- when you started using it\n- what you use it for\n- and explain why you find it impressive.",
+    sample: "The technology I find most impressive is the new generation of AI writing assistants. I started using one a year ago. I rely on it to draft outlines, brainstorm phrasing, and tighten emails. It's impressive because it shifts my role from typing to thinking. I now spend more time choosing direction and less time formatting. Of course, it sometimes makes confident errors, so I always review carefully. The bigger lesson is that AI changes how we work, not whether we work.",
+    keywords: ["AI assistant","draft outlines","tighten emails","confident errors","direction over typing"],
+  },
+  speakingPart3: [
+    { q: "Should AI be regulated?",            hint: "ethics, safety, innovation" },
+    { q: "How will AI change education?",       hint: "tutors, plagiarism, personalised" },
+    { q: "Are people too dependent on AI?",     hint: "skills, judgement, fallback" },
+    { q: "Will creative jobs survive AI?",       hint: "augmentation, taste, originality" },
+  ],
+  shadowing: [
+    "Quietly but quickly.",
+    "The bar for craft is rising.",
+    "Augment, not replace.",
+    "Use AI as a junior assistant.",
+    "Critical thinking is the new literacy.",
+  ],
+  homework: [
+    "Viết 5 câu dùng artificial intelligence, automation, algorithm, biased data, future-proof.",
+    "Ghi âm Part 1 câu 1, 3, 4.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "augment vs replace — band 7 chuyên môn.",
+    "biased data (dữ liệu thiên kiến) — band 7.",
+    "AI doesn't replace, it augments — câu chốt band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 52,
+  levelId: "intermediate",
+  title: "Modern Parenting Challenges",
+  titleVi: "Nuôi Dạy Con Thời Hiện Đại",
+  objectives: { listen: "Nghe bố mẹ nói về thử thách hiện đại", speak: "Speaking về vai trò gia đình", vocabFocus: "Parenting vocab" },
+  vocabulary: [
+    { word: "screen time",      ipa: "", vi: "thời gian màn hình",   example: "Set screen time limits." },
+    { word: "tantrum",          ipa: "/ˈtæn.trəm/", vi: "cơn ăn vạ", example: "Toddler tantrums are tough." },
+    { word: "bonding time",     ipa: "", vi: "thời gian gắn kết",     example: "Dinner is our bonding time." },
+    { word: "discipline",       ipa: "/ˈdɪs.ə.plɪn/", vi: "kỷ luật",  example: "Consistent discipline matters." },
+    { word: "gentle parenting", ipa: "", vi: "nuôi con ôn hoà",      example: "Gentle parenting requires patience." },
+    { word: "extracurricular",  ipa: "", vi: "ngoại khóa",            example: "Extracurricular clubs build skills." },
+    { word: "sibling",          ipa: "/ˈsɪb.lɪŋ/", vi: "anh chị em",   example: "Siblings argue and bond." },
+    { word: "balance work and family", ipa: "", vi: "cân bằng việc & gia đình", example: "Balance work and family is endless." },
+    { word: "milestone",        ipa: "", vi: "cột mốc phát triển",     example: "First steps are big milestones." },
+    { word: "boundaries",       ipa: "/ˈbaʊn.dər.iz/", vi: "giới hạn", example: "Healthy boundaries help kids feel safe." },
+  ],
+  script: "Reporter: With us today is Hanh, mother of two — Quang, eight, and Linh, five. Hanh, what's your biggest parenting challenge?\nHanh: Screen time. Without rules, both kids would watch tablets six hours a day.\nReporter: How do you manage it?\nHanh: A simple rule — one hour weekdays, two hours weekends, with at least one hour of outdoor play before any screen.\nReporter: Pushback?\nHanh: Tantrums first three days. After that, surprisingly smooth.\nReporter: Style of parenting?\nHanh: I lean toward gentle parenting. Yelling rarely works. I name their feelings, set the boundary, then enforce it. Slow but builds trust.\nReporter: How about extracurricular activities?\nHanh: Each kid does only one. Quang plays football twice a week. Linh attends a small art class on Saturdays. We resist over-scheduling.\nReporter: Why?\nHanh: Children need bored time. Boredom sparks creativity. Always-busy kids forget how to play freely.\nReporter: Bonding time?\nHanh: Family dinner without phones, every night. Twenty minutes is enough. Once a week, a one-on-one outing with each child — coffee shop, library, or a short walk.\nReporter: Hardest part?\nHanh: Balance work and family. I work full-time. Some weeks I miss bedtime three nights in a row. The guilt is heavy.\nReporter: How do you cope?\nHanh: I focus on consistency over perfection. Showing up imperfectly beats trying to be perfect.\nReporter: Beautiful.\nHanh: Final lesson — children are mirrors. They reflect our own habits. Want calm kids? Be calm yourself.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How many kids does Hanh have?",  options: ["1","2","3","4"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Weekday screen time limit?",       options: ["30 min","1 hour","2 hours","unlimited"], correct: 1 },
+    { id: 3, type: "fill", question: "Outdoor play before screen: ____ hour.", answer: "one" },
+    { id: 4, type: "fill", question: "Family dinner without phones: ____ minutes.", answer: "twenty" },
+    { id: 5, type: "tfng", statement: "Hanh believes yelling works.",     answer: "False" },
+    { id: 6, type: "tfng", statement: "Each child has multiple extracurricular activities.", answer: "False" },
+    { id: 7, type: "tfng", statement: "She does one-on-one outings weekly.", answer: "True" },
+    { id: 8, type: "short",question: "What sparks creativity?",           answer: "boredom / bored time" },
+    { id: 9, type: "short",question: "Mantra over perfection?",           answer: "consistency" },
+    { id: 10,type: "short", question: "Children are described as ____?", answer: "mirrors" },
+  ],
+  speakingPart1: [
+    { q: "Are you close to your family?",         bandLow: "Yes.",                                              bandMid: "Yes — we share dinner without phones every evening." },
+    { q: "Should parents be strict or gentle?",     bandLow: "Gentle.",                                            bandMid: "Gentle but firm — clear boundaries with calm enforcement." },
+    { q: "Do children today have too many activities?", bandLow: "Yes.",                                              bandMid: "Many do; over-scheduling can erode their ability to play freely." },
+    { q: "How important is family dinner?",            bandLow: "Important.",                                         bandMid: "Twenty minutes daily is more powerful than people realise — it's a cumulative anchor." },
+    { q: "What is the hardest part of being a parent?", bandLow: "Tired.",                                             bandMid: "Balancing work and presence; missing bedtime three nights weighs heavily." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a parenting moment that taught you something.\n- what happened\n- when\n- who was involved\n- and explain what you learned.",
+    sample: "I'd like to talk about a calm tantrum I handled with my five-year-old daughter Linh last month. She didn't want to leave the playground. Instead of yelling, I sat next to her, named her feelings, and waited. Three minutes later, she stood up and held my hand. The lesson was simple but profound — children calm down faster when adults stay calm. That moment cemented my belief that consistency over perfection is the right north star.",
+    keywords: ["named her feelings","stayed calm","cumulative effect","consistency over perfection","north star"],
+  },
+  speakingPart3: [
+    { q: "Why is parenting harder today?",         hint: "screens, comparison, expectations" },
+    { q: "Should fathers be more involved?",         hint: "stereotypes, equity, child development" },
+    { q: "Should schools teach parenting?",          hint: "preparation, generational change" },
+    { q: "Are children growing up too fast?",         hint: "media, marketing, pressure" },
+  ],
+  shadowing: [
+    "Yelling rarely works.",
+    "Children need bored time.",
+    "Showing up imperfectly beats trying to be perfect.",
+    "Children are mirrors.",
+    "Want calm kids? Be calm yourself.",
+  ],
+  homework: [
+    "Viết 5 câu dùng screen time, tantrum, bonding time, gentle parenting, boundaries.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "gentle parenting (nuôi con ôn hoà) — band 7 chuyên môn.",
+    "bored time (thời gian buồn chán) — band cao về sáng tạo.",
+    "children are mirrors — câu band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 53,
+  levelId: "intermediate",
+  title: "Sustainable Fashion",
+  titleVi: "Thời Trang Bền Vững",
+  objectives: { listen: "Nghe trao đổi mua sắm có ý thức", speak: "Speaking về thói quen mặc đồ", vocabFocus: "Fashion vocab" },
+  vocabulary: [
+    { word: "fast fashion",      ipa: "", vi: "thời trang nhanh",    example: "Fast fashion harms the planet." },
+    { word: "thrift shop",       ipa: "/θrɪft/", vi: "đồ cũ",         example: "I shop at thrift shops." },
+    { word: "second-hand",       ipa: "", vi: "đồ second",            example: "Second-hand bags are great quality." },
+    { word: "capsule wardrobe",  ipa: "", vi: "tủ đồ tối giản",       example: "A capsule wardrobe simplifies dressing." },
+    { word: "ethical brand",     ipa: "", vi: "thương hiệu có đạo đức", example: "Choose ethical brands." },
+    { word: "garment",           ipa: "/ˈɡɑː.mənt/", vi: "trang phục",  example: "Each garment has a story." },
+    { word: "supply chain",      ipa: "", vi: "chuỗi cung ứng",        example: "Transparent supply chains matter." },
+    { word: "biodegradable fabric", ipa: "", vi: "vải phân huỷ",       example: "Linen is biodegradable." },
+    { word: "trend",             ipa: "/trend/", vi: "xu hướng",       example: "Trends come and go." },
+    { word: "wardrobe staples",  ipa: "", vi: "đồ cơ bản trong tủ",    example: "White tee is a wardrobe staple." },
+  ],
+  script: "Reporter: Today we discuss sustainable fashion. With us is Mai, who runs a small ethical clothing brand.\nMai: Hi.\nReporter: Why did you start?\nMai: I used to buy ten new pieces every month from fast fashion brands. After two years my closet was full but I still felt like I had nothing to wear. I learned that fast fashion makes about a hundred billion garments a year, and almost half end up unworn.\nReporter: That's striking.\nMai: I started a small label using biodegradable linen and cotton. Slow production, fair wages, transparent supply chain.\nReporter: How can people shop more sustainably?\nMai: Five tips. First, build a capsule wardrobe — twenty to thirty items that mix and match. Second, choose quality over quantity. A two-million-dong shirt that lasts five years beats five cheap shirts that last six months. Third, learn basic care. Most clothes wear out from wrong washing, not actual use. Fourth, second-hand and thrift shops. The footprint is already paid. Fifth, support ethical brands when you buy new.\nReporter: Aren't ethical brands more expensive?\nMai: Initially yes. But cost per wear is often lower because the items last longer.\nReporter: How do you avoid trend pressure?\nMai: I follow a thirty-day rule. If I want a trendy item, I wait thirty days. By then most cravings disappear.\nReporter: Smart.\nMai: One more thing — ask 'who made my clothes?' That single question changes how you see fashion.\nReporter: A powerful close.\nMai: Fashion should be expression, not exhaustion.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Capsule wardrobe size?",        options: ["10-15","15-20","20-30","30-50"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Mai's wait rule?",                options: ["7 days","14 days","30 days","60 days"], correct: 2 },
+    { id: 3, type: "fill", question: "Almost ____ of garments end up unworn.", answer: "half" },
+    { id: 4, type: "fill", question: "Single transformative question: who made my ____?", answer: "clothes" },
+    { id: 5, type: "tfng", statement: "Mai used to buy 5 pieces a month.",   answer: "False" },
+    { id: 6, type: "tfng", statement: "Quality items have lower cost per wear.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Most clothes wear out from real use.", answer: "False" },
+    { id: 8, type: "short",question: "Two natural fabrics Mai uses?",        answer: "linen, cotton" },
+    { id: 9, type: "short",question: "Five sustainable shopping tips?",        answer: "capsule wardrobe, quality, basic care, second-hand, ethical brands" },
+    { id: 10,type: "short", question: "Closing line about fashion?",          answer: "expression, not exhaustion" },
+  ],
+  speakingPart1: [
+    { q: "Do you follow fashion trends?",          bandLow: "Sometimes.",                                       bandMid: "I observe trends but rarely act on them — most fade after a season." },
+    { q: "Where do you usually buy clothes?",        bandLow: "Online.",                                           bandMid: "A mix of thrift shops for staples and one ethical brand for new pieces." },
+    { q: "Have you ever donated clothes?",            bandLow: "Yes.",                                              bandMid: "Twice a year I donate items I haven't worn in twelve months." },
+    { q: "Are clothes important for first impressions?", bandLow: "Yes.",                                              bandMid: "Quietly, yes — they signal effort and self-respect within seconds." },
+    { q: "Do you believe in dressing for comfort?",     bandLow: "Yes.",                                              bandMid: "Comfort plus simple cuts; minimalism feels both ethical and elegant." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe an item of clothing you own and value.\n- what it is\n- when you bought it\n- where it came from\n- and explain why you value it.",
+    sample: "I'd like to talk about a beige linen shirt I bought last summer from a small ethical brand. It cost two million dong, more than three fast-fashion shirts together. I value it because it survives daily wear, fits multiple settings, and the brand discloses where every fabric comes from. Two years later, it's softer than the day I bought it. The shirt taught me a simple truth: cost per wear, not sticker price, is the real measure of value.",
+    keywords: ["ethical brand","cost per wear","linen","longevity","real measure"],
+  },
+  speakingPart3: [
+    { q: "Why do people overconsume fashion?",       hint: "trends, social media, dopamine" },
+    { q: "Should governments tax fast fashion?",      hint: "externalities, behaviour, jobs" },
+    { q: "Will second-hand shopping become mainstream?", hint: "stigma, apps, costs" },
+    { q: "How does culture influence dressing?",       hint: "tradition, climate, generation" },
+  ],
+  shadowing: [
+    "Cost per wear is the real measure.",
+    "Most clothes wear out from wrong washing, not real use.",
+    "The footprint is already paid.",
+    "Who made my clothes?",
+    "Fashion should be expression, not exhaustion.",
+  ],
+  homework: [
+    "Viết 5 câu dùng fast fashion, capsule wardrobe, ethical brand, supply chain, wardrobe staples.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "cost per wear (giá mỗi lần mặc) — band 7+ trong essay tiêu dùng.",
+    "capsule wardrobe — band 7 trong topic minimalism.",
+    "expression, not exhaustion — câu chốt band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 54,
+  levelId: "intermediate",
+  title: "Generation Gap",
+  titleVi: "Khoảng Cách Thế Hệ",
+  objectives: { listen: "Nghe trao đổi giữa hai thế hệ", speak: "Speaking về sự khác biệt thế hệ", vocabFocus: "Generation vocab" },
+  vocabulary: [
+    { word: "generation gap",      ipa: "", vi: "khoảng cách thế hệ", example: "The generation gap is real." },
+    { word: "old-school",          ipa: "", vi: "kiểu cũ",            example: "He's old-school about discipline." },
+    { word: "tech-savvy",          ipa: "", vi: "rành công nghệ",     example: "Gen Z is tech-savvy." },
+    { word: "open-minded",         ipa: "", vi: "cởi mở",             example: "Open-minded conversations help." },
+    { word: "judgemental",         ipa: "/dʒʌdʒˈmen.təl/", vi: "phán xét", example: "Avoid being judgemental." },
+    { word: "see eye to eye",      ipa: "", vi: "đồng quan điểm",     example: "We rarely see eye to eye on politics." },
+    { word: "conservative",        ipa: "/kənˈsɜː.və.tɪv/", vi: "bảo thủ", example: "Their views are conservative." },
+    { word: "progressive",         ipa: "/prəˈɡres.ɪv/", vi: "tiến bộ", example: "Younger people lean progressive." },
+    { word: "trade-off",           ipa: "", vi: "đánh đổi",            example: "Every choice has a trade-off." },
+    { word: "common ground",       ipa: "", vi: "điểm chung",           example: "Find common ground first." },
+  ],
+  script: "Linh: Mom, I want to move out next month.\nMother: Move out? You're only twenty-three. Why?\nLinh: I want to live closer to my office. The commute eats two hours every day.\nMother: But living at home costs nothing. Saving money is wisdom.\nLinh: I get that. But personal space matters too. I've been working from home and we both feel the strain.\nMother: When I was your age, I lived with my parents until marriage. That was normal.\nLinh: I know. Times have changed.\nMother: How will you afford rent and food?\nLinh: My salary is fifteen million. Rent will be five, utilities one, food three. I'll still save four million a month.\nMother: Sounds tight. What about emergencies?\nLinh: I have three months of expenses already saved.\nMother: Hmm. Have you thought about safety?\nLinh: I'll choose a building with a doorman and visit you every weekend. Sunday lunch, every week.\nMother: Promise?\nLinh: Promise.\nMother: I worry, you know.\nLinh: I know. And I appreciate it. But you also worried when I started university, and now you're proud.\nMother: True.\nLinh: Mom, this isn't rejection. It's growing up. I'll always be your daughter.\nMother: Okay. I won't stop you. Just call when something feels off.\nLinh: Always.\nMother: Then let's pack. Slowly.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Linh's age?",          options: ["20","22","23","25"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Daily commute time?",  options: ["1 hour","2 hours","3 hours","4 hours"], correct: 1 },
+    { id: 3, type: "fill", question: "Salary: ____ million.", answer: "fifteen" },
+    { id: 4, type: "fill", question: "She has saved ____ months of expenses.", answer: "three" },
+    { id: 5, type: "tfng", statement: "Mother lived alone before marriage.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Linh promises Sunday lunch every week.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Linh sees moving out as rejection.", answer: "False" },
+    { id: 8, type: "short",question: "How much will Linh save monthly?",   answer: "four million" },
+    { id: 9, type: "short",question: "What two safety choices?",            answer: "doorman, weekend visits" },
+    { id: 10,type: "short", question: "Linh frames moving as ____.",         answer: "growing up" },
+  ],
+  speakingPart1: [
+    { q: "Do you live with your parents?",                bandLow: "Yes.",                                              bandMid: "Yes for now, although I'm planning to move closer to my office next month." },
+    { q: "Do you and your parents agree on most things?",  bandLow: "Sometimes.",                                         bandMid: "Mostly we find common ground; we differ on lifestyle choices like moving out timing." },
+    { q: "What is the biggest generation gap topic?",       bandLow: "Marriage.",                                          bandMid: "Marriage timing, careers, and how we use technology." },
+    { q: "Should young people respect older opinions?",       bandLow: "Yes.",                                              bandMid: "Always listen, but you don't have to agree." },
+    { q: "How can families reduce conflict?",                  bandLow: "Talk.",                                              bandMid: "Open dialogue plus naming feelings instead of judging actions." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a difficult conversation you had with a family member.\n- when it happened\n- what it was about\n- how you handled it\n- and explain how it ended.",
+    sample: "Last month I told my mother I wanted to move out at twenty-three. She worried about money, safety, and the change to family habits. I prepared specific numbers — fifteen million salary, five rent, four saved each month — and committed to weekly Sunday lunches. The conversation lasted about an hour. She wasn't fully comfortable but she trusted my plan. We packed slowly together over the weekend. The conversation ended with respect on both sides, which is the rare success in cross-generation talks.",
+    keywords: ["common ground","specific numbers","weekly Sunday lunch","slowly together","respect on both sides"],
+  },
+  speakingPart3: [
+    { q: "Why do generations clash?",                  hint: "different times, fast change, identity" },
+    { q: "Are young people less respectful today?",    hint: "different definition, freedom of speech" },
+    { q: "Should grandparents help raise children?",    hint: "support, cultural transfer, autonomy" },
+    { q: "How can technology bridge generations?",      hint: "video calls, learning together, sharing" },
+  ],
+  shadowing: [
+    "Personal space matters too.",
+    "Times have changed.",
+    "I'll still save four million a month.",
+    "I worry, you know.",
+    "This isn't rejection. It's growing up.",
+  ],
+  homework: [
+    "Viết 5 câu dùng generation gap, old-school, see eye to eye, common ground, open-minded.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "see eye to eye = đồng quan điểm — band 6.5+.",
+    "trade-off (đánh đổi) — band 7.",
+    "this isn't rejection, it's growing up — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 55,
+  levelId: "intermediate",
+  title: "Building Self-Confidence",
+  titleVi: "Xây Dựng Sự Tự Tin",
+  objectives: { listen: "Nghe coach chia sẻ cách tăng tự tin", speak: "Speaking về một thời điểm thiếu tự tin", vocabFocus: "Confidence vocab" },
+  vocabulary: [
+    { word: "self-doubt",        ipa: "", vi: "nghi ngờ bản thân",  example: "Self-doubt visits everyone." },
+    { word: "imposter syndrome", ipa: "/ɪmˈpɒs.tər/", vi: "hội chứng kẻ giả mạo", example: "Imposter syndrome is normal." },
+    { word: "self-talk",         ipa: "", vi: "đối thoại nội tâm",   example: "Watch your self-talk." },
+    { word: "comfort zone",      ipa: "", vi: "vùng an toàn",         example: "Step out of your comfort zone weekly." },
+    { word: "small wins",        ipa: "", vi: "chiến thắng nhỏ",       example: "Stack small wins daily." },
+    { word: "growth mindset",    ipa: "", vi: "tư duy phát triển",     example: "A growth mindset embraces failure." },
+    { word: "vulnerable",        ipa: "/ˈvʌl.nər.ə.bəl/", vi: "tổn thương được", example: "Being vulnerable builds trust." },
+    { word: "assertive",         ipa: "/əˈsɜː.tɪv/", vi: "quả quyết",   example: "Assertive yet kind." },
+    { word: "body language",     ipa: "", vi: "ngôn ngữ cơ thể",        example: "Open body language signals confidence." },
+    { word: "self-worth",        ipa: "", vi: "giá trị bản thân",      example: "Self-worth doesn't depend on praise." },
+  ],
+  script: "Coach Linh: How would you describe your confidence level today?\nMai: Maybe a five out of ten. Some days I feel capable; other days I shrink.\nCoach: Common pattern. What triggers the shrinking?\nMai: Speaking up in meetings. I overthink whether my idea is smart enough.\nCoach: Let's reframe. Confidence isn't always feeling sure. Confidence is acting despite the feeling.\nMai: That sounds tough.\nCoach: It is until you build evidence. Try this — every day, do one small thing slightly outside your comfort zone. Send a cold message. Suggest one idea. Ask a quick question.\nMai: How does that help?\nCoach: It teaches your brain that small risks rarely lead to disaster. Over weeks, it accumulates. The brain trusts evidence, not pep talks.\nMai: Body language?\nCoach: Posture, breath, voice. Stand tall, breathe slowly, slow your speech by ten percent. People perceive you as more confident before they hear your idea.\nMai: What about imposter syndrome?\nCoach: You'll feel it for life. The fix is not to silence it, but to act anyway. The most accomplished people I've coached still feel like imposters.\nMai: Comforting.\nCoach: Last tip — track small wins in a notebook. End of each day, write three. Things like 'said hello to a stranger', 'asked for help', 'finished a hard email'. After a month, your brain has receipts.\nMai: I'll start tonight.\nCoach: Self-confidence is not a personality trait. It is a daily habit.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Mai's current confidence level?", options: ["3","4","5","6"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Recommended speech change?",       options: ["faster","slower 10%","slower 30%","loudest"], correct: 1 },
+    { id: 3, type: "fill", question: "Track ____ small wins per day.",   answer: "three" },
+    { id: 4, type: "fill", question: "The brain trusts ____, not pep talks.", answer: "evidence" },
+    { id: 5, type: "tfng", statement: "Coach says imposter syndrome disappears completely.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Body language affects perception.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Coach calls confidence a personality trait.", answer: "False" },
+    { id: 8, type: "short",question: "Three examples of small daily risks?", answer: "cold message, suggest idea, ask question" },
+    { id: 9, type: "short",question: "Three components of body language?",   answer: "posture, breath, voice" },
+    { id: 10,type: "short", question: "Final summary?",                     answer: "self-confidence is a daily habit" },
+  ],
+  speakingPart1: [
+    { q: "Are you a confident person?",          bandLow: "Sometimes.",                                       bandMid: "I'd say medium — confident in writing, less so in big meetings." },
+    { q: "When do you feel most confident?",      bandLow: "When prepared.",                                    bandMid: "When I've prepared three to four key points and slept well." },
+    { q: "How do you handle nervousness?",         bandLow: "Breathe.",                                          bandMid: "Slow breathing, lower my speech speed, and remember small wins from the past week." },
+    { q: "Should children be praised often?",       bandLow: "Yes.",                                              bandMid: "Praise effort more than results so they build a growth mindset." },
+    { q: "Is it possible to be too confident?",     bandLow: "Yes.",                                              bandMid: "Definitely — confidence without humility tips into arrogance and stops learning." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a time you felt unconfident.\n- when it happened\n- why\n- what you did\n- and explain what you learned.",
+    sample: "Last quarter I had to present to senior leadership for the first time. The night before I doubted every slide and barely slept. To cope, I rehearsed three times in front of a friend, slowed my speech by ten percent, and arrived twenty minutes early to breathe. The presentation lasted fifteen minutes; my voice cracked once. I learned two things — confidence isn't certainty, it's choosing to act, and that small wins like asking my friend to listen are bigger than any pep talk.",
+    keywords: ["pre-presentation jitters","slowed speech","small wins","choosing to act","not certainty"],
+  },
+  speakingPart3: [
+    { q: "Why do confident people seem successful?", hint: "perception, communication, opportunities" },
+    { q: "Should schools teach confidence?",          hint: "growth mindset, public speaking" },
+    { q: "Can confidence be faked?",                   hint: "body language, behaviour, sustainability" },
+    { q: "How does culture shape confidence?",         hint: "individualism, collective, norms" },
+  ],
+  shadowing: [
+    "Confidence is acting despite the feeling.",
+    "Stand tall, breathe slowly, slow your speech.",
+    "The brain trusts evidence, not pep talks.",
+    "After a month, your brain has receipts.",
+    "Self-confidence is a daily habit.",
+  ],
+  homework: [
+    "Viết 5 câu dùng self-doubt, imposter syndrome, comfort zone, small wins, growth mindset.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "imposter syndrome (hội chứng kẻ giả mạo) — band 7.",
+    "self-talk (đối thoại nội tâm) — band cao trong topic mental.",
+    "your brain has receipts — câu band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 56,
+  levelId: "intermediate",
+  title: "Public Speaking",
+  titleVi: "Thuyết Trình Trước Công Chúng",
+  objectives: { listen: "Nghe coach dạy thuyết trình", speak: "Speaking về buổi thuyết trình", vocabFocus: "Public speaking" },
+  vocabulary: [
+    { word: "audience",        ipa: "/ˈɔː.di.əns/", vi: "khán giả",   example: "Read the audience first." },
+    { word: "stage fright",    ipa: "", vi: "sợ sân khấu",            example: "Stage fright is universal." },
+    { word: "pacing",          ipa: "/ˈpeɪ.sɪŋ/", vi: "nhịp nói",     example: "Slow pacing helps clarity." },
+    { word: "eye contact",     ipa: "", vi: "giao tiếp mắt",          example: "Make eye contact with three people." },
+    { word: "key takeaway",    ipa: "", vi: "ý chính rút ra",          example: "End with a clear takeaway." },
+    { word: "filler word",     ipa: "", vi: "từ đệm",                  example: "Reduce filler words." },
+    { word: "slide deck",      ipa: "", vi: "bộ slide",                example: "Trim your slide deck by half." },
+    { word: "rehearse",        ipa: "/rɪˈhɜːs/", vi: "tập diễn",       example: "Rehearse three times standing." },
+    { word: "anchor sentence", ipa: "", vi: "câu trọng tâm",           example: "Lead with an anchor sentence." },
+    { word: "Q&A",             ipa: "", vi: "phần hỏi đáp",            example: "Plan the Q&A." },
+  ],
+  script: "Coach: Three things determine a great talk — preparation, presence, and pacing.\nLan: Start with preparation?\nCoach: Yes. Most speakers prepare slides first. That's wrong. Start with one anchor sentence — what's the single line you want the audience to remember.\nLan: Then?\nCoach: Three supporting points. Each with a story or data. Then design slides last, only to support what you already know.\nLan: Presence?\nCoach: Eye contact with three people across the room — left, centre, right. Plant your feet. Use slow gestures. The body teaches the brain to feel calm.\nLan: How about stage fright?\nCoach: Reframe — nervous energy is the same as excited energy, just labelled differently. Tell yourself 'I am excited' instead of 'I am nervous'. Studies show this small shift improves performance.\nLan: Easy to remember.\nCoach: Pacing?\nLan: Slow.\nCoach: Slower than you think. Pause for two seconds after big points. Most beginners speak 30 percent too fast.\nLan: Filler words?\nCoach: Replace 'um' with silence. Silence sounds confident; 'um' sounds unsure.\nLan: What about Q&A?\nCoach: Ten minutes minimum. Repeat each question for clarity, then answer briefly. Avoid rambling.\nLan: Rehearsal?\nCoach: Three full run-throughs standing, ideally on video. Your second rehearsal will reveal weak spots.\nLan: Final tip?\nCoach: People remember the first sentence and the last. Spend half your prep on those two.\nLan: That's powerful.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How many supporting points?", options: ["2","3","4","5"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Beginners speak how much too fast?", options: ["10%","20%","30%","50%"], correct: 2 },
+    { id: 3, type: "fill", question: "Pause for ____ seconds after big points.", answer: "two" },
+    { id: 4, type: "fill", question: "Eye contact with ____ people across the room.", answer: "three" },
+    { id: 5, type: "tfng", statement: "Slides should be designed first.", answer: "False" },
+    { id: 6, type: "tfng", statement: "'I am excited' is better than 'I am nervous'.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Q&A should be at least 5 minutes.", answer: "False" },
+    { id: 8, type: "short",question: "Three pillars of a great talk?",     answer: "preparation, presence, pacing" },
+    { id: 9, type: "short",question: "How many run-throughs standing?",    answer: "three" },
+    { id: 10,type: "short", question: "Two parts people remember most?",   answer: "first sentence and last" },
+  ],
+  speakingPart1: [
+    { q: "Do you enjoy public speaking?",         bandLow: "No.",                                                 bandMid: "I used to dread it; with practice it's now manageable, even fun." },
+    { q: "How do you prepare for a presentation?", bandLow: "Make slides.",                                         bandMid: "I write an anchor sentence, three supporting points, then slides last." },
+    { q: "Do you have stage fright?",                bandLow: "Yes.",                                                  bandMid: "Mild. I reframe nervousness as excitement and slow my pacing." },
+    { q: "Are slides important?",                     bandLow: "Yes.",                                                  bandMid: "Helpful, but they should support, not lead. The talk drives the slides." },
+    { q: "What makes a memorable speaker?",            bandLow: "Confidence.",                                          bandMid: "Clarity, presence, and a single line audiences remember after the talk." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a presentation you gave or watched.\n- what it was about\n- when and where\n- what made it effective\n- and explain what you learned.",
+    sample: "I'd like to talk about a fifteen-minute presentation I gave to senior leadership last quarter. It centred on a single anchor sentence — 'small habit changes compound into big revenue gains' — supported by three customer stories. I rehearsed three times standing, paused for two seconds after each big point, and replaced filler words with silence. The presentation went well; the leadership asked nine questions. I learned that the talk drives the slides, not the other way around, and that pacing slower than I think feels right to the audience.",
+    keywords: ["anchor sentence","customer stories","slow pacing","silence over filler","talks drive slides"],
+  },
+  speakingPart3: [
+    { q: "Why are people afraid of speaking?",   hint: "judgement, social risk, perfectionism" },
+    { q: "Should public speaking be taught at school?", hint: "soft skill, leadership, employability" },
+    { q: "Are TED talks too short?",              hint: "depth vs reach, attention span" },
+    { q: "Has technology changed presentations?", hint: "remote, AI summaries, async" },
+  ],
+  shadowing: [
+    "Start with one anchor sentence.",
+    "Eye contact with three people.",
+    "Pause for two seconds after big points.",
+    "Silence sounds confident; 'um' sounds unsure.",
+    "People remember the first sentence and the last.",
+  ],
+  homework: [
+    "Viết 5 câu dùng audience, stage fright, key takeaway, filler word, rehearse.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "anchor sentence (câu trọng tâm) — band 7+.",
+    "filler word (um, uh) — band 6.5+.",
+    "talks drive slides — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 57,
+  levelId: "intermediate",
+  title: "Time Management",
+  titleVi: "Quản Lý Thời Gian",
+  objectives: { listen: "Nghe trao đổi quản lý lịch trình", speak: "Speaking về cách phân bổ thời gian", vocabFocus: "Time management" },
+  vocabulary: [
+    { word: "prioritise",       ipa: "/praɪˈɒr.ə.taɪz/", vi: "ưu tiên", example: "Prioritise high-impact tasks." },
+    { word: "deep work",        ipa: "", vi: "công việc sâu",          example: "Deep work needs no distractions." },
+    { word: "shallow work",     ipa: "", vi: "việc nhẹ",                example: "Reply to emails in shallow blocks." },
+    { word: "context switching",ipa: "", vi: "chuyển ngữ cảnh",         example: "Context switching costs focus." },
+    { word: "batch tasks",       ipa: "", vi: "gom việc cùng loại",      example: "Batch all calls into Friday." },
+    { word: "Eisenhower matrix", ipa: "", vi: "ma trận Eisenhower",      example: "Use the Eisenhower matrix." },
+    { word: "time blocking",     ipa: "", vi: "chặn khung giờ",         example: "Time-block your calendar." },
+    { word: "buffer",            ipa: "/ˈbʌf.ər/", vi: "khoảng đệm",     example: "Add a buffer between meetings." },
+    { word: "urgency vs importance", ipa: "", vi: "khẩn vs quan trọng", example: "Urgency vs importance is the core question." },
+    { word: "say no",            ipa: "", vi: "biết từ chối",            example: "Say no to protect your calendar." },
+  ],
+  script: "Lan: My calendar is exploding. Help.\nMinh: Three questions. One — what is on your calendar that nobody asked for?\nLan: Honestly, a lot. I add tasks to feel productive.\nMinh: Cut them. Two — what tasks did your boss explicitly approve as priorities?\nLan: Three projects.\nMinh: Anything beyond those three goes to a parking lot, not the active calendar.\nLan: Three — context switching?\nMinh: Brutal. Each switch costs about fifteen minutes of focus. Batch similar work together. Calls Friday afternoons. Emails in three windows — 9, 1, and 5.\nLan: That sounds like time blocking.\nMinh: Exactly. Time-block your calendar like a Tetris board. Deep work in mornings, shallow work after lunch.\nLan: How long for deep work?\nMinh: Ninety-minute focus sessions, no notifications. Two per day is enough.\nLan: Buffers?\nMinh: Add a fifteen-minute buffer after each meeting. Real life rarely fits a perfect 30 minutes.\nLan: How about urgency?\nMinh: Use the Eisenhower matrix. Urgent and important — do now. Important not urgent — schedule. Urgent not important — delegate. Neither — delete.\nLan: That last quadrant is gold.\nMinh: People drown in 'urgent not important'. Saying no protects your priorities.\nLan: Final habit?\nMinh: Friday afternoon, fifteen minutes review the week. Three lessons, three priorities for next week. Don't enter Monday blind.\nLan: I love that.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Cost of one context switch?", options: ["5 min","10 min","15 min","30 min"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Deep work session length?",   options: ["30 min","60 min","90 min","2 hours"], correct: 2 },
+    { id: 3, type: "fill", question: "Email windows: 9, ____, 5.",    answer: "1" },
+    { id: 4, type: "fill", question: "Buffer after each meeting: ____ minutes.", answer: "fifteen" },
+    { id: 5, type: "tfng", statement: "All four quadrants get done.",  answer: "False" },
+    { id: 6, type: "tfng", statement: "Time blocking is like Tetris.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Friday review takes 30 min.",  answer: "False" },
+    { id: 8, type: "short",question: "Eisenhower: urgent + not important means?", answer: "delegate" },
+    { id: 9, type: "short",question: "How many deep work sessions per day?", answer: "two" },
+    { id: 10,type: "short", question: "Final habit?",                    answer: "Friday review" },
+  ],
+  speakingPart1: [
+    { q: "Are you good at time management?",       bandLow: "Sometimes.",                                       bandMid: "I'm a work in progress — I time-block deep work and batch shallow tasks." },
+    { q: "Do you make to-do lists?",                bandLow: "Yes.",                                              bandMid: "Yes, but I limit it to three priorities; longer lists invite procrastination." },
+    { q: "How do you handle distractions?",          bandLow: "Phone off.",                                         bandMid: "Phone in another room, browser tabs minimised, focus mode enabled." },
+    { q: "Are you punctual?",                          bandLow: "Yes.",                                              bandMid: "I aim to arrive five minutes early; buffers prevent panic." },
+    { q: "Do you ever say no to commitments?",          bandLow: "Sometimes.",                                        bandMid: "More often now; saying no protects my real priorities." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a time you had to manage many tasks at once.\n- when it happened\n- what tasks you had\n- how you organised\n- and explain what you learned.",
+    sample: "Last quarter I had three concurrent projects with overlapping deadlines. To handle it, I used the Eisenhower matrix to delete or delegate ten low-impact tasks, time-blocked two ninety-minute deep work sessions a day, and batched all calls on Friday afternoons. Each meeting had a fifteen-minute buffer after. I also did a fifteen-minute Friday review to plan the next week. I learned that calendars don't make people busy — unprioritised yes-saying does. Saying no twice a week was the single biggest unlock.",
+    keywords: ["Eisenhower matrix","time-block","batched calls","Friday review","saying no"],
+  },
+  speakingPart3: [
+    { q: "Why are people busier than ever?",  hint: "expectations, notifications, hustle" },
+    { q: "Is multitasking effective?",         hint: "research, attention residue, switching cost" },
+    { q: "Should companies measure outputs over hours?", hint: "trust, productivity, fairness" },
+    { q: "How does technology help or hurt time?", hint: "calendars, alerts, automation" },
+  ],
+  shadowing: [
+    "What is on your calendar that nobody asked for?",
+    "Each switch costs about fifteen minutes of focus.",
+    "Time-block your calendar like a Tetris board.",
+    "Saying no protects your priorities.",
+    "Don't enter Monday blind.",
+  ],
+  homework: [
+    "Viết 5 câu dùng prioritise, deep work, time blocking, buffer, say no.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "Eisenhower matrix là cụm chuyên môn — band 7.",
+    "context switching (chuyển ngữ cảnh) — band 7.",
+    "calendars don't make people busy, unprioritised yes-saying does — câu band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 58,
+  levelId: "intermediate",
+  title: "Side Hustles in Vietnam",
+  titleVi: "Nghề Phụ Tại Việt Nam",
+  objectives: { listen: "Nghe trao đổi về nghề tay trái", speak: "Speaking về thu nhập phụ", vocabFocus: "Side hustle vocab" },
+  vocabulary: [
+    { word: "side hustle",       ipa: "", vi: "nghề phụ",            example: "My side hustle is a podcast." },
+    { word: "freelancing",       ipa: "", vi: "làm tự do",            example: "Freelancing pays well in tech." },
+    { word: "passive income",    ipa: "", vi: "thu nhập thụ động",    example: "Royalties are passive income." },
+    { word: "client",            ipa: "/ˈklaɪ.ənt/", vi: "khách hàng", example: "I have three regular clients." },
+    { word: "portfolio",         ipa: "/pɔːtˈfəʊ.li.əʊ/", vi: "hồ sơ tác phẩm", example: "Build a small portfolio first." },
+    { word: "scalable",          ipa: "/ˈskeɪ.lə.bəl/", vi: "có thể nhân rộng", example: "Digital products are scalable." },
+    { word: "trade time for money", ipa: "", vi: "đổi thời gian lấy tiền", example: "Most jobs trade time for money." },
+    { word: "burn the candle at both ends", ipa: "", vi: "cày 2 đầu",  example: "Don't burn the candle at both ends." },
+    { word: "monetise",          ipa: "/ˈmʌn.ɪ.taɪz/", vi: "kiếm tiền", example: "Monetise a hobby with caution." },
+    { word: "sustainable income", ipa: "", vi: "thu nhập bền vững",    example: "Aim for sustainable income, not viral spikes." },
+  ],
+  script: "Reporter: Welcome. Our topic today is side hustles. With us is Khang who runs a translation freelance business while working a full-time job in marketing.\nKhang: Hi.\nReporter: How much does the side hustle bring in?\nKhang: Around eight to twelve million dong per month, depending on workload.\nReporter: How do you find clients?\nKhang: Three channels. One — Upwork. Two — referrals from past clients. Three — a small portfolio on Notion that I share when introducing myself.\nReporter: How many hours a week?\nKhang: Eight to ten, mostly weekends and evenings.\nReporter: Tough?\nKhang: First three months were brutal. I almost burned out. I learned to set hard caps — no work after 9 pm, none on Sundays.\nReporter: Did your full-time employer mind?\nKhang: We have a clause that allows side work as long as it doesn't compete or affect performance. I keep my employer informed.\nReporter: Tax?\nKhang: Mandatory in Vietnam. I report freelance income annually. Hire an accountant for the first year.\nReporter: Tips for someone starting a side hustle?\nKhang: First, start before you feel ready. Second, charge for value not time once you have proof. Third, build something scalable — a course, an ebook, a service template — so income isn't strictly trading time for money.\nReporter: Why bother?\nKhang: Three reasons. Extra income, skills you can't get at a normal job, and a small safety net if my main job goes south.\nReporter: Last advice?\nKhang: Be patient. The first six months are mostly learning. Real income usually comes after.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Khang's monthly side hustle income?",      options: ["3-5m","5-8m","8-12m","12-20m"], correct: 2 },
+    { id: 2, type: "mcq",  question: "How many hours per week?",                  options: ["3-5","5-7","8-10","12-15"], correct: 2 },
+    { id: 3, type: "fill", question: "His side hustle is ____.",                   answer: "translation" },
+    { id: 4, type: "fill", question: "He works no later than ____ pm.",            answer: "9" },
+    { id: 5, type: "tfng", statement: "He works on Sundays.",                       answer: "False" },
+    { id: 6, type: "tfng", statement: "Tax on freelance income is mandatory.",     answer: "True" },
+    { id: 7, type: "tfng", statement: "Real income usually comes within 1 month.", answer: "False" },
+    { id: 8, type: "short",question: "Three channels for clients?",                answer: "Upwork, referrals, portfolio" },
+    { id: 9, type: "short",question: "Three reasons for a side hustle?",           answer: "income, skills, safety net" },
+    { id: 10,type: "short", question: "Big trap to avoid?",                         answer: "burning the candle at both ends" },
+  ],
+  speakingPart1: [
+    { q: "Do you have a side hustle?",        bandLow: "No.",                                                 bandMid: "Yes — freelance translation, eight to ten hours a week." },
+    { q: "Why do people start side hustles?",   bandLow: "Money.",                                              bandMid: "Extra income, new skills, and a safety net if the main job ends." },
+    { q: "Is it stressful?",                     bandLow: "Yes.",                                                bandMid: "It can be — I cap work at nine pm and avoid Sundays to prevent burnout." },
+    { q: "Will side hustles grow in Vietnam?",   bandLow: "Yes.",                                                bandMid: "Definitely — gig platforms and remote tools make it easier than ever." },
+    { q: "Should side hustles be regulated?",     bandLow: "Maybe.",                                              bandMid: "Tax should be clear and simple, not bureaucratic enough to discourage starting." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a side hustle or extra job you have done.\n- what it was\n- when you started\n- how you found clients\n- and explain what you learned.",
+    sample: "I'd like to talk about my freelance translation work which I started two years ago. I find clients through Upwork, referrals, and a small Notion portfolio. I cap my hours at ten per week and avoid working after nine pm. The first three months were tough — too low rates, too many revisions. I learned to charge for value, not time, and to keep my main employer informed. The biggest insight is that side hustles teach skills no full-time job teaches: pricing, sales, and resilience.",
+    keywords: ["Notion portfolio","cap hours","charge for value","main employer","skills no job teaches"],
+  },
+  speakingPart3: [
+    { q: "Are side hustles a global trend?",   hint: "remote tools, gig economy, inflation" },
+    { q: "Can side hustles harm primary jobs?", hint: "burnout, conflict, focus" },
+    { q: "Should young people pursue stability or hustle?", hint: "trade-offs, season of life" },
+    { q: "Will AI affect freelancing?",          hint: "speed, prices, premium niches" },
+  ],
+  shadowing: [
+    "First three months were brutal.",
+    "I keep my employer informed.",
+    "Charge for value not time once you have proof.",
+    "Real income usually comes after six months.",
+    "Don't burn the candle at both ends.",
+  ],
+  homework: [
+    "Viết 5 câu dùng side hustle, freelancing, passive income, scalable, monetise.",
+    "Ghi âm Part 1 câu 1, 4, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "trade time for money — câu đặc trưng band 7.",
+    "burn the candle at both ends — idiom band cao.",
+    "charge for value not time — câu chốt band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 59,
+  levelId: "intermediate",
+  title: "Mental Health Awareness",
+  titleVi: "Sức Khỏe Tinh Thần",
+  objectives: { listen: "Nghe phỏng vấn về sức khỏe tinh thần", speak: "Speaking về cách chăm sóc tinh thần", vocabFocus: "Mental health" },
+  vocabulary: [
+    { word: "stigma",          ipa: "/ˈstɪɡ.mə/", vi: "định kiến",     example: "Stigma stops people from asking for help." },
+    { word: "anxiety",         ipa: "/æŋˈzaɪ.ə.ti/", vi: "lo âu",      example: "Anxiety is treatable." },
+    { word: "depression",      ipa: "/dɪˈpreʃ.ən/", vi: "trầm cảm",    example: "Depression is more common than people admit." },
+    { word: "therapy",         ipa: "/ˈθer.ə.pi/", vi: "trị liệu",      example: "Therapy is a tool, not a luxury." },
+    { word: "self-care",       ipa: "", vi: "chăm sóc bản thân",        example: "Self-care isn't selfish." },
+    { word: "talk it out",     ipa: "", vi: "nói cho nhẹ lòng",          example: "Sometimes you just need to talk it out." },
+    { word: "peer support",    ipa: "", vi: "hỗ trợ ngang hàng",         example: "Peer support groups help a lot." },
+    { word: "warning signs",   ipa: "", vi: "dấu hiệu cảnh báo",         example: "Watch for warning signs." },
+    { word: "professional help", ipa: "", vi: "trợ giúp chuyên môn",     example: "Get professional help if needed." },
+    { word: "boundaries",      ipa: "", vi: "ranh giới",                 example: "Set healthy boundaries." },
+  ],
+  script: "Reporter: Welcome. Today we discuss mental health. With us is psychologist Dr Trang.\nDr Trang: Hi, thanks for having me.\nReporter: Mental health awareness in Vietnam is rising. What changes have you seen?\nDr Trang: Two big shifts. One — Gen Z openly talks about therapy on social media. Two — companies are starting to offer mental health benefits. The stigma is fading slowly.\nReporter: How can someone tell if they need professional help?\nDr Trang: Three warning signs. Persistent low mood for two weeks or more. Loss of interest in things you used to enjoy. Sleep or appetite changes that don't return to normal. Either of these alone is fine. Combined for two weeks is a signal.\nReporter: What about anxiety?\nDr Trang: Some anxiety is healthy. It becomes a problem when it disrupts daily life — avoiding work, social events, even text messages.\nReporter: Where do people start?\nDr Trang: Self-care first. Sleep, exercise, sunlight, social contact. If symptoms persist after two weeks of consistent self-care, seek a professional. Therapy isn't only for crisis.\nReporter: Costs?\nDr Trang: Public hospitals offer affordable consultations. Some apps offer free chat with trained volunteers. Universities often have free counselling services.\nReporter: How can friends help?\nDr Trang: Listen without fixing. Most people don't want advice; they want to be heard. Avoid 'just stay positive' or 'others have it worse'.\nReporter: Final message?\nDr Trang: Mental health is health. We don't ask people to walk on a broken leg. We shouldn't ask them to function with a broken mind.\nReporter: Powerful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How long for low mood to be a warning?", options: ["3 days","1 week","2 weeks","1 month"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Two big shifts in Vietnam?",            options: ["TV ads","Gen Z openness + company benefits","banned topics","more medication"], correct: 1 },
+    { id: 3, type: "fill", question: "Some anxiety is ____.",                   answer: "healthy" },
+    { id: 4, type: "fill", question: "Listen without ____.",                    answer: "fixing" },
+    { id: 5, type: "tfng", statement: "Therapy is only for crises.",            answer: "False" },
+    { id: 6, type: "tfng", statement: "Universities often offer free counselling.", answer: "True" },
+    { id: 7, type: "tfng", statement: "'Stay positive' is a great thing to say.", answer: "False" },
+    { id: 8, type: "short",question: "Four basics of self-care?",                answer: "sleep, exercise, sunlight, social contact" },
+    { id: 9, type: "short",question: "Two avenues for affordable help?",         answer: "public hospitals, free apps" },
+    { id: 10,type: "short", question: "Closing line?",                           answer: "mental health is health" },
+  ],
+  speakingPart1: [
+    { q: "Is mental health a common topic in your country?", bandLow: "Now yes.",                                       bandMid: "Increasingly — Gen Z openly discusses therapy on social media." },
+    { q: "How do you take care of your mind?",               bandLow: "Sleep.",                                          bandMid: "Sleep, daily walks, voice messages with friends, scheduled worry time." },
+    { q: "Should companies support mental health?",            bandLow: "Yes.",                                           bandMid: "Definitely — wellbeing benefits boost retention and morale." },
+    { q: "Do you talk about feelings with friends?",           bandLow: "Sometimes.",                                       bandMid: "Yes, especially via voice notes; texts feel too cold for big feelings." },
+    { q: "How can schools help?",                                bandLow: "Talks.",                                          bandMid: "Counsellors on staff, mental-health curriculum, and peer support groups." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a time you supported someone going through a difficult moment.\n- who it was\n- what was happening\n- what you did\n- and explain what you learned.",
+    sample: "Last year my closest friend Mai went through a tough breakup combined with work pressure. I noticed her sleep had changed and she stopped replying for days. I called instead of texting, listened without giving advice, and suggested we walk every Saturday morning for a month. I also gently shared a counsellor recommendation. She didn't take it immediately but did three weeks later. The lesson is simple — listening without fixing is the most underrated form of help.",
+    keywords: ["call instead of text","listen without fixing","walking together","gentle recommendation","underrated form of help"],
+  },
+  speakingPart3: [
+    { q: "Why is mental health stigmatised in some cultures?", hint: "tradition, shame, family expectations" },
+    { q: "Are social media platforms helpful or harmful?",     hint: "info access vs comparison, doomscroll" },
+    { q: "Should mental health be taught in schools?",          hint: "literacy, prevention, normalisation" },
+    { q: "How can technology aid therapy?",                     hint: "apps, AI chat, anonymous communities" },
+  ],
+  shadowing: [
+    "Listen without fixing.",
+    "Self-care isn't selfish.",
+    "Some anxiety is healthy.",
+    "Therapy isn't only for crisis.",
+    "Mental health is health.",
+  ],
+  homework: [
+    "Viết 5 câu dùng anxiety, depression, therapy, self-care, professional help.",
+    "Ghi âm Part 1 câu 1, 2, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "stigma (định kiến) — band 7+ trong essay xã hội.",
+    "talk it out (nói cho nhẹ) — band 6.5+.",
+    "we don't ask people to walk on a broken leg — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 60,
+  levelId: "intermediate",
+  title: "Living Alone for the First Time",
+  titleVi: "Sống Một Mình Lần Đầu",
+  objectives: { listen: "Nghe chia sẻ kinh nghiệm dọn ra ở riêng", speak: "Speaking về độc lập", vocabFocus: "Independence vocab" },
+  vocabulary: [
+    { word: "move out",         ipa: "", vi: "dọn ra ở riêng",        example: "I moved out at twenty-three." },
+    { word: "rent",             ipa: "/rent/", vi: "tiền thuê / thuê", example: "Rent in District 1 is high." },
+    { word: "utility bills",    ipa: "", vi: "hoá đơn điện nước",     example: "Utility bills add up." },
+    { word: "deposit",          ipa: "/dɪˈpɒz.ɪt/", vi: "tiền cọc",   example: "Most landlords ask for two months deposit." },
+    { word: "landlord",         ipa: "/ˈlænd.lɔːd/", vi: "chủ trọ",   example: "My landlord is reasonable." },
+    { word: "groceries",        ipa: "/ˈɡrəʊ.sər.iz/", vi: "đồ tạp hoá", example: "I do groceries on Sundays." },
+    { word: "household chores", ipa: "", vi: "việc nhà",                example: "Household chores never end." },
+    { word: "self-reliant",     ipa: "", vi: "tự lực",                  example: "Living alone made me self-reliant." },
+    { word: "loneliness",       ipa: "/ˈləʊn.li.nəs/", vi: "cô đơn",     example: "Loneliness was unexpected." },
+    { word: "homesick",         ipa: "/ˈhəʊm.sɪk/", vi: "nhớ nhà",       example: "I felt homesick for two weeks." },
+  ],
+  script: "Reporter: With us today is Linh, who moved out from her parents' house six months ago.\nLinh: Hi.\nReporter: Why now?\nLinh: My commute was eating two hours daily and I needed personal space to focus on my freelance work.\nReporter: First impression of living alone?\nLinh: Mixed. The first weekend was incredible — silence, my own playlist, no one asking where I was. By Sunday night, I felt unexpected loneliness.\nReporter: How did you cope?\nLinh: Three things. One — invited my mother for dinner the second weekend. Two — joined a yoga class to make new local friends. Three — kept video calls with family every Sunday.\nReporter: Practical side?\nLinh: A learning curve. Rent is six million, utilities one and a half, groceries three. Plus deposit was two months upfront. The first month I overspent on small homeware.\nReporter: Mistakes?\nLinh: I bought too many decorations. Now I follow a thirty-day rule — wait thirty days before buying anything non-essential. Most cravings disappear.\nReporter: Cooking?\nLinh: Sunday meal prep. Three dishes that last me four days. After that, simple stir-fries.\nReporter: Household chores?\nLinh: Tougher than I thought. Twenty minutes daily. I learned that a tidy space affects mood more than I realised.\nReporter: Anything you miss?\nLinh: Mom's bun cha and the noise of family. But the freedom and independence outweigh that.\nReporter: Advice for someone moving out?\nLinh: Save three months of expenses. Plan rent at no more than thirty percent of income. Buy slowly. And visit your parents weekly — distance grows fondness.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How long has Linh lived alone?",   options: ["3 months","6 months","1 year","2 years"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Daily commute saved?",               options: ["1 hour","2 hours","3 hours","4 hours"], correct: 1 },
+    { id: 3, type: "fill", question: "Rent: ____ million.",                 answer: "six" },
+    { id: 4, type: "fill", question: "Wait ____ days before non-essential purchases.", answer: "thirty" },
+    { id: 5, type: "tfng", statement: "She felt lonely on Saturday.",      answer: "False" },
+    { id: 6, type: "tfng", statement: "She does Sunday meal prep.",         answer: "True" },
+    { id: 7, type: "tfng", statement: "She prefers cooking nothing.",       answer: "False" },
+    { id: 8, type: "short",question: "Three coping strategies?",            answer: "invite mom, yoga class, weekly video calls" },
+    { id: 9, type: "short",question: "Rent rule of thumb?",                 answer: "no more than 30% of income" },
+    { id: 10,type: "short", question: "Final aphorism?",                    answer: "distance grows fondness" },
+  ],
+  speakingPart1: [
+    { q: "Have you ever lived alone?",          bandLow: "Yes.",                                              bandMid: "Yes, six months now after moving out from my parents' house." },
+    { q: "What's the best part?",                bandLow: "Freedom.",                                           bandMid: "Personal space to focus on freelance work and my own routine." },
+    { q: "What's the hardest?",                   bandLow: "Loneliness.",                                        bandMid: "Unexpected weekend loneliness — I solved it with yoga classes and family calls." },
+    { q: "How do you handle chores?",              bandLow: "Twenty minutes a day.",                              bandMid: "I do twenty minutes daily; tidy space lifts mood more than I expected." },
+    { q: "Would you recommend living alone?",      bandLow: "Yes.",                                              bandMid: "If you can afford it, absolutely — it accelerates self-reliance and self-knowledge." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a time you became more independent.\n- when it happened\n- what changed\n- what challenges you faced\n- and explain what you learned.",
+    sample: "I'd like to talk about moving out from my parents' house six months ago at twenty-three. The biggest change was managing rent, utilities, and groceries on my own — about ten million dong monthly. The unexpected challenge was Sunday-night loneliness, which I solved by joining a yoga class and calling my family every weekend. I also followed a thirty-day rule for any non-essential purchase. The lesson was that independence isn't only about doing things alone, it's about choosing your support system.",
+    keywords: ["move out","unexpected loneliness","yoga class","thirty-day rule","choose support system"],
+  },
+  speakingPart3: [
+    { q: "Why are young Vietnamese moving out earlier?", hint: "urbanisation, jobs, individualism" },
+    { q: "Are families becoming smaller globally?",        hint: "demographics, costs, choice" },
+    { q: "Should rent be regulated?",                       hint: "affordability, supply, fairness" },
+    { q: "How does living alone shape personality?",         hint: "responsibility, decision making, solitude" },
+  ],
+  shadowing: [
+    "My commute was eating two hours daily.",
+    "By Sunday night, I felt unexpected loneliness.",
+    "Tidy space affects mood more than I realised.",
+    "Save three months of expenses.",
+    "Distance grows fondness.",
+  ],
+  homework: [
+    "Viết 5 câu dùng move out, deposit, utility bills, groceries, self-reliant.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "self-reliant (tự lực) — band 7.",
+    "deposit (tiền cọc) khác delivery (giao hàng).",
+    "distance grows fondness — câu chốt band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 61,
+  levelId: "upper",
+  title: "The Future of Education",
+  titleVi: "Tương Lai Của Giáo Dục",
+  objectives: { listen: "Nghe phỏng vấn dài, multiple choice", speak: "Speaking Part 2 + Part 3 đầy đủ", vocabFocus: "Education-future" },
+  vocabulary: [
+    { word: "rote learning",         ipa: "/rəʊt/", vi: "học thuộc lòng",     example: "Rote learning has its limits." },
+    { word: "personalised learning", ipa: "", vi: "học cá nhân hoá",         example: "AI enables personalised learning." },
+    { word: "lifelong learning",     ipa: "", vi: "học suốt đời",             example: "Lifelong learning is non-negotiable." },
+    { word: "soft skills",           ipa: "", vi: "kỹ năng mềm",              example: "Soft skills are increasingly valued." },
+    { word: "credential",            ipa: "/krəˈden.ʃəl/", vi: "bằng cấp/chứng chỉ", example: "Online credentials gain traction." },
+    { word: "blended learning",      ipa: "", vi: "học kết hợp",              example: "Blended learning is the new norm." },
+    { word: "critical thinking",     ipa: "", vi: "tư duy phản biện",         example: "Critical thinking beats memorising." },
+    { word: "knowledge economy",     ipa: "", vi: "kinh tế tri thức",          example: "Knowledge economy rewards depth." },
+    { word: "future-proof",          ipa: "", vi: "phòng cho tương lai",       example: "Future-proof your skills early." },
+    { word: "obsolete",              ipa: "/ˈɒb.sə.liːt/", vi: "lỗi thời",     example: "Some degrees become obsolete." },
+  ],
+  script: "Reporter: Good evening. Today we explore where education is heading. With us is Dr Hung, a former school principal turned learning designer.\nDr Hung: Hi.\nReporter: What's the biggest shift you're seeing?\nDr Hung: From content delivery to skill development. Twenty years ago, knowing facts was valuable. Today, with AI generating answers instantly, the value is in critical thinking, communication, and learning agility.\nReporter: Are schools adapting?\nDr Hung: Slowly. The hardware exists, the curriculum hasn't caught up. Most schools still test memory, not interpretation. We need exams that ask 'what would you do with this idea' rather than 'what is the definition'.\nReporter: AI in classrooms?\nDr Hung: Useful but disruptive. AI tutors offer personalised learning at scale — instant feedback, adaptive difficulty, twenty-four-hour availability. The risk is dependency. If students never struggle, they never grow. The teacher's role becomes coaching the struggle, not delivering answers.\nReporter: Will universities survive?\nDr Hung: They'll survive but transform. The traditional four-year degree is becoming optional in some industries. Bootcamps and stackable credentials are gaining respect. Big companies like Google and IBM accept candidates without degrees as long as they prove skill.\nReporter: What about soft skills?\nDr Hung: Increasingly the differentiator. Communication, empathy, leadership, and ethics. Hard to test, harder to teach, but they outlast technical knowledge.\nReporter: Lifelong learning?\nDr Hung: Non-negotiable. Skills now have a half-life of around five years. Anyone who stops learning at twenty-two will be obsolete by forty.\nReporter: Tough message.\nDr Hung: Realistic. The hopeful side: learning has never been more accessible. A motivated person with internet can learn almost anything.\nReporter: Final advice for parents?\nDr Hung: Don't outsource your child's curiosity. Schools teach. Parents inspire. Both matter.\nReporter: Beautiful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Biggest shift in education?",            options: ["more textbooks","content delivery to skill development","longer school days","stricter discipline"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Skills half-life is around ____ years.",  options: ["3","5","10","20"], correct: 1 },
+    { id: 3, type: "fill", question: "AI tutors offer ____ ____.",                answer: "personalised learning" },
+    { id: 4, type: "fill", question: "Teachers should coach the ____.",           answer: "struggle" },
+    { id: 5, type: "tfng", statement: "Universities will completely disappear.",  answer: "False" },
+    { id: 6, type: "tfng", statement: "Soft skills are easy to teach.",           answer: "False" },
+    { id: 7, type: "tfng", statement: "Some companies accept candidates without degrees.", answer: "True" },
+    { id: 8, type: "short",question: "Three soft skills mentioned?",              answer: "communication, empathy, leadership / ethics" },
+    { id: 9, type: "short",question: "Risk of AI tutors?",                         answer: "dependency" },
+    { id: 10,type: "short", question: "Final closing line?",                      answer: "schools teach, parents inspire" },
+  ],
+  speakingPart1: [
+    { q: "Did you enjoy school?",                 bandLow: "Yes.",                                              bandMid: "Mostly yes — academics were tough but the friendships made it worthwhile." },
+    { q: "How important is education to success?",  bandLow: "Very.",                                             bandMid: "Critical, but increasingly through skills rather than diplomas." },
+    { q: "Are exams a fair way to test students?",   bandLow: "No.",                                                bandMid: "Not entirely — they reward memory more than interpretation." },
+    { q: "Will online learning replace classrooms?",  bandLow: "Maybe.",                                            bandMid: "It will dominate adult learning but classrooms will remain for social skills." },
+    { q: "Should children learn to code?",            bandLow: "Yes.",                                              bandMid: "Helpful but optional — logical thinking matters more than the language itself." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a change you would like to see in the education system.\n- what the change is\n- why it is needed\n- how it could work\n- and explain its potential impact.",
+    sample: "The change I'd like to see is replacing rote-learning exams with project-based assessment. Today, most students still memorise facts they could Google in seconds. A better model is asking them to apply knowledge — design a small business plan, propose a community solution, write a research paper. This shift would require teacher retraining, but the benefits are huge: deeper understanding, critical thinking, and skills that don't expire.",
+    keywords: ["rote learning","project-based","critical thinking","teacher retraining","skills that don't expire"],
+  },
+  speakingPart3: [
+    { q: "Should education prepare students for jobs or for life?", hint: "balance, citizenship, employability" },
+    { q: "Is private tutoring a problem?",                           hint: "inequality, dependency, supplement" },
+    { q: "How will AI change the role of teachers?",                  hint: "coaching, creativity, oversight" },
+    { q: "Should students choose their own subjects from year ten?",   hint: "motivation, fairness, depth vs breadth" },
+  ],
+  shadowing: [
+    "From content delivery to skill development.",
+    "If students never struggle, they never grow.",
+    "The teacher's role becomes coaching the struggle.",
+    "Soft skills outlast technical knowledge.",
+    "Schools teach. Parents inspire.",
+  ],
+  homework: [
+    "Viết 5 câu dùng rote learning, personalised learning, soft skills, lifelong learning, future-proof.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "credential (chứng chỉ/bằng) — band 7.",
+    "obsolete (lỗi thời) khác outdated (cũ).",
+    "schools teach, parents inspire — câu chốt band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 62,
+  levelId: "upper",
+  title: "Climate Action and Personal Choices",
+  titleVi: "Hành Động Khí Hậu",
+  objectives: { listen: "Nghe phỏng vấn về hành vi cá nhân vs chính sách", speak: "Speaking về thay đổi cá nhân", vocabFocus: "Climate-action" },
+  vocabulary: [
+    { word: "carbon offset",       ipa: "", vi: "bù carbon",            example: "Some flights offer carbon offset." },
+    { word: "low-carbon lifestyle",ipa: "", vi: "lối sống ít phát thải", example: "I aim for a low-carbon lifestyle." },
+    { word: "circular economy",    ipa: "", vi: "kinh tế tuần hoàn",    example: "Circular economy is the future." },
+    { word: "single-use",          ipa: "", vi: "dùng một lần",         example: "Avoid single-use plastic." },
+    { word: "policy lever",        ipa: "", vi: "đòn bẩy chính sách",    example: "Policy levers move the system." },
+    { word: "ecosystem",           ipa: "/ˈiː.kəʊ.sɪs.təm/", vi: "hệ sinh thái", example: "Healthy ecosystems support all life." },
+    { word: "green energy",        ipa: "", vi: "năng lượng xanh",       example: "Green energy is rising fast." },
+    { word: "carbon neutral",      ipa: "", vi: "trung hoà carbon",      example: "We aim to be carbon neutral by 2050." },
+    { word: "climate justice",     ipa: "", vi: "công bằng khí hậu",     example: "Climate justice prioritises vulnerable groups." },
+    { word: "behavioural change",  ipa: "", vi: "thay đổi hành vi",       example: "Behavioural change scales slowly." },
+  ],
+  script: "Reporter: Welcome. Today is climate action — what really moves the needle? Joining us is Dr Mai, environmental policy researcher.\nDr Mai: Hello.\nReporter: Personal choices versus government policy — which matters more?\nDr Mai: Both, but unevenly. About seventy percent of emissions come from a small set of corporations and energy systems. So policy and structural change are dominant levers. However, personal behaviour shifts shape political will and markets, which is the indirect lever.\nReporter: Can you give an example?\nDr Mai: Plant-based eating. Individual diet choices alone are minor. But when ten percent of consumers shift, supermarkets stock more plant-based options, restaurants reformulate, food companies invest in alternatives, and policy follows.\nReporter: So habits scale.\nDr Mai: Exactly. Habits are signals to systems.\nReporter: What about carbon offsets?\nDr Mai: Useful but often misused. Many offset schemes have weak verification. Buy from gold-standard projects, but offsetting is no substitute for reducing emissions in the first place.\nReporter: Five practical actions for our listeners?\nDr Mai: First, eat less red meat. Second, fly less; trains and video calls help. Third, support local food and circular economy products. Fourth, switch to green-energy tariffs where available. Fifth, vote for climate-aware politicians and pressure companies.\nReporter: That last one feels powerful.\nDr Mai: It's the highest-leverage action most people overlook. One vote shapes a regulation that shapes millions of choices.\nReporter: Climate justice?\nDr Mai: Critical. The countries facing worst impacts are those that contributed least. Solutions must consider equity. Otherwise we risk green policies that hurt the poor.\nReporter: How hopeful are you?\nDr Mai: Cautiously hopeful. The next decade will be decisive. We have technology and capital. The question is political alignment and human cooperation.\nReporter: Thank you, Dr Mai.\nDr Mai: Always.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Roughly what percentage of emissions come from corporations and energy systems?", options: ["30%","50%","70%","90%"], correct: 2 },
+    { id: 2, type: "mcq",  question: "How are habits described?",      options: ["irrelevant","signals to systems","carbon offsets","personal pleasure"], correct: 1 },
+    { id: 3, type: "fill", question: "Trains help reduce ____.",       answer: "flying" },
+    { id: 4, type: "fill", question: "Plant-based shift starts with about ____ percent of consumers.", answer: "ten" },
+    { id: 5, type: "tfng", statement: "Carbon offsets fully replace cuts.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Voting is described as the highest-leverage action.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Climate justice is about wealth redistribution.", answer: "Not Given" },
+    { id: 8, type: "short",question: "Five practical actions?",        answer: "less red meat, fly less, local/circular, green-energy, vote and pressure" },
+    { id: 9, type: "short",question: "Risk of green policies without equity?", answer: "hurt the poor" },
+    { id: 10,type: "short", question: "Decade described as ____?",       answer: "decisive" },
+  ],
+  speakingPart1: [
+    { q: "Are climate concerns part of your daily life?", bandLow: "Yes.",                                              bandMid: "Increasingly — I think about diet, transport, and small purchases more carefully." },
+    { q: "Do you try to reduce waste?",                    bandLow: "Yes.",                                              bandMid: "Reusable bags, refill stations, and a strict no to single-use plastic." },
+    { q: "Should governments do more?",                     bandLow: "Yes.",                                              bandMid: "Definitely — only governments can scale renewables and price carbon properly." },
+    { q: "Have you changed your diet recently?",             bandLow: "A bit.",                                            bandMid: "I've cut red meat to twice a week and added more plant-based meals." },
+    { q: "Are you optimistic about the climate?",             bandLow: "Mixed.",                                            bandMid: "Cautiously optimistic — technology is ready; political alignment is the bottleneck." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe an environmental change you would like to see in your country.\n- what the change is\n- why it is needed\n- who should drive it\n- and explain its likely impact.",
+    sample: "The change I'd like to see in Vietnam is a national low-carbon transport plan. Cities like Hanoi and Ho Chi Minh need expanded metro lines, dedicated cycling lanes, and electric public transport at scale. The government should drive it with infrastructure investment, while companies promote remote work to reduce daily commutes. The likely impact is reduced air pollution, fewer health problems linked to PM2.5, and a measurable cut in transport emissions, which currently account for a large share of urban carbon output.",
+    keywords: ["low-carbon transport","metro expansion","cycling lanes","PM2.5","measurable cut"],
+  },
+  speakingPart3: [
+    { q: "Should rich countries help poor ones with climate?", hint: "historical responsibility, technology transfer" },
+    { q: "Is fast fashion worse than fast food for the planet?", hint: "lifecycle, waste, alternatives" },
+    { q: "Are climate protests effective?",                       hint: "awareness, political pressure, backlash" },
+    { q: "Will electric cars solve transport emissions?",          hint: "grid mix, batteries, urban design" },
+  ],
+  shadowing: [
+    "Habits are signals to systems.",
+    "Offsetting is no substitute for reducing emissions.",
+    "One vote shapes a regulation.",
+    "Solutions must consider equity.",
+    "The next decade will be decisive.",
+  ],
+  homework: [
+    "Viết 5 câu dùng carbon neutral, low-carbon lifestyle, circular economy, climate justice, behavioural change.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "policy lever (đòn bẩy chính sách) — band 7+.",
+    "habits are signals to systems — câu band cao.",
+    "decisive decade — cụm rất tự nhiên trong essay.",
+  ],
+})
+
+LESSONS.push({
+  id: 63,
+  levelId: "upper",
+  title: "Ethics of Social Media",
+  titleVi: "Đạo Đức Mạng Xã Hội",
+  objectives: { listen: "Nghe phỏng vấn về tác động đạo đức MXH", speak: "Speaking về MXH và xã hội", vocabFocus: "Social media ethics" },
+  vocabulary: [
+    { word: "echo chamber",      ipa: "", vi: "buồng dội âm",       example: "Algorithms create echo chambers." },
+    { word: "misinformation",    ipa: "", vi: "thông tin sai lệch",  example: "Misinformation spreads faster than truth." },
+    { word: "deepfake",          ipa: "", vi: "ảnh/video giả AI",    example: "Deepfakes erode trust in media." },
+    { word: "algorithmic bias",  ipa: "", vi: "thiên kiến thuật toán", example: "Algorithmic bias amplifies inequality." },
+    { word: "engagement",        ipa: "", vi: "lượt tương tác",       example: "Outrage drives engagement." },
+    { word: "data harvesting",   ipa: "", vi: "khai thác dữ liệu",    example: "Data harvesting funds free apps." },
+    { word: "privacy",           ipa: "/ˈprɪv.ə.si/", vi: "quyền riêng tư", example: "Privacy is a basic right." },
+    { word: "moderation",        ipa: "", vi: "kiểm duyệt",            example: "Content moderation is hard at scale." },
+    { word: "self-censorship",   ipa: "", vi: "tự kiểm duyệt",         example: "Self-censorship can hurt democracy." },
+    { word: "addictive design",  ipa: "", vi: "thiết kế gây nghiện",   example: "Infinite scroll is addictive design." },
+  ],
+  script: "Reporter: Welcome. Tonight we discuss the ethics of social media. With us is Dr Linh, who teaches digital ethics.\nDr Linh: Hi.\nReporter: Are platforms responsible for what users post?\nDr Linh: Increasingly so. The 'we are just a pipe' defence is fading. Algorithms decide what content reaches whom. Choosing to amplify is editorial work, like a newspaper, even if it pretends not to be.\nReporter: Misinformation?\nDr Linh: A 2018 MIT study found false news spreads about six times faster than true news on Twitter. Outrage and novelty drive engagement, and engagement drives revenue. The financial incentive aligns with viral falsehood.\nReporter: That's chilling.\nDr Linh: Solutions exist but are slow. Slowing virality, labelling questionable posts, and showing source diversity all help. Friction is medicine.\nReporter: What about deepfakes?\nDr Linh: Combined with personalised algorithms, deepfakes threaten trust at unprecedented scale. We need provenance tools — content credentials so that authentic media is verifiable.\nReporter: Privacy and data harvesting?\nDr Linh: The free model trades attention and data for service. Users rarely understand the trade. We need clearer disclosures, simpler privacy controls, and stronger laws like GDPR globally.\nReporter: Should there be age limits for apps?\nDr Linh: Yes for under-thirteen. Possibly under-sixteen for the most addictive platforms. Children's brains aren't ready for engineered persuasion.\nReporter: Self-censorship?\nDr Linh: A growing concern. Platforms claim free speech but use opaque rules. People modify themselves to please algorithms. The chilling effect on real discourse is real.\nReporter: Final advice?\nDr Linh: Read laterally. Before believing a post, check three sources. The single most powerful skill in the algorithmic age.\nReporter: Powerful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "False news spreads how much faster?", options: ["2x","4x","6x","10x"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Friction is described as ____.",      options: ["pollution","medicine","luxury","obstacle"], correct: 1 },
+    { id: 3, type: "fill", question: "Provenance tools verify ____ media.", answer: "authentic" },
+    { id: 4, type: "fill", question: "Children's brains aren't ready for ____ ____.", answer: "engineered persuasion" },
+    { id: 5, type: "tfng", statement: "Dr Linh thinks platforms are like newspapers.", answer: "True" },
+    { id: 6, type: "tfng", statement: "Engagement is unrelated to revenue.",  answer: "False" },
+    { id: 7, type: "tfng", statement: "Self-censorship has chilling effects.", answer: "True" },
+    { id: 8, type: "short",question: "Three solutions to misinformation?",   answer: "slow virality, label posts, show source diversity" },
+    { id: 9, type: "short",question: "Most powerful skill in algorithmic age?", answer: "read laterally / check three sources" },
+    { id: 10,type: "short", question: "Suggested age limits?",                 answer: "under-13, under-16 most addictive" },
+  ],
+  speakingPart1: [
+    { q: "Do you trust news on social media?",   bandLow: "Sometimes.",                                       bandMid: "I cross-check on at least two reputable outlets before sharing." },
+    { q: "Have you seen misinformation online?",  bandLow: "Yes.",                                              bandMid: "Constantly — especially during elections and natural disasters." },
+    { q: "Should platforms be regulated?",         bandLow: "Yes.",                                              bandMid: "Yes, but smartly — over-regulation can choke speech, under-regulation harms minors." },
+    { q: "Are influencers harmful or helpful?",     bandLow: "Both.",                                              bandMid: "It varies; many add value, but engagement-driven content rewards extremes." },
+    { q: "Could you live without social media?",     bandLow: "Hard.",                                             bandMid: "Yes for personal use, harder for professional networking — LinkedIn is glue." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe an issue with social media.\n- what the issue is\n- when you noticed it\n- how it affects people\n- and explain what should be done.",
+    sample: "I'd like to talk about misinformation. I noticed it sharply during the COVID period, when false treatments and conspiracy theories spread faster than verified information. The impact is enormous — health decisions, voting choices, and public trust all suffer. Solutions include slowing virality on flagged posts, showing diverse sources, and labelling AI-generated content with provenance tools. Most importantly, individuals should adopt lateral reading: before believing a post, verify with three independent sources. That single habit is the cheapest defence in the algorithmic age.",
+    keywords: ["lateral reading","provenance tools","slow virality","source diversity","engineered persuasion"],
+  },
+  speakingPart3: [
+    { q: "Should children under 13 use social media?",   hint: "brain development, peer pressure, mental health" },
+    { q: "How can companies balance engagement and ethics?", hint: "metrics, design choices, regulation" },
+    { q: "Is anonymity online good or bad?",                hint: "free speech, accountability, harassment" },
+    { q: "What will social media look like in 10 years?",    hint: "AI moderation, immersive media, decentralisation" },
+  ],
+  shadowing: [
+    "Choosing to amplify is editorial work.",
+    "Friction is medicine.",
+    "We need clearer disclosures, simpler privacy controls.",
+    "People modify themselves to please algorithms.",
+    "Read laterally.",
+  ],
+  homework: [
+    "Viết 5 câu dùng echo chamber, misinformation, algorithmic bias, privacy, addictive design.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "echo chamber (buồng dội âm) — band 7+.",
+    "lateral reading (đọc đa chiều) — kỹ năng band cao.",
+    "engineered persuasion — câu chốt band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 64,
+  levelId: "upper",
+  title: "Globalisation and Local Culture",
+  titleVi: "Toàn Cầu Hoá Và Văn Hoá Bản Địa",
+  objectives: { listen: "Nghe phỏng vấn về văn hoá toàn cầu vs địa phương", speak: "Speaking về bản sắc văn hoá", vocabFocus: "Globalisation vocab" },
+  vocabulary: [
+    { word: "globalisation",     ipa: "/ˌɡləʊ.bəl.aɪˈzeɪ.ʃən/", vi: "toàn cầu hoá", example: "Globalisation accelerated after the 90s." },
+    { word: "homogenisation",    ipa: "/həˌmɒdʒ.ə.naɪˈzeɪ.ʃən/", vi: "đồng hoá",   example: "Homogenisation flattens local taste." },
+    { word: "preserve",          ipa: "/prɪˈzɜːv/", vi: "bảo tồn",       example: "We must preserve traditions." },
+    { word: "fusion",            ipa: "/ˈfjuː.ʒən/", vi: "pha trộn",      example: "Fusion food blends two cultures." },
+    { word: "intangible heritage", ipa: "", vi: "di sản phi vật thể",     example: "Folk songs are intangible heritage." },
+    { word: "diaspora",          ipa: "/daɪˈæs.pər.ə/", vi: "kiều bào",   example: "The Vietnamese diaspora is influential." },
+    { word: "soft power",        ipa: "", vi: "sức mạnh mềm",            example: "K-pop is South Korean soft power." },
+    { word: "cultural identity", ipa: "", vi: "bản sắc văn hoá",           example: "Cultural identity grounds people." },
+    { word: "indigenous",        ipa: "/ɪnˈdɪdʒ.ə.nəs/", vi: "bản địa",   example: "Indigenous languages need protection." },
+    { word: "cosmopolitan",      ipa: "/ˌkɒz.məˈpɒl.ɪ.tən/", vi: "đa văn hoá", example: "Saigon is cosmopolitan." },
+  ],
+  script: "Reporter: Good morning. Our topic is globalisation and local culture. With us is Dr Lan, cultural anthropologist.\nDr Lan: Hello.\nReporter: Is globalisation killing local cultures?\nDr Lan: Mixed answer. Globalisation pressures local cultures through media dominance, English as default, and standardised consumer products. Yet it also empowers them through diaspora, internet visibility, and cultural fusion.\nReporter: Examples?\nDr Lan: Take Vietnamese cuisine. Banh mi, pho, and bun cha gained global recognition through diaspora and Anthony Bourdain. That's soft power. At the same time, young Vietnamese sometimes prefer chain coffee over local egg coffee — homogenisation in real time.\nReporter: How can a culture preserve identity without becoming a museum?\nDr Lan: Three tactics. One, document and digitise — record folk songs, oral histories, traditional crafts. Two, modernise responsibly. Use traditional motifs in contemporary fashion or media. Three, teach in schools — without language and stories, cultures fade within two generations.\nReporter: Role of young people?\nDr Lan: Crucial. They reinterpret traditions for modern life. Vietnamese rappers using lullaby melodies, designers blending ao dai with streetwear — these aren't betrayal, they are continuation.\nReporter: Globalisation also brings outside ideas — gender equality, mental health awareness, climate action. Helpful?\nDr Lan: Mostly yes. Cultures should be confident enough to adopt useful imports without losing core values. Imports become problems only when they erase rather than enrich.\nReporter: What about indigenous languages?\nDr Lan: Most fragile. UNESCO estimates one language disappears every two weeks globally. Each loss is a different way of seeing the world.\nReporter: Powerful image.\nDr Lan: Final thought — culture isn't a relic. It is a living conversation between past and future.\nReporter: Beautifully said.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How often does a language disappear globally?", options: ["weekly","every 2 weeks","monthly","yearly"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Who pushed Vietnamese cuisine globally?",       options: ["UN","diaspora and Bourdain","WHO","Hollywood"], correct: 1 },
+    { id: 3, type: "fill", question: "Three tactics: document, ____, teach.",          answer: "modernise" },
+    { id: 4, type: "fill", question: "Imports become problems when they ____ rather than enrich.", answer: "erase" },
+    { id: 5, type: "tfng", statement: "Dr Lan thinks fusion is betrayal.",              answer: "False" },
+    { id: 6, type: "tfng", statement: "Indigenous languages are very fragile.",         answer: "True" },
+    { id: 7, type: "tfng", statement: "Globalisation only harms local cultures.",     answer: "False" },
+    { id: 8, type: "short",question: "Two roles young people play?",                   answer: "reinterpret traditions, blend modern + traditional" },
+    { id: 9, type: "short",question: "Three Vietnamese dishes mentioned?",              answer: "banh mi, pho, bun cha" },
+    { id: 10,type: "short", question: "Final metaphor for culture?",                     answer: "living conversation between past and future" },
+  ],
+  speakingPart1: [
+    { q: "Are global brands replacing local ones?",       bandLow: "Some.",                                              bandMid: "Partially — chain coffee competes with local cafés but local food still dominates daily meals." },
+    { q: "Do you watch foreign films?",                    bandLow: "Yes.",                                                bandMid: "Korean and US films feature heavily in my watchlist; I balance with Vietnamese indie films." },
+    { q: "Is your culture changing fast?",                  bandLow: "Yes.",                                                bandMid: "Significantly — language, food, and music absorb global influences each year." },
+    { q: "Should schools teach more about local culture?",   bandLow: "Yes.",                                                bandMid: "Yes — without language and stories, cultures fade within two generations." },
+    { q: "What part of your culture are you proud of?",       bandLow: "Food.",                                              bandMid: "The quiet hospitality and the depth of Vietnamese cuisine." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a tradition in your country that you want to preserve.\n- what the tradition is\n- who practises it\n- when it happens\n- and explain why it matters.",
+    sample: "I'd like to talk about Tet, the Lunar New Year tradition in Vietnam. Most families gather, clean the house, prepare banh chung, decorate with peach blossoms, and visit relatives across three days. It happens once a year, traditionally near the end of January. I want to preserve it because it forces a national pause — the rare moment when commerce slows down and family becomes the centre. Without it, our calendar would be governed only by deadlines, and that would impoverish our identity.",
+    keywords: ["national pause","banh chung","peach blossoms","commerce slows","national identity"],
+  },
+  speakingPart3: [
+    { q: "Will English replace local languages?",        hint: "code-switching, education, media" },
+    { q: "Are foreign festivals replacing local ones?",   hint: "Halloween, Christmas, marketing" },
+    { q: "How can governments protect culture?",            hint: "education, funding, digital archives" },
+    { q: "Is fusion healthy for culture?",                  hint: "creativity, authenticity, economic" },
+  ],
+  shadowing: [
+    "Globalisation pressures local cultures.",
+    "Soft power is real.",
+    "These aren't betrayal, they are continuation.",
+    "Each loss is a different way of seeing the world.",
+    "Culture isn't a relic. It is a living conversation.",
+  ],
+  homework: [
+    "Viết 5 câu dùng globalisation, soft power, cultural identity, indigenous, cosmopolitan.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "diaspora (kiều bào) — band 7+.",
+    "intangible heritage (di sản phi vật thể) — band 7.",
+    "living conversation between past and future — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 65,
+  levelId: "upper",
+  title: "Smart Cities",
+  titleVi: "Thành Phố Thông Minh",
+  objectives: { listen: "Nghe phỏng vấn về quy hoạch đô thị thông minh", speak: "Speaking về thành phố tương lai", vocabFocus: "Smart city vocab" },
+  vocabulary: [
+    { word: "smart city",        ipa: "", vi: "thành phố thông minh", example: "Singapore is a leading smart city." },
+    { word: "infrastructure",    ipa: "", vi: "hạ tầng",                example: "Smart cities rely on digital infrastructure." },
+    { word: "sensor",            ipa: "/ˈsen.sər/", vi: "cảm biến",     example: "Sensors track traffic in real time." },
+    { word: "real-time data",    ipa: "", vi: "dữ liệu thời gian thực", example: "Real-time data improves response." },
+    { word: "urban planning",    ipa: "", vi: "quy hoạch đô thị",      example: "Urban planning shapes daily life." },
+    { word: "citizen-centric",   ipa: "", vi: "lấy người dân làm trung tâm", example: "Citizen-centric design wins trust." },
+    { word: "surveillance",      ipa: "/səˈveɪ.ləns/", vi: "giám sát",  example: "Surveillance raises privacy issues." },
+    { word: "interoperable",     ipa: "/ˌɪn.tərˈɒp.ər.ə.bəl/", vi: "kết nối được với nhau", example: "Systems must be interoperable." },
+    { word: "carbon-aware",      ipa: "", vi: "có ý thức carbon",       example: "Carbon-aware buildings save energy." },
+    { word: "digital divide",    ipa: "", vi: "khoảng cách số",         example: "The digital divide excludes the elderly." },
+  ],
+  script: "Reporter: Welcome. Today we explore smart cities. With us is Mr Khang, a senior urban planner.\nMr Khang: Hi.\nReporter: What makes a city 'smart'?\nMr Khang: A genuine smart city uses real-time data to serve residents better. Sensors monitor traffic, air quality, water, and energy. Data feeds dashboards for both citizens and decision-makers. The keyword is service — technology serves people, not the reverse.\nReporter: Examples?\nMr Khang: Singapore syncs traffic lights with traffic flow. Helsinki recycles building heat. Barcelona uses underground sensors to optimise rubbish collection. Copenhagen monitors air quality block-by-block, then prioritises green corridors.\nReporter: Privacy concerns?\nMr Khang: Real and serious. Data collected at scale invites surveillance creep. The defence is interoperable systems with strong governance — clear rules on what data is collected, how long it is stored, and who can access it. Transparency must be the default, not the exception.\nReporter: How about the digital divide?\nMr Khang: A genuine risk. If smart services run only via apps, the elderly and rural users get excluded. Smart cities must include physical kiosks, multilingual interfaces, and offline alternatives.\nReporter: What about Vietnamese cities?\nMr Khang: Promising. Da Nang and Ho Chi Minh City have started smart traffic and e-governance pilots. Hanoi recently expanded its smart parking system. Challenges remain — fragmented data, small budgets, and a need to upskill local officials.\nReporter: Climate role?\nMr Khang: Smart cities are climate cities. Carbon-aware buildings, smart grids, and predictive flood models can reduce emissions and damage. Without smart infrastructure, climate adaptation will be expensive and slow.\nReporter: Final advice for residents?\nMr Khang: Get involved. Smart cities work best when residents demand transparency and propose solutions. Cities improve when citizens stop being users and start being partners.\nReporter: Powerful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Which city syncs traffic lights with flow?",       options: ["Helsinki","Singapore","Barcelona","Copenhagen"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Helsinki recycles building ____.",                  options: ["water","heat","air","food waste"], correct: 1 },
+    { id: 3, type: "fill", question: "The keyword of smart city is ____.",                 answer: "service" },
+    { id: 4, type: "fill", question: "Cities improve when citizens become ____, not users.", answer: "partners" },
+    { id: 5, type: "tfng", statement: "Smart cities can ignore privacy concerns.",          answer: "False" },
+    { id: 6, type: "tfng", statement: "Hanoi recently expanded smart parking.",             answer: "True" },
+    { id: 7, type: "tfng", statement: "Smart infrastructure is unrelated to climate.",     answer: "False" },
+    { id: 8, type: "short",question: "Three things sensors monitor?",                       answer: "traffic, air, water/energy" },
+    { id: 9, type: "short",question: "Three barriers in Vietnamese cities?",                 answer: "fragmented data, small budgets, upskilling" },
+    { id: 10,type: "short", question: "Three ways to bridge the digital divide?",            answer: "physical kiosks, multilingual interfaces, offline alternatives" },
+  ],
+  speakingPart1: [
+    { q: "Do you live in a busy city?",            bandLow: "Yes.",                                              bandMid: "Yes — Hanoi is busy and improving its smart-traffic systems gradually." },
+    { q: "What technology helps you in your city?", bandLow: "Apps.",                                              bandMid: "Ride-hailing apps, mobile payments, and the recent metro line." },
+    { q: "What problems need fixing?",                bandLow: "Traffic.",                                           bandMid: "Traffic, air quality, and the housing-cost spiral." },
+    { q: "Are you optimistic about urban life?",       bandLow: "A bit.",                                             bandMid: "Cautiously — technology can help, but only if planners include vulnerable groups." },
+    { q: "Have you visited a smart city?",              bandLow: "Singapore.",                                         bandMid: "Singapore — striking how integrated payments, transport, and services are." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a feature of a smart city you would like in your hometown.\n- what feature it is\n- why it is needed\n- how it could work\n- and explain its expected impact.",
+    sample: "The feature I'd most like in Hanoi is a city-wide air-quality dashboard with real-time block-level data. Currently, residents rely on third-party apps with patchy coverage. A genuine system would use sensors on schools, parks, and main roads, feeding a public dashboard and triggering alerts when PM2.5 spikes. The expected impact is significant — schools could reschedule outdoor activities, families could plan errands, and the data could pressure factories and traffic authorities to act. Most importantly, the dashboard would shift residents from passive users to informed partners.",
+    keywords: ["block-level data","PM2.5 spikes","public dashboard","informed partners","real-time alerts"],
+  },
+  speakingPart3: [
+    { q: "Will smart cities solve traffic forever?",   hint: "induced demand, planning, behaviour" },
+    { q: "Should governments share data with citizens?", hint: "transparency, security, accountability" },
+    { q: "How can technology serve elderly residents?",   hint: "physical interfaces, multilingual, training" },
+    { q: "Are smart cities also climate solutions?",       hint: "energy, water, mobility" },
+  ],
+  shadowing: [
+    "Technology serves people, not the reverse.",
+    "Data feeds dashboards.",
+    "Transparency must be the default.",
+    "Smart cities are climate cities.",
+    "Citizens stop being users and start being partners.",
+  ],
+  homework: [
+    "Viết 5 câu dùng smart city, sensor, real-time data, surveillance, digital divide.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "interoperable (kết nối được với nhau) — band 7+.",
+    "surveillance creep (mở rộng giám sát từ từ) — band 7.",
+    "users to partners — câu chốt band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 66,
+  levelId: "upper",
+  title: "Workplace Culture",
+  titleVi: "Văn Hoá Nơi Làm Việc",
+  objectives: { listen: "Nghe trao đổi văn hoá công ty", speak: "Speaking về môi trường làm việc lý tưởng", vocabFocus: "Workplace vocab" },
+  vocabulary: [
+    { word: "company culture",   ipa: "", vi: "văn hoá công ty",     example: "Culture eats strategy for breakfast." },
+    { word: "psychological safety", ipa: "", vi: "an toàn tâm lý",   example: "Psychological safety drives innovation." },
+    { word: "micromanagement",   ipa: "", vi: "quản lý quá chi tiết", example: "Micromanagement destroys ownership." },
+    { word: "autonomy",          ipa: "/ɔːˈtɒn.ə.mi/", vi: "tự chủ",  example: "Autonomy boosts engagement." },
+    { word: "cross-functional",  ipa: "", vi: "đa chức năng",          example: "Cross-functional teams move fast." },
+    { word: "feedback loop",     ipa: "", vi: "vòng phản hồi",          example: "Tight feedback loops accelerate growth." },
+    { word: "burn rate",         ipa: "", vi: "tốc độ tiêu tiền",       example: "Watch the start-up's burn rate." },
+    { word: "open-door policy",  ipa: "", vi: "chính sách mở cửa",      example: "We have an open-door policy." },
+    { word: "perks",             ipa: "/pɜːks/", vi: "phúc lợi nhỏ",   example: "Free lunch is a perk, not culture." },
+    { word: "values-driven",     ipa: "", vi: "định hướng giá trị",     example: "Values-driven decisions feel right." },
+  ],
+  script: "Reporter: Today's topic is workplace culture. With us is Hoa, an HR director.\nHoa: Hi.\nReporter: How would you define a great company culture?\nHoa: Culture is what people do when leadership isn't watching. Strong cultures share three traits — psychological safety, clear values, and tight feedback loops. People feel safe to speak up, know what the company stands for, and learn quickly from mistakes.\nReporter: Many companies confuse perks with culture.\nHoa: Common trap. Free lunch is great but doesn't replace trust. Ping-pong tables are decoration. The real test is how managers behave during stress.\nReporter: Examples of poor culture?\nHoa: Three signs. Constant micromanagement. Information hoarding. Fear of giving honest feedback. If your top performers leave quietly, that's the loudest alarm.\nReporter: Remote work changed culture?\nHoa: Yes. Shared rituals matter more than physical office. Daily fifteen-minute stand-ups, monthly celebrations, and clear async writing. Without them, remote teams drift.\nReporter: Hiring for culture?\nHoa: Hire for values, train for skill. Skills are teachable in months. Values take a lifetime. We use scenario-based interviews — describe a real conflict, ask how the candidate would navigate.\nReporter: Should companies disclose salary ranges?\nHoa: Increasingly yes. Pay transparency reduces gender and ethnic gaps and builds trust. Initial fear is overblown — high performers stay, mediocre performers self-select out.\nReporter: Final advice for leaders?\nHoa: Three rules. First, model the behaviour you want. Second, reward outcomes, not hours. Third, have a real one-on-one weekly. Fifteen minutes of full attention beats a hundred Slack messages.\nReporter: Beautiful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Three traits of strong cultures?", options: ["fast salary","psychological safety, values, feedback loops","more meetings","less hierarchy"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Hiring slogan?",                    options: ["hire for skill","hire for values, train for skill","hire fast","hire from referrals"], correct: 1 },
+    { id: 3, type: "fill", question: "Real test of culture: ____ behaviour during stress.", answer: "manager" },
+    { id: 4, type: "fill", question: "Tight ____ ____ accelerate growth.", answer: "feedback loops" },
+    { id: 5, type: "tfng", statement: "Free lunch equals strong culture.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Salary transparency builds trust.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Remote teams need fewer rituals.",   answer: "False" },
+    { id: 8, type: "short",question: "Three signs of poor culture?",        answer: "micromanagement, information hoarding, fear of feedback" },
+    { id: 9, type: "short",question: "Three leader rules?",                  answer: "model behaviour, reward outcomes, weekly one-on-one" },
+    { id: 10,type: "short", question: "What beats a hundred Slack messages?", answer: "15 minutes of full attention" },
+  ],
+  speakingPart1: [
+    { q: "What kind of workplace do you prefer?", bandLow: "Friendly.",                                       bandMid: "One with autonomy, clear values, and weekly one-on-ones with my manager." },
+    { q: "Are perks important?",                  bandLow: "Yes.",                                              bandMid: "Nice to have, but never replace trust and respect." },
+    { q: "Is your boss good?",                     bandLow: "Yes.",                                              bandMid: "Mostly — they reward outcomes over hours, which I appreciate." },
+    { q: "Do you prefer office or remote?",        bandLow: "Remote.",                                           bandMid: "Hybrid — three days office for collaboration, two days remote for deep work." },
+    { q: "How do you handle conflict at work?",     bandLow: "Talk it out.",                                       bandMid: "Schedule a 1-on-1, focus on facts, separate the issue from the person." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe an ideal workplace.\n- what makes it ideal\n- what kind of work happens\n- who works there\n- and explain why this culture matters.",
+    sample: "My ideal workplace is a small fifty-person tech company with a strong values-driven culture. The work centres on building product features that genuinely help small businesses. People work cross-functionally — engineers, designers, and marketers in tight teams. The defining traits are psychological safety, weekly one-on-ones, and salary transparency. This culture matters because culture eats strategy for breakfast — the best product loses if the team is misaligned and afraid to speak up.",
+    keywords: ["psychological safety","cross-functional","weekly one-on-one","salary transparency","values-driven"],
+  },
+  speakingPart3: [
+    { q: "Should companies disclose salary?",         hint: "fairness, retention, market" },
+    { q: "Is hierarchy outdated?",                     hint: "speed, autonomy, conflicting models" },
+    { q: "How can leaders earn trust?",                 hint: "consistency, feedback, sharing context" },
+    { q: "Will Gen Z change workplaces?",                hint: "values, flexibility, mental health" },
+  ],
+  shadowing: [
+    "Culture is what people do when leadership isn't watching.",
+    "Free lunch is decoration.",
+    "Hire for values, train for skill.",
+    "Reward outcomes, not hours.",
+    "Fifteen minutes of full attention beats a hundred Slack messages.",
+  ],
+  homework: [
+    "Viết 5 câu dùng company culture, psychological safety, autonomy, feedback loop, values-driven.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "psychological safety — band 7+ trong essay quản trị.",
+    "culture eats strategy — quote nổi tiếng của Peter Drucker.",
+    "model the behaviour you want — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 67,
+  levelId: "upper",
+  title: "Renewable Energy Transition",
+  titleVi: "Chuyển Đổi Năng Lượng Tái Tạo",
+  objectives: { listen: "Nghe phân tích chuyển đổi năng lượng", speak: "Speaking về tiêu thụ năng lượng", vocabFocus: "Energy vocab" },
+  vocabulary: [
+    { word: "renewable",          ipa: "/rɪˈnjuː.ə.bəl/", vi: "tái tạo", example: "Solar is renewable." },
+    { word: "fossil fuel",        ipa: "/ˈfɒs.əl/", vi: "nhiên liệu hoá thạch", example: "Fossil fuels still dominate." },
+    { word: "grid",               ipa: "/ɡrɪd/", vi: "lưới điện",       example: "The grid must modernise." },
+    { word: "battery storage",    ipa: "", vi: "lưu trữ pin",            example: "Battery storage solves intermittency." },
+    { word: "intermittency",      ipa: "/ˌɪn.təˈmɪt.ən.si/", vi: "không liên tục", example: "Solar has intermittency issues." },
+    { word: "energy poverty",     ipa: "", vi: "nghèo năng lượng",       example: "Energy poverty hits the rural areas." },
+    { word: "subsidy",            ipa: "/ˈsʌb.sɪ.di/", vi: "trợ cấp",     example: "Subsidies accelerated solar growth." },
+    { word: "carbon-neutral",     ipa: "", vi: "trung hoà carbon",        example: "By 2050 we aim carbon-neutral." },
+    { word: "clean tech",         ipa: "", vi: "công nghệ sạch",          example: "Clean tech investment is booming." },
+    { word: "energy mix",         ipa: "", vi: "cơ cấu năng lượng",       example: "Diversify your energy mix." },
+  ],
+  script: "Reporter: With us is Dr Quang, energy economist.\nDr Quang: Hi.\nReporter: Are renewables ready to replace fossil fuels?\nDr Quang: Technically, mostly yes for new installations. Solar and wind are already cheaper than new coal in most markets. The challenge is intermittency — sun doesn't shine at night, wind doesn't always blow. Battery storage is closing the gap, but at scale it remains expensive.\nReporter: Vietnam's progress?\nDr Quang: Impressive. Vietnam is among the fastest solar adopters in Southeast Asia. Rooftop solar exploded between 2019 and 2021. The grid, however, struggled to absorb sudden capacity. Lesson: build technology and infrastructure at the same time.\nReporter: Subsidies?\nDr Quang: Mixed reviews. Strong feed-in tariffs accelerated investment but created bubbles. Now Vietnam is shifting to auctions — more market-driven, fairer prices.\nReporter: Energy poverty?\nDr Quang: Real concern. Roughly five percent of Vietnamese households still face unreliable supply. Renewables can help — small solar plus storage suits remote villages, no grid extension needed.\nReporter: Coal phaseout?\nDr Quang: Vietnam aims for net-zero by 2050. Tough but doable if we triple renewables and modernise the grid by 2035. Coal phaseout requires social planning — workers need retraining and new jobs in clean tech.\nReporter: Battery storage?\nDr Quang: The bottleneck. Cheap, safe, recyclable batteries change everything. Sodium-ion chemistry looks promising for stationary storage at lower cost.\nReporter: Final message?\nDr Quang: Energy transition isn't just a technology project; it is a societal one. Markets, policy, infrastructure, and workforce must move together. The next ten years will define the next century.\nReporter: Powerful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Vietnam aims for net-zero by ____.",  options: ["2030","2040","2050","2060"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Vietnam shifted from feed-in tariffs to ____.", options: ["bans","auctions","tax credits","loans"], correct: 1 },
+    { id: 3, type: "fill", question: "About ____ percent of households face unreliable supply.", answer: "five" },
+    { id: 4, type: "fill", question: "Cheap chemistry for stationary storage: ____.", answer: "sodium-ion" },
+    { id: 5, type: "tfng", statement: "Solar and wind are cheaper than new coal in most markets.", answer: "True" },
+    { id: 6, type: "tfng", statement: "Vietnam's grid easily absorbed solar capacity.", answer: "False" },
+    { id: 7, type: "tfng", statement: "Coal phaseout requires worker retraining.", answer: "True" },
+    { id: 8, type: "short",question: "Lesson from Vietnam's solar boom?", answer: "build technology and infrastructure at same time" },
+    { id: 9, type: "short",question: "Solution for remote villages?",      answer: "small solar plus storage" },
+    { id: 10,type: "short", question: "Final summary?",                    answer: "next ten years define next century" },
+  ],
+  speakingPart1: [
+    { q: "Do you save energy at home?",          bandLow: "Yes.",                                              bandMid: "I switched to LEDs and unplug devices when not in use." },
+    { q: "Are renewable energy options visible?", bandLow: "Yes.",                                              bandMid: "Rooftop solar is increasingly visible across Vietnamese cities." },
+    { q: "Should governments subsidise renewables?", bandLow: "Yes.",                                              bandMid: "Targeted subsidies kick-start markets, but need to phase out as technology matures." },
+    { q: "Will electric cars dominate soon?",       bandLow: "Maybe.",                                             bandMid: "Likely within 10 to 15 years, depending on charging infrastructure." },
+    { q: "Are climate concerns real for you?",      bandLow: "Yes.",                                              bandMid: "Increasingly — extreme weather and air pollution are personal experiences now." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a way your country could reduce emissions.\n- what the change is\n- who would implement it\n- how it would work\n- and explain its impact.",
+    sample: "I'd like to talk about scaling rooftop solar in Vietnamese cities. The government would offer simplified permits and stable feed-in or auction prices. Building owners and small businesses would install panels with battery storage. The grid operator would upgrade substations to absorb new capacity. The impact would be twofold: lower household electricity bills and reduced reliance on coal. The biggest lesson from earlier years is to scale infrastructure and technology together — otherwise the grid bottlenecks the transition.",
+    keywords: ["rooftop solar","feed-in tariff","battery storage","grid upgrade","scale together"],
+  },
+  speakingPart3: [
+    { q: "Are renewables really cleaner?",          hint: "lifecycle, materials, recycling" },
+    { q: "Should fossil fuel companies be blamed?",   hint: "responsibility, transition, jobs" },
+    { q: "How does climate affect future generations?", hint: "displacement, food, biodiversity" },
+    { q: "Can technology solve everything?",            hint: "behaviour, policy, ethics" },
+  ],
+  shadowing: [
+    "Solar and wind are already cheaper than new coal.",
+    "Battery storage is closing the gap.",
+    "Build technology and infrastructure at the same time.",
+    "Energy transition is also a societal one.",
+    "The next ten years will define the next century.",
+  ],
+  homework: [
+    "Viết 5 câu dùng renewable, fossil fuel, grid, battery storage, energy mix.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "intermittency (không liên tục) — band 7+ chuyên ngành.",
+    "feed-in tariff (giá hỗ trợ) — band 7.",
+    "next ten years define next century — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 68,
+  levelId: "upper",
+  title: "Future of Work",
+  titleVi: "Tương Lai Của Công Việc",
+  objectives: { listen: "Nghe phỏng vấn về tương lai nghề nghiệp", speak: "Speaking về sự nghiệp cá nhân", vocabFocus: "Future-of-work" },
+  vocabulary: [
+    { word: "automation",        ipa: "", vi: "tự động hoá",          example: "Automation reshapes routine work." },
+    { word: "gig economy",       ipa: "", vi: "kinh tế gig",          example: "The gig economy is growing fast." },
+    { word: "skills gap",        ipa: "", vi: "khoảng cách kỹ năng",   example: "The skills gap is widening." },
+    { word: "reskilling",        ipa: "", vi: "đào tạo lại",            example: "Reskilling is now constant." },
+    { word: "hybrid work",       ipa: "", vi: "làm việc kết hợp",      example: "Hybrid work is here to stay." },
+    { word: "knowledge worker",  ipa: "", vi: "lao động tri thức",      example: "AI augments knowledge workers." },
+    { word: "labour market",     ipa: "", vi: "thị trường lao động",    example: "The labour market is transforming." },
+    { word: "human-in-the-loop", ipa: "", vi: "có người tham gia",      example: "Human-in-the-loop reduces AI errors." },
+    { word: "career pivot",      ipa: "", vi: "đổi hướng nghề",         example: "Mid-life career pivots are common." },
+    { word: "remote-first",      ipa: "", vi: "ưu tiên từ xa",           example: "Remote-first companies grow globally." },
+  ],
+  script: "Reporter: Today we explore the future of work. With us is Dr Linh, labour economist.\nDr Linh: Hi.\nReporter: Are robots taking jobs?\nDr Linh: Yes and no. Routine, repetitive jobs are being automated, but new categories are emerging — AI trainers, data ethicists, prompt engineers, and care-tech designers. Net job loss is real in some sectors, but net job creation is happening too. The challenge is transition speed.\nReporter: What about the gig economy?\nDr Linh: It's becoming the labour spine for many young people. Flexibility is real, but so is income volatility. Most countries lack proper protections — health insurance, retirement plans, paid leave — for gig workers. Vietnam needs a hybrid social safety net.\nReporter: Skills gap?\nDr Linh: Growing faster than universities can adapt. Critical thinking, communication, digital literacy, and continuous learning are the universal currencies. We've reached a point where what you can re-learn matters more than what you originally learned.\nReporter: Vietnam's outlook?\nDr Linh: Promising but unequal. Cities like Ho Chi Minh and Hanoi are absorbing tech and creative jobs rapidly. Rural areas risk being left behind. Universal digital literacy and rural broadband are essential.\nReporter: Hybrid work?\nDr Linh: Likely the long-term default for knowledge workers. The challenge is leadership style. Managers must learn to lead by outcomes, not presence. Organisations that fail to adapt will lose talent.\nReporter: Career advice for young people?\nDr Linh: Three rules. One — bet on transferable skills, not on a single job title. Two — invest twenty percent of your time in skills your industry isn't valuing yet. Three — build a network around mutual help, not climbing alone.\nReporter: Final thought?\nDr Linh: Work is changing faster than education. Citizens, employers, and governments must adapt together. Otherwise inequality widens.\nReporter: Beautiful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Three universal skills mentioned?",  options: ["coding, math, English","critical thinking, communication, digital literacy","management, finance, design","memory, drawing, music"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Recommended time investment for new skills?", options: ["5%","10%","20%","30%"], correct: 2 },
+    { id: 3, type: "fill", question: "Gig workers often lack ____ ____.",   answer: "social safety net" },
+    { id: 4, type: "fill", question: "Hybrid work needs leadership by ____.", answer: "outcomes" },
+    { id: 5, type: "tfng", statement: "Net job loss happens in all sectors.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Rural Vietnam might be left behind.",  answer: "True" },
+    { id: 7, type: "tfng", statement: "Re-learning matters more than original learning.", answer: "True" },
+    { id: 8, type: "short",question: "Three new job categories mentioned?",   answer: "AI trainers, data ethicists, prompt engineers / care-tech designers" },
+    { id: 9, type: "short",question: "What did Dr Linh call universal currencies?", answer: "critical thinking, communication, digital literacy, continuous learning" },
+    { id: 10,type: "short", question: "Final warning?",                       answer: "inequality widens" },
+  ],
+  speakingPart1: [
+    { q: "Do you worry about AI replacing your job?", bandLow: "A bit.",                                            bandMid: "I focus on augmenting my work with AI rather than competing with it." },
+    { q: "Have you reskilled recently?",                bandLow: "Yes.",                                              bandMid: "Yes — I took two online courses last year and apply parts of them weekly." },
+    { q: "Would you join a gig platform?",               bandLow: "Maybe.",                                            bandMid: "I'd consider it for short-term projects, not as a primary income." },
+    { q: "What career advice would you give a teen?",    bandLow: "Study hard.",                                      bandMid: "Bet on transferable skills, not a single job title, and build a learning habit." },
+    { q: "Will offices disappear?",                       bandLow: "Some.",                                              bandMid: "They will shrink and shift to collaboration hubs rather than daily mandatory cubicles." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe how work has changed in your country.\n- what changes you see\n- who is affected\n- how technology contributes\n- and explain whether the change is positive.",
+    sample: "Vietnam's labour market has shifted noticeably in the past decade. Tech, e-commerce, and creative jobs are exploding in big cities; manufacturing remains dominant elsewhere. The biggest groups affected are young university graduates and routine office workers, who face rapid upskilling demands. Technology, especially AI, automates repetitive tasks but also creates new roles like prompt engineering and data ethics. The shift is positive overall, but only if rural areas get broadband and reskilling support; otherwise the digital divide will worsen inequality.",
+    keywords: ["labour shift","reskilling","digital divide","prompt engineering","rural broadband"],
+  },
+  speakingPart3: [
+    { q: "Should governments protect gig workers?",     hint: "minimum income, health, retirement" },
+    { q: "How will universities adapt to AI?",            hint: "skill-first, micro-credentials, lifelong" },
+    { q: "Can creativity be automated?",                   hint: "judgement, taste, originality" },
+    { q: "What is the role of human-in-the-loop?",         hint: "errors, ethics, accountability" },
+  ],
+  shadowing: [
+    "Routine, repetitive jobs are being automated.",
+    "What you can re-learn matters more.",
+    "Bet on transferable skills.",
+    "Lead by outcomes, not presence.",
+    "Inequality widens if we don't adapt together.",
+  ],
+  homework: [
+    "Viết 5 câu dùng automation, gig economy, reskilling, knowledge worker, career pivot.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "human-in-the-loop (có người tham gia) — band 7+.",
+    "career pivot (đổi hướng nghề) — band 7.",
+    "what you can re-learn matters more — câu band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 69,
+  levelId: "upper",
+  title: "Mental Wellbeing in the Digital Era",
+  titleVi: "Sức Khỏe Tinh Thần Thời Số",
+  objectives: { listen: "Nghe phỏng vấn về wellbeing", speak: "Speaking về thói quen tâm lý", vocabFocus: "Wellbeing vocab" },
+  vocabulary: [
+    { word: "burnout",            ipa: "", vi: "kiệt sức",            example: "Remote burnout is sneaky." },
+    { word: "screen overload",    ipa: "", vi: "quá tải màn hình",    example: "Screen overload affects sleep." },
+    { word: "digital wellbeing",  ipa: "", vi: "sức khỏe số",          example: "Digital wellbeing is a 21st-century skill." },
+    { word: "comparison fatigue", ipa: "", vi: "mệt do so sánh",       example: "Comparison fatigue is real." },
+    { word: "cognitive overload", ipa: "", vi: "quá tải nhận thức",    example: "Notifications cause cognitive overload." },
+    { word: "self-compassion",    ipa: "", vi: "lòng trắc ẩn với bản thân", example: "Self-compassion drives recovery." },
+    { word: "mindfulness",        ipa: "", vi: "chánh niệm",            example: "Mindfulness reduces anxiety." },
+    { word: "boundary setting",   ipa: "", vi: "đặt ranh giới",          example: "Boundary setting protects energy." },
+    { word: "doomscroll",         ipa: "", vi: "lướt tin xấu",           example: "Doomscrolling spikes cortisol." },
+    { word: "joy practice",       ipa: "", vi: "luyện tập niềm vui",     example: "Schedule daily joy practice." },
+  ],
+  script: "Reporter: Welcome. Tonight we explore digital wellbeing. With us is Dr Trang, clinical psychologist.\nDr Trang: Hi.\nReporter: Why are so many young adults stressed?\nDr Trang: Three drivers stand out. First, cognitive overload — endless notifications shatter focus. Second, comparison fatigue — social feeds present curated highlights, distorting reality. Third, blurred boundaries — work emails arrive at midnight, friend chats interrupt deep work.\nReporter: Solutions?\nDr Trang: Five practical habits. One, design your environment. Phone out of bedroom, app limits, focus modes. Two, batch communications. Reply to messages in two windows daily. Three, practise self-compassion — same kindness to yourself you'd offer a struggling friend. Four, schedule joy practices — three things a week that energise you. Five, brief mindfulness — five minutes of breathing reduces cortisol fast.\nReporter: Burnout signals?\nDr Trang: Persistent fatigue, cynicism toward work, sense of decreased achievement. If two of these last more than two weeks, take action.\nReporter: Doomscrolling?\nDr Trang: Particularly damaging. The brain treats negative news as threat, raising cortisol. Solutions include news fasting — twenty-four hours offline weekly — and switching to long-form journalism instead of feeds.\nReporter: Therapy?\nDr Trang: Increasingly normalised. Vietnam now has online therapy platforms. The barrier is mostly cultural, not financial. Younger generations are more open.\nReporter: Final mantra?\nDr Trang: Wellbeing is a skill, not a mood. You build it like any other skill — practice, environment design, and patience.\nReporter: Powerful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Three drivers of stress?",       options: ["money, school, parents","cognitive overload, comparison fatigue, blurred boundaries","weather, food, transport","sleep, gym, work"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Suggested news-fasting time?",    options: ["1 hour","12 hours","24 hours","48 hours"], correct: 2 },
+    { id: 3, type: "fill", question: "Mindfulness reduces ____.",         answer: "cortisol" },
+    { id: 4, type: "fill", question: "Schedule ____ ____ a week.",         answer: "joy practices" },
+    { id: 5, type: "tfng", statement: "Comparison fatigue comes from highlights.", answer: "True" },
+    { id: 6, type: "tfng", statement: "Therapy in Vietnam is mostly blocked by money.", answer: "False" },
+    { id: 7, type: "tfng", statement: "Wellbeing is a mood, not a skill.", answer: "False" },
+    { id: 8, type: "short",question: "Three burnout signals?",            answer: "fatigue, cynicism, decreased achievement" },
+    { id: 9, type: "short",question: "Five habits Dr Trang suggests?",    answer: "design environment, batch communications, self-compassion, joy practice, mindfulness" },
+    { id: 10,type: "short", question: "Final mantra?",                    answer: "wellbeing is a skill, not a mood" },
+  ],
+  speakingPart1: [
+    { q: "Do you feel stressed often?",            bandLow: "Sometimes.",                                       bandMid: "Manageable now thanks to a daily routine and clear boundaries." },
+    { q: "Do you use phone-free time?",             bandLow: "Yes.",                                              bandMid: "An hour after waking and an hour before bed, both phone-free." },
+    { q: "What relaxes you?",                        bandLow: "Music.",                                            bandMid: "Slow walks, paper books, and voice messages with a close friend." },
+    { q: "Have you tried meditation?",                bandLow: "Yes.",                                              bandMid: "Five minutes of breathing daily — small but I notice the difference." },
+    { q: "Should companies care about wellbeing?",     bandLow: "Yes.",                                              bandMid: "Definitely — wellbeing supports productivity, retention, and team trust." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a wellbeing habit you have built.\n- what the habit is\n- when you started\n- how often you practise\n- and explain its effect.",
+    sample: "The habit I'd like to share is a thirty-minute screen-free morning. I started it eight months ago after noticing my mood crashed before nine am because I scrolled news in bed. Now I read paper, stretch, or write three lines in a journal. The effect is striking — my focus is sharper, anxiety is lower, and I make fewer impulsive decisions during the day. The lesson is that wellbeing is built by environment design, not willpower alone.",
+    keywords: ["screen-free morning","journal","mood crash","environment design","not willpower"],
+  },
+  speakingPart3: [
+    { q: "Are smartphones harmful for mental health?", hint: "depends on use, design, age" },
+    { q: "Should children have screen-free schools?",   hint: "focus, social skills, digital literacy" },
+    { q: "How can workplaces support wellbeing?",       hint: "boundaries, time off, training" },
+    { q: "What role does culture play in wellbeing?",    hint: "stigma, family pressure, openness" },
+  ],
+  shadowing: [
+    "Endless notifications shatter focus.",
+    "Comparison fatigue is real.",
+    "Five minutes of breathing reduces cortisol.",
+    "Take action if symptoms last two weeks.",
+    "Wellbeing is a skill, not a mood.",
+  ],
+  homework: [
+    "Viết 5 câu dùng burnout, mindfulness, self-compassion, doomscroll, boundary setting.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "comparison fatigue (mệt do so sánh) — band 7+.",
+    "joy practice (luyện tập niềm vui) — band 7.",
+    "wellbeing is a skill — câu chốt band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 70,
+  levelId: "upper",
+  title: "Sustainable Tourism",
+  titleVi: "Du Lịch Bền Vững",
+  objectives: { listen: "Nghe phỏng vấn về du lịch bền vững", speak: "Speaking về du lịch có trách nhiệm", vocabFocus: "Sustainable tourism" },
+  vocabulary: [
+    { word: "overtourism",        ipa: "", vi: "du lịch quá tải",     example: "Overtourism damages historic towns." },
+    { word: "carrying capacity",  ipa: "", vi: "sức tải",              example: "Sites have a carrying capacity." },
+    { word: "eco-friendly",       ipa: "", vi: "thân thiện môi trường", example: "Eco-friendly hotels gain popularity." },
+    { word: "local economy",      ipa: "", vi: "kinh tế địa phương",   example: "Tourism boosts the local economy." },
+    { word: "leakage",            ipa: "/ˈliː.kɪdʒ/", vi: "rò rỉ doanh thu", example: "Tourism leakage means money leaves the destination." },
+    { word: "responsible tourism",ipa: "", vi: "du lịch có trách nhiệm", example: "Responsible tourism respects locals." },
+    { word: "regulation",         ipa: "", vi: "quy định",              example: "Some islands cap daily visitors." },
+    { word: "carbon-conscious",   ipa: "", vi: "có ý thức carbon",      example: "Carbon-conscious flights cost more." },
+    { word: "homestay",           ipa: "", vi: "nhà nghỉ địa phương",    example: "Homestays distribute money locally." },
+    { word: "preservation",       ipa: "/ˌprez.əˈveɪ.ʃən/", vi: "bảo tồn", example: "Preservation must outweigh profit." },
+  ],
+  script: "Reporter: Today's topic is sustainable tourism. With us is Mai, a tourism economist.\nMai: Hello.\nReporter: What's the main concern with mass tourism?\nMai: Overtourism. Iconic destinations exceed their carrying capacity. Hoi An, for instance, struggles with crowds during peak season — narrow streets cannot absorb the volume without damaging heritage and local life.\nReporter: Solutions?\nMai: Three layers. Layer one — regulation. Cap daily visitors, charge entrance fees, and stagger ticket times. Layer two — distribution. Promote lesser-known destinations, support multi-day stays in nearby villages. Layer three — accountability. Tour operators, hotels, and visitors should follow responsible tourism principles.\nReporter: How does the local economy benefit?\nMai: Carefully designed, it can lift incomes significantly. The risk is leakage — money flowing to international hotel chains, leaving little for local families. Homestays, locally owned restaurants, and craft villages keep money inside the community.\nReporter: Climate impact?\nMai: Significant. Aviation accounts for around two to three percent of global emissions. Domestic flights are often more polluting per kilometre than long-haul. Encouraging trains, electric coaches, and longer trips reduces footprint.\nReporter: Can travellers really make a difference?\nMai: Yes. Five practical actions. One — fewer but longer trips. Two — eat at local family restaurants. Three — sleep in homestays. Four — buy souvenirs from artisans, not chain stores. Five — respect rules and customs.\nReporter: Are governments doing enough?\nMai: Mixed. Some destinations introduced visitor caps and tourist taxes successfully. Others lag. Vietnam's draft tourism law includes carrying capacity assessments — encouraging if implemented seriously.\nReporter: Final advice?\nMai: Travel less often, deeper, and locally. Tourism should leave places better than we found them.\nReporter: Beautiful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Aviation accounts for ____ percent of global emissions.", options: ["1-2%","2-3%","5-7%","10%"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Three layers of solution?",                                 options: ["regulation, distribution, accountability","price, time, distance","food, hotel, transport","ads, news, blogs"], correct: 0 },
+    { id: 3, type: "fill", question: "Money flowing to international chains is called ____.",     answer: "leakage" },
+    { id: 4, type: "fill", question: "Tourism should leave places ____ than we found them.",      answer: "better" },
+    { id: 5, type: "tfng", statement: "Hoi An has issues during peak season.",                     answer: "True" },
+    { id: 6, type: "tfng", statement: "Domestic flights are always cleaner.",                       answer: "False" },
+    { id: 7, type: "tfng", statement: "Vietnam's draft law includes carrying capacity.",            answer: "True" },
+    { id: 8, type: "short",question: "Five practical traveller actions?",                          answer: "fewer/longer trips, local food, homestay, artisan souvenirs, respect rules" },
+    { id: 9, type: "short",question: "Three places that distribute money locally?",                 answer: "homestays, local restaurants, craft villages" },
+    { id: 10,type: "short", question: "Final summary?",                                              answer: "travel less often, deeper, locally" },
+  ],
+  speakingPart1: [
+    { q: "Do you travel often?",                bandLow: "Yes.",                                              bandMid: "Two or three trips a year, mostly domestic and slow." },
+    { q: "Are you a responsible traveller?",     bandLow: "Try.",                                              bandMid: "I try — homestays, local food, no single-use plastic." },
+    { q: "Have you visited a crowded site?",      bandLow: "Yes.",                                              bandMid: "Hoi An during Tet — beautiful but exhausting and overcrowded." },
+    { q: "Should there be visitor limits?",        bandLow: "Yes.",                                              bandMid: "Yes for fragile or iconic sites; capacity caps protect heritage." },
+    { q: "How does travel change you?",            bandLow: "Open mind.",                                         bandMid: "It builds humility, perspective, and appreciation for local effort." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a way tourism can be made more sustainable.\n- what the change is\n- where it could happen\n- who should drive it\n- and explain its impact.",
+    sample: "The change I'd like to suggest is implementing daily visitor caps in Hoi An ancient town during the high season. The Hoi An tourism authority and provincial government should drive it, supported by online ticketing and dynamic pricing. Visitors plan ahead and pick off-peak slots; locals get relief from constant crowds. The expected impact is reduced damage to heritage buildings, more time for genuine cultural experience, and a healthier balance between revenue and quality of life. Sustainable tourism only works when access is intentional, not unlimited.",
+    keywords: ["daily visitor cap","online ticketing","off-peak slots","heritage protection","intentional access"],
+  },
+  speakingPart3: [
+    { q: "Should governments tax tourism?",    hint: "infrastructure, conservation, fairness" },
+    { q: "Are influencers harming destinations?", hint: "viral spots, overtourism, etiquette" },
+    { q: "Can ecotourism truly be eco?",          hint: "transport, scale, marketing" },
+    { q: "Will virtual tourism replace real?",    hint: "VR, climate, accessibility" },
+  ],
+  shadowing: [
+    "Iconic destinations exceed their carrying capacity.",
+    "Cap daily visitors, charge entrance fees.",
+    "Money flowing to international chains is leakage.",
+    "Travel less often, deeper, and locally.",
+    "Tourism should leave places better than we found them.",
+  ],
+  homework: [
+    "Viết 5 câu dùng overtourism, carrying capacity, eco-friendly, leakage, responsible tourism.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "leakage (rò rỉ doanh thu) — band 7+.",
+    "carrying capacity (sức tải) — band 7+.",
+    "leave places better than we found them — câu chốt band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 71,
+  levelId: "upper",
+  title: "Healthy Aging",
+  titleVi: "Lão Hoá Khỏe Mạnh",
+  objectives: { listen: "Nghe phỏng vấn bác sĩ lão khoa", speak: "Speaking về tuổi già lý tưởng", vocabFocus: "Aging vocab" },
+  vocabulary: [
+    { word: "longevity",         ipa: "/lɒnˈdʒev.ə.ti/", vi: "tuổi thọ", example: "Longevity is rising globally." },
+    { word: "preventive care",   ipa: "", vi: "y tế dự phòng",        example: "Preventive care saves money." },
+    { word: "social engagement", ipa: "", vi: "kết nối xã hội",        example: "Social engagement lowers dementia risk." },
+    { word: "physical activity", ipa: "", vi: "vận động",              example: "Daily physical activity preserves muscles." },
+    { word: "balanced diet",     ipa: "", vi: "ăn cân bằng",            example: "A balanced diet supports brain health." },
+    { word: "lifelong learning", ipa: "", vi: "học suốt đời",            example: "Lifelong learning slows cognitive decline." },
+    { word: "purpose",           ipa: "/ˈpɜː.pəs/", vi: "ý nghĩa sống", example: "A clear purpose extends life." },
+    { word: "loneliness",        ipa: "", vi: "cô đơn",                  example: "Loneliness is the new smoking." },
+    { word: "intergenerational", ipa: "", vi: "đa thế hệ",                example: "Intergenerational programmes work." },
+    { word: "ageing population", ipa: "", vi: "dân số già hoá",            example: "Vietnam faces an ageing population." },
+  ],
+  script: "Reporter: With us is Dr Quan, geriatrician.\nDr Quan: Hi.\nReporter: What predicts a healthy old age?\nDr Quan: Five pillars. Physical activity, balanced diet, sleep, social engagement, and purpose. Each pillar adds independent benefits. Genes load the gun, lifestyle pulls the trigger.\nReporter: Most underrated factor?\nDr Quan: Social engagement. Loneliness raises mortality similarly to smoking. People who maintain three to five close relationships in old age have lower dementia rates and faster recovery from illness.\nReporter: How about exercise?\nDr Quan: Resistance training is essential after sixty. Loss of muscle mass — sarcopenia — drives falls and frailty. Two short sessions a week make a measurable difference.\nReporter: Diet?\nDr Quan: Mediterranean-style or traditional Vietnamese diet — vegetables, fish, legumes, low ultra-processed food. Hydration matters too. Older adults often under-drink and don't feel thirsty.\nReporter: Brain health?\nDr Quan: Lifelong learning is the strongest brain shield. New skills, language, music, hobbies. Combined with social activity, it creates cognitive reserve that buffers ageing.\nReporter: Purpose?\nDr Quan: A reason to wake up. Volunteering, mentoring, gardening, even caring for a pet. Studies show people with strong purpose live two to seven years longer.\nReporter: Vietnam's ageing population?\nDr Quan: Coming fast. Within twenty-five years over twenty percent of Vietnamese will be over sixty-five. Health system reform must accelerate.\nReporter: Recommendations?\nDr Quan: Build a national plan. More geriatric specialists, intergenerational housing, and stronger community programmes. Families also need support — caregivers face burnout.\nReporter: Final message?\nDr Quan: Health is built decades before old age. Start now and your future self will thank you.\nReporter: Powerful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Five pillars of healthy aging?", options: ["smile, faith, energy, sleep, money","activity, diet, sleep, social, purpose","work, food, fun, kids, prayer","exam, jobs, savings, vacation, hobby"], correct: 1 },
+    { id: 2, type: "mcq",  question: "How many close relationships help cognition?", options: ["1-2","3-5","6-8","10+"], correct: 1 },
+    { id: 3, type: "fill", question: "Loss of muscle mass = ____.",       answer: "sarcopenia" },
+    { id: 4, type: "fill", question: "Strong purpose adds ____ to ____ years.", answer: "two, seven" },
+    { id: 5, type: "tfng", statement: "Genes alone determine longevity.",  answer: "False" },
+    { id: 6, type: "tfng", statement: "Lifelong learning shields the brain.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Vietnam will not face ageing soon.", answer: "False" },
+    { id: 8, type: "short",question: "Diet style mentioned?",              answer: "Mediterranean / traditional Vietnamese" },
+    { id: 9, type: "short",question: "Exercise type after 60?",             answer: "resistance training" },
+    { id: 10,type: "short", question: "Final advice?",                       answer: "start now, future self thanks you" },
+  ],
+  speakingPart1: [
+    { q: "Do older people in your country live healthily?", bandLow: "Some.",                                          bandMid: "Many do — daily walks, family meals, but loneliness is rising in cities." },
+    { q: "How can we support the elderly?",                  bandLow: "Visit them.",                                     bandMid: "Visit regularly, build accessible parks, and design homes for ageing in place." },
+    { q: "Are you saving for retirement?",                    bandLow: "A bit.",                                            bandMid: "Yes, twenty percent monthly into index funds, plus a small private pension." },
+    { q: "What hobby would you enjoy in old age?",             bandLow: "Reading.",                                         bandMid: "Gardening, photography, and hosting weekly book discussions." },
+    { q: "Should the government do more for elderly?",         bandLow: "Yes.",                                              bandMid: "Yes — geriatric specialists, intergenerational housing, and family support programmes." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe an older person you admire.\n- who they are\n- what their daily life looks like\n- what habits they keep\n- and explain why you admire them.",
+    sample: "The person I admire most is my grandmother, who turned seventy-five last month. She walks an hour every morning, gardens herbs and lemongrass for her cooking, and joins a small church choir twice a week. She still cooks bun bo Hue better than any restaurant. The habits I admire are her clear daily structure, social engagement, and lifelong curiosity — she recently began learning to use a smartphone for video calls. Watching her, I'm convinced healthy aging is mostly built before old age.",
+    keywords: ["daily structure","social engagement","lifelong curiosity","intergenerational","built before old age"],
+  },
+  speakingPart3: [
+    { q: "Why do some societies revere elders more than others?", hint: "tradition, religion, family structure" },
+    { q: "Should retirement age rise?",                            hint: "longevity, productivity, fairness" },
+    { q: "How can technology help elderly?",                        hint: "telehealth, communication, safety" },
+    { q: "Is loneliness a public health issue?",                    hint: "mortality, mental health, policy" },
+  ],
+  shadowing: [
+    "Genes load the gun, lifestyle pulls the trigger.",
+    "Loneliness is the new smoking.",
+    "Two short sessions a week make a measurable difference.",
+    "Purpose adds years to life.",
+    "Health is built decades before old age.",
+  ],
+  homework: [
+    "Viết 5 câu dùng longevity, preventive care, social engagement, lifelong learning, purpose.",
+    "Ghi âm Part 1 câu 1, 4, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "sarcopenia (mất cơ tuổi già) — band 7+.",
+    "loneliness is the new smoking — câu band cao.",
+    "future self will thank you — câu chốt band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 72,
+  levelId: "upper",
+  title: "Music and Identity",
+  titleVi: "Âm Nhạc Và Bản Sắc",
+  objectives: { listen: "Nghe phỏng vấn nhạc sĩ", speak: "Speaking về âm nhạc và xã hội", vocabFocus: "Music & culture" },
+  vocabulary: [
+    { word: "soundtrack",       ipa: "", vi: "nhạc nền cuộc đời",   example: "Music is the soundtrack of my life." },
+    { word: "anthem",           ipa: "/ˈæn.θəm/", vi: "bài ca",       example: "Each generation has its anthem." },
+    { word: "lyrics",           ipa: "", vi: "lời ca",                example: "Lyrics carry messages." },
+    { word: "melody",           ipa: "/ˈmel.ə.di/", vi: "giai điệu",   example: "A simple melody travels far." },
+    { word: "fusion",           ipa: "", vi: "pha trộn",                example: "Vietnamese-Western fusion is rising." },
+    { word: "streaming era",    ipa: "", vi: "kỷ nguyên streaming",     example: "The streaming era reshaped income." },
+    { word: "cultural appropriation", ipa: "", vi: "chiếm dụng văn hoá", example: "Cultural appropriation is a debate." },
+    { word: "indie scene",      ipa: "", vi: "nhạc indie",              example: "The indie scene grew rapidly." },
+    { word: "live performance", ipa: "", vi: "biểu diễn trực tiếp",      example: "Live performances build connection." },
+    { word: "sense of belonging",ipa: "", vi: "cảm giác thuộc về",       example: "Music creates a sense of belonging." },
+  ],
+  script: "Reporter: With us is Tu, an indie musician.\nTu: Hi.\nReporter: Music has changed enormously in ten years.\nTu: Two big shifts. First, distribution. Streaming made music globally accessible but compressed artist income. Independent artists now reach the world without a label, but most earn very little per stream. Second, identity. Listeners pick artists who reflect their values, not just sound. The audience and artist co-create identity now.\nReporter: How does music shape identity?\nTu: Powerful question. Music gives people a sense of belonging. Teenagers find their tribe through Spotify playlists. Communities maintain memory through folk songs. National anthems can move millions in seconds. The melody is the carrier; the lyrics are the message; the listener provides the meaning.\nReporter: Vietnamese indie scene?\nTu: Quietly thriving. The mid-2010s saw bedroom producers, then short videos boosted artists like Mono and Den Vau. We see Vietnamese fusion blending traditional instruments — dan tranh, dan bau — with electronic beats.\nReporter: Cultural appropriation?\nTu: A real concern. When borrowing, credit and engage with the source culture. Use traditional instruments because you've studied them, not because they trend. Respect builds bridges; carelessness builds walls.\nReporter: AI music?\nTu: Mixed. AI can democratise creation but also flood platforms with bland content. Authenticity becomes the differentiator. People crave real stories more, not less.\nReporter: Live performance?\nTu: Comeback strong. After years of streams, audiences want closeness. The energy of being in a room together cannot be replicated digitally.\nReporter: Final thought?\nTu: Music is a mirror that learns. It reflects who we are, then changes us. Choose your soundtrack carefully.\nReporter: Beautiful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Two big shifts in music?",       options: ["distribution and identity","TV and concerts","piano and guitar","price and quality"], correct: 0 },
+    { id: 2, type: "mcq",  question: "What does the melody do?",        options: ["the message","the carrier","the meaning","the listener"], correct: 1 },
+    { id: 3, type: "fill", question: "Two traditional Vietnamese instruments mentioned?", answer: "dan tranh, dan bau" },
+    { id: 4, type: "fill", question: "Authenticity becomes the ____.",   answer: "differentiator" },
+    { id: 5, type: "tfng", statement: "Streaming improved artist income.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Live performances are returning strongly.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Cultural appropriation is unimportant.", answer: "False" },
+    { id: 8, type: "short",question: "Three roles in identity-music: melody, lyrics, ____", answer: "listener" },
+    { id: 9, type: "short",question: "Two indie artists mentioned?",     answer: "Mono, Den Vau" },
+    { id: 10,type: "short", question: "Final metaphor?",                  answer: "music is a mirror that learns" },
+  ],
+  speakingPart1: [
+    { q: "Does music affect your mood?",          bandLow: "Yes.",                                              bandMid: "Hugely — different playlists for focus, exercise, sleep." },
+    { q: "Who is your favourite artist?",          bandLow: "Adele.",                                             bandMid: "Den Vau — his lyrics blend Hanoi storytelling with hip-hop rhythm." },
+    { q: "Have you been to a live concert?",        bandLow: "Yes.",                                              bandMid: "Twice in Vietnam, once in Bangkok. Live music creates a different presence." },
+    { q: "Are streaming services good for artists?", bandLow: "Maybe.",                                            bandMid: "Mixed — global reach is great, per-stream income is small." },
+    { q: "Should governments support local music?",   bandLow: "Yes.",                                              bandMid: "Yes — funding, festivals, and protection of traditional instruments." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a song or piece of music that represents your country.\n- what it is\n- when you first heard it\n- why it represents your country\n- and explain how it makes you feel.",
+    sample: "I'd like to talk about the song Hanoi Mua Vang Nhung Con Mua, a contemporary indie rendition of an old Hanoi melody. I first heard it during a rainy afternoon when I was studying for exams. It represents Vietnam because it carries the slow elegance of a northern autumn — a season tied to memory, food, and family. Each time I listen, I feel both calm and curious, as if Hanoi is reminding me of who I am. Music like this preserves a feeling that words alone cannot.",
+    keywords: ["indie rendition","Hanoi autumn","slow elegance","preserves a feeling","collective memory"],
+  },
+  speakingPart3: [
+    { q: "How does music shape national identity?",   hint: "anthems, festivals, exposure" },
+    { q: "Should traditional music be preserved?",      hint: "schools, archives, fusion" },
+    { q: "Are streaming algorithms narrowing taste?",   hint: "echo chamber, discovery, curation" },
+    { q: "Will AI compose great music?",                 hint: "originality, emotion, human story" },
+  ],
+  shadowing: [
+    "Streaming made music globally accessible.",
+    "The melody is the carrier; the lyrics are the message.",
+    "Respect builds bridges; carelessness builds walls.",
+    "People crave real stories more, not less.",
+    "Music is a mirror that learns.",
+  ],
+  homework: [
+    "Viết 5 câu dùng soundtrack, anthem, lyrics, fusion, sense of belonging.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "fusion (pha trộn) khác fusion cuisine — nhưng concept tương tự.",
+    "cultural appropriation (chiếm dụng văn hoá) — band 7+.",
+    "music is a mirror that learns — câu band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 73,
+  levelId: "upper",
+  title: "Volunteering and Civic Action",
+  titleVi: "Tình Nguyện Và Hành Động Công Dân",
+  objectives: { listen: "Nghe phỏng vấn nhà hoạt động", speak: "Speaking về vai trò công dân", vocabFocus: "Civic action" },
+  vocabulary: [
+    { word: "civic engagement", ipa: "", vi: "tham gia công dân",   example: "Civic engagement strengthens democracy." },
+    { word: "grassroots",       ipa: "", vi: "từ cơ sở",              example: "Grassroots movements drive change." },
+    { word: "advocacy",         ipa: "/ˈæd.və.kə.si/", vi: "vận động", example: "Advocacy needs patience." },
+    { word: "non-profit",       ipa: "", vi: "phi lợi nhuận",          example: "Many non-profits rely on volunteers." },
+    { word: "community organising", ipa: "", vi: "tổ chức cộng đồng",  example: "Community organising creates leaders." },
+    { word: "policy change",    ipa: "", vi: "thay đổi chính sách",     example: "Policy change is the long game." },
+    { word: "social impact",    ipa: "", vi: "tác động xã hội",         example: "Measure social impact carefully." },
+    { word: "fundraiser",       ipa: "", vi: "sự kiện gây quỹ",         example: "Annual fundraisers fund operations." },
+    { word: "collective action",ipa: "", vi: "hành động tập thể",        example: "Collective action moves giants." },
+    { word: "burnout",          ipa: "", vi: "kiệt sức",                 example: "Activist burnout is common." },
+  ],
+  script: "Reporter: With us is Trang, a community organiser.\nTrang: Hi.\nReporter: Tell us about your work.\nTrang: I lead a small non-profit focused on flood relief in central Vietnam. We coordinate volunteers, distribute essentials, and document community needs for advocacy.\nReporter: How did it start?\nTrang: A grassroots group of six during the 2020 floods. We expanded to forty volunteers across three provinces. We learned the hard way that response without coordination wastes resources.\nReporter: Volunteers?\nTrang: They give time, skill, and witness. Witnessing matters because policymakers ignore problems they don't see. Volunteers carry stories that shape policy change.\nReporter: How do you avoid burnout?\nTrang: Three rules. Rotate roles every six months. Schedule recovery weeks after major operations. Build mentorship pairs so the workload spreads. Activist burnout is real and silent.\nReporter: Funding?\nTrang: Mixed sources. Annual fundraisers, monthly small donors, and project grants. We never rely on one source.\nReporter: Tension between charity and policy?\nTrang: Charity treats symptoms; advocacy treats causes. We do both. Distributing rice today, while pushing for stronger building codes for tomorrow.\nReporter: How can ordinary citizens help?\nTrang: Five ways. One — give time monthly, even four hours. Two — donate small amounts regularly. Three — share verified information online. Four — show up at public consultations. Five — vote with intention.\nReporter: Final reflection?\nTrang: Civic engagement is not a hobby; it is the maintenance work of democracy. If we don't do it, others will, often without our interests.\nReporter: Powerful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Trang's organisation focus?", options: ["education","flood relief","health","environment"], correct: 1 },
+    { id: 2, type: "mcq",  question: "How many volunteers across?", options: ["20","30","40","60"], correct: 2 },
+    { id: 3, type: "fill", question: "Three rules to avoid burnout: rotate, recover, ____.", answer: "mentorship" },
+    { id: 4, type: "fill", question: "Charity treats ____, advocacy treats ____.",  answer: "symptoms, causes" },
+    { id: 5, type: "tfng", statement: "Trang relies on one source of funding.", answer: "False" },
+    { id: 6, type: "tfng", statement: "She dismisses voting as low impact.",   answer: "False" },
+    { id: 7, type: "tfng", statement: "Volunteers carry stories that shape policy.", answer: "True" },
+    { id: 8, type: "short",question: "Five ways citizens can help?",            answer: "give time, donate, share verified info, attend consultations, vote" },
+    { id: 9, type: "short",question: "What did response without coordination do?", answer: "waste resources" },
+    { id: 10,type: "short", question: "Final framing of civic engagement?",     answer: "maintenance work of democracy" },
+  ],
+  speakingPart1: [
+    { q: "Have you ever volunteered?",         bandLow: "Yes.",                                              bandMid: "Yes — annual flood relief in central Vietnam." },
+    { q: "What causes do you care about?",      bandLow: "Education.",                                         bandMid: "Climate adaptation and education for underprivileged kids." },
+    { q: "Should companies offer volunteer leave?", bandLow: "Yes.",                                              bandMid: "Definitely — paid volunteer days are good for both staff and society." },
+    { q: "How can young people get involved?",   bandLow: "Donate.",                                            bandMid: "Start with four hours a month locally; build skills, network, and impact." },
+    { q: "Is voting enough as civic action?",     bandLow: "Yes.",                                              bandMid: "Necessary but not sufficient — voting plus showing up to consultations matters." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a time you helped your community.\n- what you did\n- when and where\n- who benefited\n- and explain what you learned.",
+    sample: "I'd like to talk about helping with flood relief in central Vietnam in 2020. I joined a grassroots group of six volunteers, which grew to forty across three provinces. We coordinated rice and clean water distribution, and documented affected families for later advocacy. The biggest lesson was that uncoordinated kindness wastes resources — rotation, mentorship pairs, and recovery weeks made our work sustainable. I also learned that charity treats symptoms while advocacy targets causes, and a healthy non-profit must do both.",
+    keywords: ["grassroots","coordination","rotation","charity vs advocacy","sustainable activism"],
+  },
+  speakingPart3: [
+    { q: "Why don't more young people volunteer?", hint: "time, awareness, sense of efficacy" },
+    { q: "Should governments fund non-profits?",   hint: "independence, accountability, scale" },
+    { q: "How does social media help activism?",   hint: "reach, mobilisation, slacktivism" },
+    { q: "Are protests still effective?",            hint: "visibility, backlash, political will" },
+  ],
+  shadowing: [
+    "Witnessing matters.",
+    "Activist burnout is real and silent.",
+    "Charity treats symptoms; advocacy treats causes.",
+    "Vote with intention.",
+    "Civic engagement is the maintenance work of democracy.",
+  ],
+  homework: [
+    "Viết 5 câu dùng grassroots, advocacy, non-profit, social impact, collective action.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "advocacy (vận động) khác advertise (quảng cáo).",
+    "uncoordinated kindness wastes resources — câu band cao.",
+    "maintenance work of democracy — câu chốt band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 74,
+  levelId: "upper",
+  title: "Modern Travel and Identity",
+  titleVi: "Du Lịch Hiện Đại Và Bản Sắc",
+  objectives: { listen: "Nghe phỏng vấn travel writer", speak: "Speaking về du lịch và sự thay đổi", vocabFocus: "Travel & identity" },
+  vocabulary: [
+    { word: "travel writer",     ipa: "", vi: "nhà văn du ký",        example: "She works as a travel writer." },
+    { word: "off the beaten track", ipa: "", vi: "ít người biết",       example: "We went off the beaten track in Sapa." },
+    { word: "slow travel",       ipa: "", vi: "du lịch chậm",            example: "Slow travel respects local rhythms." },
+    { word: "digital nomad",     ipa: "", vi: "du mục số",                example: "Digital nomads work from cafés." },
+    { word: "wanderlust",        ipa: "", vi: "khao khát đi xa",         example: "Wanderlust drives me every spring." },
+    { word: "homestay",          ipa: "", vi: "nhà nghỉ địa phương",      example: "We stayed at a family homestay." },
+    { word: "cultural sensitivity", ipa: "", vi: "nhạy cảm văn hoá",     example: "Cultural sensitivity prevents harm." },
+    { word: "visa-free",         ipa: "", vi: "miễn thị thực",            example: "Vietnamese passport has more visa-free access." },
+    { word: "footprint",         ipa: "", vi: "dấu chân",                  example: "Travel footprint matters." },
+    { word: "transformative travel", ipa: "", vi: "du lịch thay đổi nhận thức", example: "Transformative travel changes how you see home." },
+  ],
+  script: "Reporter: With us is Linh, a travel writer for ten years.\nLinh: Hi.\nReporter: How has travel changed?\nLinh: Two big shifts. Travel used to be event-based — a once-a-year vacation. Now it is becoming lifestyle-based. Digital nomads, sabbaticals, slow travel, transformative travel. The point isn't a checklist of places anymore; it's a relationship with places.\nReporter: Slow travel?\nLinh: Stay longer, move slower, blend in. Three weeks in one Vietnamese town teaches more than three days each in five cities. The brain finally settles, you start to remember faces, you cook with the family next door.\nReporter: Cultural sensitivity?\nLinh: Easy to slip up. Photographing children without consent, wearing inappropriate clothes at temples, bargaining hard with poor sellers. We share the world; we don't conquer it.\nReporter: Digital nomads?\nLinh: A growing tribe. Vietnam has become a top destination because of food, internet, and cost. The risk is gentrification. Locals can be priced out of their own neighbourhoods.\nReporter: Footprint?\nLinh: Real concern. Aviation contributes notable emissions, fast tourism creates waste, social media drives crowd surges. Slow travel, fewer flights, and supporting local family businesses can reduce harm.\nReporter: Transformative travel?\nLinh: A trip that changes how you see home. The first time I visited Japan I couldn't stop noticing how Vietnamese cities can be quieter, calmer, more accessible. Travel shows you alternatives.\nReporter: Final advice?\nLinh: Travel changes you only if you slow down. Otherwise it's expensive scrolling.\nReporter: Powerful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Two big shifts in travel?",       options: ["expensive vs cheap","event-based to lifestyle-based","city vs beach","rich vs poor"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Slow travel example duration?",    options: ["1 week","2 weeks","3 weeks","6 weeks"], correct: 2 },
+    { id: 3, type: "fill", question: "We share the world; we don't ____ it.", answer: "conquer" },
+    { id: 4, type: "fill", question: "Travel without slowing is expensive ____.", answer: "scrolling" },
+    { id: 5, type: "tfng", statement: "Digital nomads always benefit local communities.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Vietnam attracts nomads due to food, internet, cost.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Linh thinks transformative travel changes view of home.", answer: "True" },
+    { id: 8, type: "short",question: "Three cultural mistakes mentioned?", answer: "photographing kids, inappropriate temple clothes, hard bargaining" },
+    { id: 9, type: "short",question: "What does aviation contribute?",     answer: "emissions" },
+    { id: 10,type: "short", question: "Final equation?",                    answer: "travel changes you if you slow down" },
+  ],
+  speakingPart1: [
+    { q: "Are you a slow or fast traveller?",   bandLow: "Slow.",                                              bandMid: "Definitely slow — three weeks in one place over a packed itinerary." },
+    { q: "Do you avoid touristy places?",        bandLow: "Sometimes.",                                         bandMid: "I balance — see two icons quickly, then escape to a quieter neighbourhood." },
+    { q: "Have you considered a digital nomad life?", bandLow: "Maybe.",                                            bandMid: "Yes for a few months; longer term is harder for friendships and routine." },
+    { q: "Do you photograph people?",              bandLow: "Sometimes.",                                          bandMid: "Only with consent and a real conversation first." },
+    { q: "Has travel changed you?",                 bandLow: "Yes.",                                              bandMid: "Each trip nudges me to reflect on what I want home to feel like." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a journey that changed how you see your country.\n- where you went\n- when and how long\n- what you noticed\n- and explain what you took back home.",
+    sample: "I'd like to talk about a four-week stay in Tokyo last spring. I had been to many Asian cities, but Tokyo's quietness shocked me — clean trains, soft voice volumes in restaurants, near-zero rubbish on streets. By contrast, Hanoi felt loud and chaotic when I returned, in ways both endearing and exhausting. The trip didn't make me dislike home; it pushed me to invest in small habits I'd seen abroad — better noise etiquette, sorting waste, slower pace at meals. Travel showed me my country's strengths and patches I want to improve.",
+    keywords: ["quietness","clean trains","near-zero rubbish","noise etiquette","love and improve"],
+  },
+  speakingPart3: [
+    { q: "Should governments limit nomad influx?", hint: "housing, gentrification, balance" },
+    { q: "Are travel writers still relevant?",       hint: "social media, depth, curation" },
+    { q: "How does travel affect personality?",       hint: "open-minded, adaptive, patient" },
+    { q: "Will future travel be virtual?",             hint: "VR, climate, accessibility" },
+  ],
+  shadowing: [
+    "Travel is becoming lifestyle-based.",
+    "Stay longer, move slower, blend in.",
+    "We share the world; we don't conquer it.",
+    "A trip that changes how you see home.",
+    "Travel changes you only if you slow down.",
+  ],
+  homework: [
+    "Viết 5 câu dùng slow travel, digital nomad, wanderlust, cultural sensitivity, transformative travel.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "transformative travel — band 7+ trong essay du lịch.",
+    "expensive scrolling — câu chốt band cao.",
+    "we share the world; we don't conquer it — câu band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 75,
+  levelId: "upper",
+  title: "Modern Dating",
+  titleVi: "Hẹn Hò Hiện Đại",
+  objectives: { listen: "Nghe phỏng vấn về dating apps", speak: "Speaking về tình yêu hiện đại", vocabFocus: "Dating vocab" },
+  vocabulary: [
+    { word: "dating app",        ipa: "", vi: "ứng dụng hẹn hò",     example: "Dating apps changed dating culture." },
+    { word: "swipe",             ipa: "/swaɪp/", vi: "vuốt",          example: "Swiping turned dating into a game." },
+    { word: "compatibility",     ipa: "/kəmˌpæt.əˈbɪl.ə.ti/", vi: "tương hợp", example: "Compatibility runs deeper than chemistry." },
+    { word: "ghosting",          ipa: "", vi: "biến mất không nói",    example: "Ghosting hurts emotionally." },
+    { word: "long-distance relationship", ipa: "", vi: "yêu xa",        example: "Long-distance relationships need structure." },
+    { word: "deal-breaker",      ipa: "", vi: "điều quyết định",        example: "Smoking is a deal-breaker for me." },
+    { word: "love language",     ipa: "", vi: "ngôn ngữ tình yêu",     example: "Quality time is my love language." },
+    { word: "red flag",          ipa: "", vi: "dấu hiệu xấu",            example: "Watch for red flags early." },
+    { word: "settle down",       ipa: "", vi: "ổn định",                  example: "Many people settle down later now." },
+    { word: "emotional maturity", ipa: "", vi: "sự trưởng thành cảm xúc", example: "Emotional maturity beats charm." },
+  ],
+  script: "Reporter: With us is Dr Mai, relationship therapist.\nDr Mai: Hi.\nReporter: How has dating changed?\nDr Mai: Dating used to be local. Now it's algorithmic. Apps expand the pool but compress attention. People swipe quickly and judge superficially. The signal-to-noise ratio dropped.\nReporter: Are apps bad?\nDr Mai: Tools, not enemies. Apps work for people who know what they want and use them intentionally — five real conversations beat fifty matches. Apps fail for people who use them to escape loneliness; they amplify it.\nReporter: Common mistakes?\nDr Mai: Three. First, ignoring red flags because of chemistry. Second, treating early dates as job interviews instead of curious conversations. Third, expecting perfect compatibility from the start.\nReporter: How important is compatibility?\nDr Mai: More than chemistry. Chemistry sparks; compatibility sustains. Long-term, the boring questions matter — money habits, communication style, values about family.\nReporter: Long-distance relationships?\nDr Mai: Possible if both treat distance as a season, not a sentence. Schedule overlapping calendars, plan visits, set a clear future endpoint. Without that structure, the relationship drifts.\nReporter: Ghosting?\nDr Mai: Lazy avoidance. A two-line message — 'I don't see this going further, thanks for the time' — saves dignity for both. Maturity is uncomfortable honesty.\nReporter: Red flags?\nDr Mai: Five. Disrespect for service workers. Inconsistency between words and actions. Inability to apologise. Pressure for fast intimacy. Lack of curiosity about your inner world.\nReporter: Final advice?\nDr Mai: Date who you want to become, not who you used to be. The right partner pulls you upward without shaming you for where you are.\nReporter: Beautiful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Three common dating mistakes?", options: ["fancy gifts, late texts, ghosting","ignoring red flags, treating dates as interviews, expecting perfect compatibility","too many photos, no jokes, weak intro","not updating profile, age gaps, distance"], correct: 1 },
+    { id: 2, type: "mcq",  question: "What sparks vs what sustains?",  options: ["money/sex","chemistry sparks, compatibility sustains","family/career","social media/dating apps"], correct: 1 },
+    { id: 3, type: "fill", question: "Five real conversations beat ____ matches.", answer: "fifty" },
+    { id: 4, type: "fill", question: "Treat distance as a ____, not a sentence.", answer: "season" },
+    { id: 5, type: "tfng", statement: "Ghosting is mature behaviour.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Red flags include disrespect for service workers.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Compatibility is less important than chemistry.", answer: "False" },
+    { id: 8, type: "short",question: "Five red flags?",                  answer: "disrespect, inconsistency, no apology, fast intimacy pressure, no curiosity" },
+    { id: 9, type: "short",question: "What does maturity equal?",         answer: "uncomfortable honesty" },
+    { id: 10,type: "short", question: "Final aphorism?",                  answer: "date who you want to become" },
+  ],
+  speakingPart1: [
+    { q: "Are dating apps popular in your country?",  bandLow: "Yes.",                                              bandMid: "Increasingly — Tinder, Bumble, and local apps are common in cities." },
+    { q: "Is online dating reliable?",                  bandLow: "Mixed.",                                            bandMid: "It works for those who know what they want; not as well for casual users." },
+    { q: "What qualities matter most in a partner?",     bandLow: "Kind.",                                              bandMid: "Emotional maturity, shared values, and consistent communication." },
+    { q: "Should partners share finances?",                bandLow: "Yes.",                                              bandMid: "Honest talks about money habits matter more than full sharing of accounts." },
+    { q: "Will love be different in 20 years?",             bandLow: "Maybe.",                                             bandMid: "Likely more digital but still rooted in attention and reliability." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a relationship lesson you have learned.\n- when you learned it\n- what happened\n- how it affected you\n- and explain what you would tell others.",
+    sample: "The lesson I'd like to share is the difference between chemistry and compatibility. Two years ago I dated someone with strong chemistry but very different money habits and communication styles. Things felt magical at first, then exhausting. We separated after five months. The lesson is that chemistry sparks but compatibility sustains. To others I'd say spend less time on instant attraction and more on the boring questions — values, money, conflict styles. Maturity is uncomfortable honesty.",
+    keywords: ["chemistry vs compatibility","boring questions","money habits","conflict styles","uncomfortable honesty"],
+  },
+  speakingPart3: [
+    { q: "Why are people marrying later?",          hint: "career, finance, choice" },
+    { q: "Should schools teach relationship skills?", hint: "communication, conflict, empathy" },
+    { q: "Are arranged marriages still relevant?",    hint: "tradition, modernity, success" },
+    { q: "Will AI affect dating?",                     hint: "matching, deepfake, ethics" },
+  ],
+  shadowing: [
+    "Apps expand the pool but compress attention.",
+    "Five real conversations beat fifty matches.",
+    "Chemistry sparks; compatibility sustains.",
+    "Distance is a season, not a sentence.",
+    "Date who you want to become.",
+  ],
+  homework: [
+    "Viết 5 câu dùng dating app, compatibility, ghosting, red flag, emotional maturity.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "deal-breaker (điều quyết định bỏ) — band 7.",
+    "uncomfortable honesty — câu band cao.",
+    "date who you want to become — câu band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 76,
+  levelId: "upper",
+  title: "Tech and Privacy",
+  titleVi: "Công Nghệ Và Quyền Riêng Tư",
+  objectives: { listen: "Nghe phỏng vấn về quyền riêng tư số", speak: "Speaking về dữ liệu cá nhân", vocabFocus: "Privacy vocab" },
+  vocabulary: [
+    { word: "data privacy",     ipa: "", vi: "quyền riêng tư dữ liệu", example: "Data privacy is a basic right." },
+    { word: "encryption",       ipa: "/ɪnˈkrɪp.ʃən/", vi: "mã hoá",   example: "End-to-end encryption protects messages." },
+    { word: "data breach",      ipa: "", vi: "rò rỉ dữ liệu",          example: "A data breach affected millions." },
+    { word: "consent",          ipa: "/kənˈsent/", vi: "đồng thuận",   example: "Genuine consent must be informed." },
+    { word: "cookie",           ipa: "", vi: "cookie",                  example: "Reject non-essential cookies." },
+    { word: "tracker",          ipa: "", vi: "trình theo dõi",          example: "Trackers follow you across sites." },
+    { word: "anonymous",        ipa: "/əˈnɒn.ɪ.məs/", vi: "ẩn danh",   example: "True anonymity is rare online." },
+    { word: "two-factor authentication", ipa: "", vi: "xác thực 2 lớp", example: "Always enable two-factor authentication." },
+    { word: "regulation",       ipa: "", vi: "quy định",                example: "GDPR is strong regulation." },
+    { word: "digital footprint",ipa: "", vi: "dấu vết số",              example: "Your digital footprint is permanent." },
+  ],
+  script: "Reporter: Today we discuss tech and privacy. With us is Dr Khang, cybersecurity researcher.\nDr Khang: Hi.\nReporter: How worried should we be about data privacy?\nDr Khang: Moderately worried, calmly proactive. Most users are not high-value targets, but they are profiled, sold, and persuaded daily. Convenience is the price tag.\nReporter: Common risks?\nDr Khang: Three. Data breaches expose passwords, leading to account takeovers. Trackers profile your behaviour for targeted ads, sometimes manipulating decisions. Phishing scams exploit urgency, fake banking notices, parcel tracking, and so on.\nReporter: Defences?\nDr Khang: Five layers. One — strong unique passwords with a password manager. Two — two-factor authentication on critical accounts. Three — regular software updates, especially mobile and browsers. Four — review app permissions monthly; deny location and microphone unless needed. Five — reject non-essential cookies and trackers.\nReporter: Encryption?\nDr Khang: End-to-end encryption is the gold standard for messaging. Choose Signal or WhatsApp over SMS for sensitive content. Encryption isn't optional today.\nReporter: Should governments regulate?\nDr Khang: Yes. GDPR and similar laws set baseline rights. Vietnam's draft law on personal data protection is a step forward but enforcement matters. Without strong fines, regulation is theatre.\nReporter: AI and privacy?\nDr Khang: AI eats data. Many models scrape personal content. The defence is to limit what you publicly post. Once online, content rarely fully disappears.\nReporter: Final advice?\nDr Khang: Treat your digital footprint like a tattoo. Reversible in theory, painful in practice. Think before you click, post, or accept.\nReporter: Powerful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Three common risks?", options: ["data breaches, trackers, phishing","weather, cars, food","power, water, gas","ads, news, video"], correct: 0 },
+    { id: 2, type: "mcq",  question: "Gold standard messaging?", options: ["SMS","email","end-to-end encryption","postcards"], correct: 2 },
+    { id: 3, type: "fill", question: "Convenience is the ____ ____.",  answer: "price tag" },
+    { id: 4, type: "fill", question: "Without strong ____, regulation is theatre.", answer: "fines" },
+    { id: 5, type: "tfng", statement: "Most users are high-value targets.", answer: "False" },
+    { id: 6, type: "tfng", statement: "GDPR is described as a baseline.",  answer: "True" },
+    { id: 7, type: "tfng", statement: "Online content fully disappears.",   answer: "False" },
+    { id: 8, type: "short",question: "Five defence layers?",              answer: "passwords/manager, 2FA, updates, app permissions, reject cookies/trackers" },
+    { id: 9, type: "short",question: "Two messaging apps mentioned?",      answer: "Signal, WhatsApp" },
+    { id: 10,type: "short", question: "Final metaphor for digital footprint?", answer: "like a tattoo" },
+  ],
+  speakingPart1: [
+    { q: "Are you worried about online privacy?",   bandLow: "Yes.",                                              bandMid: "Moderately — I use a password manager and reject most non-essential cookies." },
+    { q: "Do you read app permission requests?",      bandLow: "Sometimes.",                                         bandMid: "I review them monthly and deny location and microphone unless absolutely needed." },
+    { q: "Have you experienced data breach?",          bandLow: "Yes.",                                              bandMid: "Twice — old emails appeared on breach notification sites." },
+    { q: "Do you trust messaging apps?",                bandLow: "Some.",                                              bandMid: "Signal and WhatsApp for end-to-end encryption; SMS only for non-sensitive things." },
+    { q: "Should governments regulate big tech?",        bandLow: "Yes.",                                              bandMid: "Yes — clear rules, strong fines, and citizen-controlled data ownership." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a privacy concern you have had.\n- what happened\n- when\n- how you reacted\n- and explain what you learned.",
+    sample: "Two years ago, I received a phishing message claiming to be from my bank, asking me to verify a transaction by clicking a link. The link looked real. I almost clicked, but stopped because the URL was slightly off. I reported the message and changed all my banking passwords that night. The lesson is that even careful people are targets when they're tired or busy. Since then, I use a password manager, two-factor authentication, and I never click banking links from messages.",
+    keywords: ["phishing message","slightly off URL","password manager","two-factor authentication","tired or busy"],
+  },
+  speakingPart3: [
+    { q: "Should children have data rights?",   hint: "consent, parents, future" },
+    { q: "Are free apps really free?",            hint: "data trade, ads, behaviour" },
+    { q: "Will biometric ID replace passwords?",   hint: "convenience, risk, rights" },
+    { q: "Can privacy and AI coexist?",            hint: "minimisation, federated, design" },
+  ],
+  shadowing: [
+    "Convenience is the price tag.",
+    "Encryption isn't optional today.",
+    "Without strong fines, regulation is theatre.",
+    "Once online, content rarely fully disappears.",
+    "Treat your digital footprint like a tattoo.",
+  ],
+  homework: [
+    "Viết 5 câu dùng data privacy, encryption, consent, two-factor authentication, digital footprint.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "data breach (rò rỉ dữ liệu) — band 7+.",
+    "regulation is theatre — câu band cao.",
+    "digital footprint like a tattoo — câu chốt band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 77,
+  levelId: "upper",
+  title: "Crisis Management",
+  titleVi: "Quản Lý Khủng Hoảng",
+  objectives: { listen: "Nghe phỏng vấn về quản lý khủng hoảng", speak: "Speaking về tình huống khó khăn", vocabFocus: "Crisis vocab" },
+  vocabulary: [
+    { word: "crisis",            ipa: "/ˈkraɪ.sɪs/", vi: "khủng hoảng", example: "Every crisis tests leadership." },
+    { word: "decision-making",   ipa: "", vi: "ra quyết định",         example: "Decision-making slows under stress." },
+    { word: "contingency plan",  ipa: "", vi: "kế hoạch dự phòng",     example: "Always have a contingency plan." },
+    { word: "stakeholder",       ipa: "/ˈsteɪkˌhəʊl.dər/", vi: "bên liên quan", example: "Stakeholders demand transparency." },
+    { word: "communicate clearly", ipa: "", vi: "truyền đạt rõ",        example: "Communicate clearly during crisis." },
+    { word: "calm under pressure", ipa: "", vi: "bình tĩnh dưới áp lực", example: "Stay calm under pressure." },
+    { word: "lessons learned",   ipa: "", vi: "bài học rút ra",          example: "Hold lessons-learned reviews." },
+    { word: "post-mortem",       ipa: "", vi: "rà soát sau sự kiện",     example: "We held a post-mortem after the failure." },
+    { word: "resilience",        ipa: "/rɪˈzɪl.i.əns/", vi: "khả năng phục hồi", example: "Build resilience in advance." },
+    { word: "single source of truth", ipa: "", vi: "nguồn thông tin duy nhất", example: "Crisis needs a single source of truth." },
+  ],
+  script: "Reporter: With us is Mai, a corporate crisis advisor.\nMai: Hi.\nReporter: What defines a crisis well-handled?\nMai: Three traits. Speed of response, clarity of communication, and post-event learning. Many companies are decent at one or two, rarely all three.\nReporter: Common mistakes?\nMai: Three. One — silence. Stakeholders fill silence with worst-case stories. Two — over-promising. Apologies must match real plans. Three — skipping the post-mortem. Without it, the same crisis returns next year wearing a different costume.\nReporter: Inside the first hour?\nMai: Five steps. Confirm the facts, even partially. Activate the contingency plan. Form a small response team. Establish a single source of truth — one document, one channel. And acknowledge publicly within sixty minutes, even if details are unknown.\nReporter: Acknowledge so fast?\nMai: Yes. The shape of an apology is built before details are clear. People judge tone, speed, and concern, not perfect facts.\nReporter: Personal crises?\nMai: Same principles. Pause to confirm facts. Tell trusted people. Make the smallest reversible decision first. Big decisions in panic are rarely good.\nReporter: Resilience?\nMai: Pre-built. Companies that survived COVID best had cash buffers, cross-trained staff, and pre-existing trust with customers. Resilience is built in calm seasons, not stormy ones.\nReporter: Final lesson?\nMai: Crises don't reveal character; they reveal preparation. The leader you'll be in a storm is the leader you trained in good weather.\nReporter: Powerful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Three traits of well-handled crisis?", options: ["money, time, ads","speed, clarity, learning","silence, denial, blame","photos, slogans, prizes"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Acknowledge publicly within how long?", options: ["10 min","30 min","60 min","2 hours"], correct: 2 },
+    { id: 3, type: "fill", question: "Establish a ____ ____ of truth.", answer: "single source" },
+    { id: 4, type: "fill", question: "Resilience is built in ____ seasons.", answer: "calm" },
+    { id: 5, type: "tfng", statement: "Silence is helpful in a crisis.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Big decisions in panic are usually good.", answer: "False" },
+    { id: 7, type: "tfng", statement: "Crises reveal preparation, not character.", answer: "True" },
+    { id: 8, type: "short",question: "Three common mistakes?", answer: "silence, over-promising, skipping post-mortem" },
+    { id: 9, type: "short",question: "Five steps in the first hour?", answer: "confirm facts, contingency plan, response team, single source of truth, acknowledge publicly" },
+    { id: 10,type: "short", question: "Final aphorism?",            answer: "leader in storm is leader trained in good weather" },
+  ],
+  speakingPart1: [
+    { q: "Are you good under pressure?",       bandLow: "Sometimes.",                                       bandMid: "I'm steady when prepared, shaky when tired — preparation is my secret." },
+    { q: "Have you faced a personal crisis?",   bandLow: "Yes.",                                              bandMid: "Yes — a small one when my laptop crashed before a deadline; backups saved me." },
+    { q: "Do you make plans B?",                  bandLow: "Sometimes.",                                       bandMid: "Always for things that matter — finances, deadlines, travel." },
+    { q: "How do you cope with stress?",          bandLow: "Sleep.",                                            bandMid: "Walk, breathing exercises, then a clear written plan." },
+    { q: "Should leaders be transparent in crises?", bandLow: "Yes.",                                              bandMid: "Definitely — silence breeds rumours and erodes trust." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a crisis you handled well.\n- when it happened\n- what was at stake\n- what you did\n- and explain what you learned.",
+    sample: "Last quarter our product launch website went down two hours before a major announcement. The stake was customer trust and significant ad spend. I formed a small team of three, set up a single source of truth on Notion, restored a backup, and posted a transparent update on social media within forty minutes. The product launched late by ninety minutes, but customers appreciated the honesty. The lesson was that quick acknowledgement plus a tight team beats perfect technical recovery, and that resilience is built in calm seasons through good backups and cross-training.",
+    keywords: ["single source of truth","transparent update","quick acknowledgement","cross-training","resilience"],
+  },
+  speakingPart3: [
+    { q: "Why do many companies fail at crisis?", hint: "denial, ego, slow response" },
+    { q: "Is crisis communication a skill anyone can learn?", hint: "training, mentorship, practice" },
+    { q: "Should governments share more during emergencies?", hint: "trust, panic, accuracy" },
+    { q: "How does technology help in a crisis?", hint: "alerts, coordination, deepfake risk" },
+  ],
+  shadowing: [
+    "Stakeholders fill silence with worst-case stories.",
+    "Apologies must match real plans.",
+    "Resilience is built in calm seasons, not stormy ones.",
+    "Make the smallest reversible decision first.",
+    "Crises don't reveal character; they reveal preparation.",
+  ],
+  homework: [
+    "Viết 5 câu dùng crisis, contingency plan, stakeholder, resilience, lessons learned.",
+    "Ghi âm Part 1 câu 1, 4, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "post-mortem (rà soát sau sự kiện) — band 7+.",
+    "single source of truth — câu band cao.",
+    "leader in storm is leader trained in good weather — câu chốt band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 78,
+  levelId: "upper",
+  title: "Books That Changed History",
+  titleVi: "Sách Đã Thay Đổi Lịch Sử",
+  objectives: { listen: "Nghe phỏng vấn nhà sử học", speak: "Speaking về cuốn sách ảnh hưởng", vocabFocus: "Books-history" },
+  vocabulary: [
+    { word: "manuscript",       ipa: "/ˈmæn.jə.skrɪpt/", vi: "bản thảo", example: "An ancient manuscript survived." },
+    { word: "censorship",       ipa: "/ˈsen.sə.ʃɪp/", vi: "kiểm duyệt",   example: "Censorship shapes which ideas spread." },
+    { word: "translation",      ipa: "", vi: "bản dịch",                  example: "Translation makes ideas global." },
+    { word: "controversial",    ipa: "/ˌkɒn.trəˈvɜː.ʃəl/", vi: "gây tranh cãi", example: "Controversial books often endure." },
+    { word: "intellectual",     ipa: "/ˌɪn.təlˈek.tʃu.əl/", vi: "trí thức", example: "Intellectuals debated the ideas." },
+    { word: "spread of ideas",  ipa: "", vi: "lan toả ý tưởng",            example: "Printing accelerated the spread of ideas." },
+    { word: "literacy",         ipa: "/ˈlɪt.ər.ə.si/", vi: "khả năng đọc viết", example: "Literacy unlocks history." },
+    { word: "narrative",        ipa: "/ˈnær.ə.tɪv/", vi: "tự sự",          example: "A new narrative reframes a generation." },
+    { word: "reform",           ipa: "/rɪˈfɔːm/", vi: "cải cách",         example: "Reform follows uncomfortable books." },
+    { word: "underground",      ipa: "", vi: "ngầm",                       example: "Banned books often spread underground." },
+  ],
+  script: "Reporter: Today is books and history. With us is Professor Linh, historian.\nProf Linh: Hi.\nReporter: Which books changed history most?\nProf Linh: Three categories. Religious texts shaped morality across centuries. Political treatises like Common Sense by Thomas Paine sparked revolutions. Scientific works like On the Origin of Species reframed humanity's view of itself.\nReporter: Why do books matter so much?\nProf Linh: Books bundle ideas across distance and time. A single mind can plant a seed that blooms in another country a century later. Without portable narratives, civilisations forget their breakthroughs.\nReporter: Censorship?\nProf Linh: Banned books often gain power. The Soviet samizdat movement copied forbidden manuscripts by hand. Scarcity made them precious. Censorship rarely kills ideas; it slows them.\nReporter: Translation?\nProf Linh: Multiplies impact. Marx travelled through translation. Confucius too. A book confined to one language is a footnote; translated, it becomes a force.\nReporter: Modern equivalents?\nProf Linh: Long-form articles, viral essays, and podcasts. The form changes but the function — ideas crossing minds — remains. Even short tweets can spark large debates if rooted in clear narrative.\nReporter: Controversial books?\nProf Linh: Often the most lasting. They force societies to confront uncomfortable truths. Reform usually follows uncomfortable books, not comfortable ones.\nReporter: Are books still important?\nProf Linh: More than ever. Algorithms shorten attention. Books reward depth. Anyone who reads ten serious books a year on a topic gains a near-superpower compared to everyday browsing.\nReporter: Final advice?\nProf Linh: Read across centuries. New thinkers stand on old shoulders. Stand on those shoulders too.\nReporter: Beautiful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Three categories of impactful books?", options: ["religious, political, scientific","novel, drama, poetry","bio, math, art","history, science, fiction"], correct: 0 },
+    { id: 2, type: "mcq",  question: "Soviet movement that copied books by hand?", options: ["babushka","samizdat","perestroika","glasnost"], correct: 1 },
+    { id: 3, type: "fill", question: "Reform usually follows ____ books.",    answer: "uncomfortable" },
+    { id: 4, type: "fill", question: "Read across ____.",                      answer: "centuries" },
+    { id: 5, type: "tfng", statement: "Censorship usually kills ideas completely.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Translation multiplies impact.", answer: "True" },
+    { id: 7, type: "tfng", statement: "Books are less important now.", answer: "False" },
+    { id: 8, type: "short",question: "What does Common Sense represent?", answer: "political treatise sparking revolution" },
+    { id: 9, type: "short",question: "What can Origin of Species do?",     answer: "reframe humanity's view of itself" },
+    { id: 10,type: "short", question: "Final image?",                        answer: "stand on shoulders" },
+  ],
+  speakingPart1: [
+    { q: "What kinds of books do you read?",  bandLow: "Fiction.",                                              bandMid: "I balance fiction for empathy with non-fiction for ideas." },
+    { q: "Has a book changed your view?",      bandLow: "Yes.",                                                  bandMid: "Sapiens by Harari reshaped how I see human cooperation." },
+    { q: "Should some books be banned?",        bandLow: "No.",                                                   bandMid: "Generally not — reasoned counter-argument beats censorship." },
+    { q: "Are e-books replacing paper?",         bandLow: "Yes.",                                                   bandMid: "They coexist; paper for deep reading, e-books for travel." },
+    { q: "Will books matter in 50 years?",        bandLow: "Yes.",                                                   bandMid: "Definitely — depth still matters when algorithms reward shallowness." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a book that changed how you think.\n- what the book is\n- when you read it\n- what it argues\n- and explain how it changed you.",
+    sample: "I'd like to talk about Sapiens by Yuval Noah Harari. I read it in 2020 during lockdown. It argues that humans dominate the planet because of our ability to cooperate around shared fictions — money, religion, nations, companies. After reading, I started seeing institutions as stories that hold together only as long as people believe in them. That mental shift made me more curious about why certain ideas spread and certain groups thrive. The biggest gift of a great book is changing the questions you ask.",
+    keywords: ["shared fictions","cooperate at scale","mental shift","spread of ideas","change the questions"],
+  },
+  speakingPart3: [
+    { q: "Should classics be required reading?", hint: "perspective, language, age" },
+    { q: "Are influencers replacing authors?",     hint: "depth, distribution, trust" },
+    { q: "Can fiction shape society?",              hint: "empathy, imagination, change" },
+    { q: "What is the future of libraries?",         hint: "community, digital, equity" },
+  ],
+  shadowing: [
+    "Books bundle ideas across distance and time.",
+    "Censorship rarely kills ideas; it slows them.",
+    "Translated, it becomes a force.",
+    "Reform usually follows uncomfortable books.",
+    "Stand on those shoulders too.",
+  ],
+  homework: [
+    "Viết 5 câu dùng manuscript, censorship, controversial, narrative, literacy.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "samizdat — sao chép truyền tay sách cấm — band 7+.",
+    "stand on shoulders — viết tắt 'standing on the shoulders of giants'.",
+    "change the questions — câu chốt band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 79,
+  levelId: "upper",
+  title: "The Power of Habits",
+  titleVi: "Sức Mạnh Của Thói Quen",
+  objectives: { listen: "Nghe phỏng vấn về xây dựng thói quen", speak: "Speaking về thói quen tốt", vocabFocus: "Habits vocab" },
+  vocabulary: [
+    { word: "habit loop",       ipa: "", vi: "vòng thói quen",     example: "Cue, routine, reward — the habit loop." },
+    { word: "trigger",          ipa: "", vi: "kích hoạt",            example: "Identify your triggers." },
+    { word: "keystone habit",   ipa: "", vi: "thói quen chốt",       example: "Exercise is a keystone habit." },
+    { word: "automatic",        ipa: "/ˌɔː.təˈmæt.ɪk/", vi: "tự động", example: "Habits become automatic." },
+    { word: "habit stacking",   ipa: "", vi: "ghép chồng thói quen", example: "Habit stacking saves willpower." },
+    { word: "willpower",        ipa: "", vi: "ý chí",                  example: "Willpower is finite." },
+    { word: "consistency",      ipa: "", vi: "nhất quán",              example: "Consistency beats intensity." },
+    { word: "track progress",   ipa: "", vi: "theo dõi tiến độ",       example: "Tracking progress fuels motivation." },
+    { word: "small win",        ipa: "", vi: "chiến thắng nhỏ",         example: "Stack small wins daily." },
+    { word: "identity-based habit", ipa: "", vi: "thói quen gắn với danh tính", example: "Identity-based habits last longer." },
+  ],
+  script: "Reporter: Today we explore habits. With us is Coach Hieu.\nHieu: Hi.\nReporter: Why do habits matter so much?\nHieu: They run forty percent of daily decisions on autopilot. Most life outcomes are aggregated habits, not single decisions.\nReporter: How do habits form?\nHieu: A simple loop — cue, routine, reward. The cue triggers the action; the reward reinforces it; over time it becomes automatic.\nReporter: Why do habits fail?\nHieu: Three reasons. Overcommitment from day one. Hidden bad triggers. Lack of immediate rewards. Most people quit by week three because the brain hasn't yet wired the loop firmly.\nReporter: Successful habit-building?\nHieu: Five rules. One — make it small. Two-minute version of any habit. Two — anchor it to an existing habit. After morning coffee, do ten push-ups. Three — design environment. Phone out of bedroom for sleep, water bottle on desk for hydration. Four — track visibly. A wall calendar with crosses. Five — celebrate immediately. A small smile or fist pump rewires faster than delayed praise.\nReporter: Identity-based habits?\nHieu: The deepest form. Don't say 'I want to lose weight.' Say 'I am someone who walks daily.' Identity-based habits last because they align who you are with what you do.\nReporter: Bad habits?\nHieu: Same loop. Identify the cue. Replace the routine, not the reward. If stress triggers smoking, replace smoking with breathing. The reward — relief — stays.\nReporter: How long?\nHieu: Sixty-six days on average for an automatic habit. Some take longer for complex habits, but consistency over time is the magic.\nReporter: Final thought?\nHieu: We don't rise to the level of our goals; we fall to the level of our systems. Build the system, not just the goal.\nReporter: Powerful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Habits run what percent of daily decisions?", options: ["20%","40%","60%","80%"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Average days to automate a habit?",            options: ["21","42","66","100"], correct: 2 },
+    { id: 3, type: "fill", question: "Habit loop: cue, routine, ____.",                answer: "reward" },
+    { id: 4, type: "fill", question: "Identity-based: 'I am someone who ____ daily.'", answer: "walks" },
+    { id: 5, type: "tfng", statement: "Most people quit by week three.",               answer: "True" },
+    { id: 6, type: "tfng", statement: "Replace the reward, not the routine.",         answer: "False" },
+    { id: 7, type: "tfng", statement: "Tracking visibly fuels motivation.",            answer: "True" },
+    { id: 8, type: "short",question: "Five rules?",                                     answer: "make small, anchor, design environment, track, celebrate" },
+    { id: 9, type: "short",question: "Cue example for stress smoking replacement?",     answer: "stress" },
+    { id: 10,type: "short", question: "Final framing?",                                 answer: "fall to level of systems" },
+  ],
+  speakingPart1: [
+    { q: "Do you have a daily habit?",        bandLow: "Yes.",                                              bandMid: "Two — morning walk and evening journal, both anchored to coffee." },
+    { q: "Which habit was hardest to build?",   bandLow: "Exercise.",                                          bandMid: "Daily writing — stayed at zero for months until I made it a 5-minute habit." },
+    { q: "Do you track your habits?",            bandLow: "Yes.",                                              bandMid: "Wall calendar with crosses; nothing fancier needed." },
+    { q: "How do you handle missed days?",       bandLow: "Restart.",                                            bandMid: "Never miss two in a row; one slip is human, two becomes pattern." },
+    { q: "Are bad habits hard to quit?",          bandLow: "Yes.",                                              bandMid: "Yes — replacing the routine while keeping the reward is the cleanest method." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a habit you have built that improved your life.\n- what the habit is\n- when you started\n- how you built it\n- and explain its impact.",
+    sample: "I'd like to share my morning walking habit, which I started two years ago. The trick was making it small — twenty minutes after coffee, never before. I tracked it on a wall calendar and never missed two days in a row. Within six weeks it felt automatic. The impact has been broader than I expected: better mood, deeper sleep, sharper focus at work. The biggest insight is that consistency beats intensity, and small wins compound into a different identity. I am now genuinely someone who walks daily.",
+    keywords: ["habit loop","never miss two days","wall calendar","consistency beats intensity","identity-based habit"],
+  },
+  speakingPart3: [
+    { q: "Why do New Year resolutions fail?",      hint: "vague goals, willpower, no system" },
+    { q: "Should schools teach habits?",            hint: "self-management, life outcomes" },
+    { q: "How does environment shape behaviour?",   hint: "cues, friction, design" },
+    { q: "Can apps help build habits?",              hint: "tracking, gamification, addictive design" },
+  ],
+  shadowing: [
+    "Cue, routine, reward.",
+    "Make it small. Two-minute version of any habit.",
+    "Anchor it to an existing habit.",
+    "Replace the routine, not the reward.",
+    "We fall to the level of our systems.",
+  ],
+  homework: [
+    "Viết 5 câu dùng habit loop, trigger, keystone habit, habit stacking, identity-based habit.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "habit stacking — band 7+ trong essay productivity.",
+    "fall to level of systems — quote nổi tiếng.",
+    "small wins compound — câu band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 80,
+  levelId: "upper",
+  title: "Future of Cities",
+  titleVi: "Tương Lai Của Thành Phố",
+  objectives: { listen: "Nghe phỏng vấn về thành phố tương lai", speak: "Speaking về đô thị lý tưởng", vocabFocus: "Future cities" },
+  vocabulary: [
+    { word: "urbanisation",    ipa: "/ˌɜː.bə.naɪˈzeɪ.ʃən/", vi: "đô thị hoá", example: "Urbanisation accelerates in Asia." },
+    { word: "megacity",        ipa: "/ˈmeɡ.əˌsɪt.i/", vi: "siêu đô thị", example: "Hanoi is approaching megacity status." },
+    { word: "fifteen-minute city", ipa: "", vi: "thành phố 15 phút",  example: "A fifteen-minute city minimises commutes." },
+    { word: "green corridor",  ipa: "", vi: "hành lang xanh",          example: "Green corridors cool cities down." },
+    { word: "mixed-use",       ipa: "", vi: "đa năng",                  example: "Mixed-use buildings reduce car trips." },
+    { word: "affordable housing", ipa: "", vi: "nhà ở vừa túi tiền",   example: "Affordable housing keeps cities diverse." },
+    { word: "public transport",ipa: "", vi: "phương tiện công cộng",   example: "Quality public transport unlocks productivity." },
+    { word: "walkability",     ipa: "", vi: "khả năng đi bộ",            example: "Walkability boosts wellbeing." },
+    { word: "smart sensor",    ipa: "", vi: "cảm biến thông minh",       example: "Smart sensors optimise traffic flow." },
+    { word: "climate-resilient",ipa: "", vi: "thích ứng khí hậu",         example: "Climate-resilient design saves lives." },
+  ],
+  script: "Reporter: Today's topic is the future of cities. With us is Dr Loan, urban planner.\nDr Loan: Hi.\nReporter: Where are cities heading?\nDr Loan: Three big trends. First, fifteen-minute cities — neighbourhoods where everything you need is within fifteen minutes by foot or bike. Second, climate-resilient design — cities prepare for floods, heatwaves, and water scarcity. Third, mixed-use development — homes, offices, and shops together, reducing daily traffic.\nReporter: Affordable housing?\nDr Loan: The most pressing issue. Cities that price out workers and young families lose vitality. Solutions include rent regulation, social housing, and mixed-income neighbourhoods.\nReporter: Public transport?\nDr Loan: Backbone. Without quality public transport, even the best urban plan collapses. Vietnam needs metro expansion, smart bus networks, and protected cycling lanes.\nReporter: Smart cities?\nDr Loan: Useful when paired with citizen-centric design. Smart sensors, real-time dashboards, and predictive analytics improve services. The danger is surveillance creep without strong governance.\nReporter: Green corridors?\nDr Loan: Critical for liveability. Trees lower temperatures by several degrees, reduce noise, and lift mental health. Hanoi's tree-planting plan is encouraging if executed seriously.\nReporter: Climate?\nDr Loan: Coastal cities face flooding. Inland cities face heatwaves. Both face water stress. Future cities must integrate green infrastructure — rain gardens, permeable streets, urban forests.\nReporter: Walkability?\nDr Loan: An undervalued metric. Walkable streets foster local economies, social ties, and physical health. Cars consume space and silence streets.\nReporter: Final advice?\nDr Loan: Cities are not just hardware; they are stories of priorities. Make the priorities people first, climate second, cars last. The rest follows.\nReporter: Powerful close.",
+  questions: [
+    { id: 1, type: "mcq",  question: "How long should everything take in a 15-min city?", options: ["5 min","10 min","15 min","30 min"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Three big trends?", options: ["fifteen-minute cities, climate-resilient, mixed-use","megacity, sprawl, suburbs","ad density, parking, casinos","tourism, ports, mining"], correct: 0 },
+    { id: 3, type: "fill", question: "Without ____ ____, urban plans collapse.", answer: "public transport" },
+    { id: 4, type: "fill", question: "Make priorities: people first, climate second, cars ____.", answer: "last" },
+    { id: 5, type: "tfng", statement: "Smart cities work without governance.", answer: "False" },
+    { id: 6, type: "tfng", statement: "Walkability lifts mental health.",   answer: "True" },
+    { id: 7, type: "tfng", statement: "Trees only cool cities by one degree.", answer: "False" },
+    { id: 8, type: "short",question: "Three issues in housing solutions?",   answer: "rent regulation, social housing, mixed-income" },
+    { id: 9, type: "short",question: "Three urban climate threats?",         answer: "flooding, heatwaves, water stress" },
+    { id: 10,type: "short", question: "Cities are stories of ____?",          answer: "priorities" },
+  ],
+  speakingPart1: [
+    { q: "Do you live in a busy city?",       bandLow: "Yes.",                                              bandMid: "Yes — Hanoi, with growing public transport and traffic challenges." },
+    { q: "Is your neighbourhood walkable?",    bandLow: "A bit.",                                            bandMid: "Increasingly — small cafés, fresh markets, and a metro stop within ten minutes." },
+    { q: "Do you use public transport?",        bandLow: "Sometimes.",                                       bandMid: "Daily for commuting; the new metro line saves me almost an hour." },
+    { q: "What annoys you about the city?",      bandLow: "Traffic.",                                          bandMid: "Rush-hour traffic, air quality, and rising rent." },
+    { q: "Would you live in a smaller city?",     bandLow: "Maybe.",                                             bandMid: "Possibly — Da Nang or Da Lat for slower living and better air." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe an ideal city for the future.\n- what features it has\n- who would benefit\n- how it should be built\n- and explain why this matters.",
+    sample: "My ideal future city is a fifteen-minute city anchored by mixed-use buildings, abundant green corridors, and a fully integrated public transport system. Affordable housing should sit beside premium districts to maintain social diversity. Walkability would be the central design metric — wide sidewalks, shaded boulevards, and protected cycle lanes. Smart sensors would manage traffic and air quality, but governance would protect privacy. The city benefits everyone, especially the elderly, the poor, and children. This matters because cities are stories of priorities. We should design them around people, climate, and cars in that order.",
+    keywords: ["fifteen-minute city","mixed-use","green corridors","walkability","stories of priorities"],
+  },
+  speakingPart3: [
+    { q: "Are big cities sustainable?",        hint: "density, infrastructure, climate" },
+    { q: "Should we limit city size?",          hint: "spillover, planning, freedom" },
+    { q: "How will AI change urban planning?",   hint: "data, optimisation, equity" },
+    { q: "Is rural life better than urban?",     hint: "depends, services, health" },
+  ],
+  shadowing: [
+    "Fifteen-minute cities reduce commutes.",
+    "Cities that price out workers lose vitality.",
+    "Smart sensors improve services.",
+    "Walkable streets foster local economies.",
+    "Cities are stories of priorities.",
+  ],
+  homework: [
+    "Viết 5 câu dùng urbanisation, mixed-use, affordable housing, walkability, climate-resilient.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "fifteen-minute city — band 7+ chuyên môn quy hoạch.",
+    "stories of priorities — câu band cao.",
+    "people first, climate second, cars last — câu chốt band 7+.",
+  ],
+})
+
+LESSONS.push({
+  id: 81,
+  levelId: "ielts-mode",
+  title: "Library Membership Inquiry",
+  titleVi: "Đăng Ký Thành Viên Thư Viện",
+  objectives: { listen: "Mô phỏng IELTS Listening Section 1", speak: "Speaking Part 1+2+3 đầy đủ", vocabFocus: "Service inquiry vocab" },
+  vocabulary: [
+    { word: "membership",       ipa: "/ˈmem.bə.ʃɪp/", vi: "thẻ thành viên", example: "Apply for library membership." },
+    { word: "borrow",           ipa: "/ˈbɒr.əʊ/", vi: "mượn",           example: "I borrow three books a week." },
+    { word: "renewal",          ipa: "/rɪˈnjuː.əl/", vi: "gia hạn",      example: "Renewal is free online." },
+    { word: "fine",             ipa: "/faɪn/", vi: "tiền phạt",          example: "Late fines are small but real." },
+    { word: "deposit",          ipa: "", vi: "tiền cọc",                  example: "A small deposit is required." },
+    { word: "valid ID",         ipa: "", vi: "giấy tờ tuỳ thân hợp lệ",   example: "Bring a valid ID." },
+    { word: "reference",        ipa: "/ˈref.ər.əns/", vi: "tham khảo",   example: "Reference books stay in-house." },
+    { word: "online catalogue", ipa: "", vi: "danh mục online",            example: "Search the online catalogue." },
+    { word: "study room",       ipa: "", vi: "phòng học",                  example: "Book a study room online." },
+    { word: "annual fee",       ipa: "", vi: "phí năm",                    example: "The annual fee is reasonable." },
+  ],
+  script: "Librarian: Good afternoon, welcome to Hanoi Central Library. How can I help you?\nVisitor: Hi. I'd like to apply for a library membership.\nLibrarian: Of course. Could I have your full name?\nVisitor: My name is Tran Thi Lan, that's L-A-N.\nLibrarian: Thank you. Date of birth?\nVisitor: 14th of March, 1998.\nLibrarian: Address?\nVisitor: 27 Tran Hung Dao Street, Ba Dinh District.\nLibrarian: Phone?\nVisitor: 0912 345 678.\nLibrarian: Email?\nVisitor: lan.tran@example.com.\nLibrarian: We offer two types of memberships. The standard membership is one hundred thousand dong per year, allows you to borrow up to four books at a time for two weeks each. The premium membership is two hundred thousand dong, allows up to seven books for three weeks, and includes a study room booking right.\nVisitor: I'd choose premium.\nLibrarian: Excellent choice. We also require a refundable deposit of one hundred thousand dong, returned when you cancel membership. Do you have valid ID with you?\nVisitor: Yes, my ID card.\nLibrarian: Perfect. Now important rules. Late returns incur a fine of two thousand dong per book per day. Reference books and rare archives stay in the library — only borrow from the regular collection. You can renew up to three times online if no one else has reserved the title. Please return books to the second-floor counter.\nVisitor: Got it.\nLibrarian: One more thing — the library has free WiFi but please request the password at the front desk daily for security. Study rooms can be booked through our online portal at hanoilibrary.vn. Quiet hours are eight am to ten am every weekday — strict silence required.\nVisitor: Sounds great. When can I borrow my first books?\nLibrarian: Right after I activate your card. About fifteen minutes.\nVisitor: Perfect.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Membership type chosen?",        options: ["Basic","Standard","Premium","Annual"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Annual fee for premium?",          options: ["100,000","150,000","200,000","250,000"], correct: 2 },
+    { id: 3, type: "fill", question: "Deposit (refundable): ____ thousand.", answer: "one hundred" },
+    { id: 4, type: "fill", question: "Premium allows ____ books for ____ weeks.", answer: "seven, three" },
+    { id: 5, type: "fill", question: "Late fine per book per day: ____ thousand dong.", answer: "two" },
+    { id: 6, type: "fill", question: "Quiet hours: ____ am to ____ am.", answer: "eight, ten" },
+    { id: 7, type: "tfng", statement: "Reference books can be borrowed.", answer: "False" },
+    { id: 8, type: "tfng", statement: "Online renewal is allowed up to three times.", answer: "True" },
+    { id: 9, type: "short",question: "Where to return books?",            answer: "second-floor counter" },
+    { id: 10,type: "short", question: "Where to book study rooms?",       answer: "hanoilibrary.vn / online portal" },
+  ],
+  speakingPart1: [
+    { q: "Do you visit libraries?",            bandLow: "Sometimes.",                                       bandMid: "Once or twice a month for a quiet study environment and reference books." },
+    { q: "What kind of books do you read?",     bandLow: "Fiction.",                                          bandMid: "I balance fiction with non-fiction, especially psychology and history." },
+    { q: "Do you prefer paper or e-books?",      bandLow: "Both.",                                              bandMid: "Paper for deep reading at home, e-readers for travel." },
+    { q: "Are libraries still important?",        bandLow: "Yes.",                                              bandMid: "Definitely — they provide free access, quiet space, and community programmes." },
+    { q: "Did you read more as a child?",          bandLow: "Yes.",                                              bandMid: "Far more — Saturdays at the public library shaped my early curiosity." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a library or study space you have used.\n- where it is\n- when you go there\n- what you usually do\n- and explain what you like about it.",
+    sample: "I'd like to talk about Hanoi Central Library, which I joined last year. It's centrally located on Trang Thi Street, fifteen minutes from my office. I usually go on Saturday mornings to read and book a small study room for deep work. The collection is broad, the WiFi is fast, and the staff are friendly. What I love most is the silence between eight and ten am, when even whispers feel loud. It is the kind of focused atmosphere I cannot reproduce at home or in cafés.",
+    keywords: ["centrally located","study room","focused atmosphere","silence","cannot reproduce"],
+  },
+  speakingPart3: [
+    { q: "Should libraries be free for everyone?", hint: "equity, taxes, public good" },
+    { q: "How will libraries change with technology?", hint: "digital archives, AI, hybrid" },
+    { q: "Are libraries a luxury or a necessity?",      hint: "education, equity, depth" },
+    { q: "What role do libraries play in communities?",  hint: "social hub, study, programmes" },
+  ],
+  shadowing: [
+    "Welcome to Hanoi Central Library.",
+    "I'd like to apply for a library membership.",
+    "Premium allows up to seven books for three weeks.",
+    "Late returns incur a fine of two thousand dong per day.",
+    "Strict silence required.",
+  ],
+  homework: [
+    "Viết 5 câu dùng membership, borrow, renewal, valid ID, online catalogue.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "Section 1 IELTS thường có form completion — nghe số nhỏ + số lớn.",
+    "two thousand dong per book per day — luyện nghe số.",
+    "renewal vs return — phân biệt rõ.",
+  ],
+})
+
+LESSONS.push({
+  id: 82,
+  levelId: "ielts-mode",
+  title: "Conference Registration",
+  titleVi: "Đăng Ký Hội Thảo",
+  objectives: { listen: "IELTS Section 1 - form completion", speak: "Speaking về sự kiện chuyên môn", vocabFocus: "Conference vocab" },
+  vocabulary: [
+    { word: "registration",      ipa: "/ˌredʒ.ɪˈstreɪ.ʃən/", vi: "đăng ký", example: "Registration closes Friday." },
+    { word: "early bird",        ipa: "", vi: "đăng ký sớm",            example: "Early bird tickets save 25%." },
+    { word: "venue",             ipa: "/ˈven.juː/", vi: "địa điểm",      example: "The venue is downtown." },
+    { word: "keynote",           ipa: "/ˈkiː.nəʊt/", vi: "diễn giả chính", example: "The keynote opens the day." },
+    { word: "panel discussion",  ipa: "", vi: "tọa đàm",                  example: "Three panel discussions follow lunch." },
+    { word: "workshop",          ipa: "/ˈwɜːk.ʃɒp/", vi: "phòng thực hành", example: "Workshops are smaller and hands-on." },
+    { word: "networking",        ipa: "/ˈnet.wɜː.kɪŋ/", vi: "kết nối",   example: "Networking dinner Friday night." },
+    { word: "attendee",          ipa: "/əˌtenˈdiː/", vi: "người tham dự", example: "Attendees receive a printed badge." },
+    { word: "agenda",            ipa: "/əˈdʒen.də/", vi: "lịch trình",   example: "The full agenda is online." },
+    { word: "certificate of attendance", ipa: "", vi: "chứng nhận tham dự", example: "We issue a certificate of attendance." },
+  ],
+  script: "Receptionist: Welcome to Vietnam Tech Summit. Are you registering today?\nAttendee: Yes. My name is Pham Van Hung.\nReceptionist: Spelling please?\nAttendee: P-H-A-M, Hung — H-U-N-G.\nReceptionist: Phone number?\nAttendee: 0908 765 432.\nReceptionist: Email?\nAttendee: hung.pham@vietnamtech.vn.\nReceptionist: Are you registering as standard, premium, or VIP?\nAttendee: Premium, please.\nReceptionist: Premium is two million dong, but the early-bird rate of one and a half million ends today, so you save half a million.\nAttendee: Excellent.\nReceptionist: Premium includes access to all keynotes, three panel discussions, two workshops of your choice, lunch on both days, and a networking dinner Friday evening at 7pm.\nAttendee: Sounds good. Can I choose workshops now?\nReceptionist: Yes. Workshop A is at 10:30 am, Workshop B at 2:00 pm, Workshop C at 4:00 pm. Each lasts 90 minutes. Pick any two.\nAttendee: Workshop A and Workshop C.\nReceptionist: Good. Workshop A is on AI in marketing, Workshop C is on data privacy.\nAttendee: Perfect.\nReceptionist: Two more notes. The conference badge is required at all sessions; lost badge replacement costs fifty thousand dong. We do not allow late entry to the keynote.\nAttendee: Got it.\nReceptionist: At the end of day two, you'll receive a certificate of attendance via email. Please confirm your email is correct.\nAttendee: Yes.\nReceptionist: Last thing. Networking dinner is at the Pearl Hotel, fifth floor. Dress code is smart casual. The shuttle bus departs from the venue at 6:30pm.\nAttendee: Thank you.\nReceptionist: Welcome to the summit, Mr Pham.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Registration type?",         options: ["Standard","Premium","VIP","Student"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Early-bird rate?",             options: ["1.0m","1.5m","2.0m","2.5m"], correct: 1 },
+    { id: 3, type: "fill", question: "Networking dinner at ____ pm.", answer: "7" },
+    { id: 4, type: "fill", question: "Workshop length: ____ minutes.", answer: "90" },
+    { id: 5, type: "fill", question: "Lost badge replacement: ____ thousand dong.", answer: "fifty" },
+    { id: 6, type: "fill", question: "Shuttle bus departs at ____ pm.", answer: "6:30" },
+    { id: 7, type: "tfng", statement: "Late entry to the keynote is allowed.", answer: "False" },
+    { id: 8, type: "tfng", statement: "Workshop C is about data privacy.", answer: "True" },
+    { id: 9, type: "short",question: "Workshop A topic?",             answer: "AI in marketing" },
+    { id: 10,type: "short", question: "Dress code at networking dinner?", answer: "smart casual" },
+  ],
+  speakingPart1: [
+    { q: "Have you been to a conference?",        bandLow: "Yes.",                                              bandMid: "Yes — the Vietnam Tech Summit, plus two smaller marketing meetups." },
+    { q: "What do you enjoy about conferences?",   bandLow: "Learning.",                                         bandMid: "Quality keynotes, hands-on workshops, and serendipitous networking." },
+    { q: "Do you network well?",                    bandLow: "Sometimes.",                                        bandMid: "I prepare three open questions and remember names through writing them down." },
+    { q: "Online or in-person events?",              bandLow: "Both.",                                              bandMid: "In-person for energy and chance encounters, online for cost and breadth." },
+    { q: "What was your most useful event?",          bandLow: "A workshop.",                                        bandMid: "A small data-privacy workshop where I built a real risk register that day." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a conference or event you attended.\n- what it was about\n- when it took place\n- what you did there\n- and explain what you learned.",
+    sample: "I'd like to talk about the Vietnam Tech Summit which I attended last month. The two-day event covered AI in marketing, data privacy, and emerging tech in Southeast Asia. I picked Workshop A on AI in marketing and Workshop C on data privacy. The networking dinner on Friday evening was a highlight; I met three people I now collaborate with weekly. The biggest lesson was that the workshops, not the keynotes, deliver the deepest learning, and that smart casual networking dinners often produce the best long-term value.",
+    keywords: ["keynote","networking dinner","hands-on workshops","collaborate weekly","long-term value"],
+  },
+  speakingPart3: [
+    { q: "Why are conferences popular?",        hint: "knowledge, networking, branding" },
+    { q: "Will virtual conferences replace physical ones?", hint: "cost, hybrid, energy" },
+    { q: "How can attendees get most value?",    hint: "preparation, follow-up, focus" },
+    { q: "Are conferences worth the carbon footprint?", hint: "online alternatives, regional, value" },
+  ],
+  shadowing: [
+    "Are you registering as standard, premium, or VIP?",
+    "The early-bird rate ends today.",
+    "Pick any two workshops.",
+    "Lost badge replacement costs fifty thousand dong.",
+    "Dress code is smart casual.",
+  ],
+  homework: [
+    "Viết 5 câu dùng registration, early bird, keynote, panel discussion, networking.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "Section 1 luyện nghe số: 1.5m, 50k, 6:30pm.",
+    "smart casual = sơ mi + quần lịch sự, không cần vest.",
+    "certificate of attendance — band 7+ trong topic event.",
+  ],
+})
+
+LESSONS.push({
+  id: 83,
+  levelId: "ielts-mode",
+  title: "University Orientation Talk",
+  titleVi: "Buổi Định Hướng Đại Học",
+  objectives: { listen: "IELTS Section 2 — short talk", speak: "Speaking về môi trường đại học", vocabFocus: "Campus orientation" },
+  vocabulary: [
+    { word: "orientation",      ipa: "/ˌɔː.ri.enˈteɪ.ʃən/", vi: "định hướng", example: "Orientation runs all week." },
+    { word: "academic adviser", ipa: "", vi: "cố vấn học tập",        example: "Meet your academic adviser early." },
+    { word: "syllabus",         ipa: "/ˈsɪl.ə.bəs/", vi: "đề cương",  example: "The syllabus details every week." },
+    { word: "credit",           ipa: "/ˈkred.ɪt/", vi: "tín chỉ",      example: "Each course is three credits." },
+    { word: "lecture hall",     ipa: "", vi: "giảng đường",            example: "The lecture hall fits 300 students." },
+    { word: "lab session",      ipa: "", vi: "buổi thực hành",          example: "Labs run on Wednesdays." },
+    { word: "extracurricular",  ipa: "", vi: "ngoại khóa",               example: "Extracurricular clubs build leadership." },
+    { word: "office hours",     ipa: "", vi: "giờ tiếp sinh viên",       example: "Use professors' office hours." },
+    { word: "prerequisite",     ipa: "/ˌpriːˈrek.wɪ.zɪt/", vi: "môn tiên quyết", example: "This course has two prerequisites." },
+    { word: "transcript",       ipa: "/ˈtræn.skrɪpt/", vi: "bảng điểm",  example: "Order an official transcript." },
+  ],
+  script: "Speaker: Good morning everyone. Welcome to Hanoi University of Foreign Trade. My name is Professor Lan, head of student services. This twenty-minute talk covers four key topics for your first semester.\nFirst — academic structure. Each course carries three credits. You need at least sixteen credits per semester for full-time status. Most students take eighteen, with one elective. Some courses have prerequisites; check before you register. The deadline for course changes is the second Friday of the semester.\nSecond — your academic adviser. Every student has an assigned adviser. Find their name in the student portal. We strongly recommend you meet your adviser within the first three weeks. They review your study plan, recommend electives, and signpost scholarships.\nThird — campus resources. The main library opens from seven am to ten pm. Group study rooms can be booked online. The career office runs free CV reviews every Tuesday afternoon. The wellness centre offers four free counselling sessions per semester. The computer lab on the third floor of B Building has extended hours during exam weeks.\nFourth — extracurricular life. We have over fifty clubs covering debate, photography, robotics, and volunteering. Club fair takes place this Saturday from nine to twelve in the main hall. Joining at least one club is associated with higher academic performance and stronger graduate outcomes.\nA few quick rules. Mobile phones in lecture halls must be on silent. No food or drinks except water in the labs. Plagiarism is taken very seriously — two confirmed cases lead to suspension.\nFinally, remember three habits. Use office hours weekly, even fifteen minutes. Track your progress monthly with your adviser. And do not skip extracurriculars in the first year — they shape your network for life. Good luck.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Each course carries ____ credits.",        options: ["2","3","4","5"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Library hours?",                            options: ["7am-9pm","7am-10pm","8am-9pm","8am-10pm"], correct: 1 },
+    { id: 3, type: "fill", question: "Wellness centre offers ____ free counselling sessions per semester.", answer: "four" },
+    { id: 4, type: "fill", question: "Course change deadline: ____ Friday of the semester.", answer: "second" },
+    { id: 5, type: "fill", question: "Career office reviews CVs every ____ ____.",            answer: "Tuesday afternoon" },
+    { id: 6, type: "fill", question: "Club fair is on ____ from ____ to ____.",                answer: "Saturday, nine, twelve" },
+    { id: 7, type: "tfng", statement: "Plagiarism penalty: two cases lead to suspension.",     answer: "True" },
+    { id: 8, type: "tfng", statement: "Phones must be off in lectures.",                       answer: "False" },
+    { id: 9, type: "short",question: "Three weekly habits?",                                  answer: "office hours, monthly tracking with adviser, extracurriculars" },
+    { id: 10,type: "short", question: "Where is the computer lab?",                            answer: "third floor of B Building" },
+  ],
+  speakingPart1: [
+    { q: "Did you enjoy university?",          bandLow: "Yes.",                                              bandMid: "Mostly yes — the people more than the academics." },
+    { q: "Which subject did you like most?",    bandLow: "Marketing.",                                         bandMid: "Consumer behaviour, because it taught me why people buy." },
+    { q: "Did you join any clubs?",              bandLow: "Yes.",                                              bandMid: "Debate club and a research circle on supply chains." },
+    { q: "Did you use office hours?",             bandLow: "Sometimes.",                                         bandMid: "Yes — fifteen minutes there beat hundreds of pages of textbook." },
+    { q: "Would you study abroad?",                 bandLow: "Yes.",                                              bandMid: "Probably for a semester to experience a different teaching method." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe an orientation or training session you attended.\n- what it was for\n- when and where\n- what you learned\n- and explain how useful it was.",
+    sample: "I'd like to talk about my university orientation at Hanoi University of Foreign Trade. It happened on the first Monday of the semester at the main hall. Professor Lan covered four areas — academic structure, our adviser system, campus resources, and extracurricular life. She emphasised three weekly habits: use office hours, track progress monthly, and join at least one club. The session was extremely useful because it gave me a clear roadmap. I joined the debate club, met my adviser within the first three weeks, and visited the library by Friday. Looking back, those small habits set the tone for my entire university experience.",
+    keywords: ["academic adviser","extracurricular","office hours","weekly habits","clear roadmap"],
+  },
+  speakingPart3: [
+    { q: "How important is academic advising?",   hint: "decisions, mentorship, scholarships" },
+    { q: "Should universities require club involvement?", hint: "soft skills, network, time" },
+    { q: "How can technology improve orientation?",        hint: "videos, AI guides, dashboards" },
+    { q: "Is plagiarism worse with AI tools?",              hint: "detection, ethics, learning" },
+  ],
+  shadowing: [
+    "Each course carries three credits.",
+    "Find their name in the student portal.",
+    "Group study rooms can be booked online.",
+    "Plagiarism is taken very seriously.",
+    "Do not skip extracurriculars in the first year.",
+  ],
+  homework: [
+    "Viết 5 câu dùng credit, syllabus, academic adviser, prerequisite, transcript.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "office hours = giờ giảng viên tiếp sinh viên — band 6.5+.",
+    "Section 2 thường có note completion + map labelling.",
+    "extracurricular life — band 7+ trong topic education.",
+  ],
+})
+
+LESSONS.push({
+  id: 84,
+  levelId: "ielts-mode",
+  title: "Group Project Discussion",
+  titleVi: "Thảo Luận Nhóm Đại Học",
+  objectives: { listen: "IELTS Section 3 — academic discussion", speak: "Speaking về làm việc nhóm", vocabFocus: "Group work" },
+  vocabulary: [
+    { word: "literature review",  ipa: "", vi: "tổng quan tài liệu", example: "Start with a literature review." },
+    { word: "research question",  ipa: "", vi: "câu hỏi nghiên cứu", example: "A clear research question matters." },
+    { word: "methodology",        ipa: "/ˌmeθ.əˈdɒl.ə.dʒi/", vi: "phương pháp", example: "Justify your methodology." },
+    { word: "data collection",    ipa: "", vi: "thu thập dữ liệu",    example: "Plan data collection early." },
+    { word: "qualitative",        ipa: "/ˈkwɒl.ɪ.tə.tɪv/", vi: "định tính", example: "Qualitative interviews add depth." },
+    { word: "quantitative",       ipa: "/ˈkwɒn.tɪ.tə.tɪv/", vi: "định lượng", example: "Quantitative surveys give scale." },
+    { word: "deadline",           ipa: "", vi: "hạn nộp",                 example: "Project deadline is in six weeks." },
+    { word: "peer review",        ipa: "", vi: "phản biện đồng cấp",      example: "Peer review improves drafts." },
+    { word: "draft",              ipa: "/drɑːft/", vi: "bản nháp",        example: "Submit a first draft early." },
+    { word: "ethics approval",    ipa: "", vi: "phê duyệt đạo đức",       example: "Get ethics approval before interviews." },
+  ],
+  script: "Mai: Right, let's plan our group research project. We have six weeks and three of us. Topic — sustainable consumption among Hanoi students. Agreed?\nKhang: Yes. First, let's break it into stages.\nLinh: I suggest five — literature review, research question, methodology, data collection, draft writing.\nMai: Plus an ethics approval step before we interview anyone.\nKhang: True. Six stages then.\nLinh: How long for the literature review?\nMai: Two weeks. We'll each read fifteen recent papers and share summaries on Notion.\nKhang: Sounds reasonable. What's the research question?\nLinh: How about — what factors influence sustainable consumption choices among university students in Hanoi?\nMai: Strong. Specific, measurable, narrow.\nKhang: Methodology — qualitative or quantitative?\nLinh: I'd argue mixed. Quantitative survey to two hundred students gives scale; ten qualitative interviews add depth.\nMai: Good. Survey takes two weeks; interviews another two.\nKhang: We need ethics approval before any data collection. Three days at our university.\nLinh: Fine. We'll prepare consent forms and interview guides during literature review week.\nMai: Smart parallel work. After data collection, we have one week to draft, one week for peer review and edits.\nKhang: Tight but realistic.\nLinh: Roles. Mai owns survey design and quantitative analysis. Khang manages interviews and qualitative coding. I handle literature review and final integration.\nMai: Equal split. Communication?\nKhang: Daily fifteen-minute stand-up at 8 pm.\nLinh: I prefer 9 pm. Most flexible time.\nMai: Compromise — 8:30 pm.\nKhang: Deal. We meet in person twice a week, Zoom otherwise.\nLinh: One more thing. Citation tool — Zotero shared library.\nMai: Done. Let's send a kick-off email to our adviser tomorrow.\nKhang: Agreed.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Number of project stages?",        options: ["4","5","6","7"], correct: 2 },
+    { id: 2, type: "mcq",  question: "Methodology choice?",                options: ["pure qualitative","pure quantitative","mixed","experimental"], correct: 2 },
+    { id: 3, type: "fill", question: "Survey size: ____ students.",        answer: "two hundred" },
+    { id: 4, type: "fill", question: "Number of qualitative interviews: ____.", answer: "ten" },
+    { id: 5, type: "fill", question: "Daily stand-up at ____ pm.",          answer: "8:30" },
+    { id: 6, type: "fill", question: "Citation tool: ____.",                 answer: "Zotero" },
+    { id: 7, type: "tfng", statement: "Ethics approval is needed before data collection.", answer: "True" },
+    { id: 8, type: "tfng", statement: "They meet in person every day.",      answer: "False" },
+    { id: 9, type: "short",question: "Linh's role?",                          answer: "literature review and final integration" },
+    { id: 10,type: "short", question: "Project duration?",                    answer: "six weeks" },
+  ],
+  speakingPart1: [
+    { q: "Do you enjoy group projects?",          bandLow: "Sometimes.",                                       bandMid: "I do when expectations and roles are clear from day one." },
+    { q: "Have you led a group?",                  bandLow: "Yes.",                                              bandMid: "Yes — three group projects at university and one work team." },
+    { q: "What is the hardest part of group work?", bandLow: "Conflict.",                                          bandMid: "Coordinating schedules and aligning quality standards." },
+    { q: "How do you handle disagreement?",          bandLow: "Talk.",                                              bandMid: "Listen to the concern, name the trade-off, then propose two options." },
+    { q: "Are virtual groups effective?",             bandLow: "Yes.",                                              bandMid: "If the team uses async writing and weekly anchors, virtual works well." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a successful project you worked on with a team.\n- what the project was\n- when it took place\n- what you did\n- and explain why it succeeded.",
+    sample: "I'd like to talk about a six-week research project on sustainable consumption among Hanoi students. I was the literature reviewer and final integrator; my two teammates handled survey design and qualitative interviews. We split tasks early, agreed on a daily 8:30 pm stand-up, and used Zotero for shared citations. We earned ethics approval within three days and finished a credible mixed-method study on time. The project succeeded because we set clear roles, communicated daily, and respected each other's slots of independence. Equal contribution plus shared rhythm beats individual brilliance.",
+    keywords: ["mixed-method","ethics approval","equal contribution","shared rhythm","Zotero"],
+  },
+  speakingPart3: [
+    { q: "Why are some teams toxic?",      hint: "unclear roles, ego, lack of feedback" },
+    { q: "Should leaders rotate roles?",   hint: "ownership, fairness, learning" },
+    { q: "How does culture affect teamwork?", hint: "communication style, hierarchy, time" },
+    { q: "Will AI replace some team roles?", hint: "automation, augmentation, judgement" },
+  ],
+  shadowing: [
+    "We have six weeks and three of us.",
+    "I suggest five stages.",
+    "We'll each read fifteen recent papers.",
+    "Mixed method gives both scale and depth.",
+    "Compromise — 8:30 pm.",
+  ],
+  homework: [
+    "Viết 5 câu dùng literature review, methodology, qualitative, peer review, draft.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "Section 3 IELTS thường có matching speakers + opinions.",
+    "kick-off email — band 6.5+ trong topic chuyên môn.",
+    "equal contribution beats brilliance — câu chốt band cao.",
+  ],
+})
+
+LESSONS.push({
+  id: 85,
+  levelId: "ielts-mode",
+  title: "Academic Lecture: Behavioural Economics",
+  titleVi: "Bài Giảng Học Thuật",
+  objectives: { listen: "IELTS Section 4 — academic lecture", speak: "Speaking về quyết định kinh tế", vocabFocus: "Behavioural econ" },
+  vocabulary: [
+    { word: "behavioural economics", ipa: "", vi: "kinh tế hành vi",   example: "Behavioural economics changed policy." },
+    { word: "rational choice",        ipa: "", vi: "lựa chọn duy lý", example: "Rational choice theory has limits." },
+    { word: "cognitive bias",         ipa: "", vi: "thiên kiến nhận thức", example: "Cognitive biases shape spending." },
+    { word: "default option",         ipa: "", vi: "lựa chọn mặc định", example: "Default options drive behaviour." },
+    { word: "loss aversion",          ipa: "", vi: "ác cảm với mất mát", example: "Loss aversion outweighs equal gains." },
+    { word: "framing",                ipa: "/ˈfreɪ.mɪŋ/", vi: "cách định khung", example: "Framing changes perception." },
+    { word: "nudge",                  ipa: "/nʌdʒ/", vi: "đẩy nhẹ",     example: "A nudge changes choices." },
+    { word: "anchor",                 ipa: "/ˈæŋ.kər/", vi: "neo giá",  example: "Anchors influence price perception." },
+    { word: "experiment",             ipa: "/ɪkˈsper.ɪ.mənt/", vi: "thí nghiệm", example: "Behavioural experiments inform design." },
+    { word: "policy implication",     ipa: "", vi: "hàm ý chính sách",   example: "Policy implications follow research." },
+  ],
+  script: "Good afternoon. Today's lecture is on behavioural economics — a field that bridges psychology and economics, founded largely by Daniel Kahneman and Amos Tversky in the 1970s.\nClassical economics assumes people are rational. They evaluate options, compare costs and benefits, and choose what maximises utility. Behavioural economics shows the picture is more complicated. Real humans use mental shortcuts called heuristics. These shortcuts save effort but produce systematic errors known as cognitive biases.\nThree biases matter most. First — loss aversion. Studies show losing one hundred dollars hurts roughly twice as much as gaining one hundred dollars feels good. People avoid risk when framed as gains, but accept risk to avoid losses.\nSecond — default options. When a setting requires opt-in, participation is low. Switch to opt-out, and participation jumps. In retirement savings, opt-out enrollment increased participation from forty percent to over ninety percent in some studies.\nThird — anchoring. Initial numbers shape later judgement. Showing a 'crossed-out' high price next to a discounted one makes the discount feel larger, even when the discount is small.\nWhat are the policy implications? Governments now use 'nudges' — small design changes that steer behaviour without removing freedom. The UK's Behavioural Insights Team boosted tax compliance simply by adding 'most people in your area pay on time' to letters.\nCriticisms exist. First, nudges can be paternalistic; some argue they manipulate rather than inform. Second, evidence varies; some studies fail to replicate. Third, behavioural insights work better for small choices than for structural reforms.\nFor exam preparation, remember three names — Kahneman, Tversky, Thaler. Three concepts — heuristics, biases, nudges. And one key idea — small design changes can produce large behavioural shifts.\nNext week we'll explore how behavioural economics shapes pension policy and climate behaviour. Read pages 110 to 145 in the recommended textbook. Group A presents next Monday on framing in advertising. Group B prepares the literature review questions.\nThank you.",
+  questions: [
+    { id: 1, type: "mcq",  question: "Two founders mentioned?",     options: ["Smith and Marx","Kahneman and Tversky","Keynes and Hayek","Thaler and Sunstein"], correct: 1 },
+    { id: 2, type: "mcq",  question: "Loss aversion: losing hurts ____ times more.", options: ["1.5","2","3","5"], correct: 1 },
+    { id: 3, type: "fill", question: "Opt-out raises participation to over ____ percent.", answer: "ninety" },
+    { id: 4, type: "fill", question: "UK team improved ____ ____ via letters.", answer: "tax compliance" },
+    { id: 5, type: "fill", question: "Read pages ____ to ____ in textbook.",  answer: "110, 145" },
+    { id: 6, type: "tfng", statement: "Behavioural economics replaces classical economics.", answer: "False" },
+    { id: 7, type: "tfng", statement: "All studies in the field replicate easily.", answer: "False" },
+    { id: 8, type: "tfng", statement: "Group A presents on framing in advertising.", answer: "True" },
+    { id: 9, type: "short",question: "Three names to remember?",     answer: "Kahneman, Tversky, Thaler" },
+    { id: 10,type: "short", question: "Key idea?",                    answer: "small design changes produce large behavioural shifts" },
+  ],
+  speakingPart1: [
+    { q: "Do you enjoy economics topics?",         bandLow: "Some.",                                              bandMid: "Behavioural economics in particular — it explains daily decisions." },
+    { q: "Have you been influenced by a default?",   bandLow: "Yes.",                                              bandMid: "Yes — auto-saved investment plans pushed me to save sooner." },
+    { q: "Are humans rational?",                       bandLow: "Sometimes.",                                          bandMid: "Boundedly rational — usually quick heuristics, occasionally deep analysis." },
+    { q: "Have you been tricked by anchoring?",         bandLow: "Yes.",                                              bandMid: "Definitely — flash-sale 'crossed-out' prices fooled me more than once." },
+    { q: "Should governments nudge citizens?",           bandLow: "Maybe.",                                             bandMid: "Yes for low-stakes defaults; carefully for structural reforms requiring debate." },
+  ],
+  speakingPart2: {
+    cueCard: "Describe a time a small change influenced your decision.\n- what the change was\n- when it happened\n- how it influenced you\n- and explain whether you noticed at the time.",
+    sample: "Two years ago I auto-enrolled into a salary investment plan after a single email nudge from HR. The default sent two million dong each payday into an index fund unless I opted out within seven days. I didn't opt out. Two years later, the fund has grown noticeably. At the time, I didn't notice the design choice; only later, after reading about behavioural economics, I realised a small default had a large compounding effect. The lesson is that careful design beats willpower, and the smallest defaults often shape the biggest outcomes.",
+    keywords: ["auto-enrolment","default","seven-day window","compounding","design beats willpower"],
+  },
+  speakingPart3: [
+    { q: "Are nudges ethical?",                hint: "transparency, freedom, manipulation" },
+    { q: "How can schools use behavioural insights?", hint: "homework defaults, attendance, study habits" },
+    { q: "Can humans overcome biases?",          hint: "awareness, environment, training" },
+    { q: "Will AI exploit cognitive biases?",     hint: "personalisation, ads, deepfakes" },
+  ],
+  shadowing: [
+    "Real humans use mental shortcuts called heuristics.",
+    "Losing hurts twice as much as gaining feels good.",
+    "Default options drive behaviour.",
+    "Small design changes can produce large behavioural shifts.",
+    "Read pages 110 to 145 in the recommended textbook.",
+  ],
+  homework: [
+    "Viết 5 câu dùng cognitive bias, default option, loss aversion, anchor, nudge.",
+    "Ghi âm Part 1 câu 1, 3, 5.",
+    "Tóm tắt bài nghe.",
+  ],
+  vietnameseSupport: [
+    "Section 4 IELTS academic lecture — luyện nghe note completion + summary.",
+    "framing (cách định khung) — band 7+.",
+    "design beats willpower — câu chốt band 7+.",
+  ],
+})
+
+export const listeningPack = LESSONS.slice().sort((a, b) => a.id - b.id)
+
+export function getLessonById(id) { return listeningPack.find(l => l.id === id) }
+export function getLessonsByLevel(levelId) { return listeningPack.filter(l => l.levelId === levelId) }

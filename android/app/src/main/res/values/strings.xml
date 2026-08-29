@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">English Master IELTS</string>
+    <string name="title_activity_main">English Master IELTS</string>
+    <string name="package_name">com.nguyenanduong.englishmasterielts</string>
+    <string name="custom_url_scheme">com.nguyenanduong.englishmasterielts</string>
+</resources>

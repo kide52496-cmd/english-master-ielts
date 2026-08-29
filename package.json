@@ -1,0 +1,40 @@
+{
+  "name": "english-master-ielts",
+  "author": "Nguyễn An Dương",
+  "description": "English Master IELTS by Nguyễn An Dương — nền tảng học tiếng Anh offline từ mất gốc đến IELTS 6.0. © 2026 Nguyễn An Dương. All rights reserved.",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite preview --open --port 4173",
+    "icons": "node scripts/gen-icons.cjs && node scripts/gen-android-icons.cjs",
+    "android:sync": "vite build && cap sync android",
+    "android:open": "vite build && cap sync android && cap open android",
+    "android:apk": "vite build && cap sync android && cd android && gradlew.bat assembleDebug",
+    "android:apk-release": "vite build && cap sync android && cd android && gradlew.bat assembleRelease",
+    "ios:sync": "vite build && cap sync ios",
+    "ios:open": "vite build && cap sync ios && cap open ios"
+  },
+  "dependencies": {
+    "@capacitor-community/text-to-speech": "^8.0.0",
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/cli": "^8.3.4",
+    "@capacitor/core": "^8.3.4",
+    "@capacitor/ios": "^8.4.0",
+    "@capgo/capacitor-speech-recognition": "^8.1.7",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.4"
+  }
+}
