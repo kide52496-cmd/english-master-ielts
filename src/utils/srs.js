@@ -24,6 +24,7 @@ import {
   loadActivity,
   recordActivity,
   getLast7DaysActivity,
+  dayKey,
 } from './spacedRepetition'
 
 // ── re-export so call sites can use one import path ──────────────────────
@@ -43,6 +44,7 @@ export {
   loadActivity,
   recordActivity,
   getLast7DaysActivity,
+  dayKey,
 }
 
 // ── aggregated stats across BOTH stores ──────────────────────────────────
@@ -99,11 +101,15 @@ export function buildReviewQueue({ limit = 20 } = {}) {
   const fresh   = []
 
   for (const c of all) {
-    if (!c.nextReview) {
+    if (!c || typeof c !== 'object' || !c.id) continue
+    const nr = c.nextReview ? new Date(c.nextReview).getTime() : NaN
+    // Never reviewed, or an unusable timestamp: treat as new rather than
+    // dropping it — a NaN comparison is false in every branch below, which
+    // used to make such cards invisible to the queue forever.
+    if (!Number.isFinite(nr)) {
       fresh.push(c)
       continue
     }
-    const nr = new Date(c.nextReview).getTime()
     if (nr < now - 12 * 3600 * 1000) {
       overdue.push({ card: c, lateBy: now - nr })
       continue
@@ -163,6 +169,12 @@ export function resetCardSchedule(cardId) {
     lastReview:  null,
     correct:     0,
     incorrect:   0,
+    // Also clear the SM-2 fields, otherwise a card "reset to re-learn" keeps
+    // the ease and rep count it earned and immediately jumps back to a long
+    // interval on its first correct answer.
+    ease:        2.5,
+    reps:        0,
+    lapses:      0,
   }
   saveReviewData(data)
   return true

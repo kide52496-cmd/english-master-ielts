@@ -1,11 +1,9 @@
 // Daily mission + streak freeze helpers
 // Local, deterministic, no network.
 
-const MISSION_KEY = 'ema_daily_mission_v1'
+import { todayKey, isSameLocalDay } from './dates'
 
-function todayKey() {
-  return new Date().toISOString().slice(0, 10)
-}
+const MISSION_KEY = 'ema_daily_mission_v1'
 
 function xpMissionTarget(level = 1) {
   return Math.min(120, 20 + Math.max(0, (level - 1)) * 5)
@@ -61,11 +59,9 @@ export function createMissionSnapshot(state) {
 }
 
 function countTodayQuizAttempts(state) {
-  const today = new Date().toDateString()
   return (state?.quizScores || []).filter(q => {
     const stamp = q?.completedAt || q?.date || q?.timestamp
-    if (!stamp) return false
-    return new Date(stamp).toDateString() === today
+    return stamp ? isSameLocalDay(stamp, new Date()) : false
   }).length
 }
 

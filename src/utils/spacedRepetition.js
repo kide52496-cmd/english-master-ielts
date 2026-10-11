@@ -1,24 +1,62 @@
+import { dayKey } from './dates'
+
 const SRS_KEY = 'ema_review_v1'
+
+// SM-2 style tuning constants.
+const DEFAULT_EASE = 2.5
+const MIN_EASE = 1.3
+const MAX_EASE = 3.2
+const MAX_INTERVAL = 365      // days — no point scheduling further out
+const AGAIN_STEP_MINUTES = 10
+const LEARNING_STEPS = [1, 3] // days for the first two successful reviews
 
 // ── Persistence ────────────────────────────────────────────────────────────
 
 export function loadReviewData() {
   try {
     const raw = localStorage.getItem(SRS_KEY)
-    return raw ? JSON.parse(raw) : {}
+    if (!raw) return {}
+    const parsed = JSON.parse(raw)
+    // A tampered or half-written value must not crash every screen that reads
+    // the review pool — an empty pool is recoverable, a throw is not.
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {}
+    // Drop entries that are not card-shaped so downstream `.filter` callbacks
+    // never see a null or a string.
+    const clean = {}
+    for (const [id, card] of Object.entries(parsed)) {
+      if (card && typeof card === 'object' && !Array.isArray(card)) clean[id] = card
+    }
+    return clean
   } catch { return {} }
 }
 
 export function saveReviewData(data) {
   try {
+    if (!data || typeof data !== 'object') return false
     localStorage.setItem(SRS_KEY, JSON.stringify(data))
-  } catch {}
+    return true
+  } catch {
+    return false
+  }
 }
 
 // ── Card factory helpers ───────────────────────────────────────────────────
 
 function blankSRS() {
-  return { interval: 0, nextReview: null, lastReview: null, correct: 0, incorrect: 0 }
+  return {
+    interval: 0,
+    nextReview: null,
+    lastReview: null,
+    correct: 0,
+    incorrect: 0,
+    // SM-2 style fields. `ease` multiplies the interval on each success, so a
+    // card the user keeps getting right moves away fast, while a card they keep
+    // failing stays close. `reps` counts consecutive successes (0 after a lapse)
+    // and drives the two fixed learning steps.
+    ease: DEFAULT_EASE,
+    reps: 0,
+    lapses: 0,
+  }
 }
 
 export function buildVocabCard(word) {
@@ -87,45 +125,122 @@ export function buildGrammarCard(lesson) {
 
 // ── SRS scheduling ─────────────────────────────────────────────────────────
 // rating: 'again' | 'hard' | 'good' | 'easy'
+//
+// The previous version mapped each rating to a FIXED interval
+// ({again:0, hard:1, good:3, easy:7}), so a card answered 'good' twenty times
+// in a row still came back every three days — the schedule never graduated and
+// `getMasteredCards` (which needs a long interval) could never fire from
+// 'good' alone. This version grows the interval by a per-card ease factor, so
+// well-known cards drift out to weeks/months and shaky ones stay close.
 
-const INTERVALS = { again: 0, hard: 1, good: 3, easy: 7 }
+const clamp = (n, lo, hi) => Math.min(hi, Math.max(lo, n))
+
+function readSRS(card) {
+  const num = (v, fallback) => (Number.isFinite(Number(v)) ? Number(v) : fallback)
+  const interval = Math.max(0, num(card?.interval, 0))
+  const inferredReps = interval >= LEARNING_STEPS[LEARNING_STEPS.length - 1]
+    ? LEARNING_STEPS.length
+    : (interval > 0 ? 1 : 0)
+
+  return {
+    interval,
+    correct:   Math.max(0, num(card?.correct, 0)),
+    incorrect: Math.max(0, num(card?.incorrect, 0)),
+    lapses:    Math.max(0, num(card?.lapses, 0)),
+    ease:      clamp(num(card?.ease, DEFAULT_EASE), MIN_EASE, MAX_EASE),
+    reps:      Math.max(0, num(card?.reps, inferredReps)),
+  }
+}
 
 export function scheduleCard(card, rating) {
   const now = new Date()
-  const interval = INTERVALS[rating] ?? 1
-  const next = new Date(now)
-  if (interval === 0) {
-    next.setMinutes(next.getMinutes() + 10) // again → 10 min
-  } else {
-    next.setDate(next.getDate() + interval)
+  const prev = readSRS(card)
+
+  let { interval, ease, reps, lapses, correct, incorrect } = prev
+  let minutes = 0
+
+  switch (rating) {
+    case 'again':
+      // Lapse: back to the learning steps, ease down, revisit within the hour.
+      reps = 0
+      interval = 0
+      lapses += 1
+      incorrect += 1
+      ease = clamp(ease - 0.2, MIN_EASE, MAX_EASE)
+      minutes = AGAIN_STEP_MINUTES
+      break
+
+    case 'hard':
+      // Counts as a success, but only just: grow slowly and lower the ease.
+      correct += 1
+      reps += 1
+      ease = clamp(ease - 0.15, MIN_EASE, MAX_EASE)
+      interval = interval > 0 ? Math.max(1, Math.round(interval * 1.2)) : 1
+      break
+
+    case 'easy':
+      correct += 1
+      reps += 1
+      ease = clamp(ease + 0.15, MIN_EASE, MAX_EASE)
+      interval = reps <= LEARNING_STEPS.length
+        ? LEARNING_STEPS[LEARNING_STEPS.length - 1]
+        : Math.max(1, Math.round(interval * ease * 1.3))
+      break
+
+    case 'good':
+    default:
+      correct += 1
+      reps += 1
+      interval = reps <= LEARNING_STEPS.length
+        ? LEARNING_STEPS[reps - 1]
+        : Math.max(1, Math.round(interval * ease))
+      break
   }
+
+  interval = Math.min(interval, MAX_INTERVAL)
+
+  const next = new Date(now)
+  if (minutes > 0) next.setMinutes(next.getMinutes() + minutes)
+  else next.setDate(next.getDate() + interval)
+
   return {
     ...card,
     interval,
+    ease,
+    reps,
+    lapses,
+    correct,
+    incorrect,
     nextReview: next.toISOString(),
     lastReview: now.toISOString(),
-    correct:   rating === 'again' ? card.correct   : card.correct + 1,
-    incorrect: rating === 'again' ? card.incorrect + 1 : card.incorrect,
   }
 }
 
 // ── Query helpers ──────────────────────────────────────────────────────────
 
+// A card is "mature" once it survives three weeks between reviews — the point
+// where recall is reliable rather than merely recent. It used to be 7 days,
+// which the old fixed-interval scheduler could only ever reach via 'easy'.
+const MATURE_INTERVAL = 21
+
 export function isDueToday(card) {
-  if (!card.nextReview) return true
-  return new Date(card.nextReview) <= new Date()
+  if (!card || !card.nextReview) return true
+  const due = new Date(card.nextReview).getTime()
+  // A corrupt timestamp should surface the card for review, not hide it forever.
+  if (!Number.isFinite(due)) return true
+  return due <= Date.now()
 }
 
 export function getDueCards(data) {
-  return Object.values(data).filter(isDueToday)
+  return Object.values(data || {}).filter(isDueToday)
 }
 
 export function getWeakCards(data) {
-  return Object.values(data).filter(c => c.incorrect > 0 && c.incorrect >= c.correct)
+  return Object.values(data || {}).filter(c => c && c.incorrect > 0 && c.incorrect >= c.correct)
 }
 
 export function getMasteredCards(data) {
-  return Object.values(data).filter(c => c.interval >= 7 && c.correct >= 3)
+  return Object.values(data || {}).filter(c => c && c.interval >= MATURE_INTERVAL && c.correct >= 3)
 }
 
 // ── Sync learned words into review pool ───────────────────────────────────
@@ -174,22 +289,38 @@ export function syncFromAppState(reviewData, appState, vocabList, storyList, iel
 // ── Daily activity tracking ────────────────────────────────────────────────
 
 const ACTIVITY_KEY = 'ema_review_activity_v1'
+const MAX_ACTIVITY_DAYS = 30
+
+/**
+ * Local-calendar day key (YYYY-MM-DD). Re-exported from `dates.js` so existing
+ * call sites that import it from here keep working.
+ *
+ * `toISOString().slice(0,10)` was used here before, which is the *UTC* day. In
+ * UTC+7 that means everything studied between midnight and 7am was filed under
+ * the previous day, so the streak chart showed an empty column for a day the
+ * user had actually studied.
+ */
+export { dayKey }
 
 export function loadActivity() {
   try {
     const raw = localStorage.getItem(ACTIVITY_KEY)
-    return raw ? JSON.parse(raw) : {}
+    const parsed = raw ? JSON.parse(raw) : {}
+    return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {}
   } catch { return {} }
 }
 
 export function recordActivity(count = 1) {
-  const today = new Date().toISOString().slice(0, 10)
+  const today = dayKey()
   const data = loadActivity()
-  data[today] = (data[today] || 0) + count
-  // Keep only last 30 days
+  const add = Math.max(1, Number.isFinite(Number(count)) ? Number(count) : 1)
+  data[today] = Math.max(0, Number(data[today]) || 0) + add
+
+  // Keep only the most recent 30 days. Keys are zero-padded YYYY-MM-DD, so a
+  // plain lexicographic sort is chronological.
   const keys = Object.keys(data).sort()
-  if (keys.length > 30) {
-    keys.slice(0, keys.length - 30).forEach(k => delete data[k])
+  if (keys.length > MAX_ACTIVITY_DAYS) {
+    keys.slice(0, keys.length - MAX_ACTIVITY_DAYS).forEach(k => delete data[k])
   }
   try { localStorage.setItem(ACTIVITY_KEY, JSON.stringify(data)) } catch {}
   return data
@@ -201,9 +332,9 @@ export function getLast7DaysActivity() {
   for (let i = 6; i >= 0; i--) {
     const d = new Date()
     d.setDate(d.getDate() - i)
-    const key = d.toISOString().slice(0, 10)
+    const key = dayKey(d)
     const label = d.toLocaleDateString('vi-VN', { weekday: 'short' })
-    days.push({ key, label, count: data[key] || 0 })
+    days.push({ key, label, count: Math.max(0, Number(data[key]) || 0) })
   }
   return days
 }

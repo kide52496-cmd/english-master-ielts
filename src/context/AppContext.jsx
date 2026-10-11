@@ -29,6 +29,7 @@ const initialState = {
   missionRewardClaimedDate: null,
   newAchievements: [],
   readStories: [],
+  readPassages: [],
   completedVideoLessons: [],
   videoLessons: [],
   wordReviews: {},
@@ -41,6 +42,10 @@ const initialState = {
     checkedItems: [],
     targetBand: '6.0',
   },
+  // True once saved progress has been merged in (or confirmed absent).
+  // Nothing may be persisted or streak-adjusted before this flips, otherwise
+  // the first render's empty state overwrites real progress on disk.
+  hydrated: false,
 }
 
 function calcLevel(xp) {
@@ -66,6 +71,7 @@ function normalizeState(payload = {}) {
     unlockedAchievements: Array.isArray(next.unlockedAchievements) ? next.unlockedAchievements : [],
     newAchievements: Array.isArray(next.newAchievements) ? next.newAchievements : [],
     readStories: Array.isArray(next.readStories) ? next.readStories : [],
+    readPassages: Array.isArray(next.readPassages) ? next.readPassages : [],
     completedVideoLessons: Array.isArray(next.completedVideoLessons) ? next.completedVideoLessons : [],
     videoLessons: Array.isArray(next.videoLessons) ? next.videoLessons : [],
     streakFreezes: Math.max(0, Number(next.streakFreezes || 0)),
@@ -77,6 +83,9 @@ function normalizeState(payload = {}) {
     xp,
     level: calcLevel(xp),
     currentStageId: getStageByXP(xp).id,
+    // Whatever `hydrated` was on disk, a normalized state is by definition
+    // the post-load state.
+    hydrated: true,
   }
 }
 
@@ -84,6 +93,11 @@ function reducer(state, action) {
   switch (action.type) {
     case 'LOAD_STATE':
       return normalizeState({ ...action.payload, newAchievements: [] })
+
+    // No saved progress on disk — a fresh install is "hydrated" too, and must
+    // be allowed to start saving.
+    case 'HYDRATED':
+      return state.hydrated ? state : { ...state, hydrated: true }
 
     case 'LEARN_WORD': {
       if (state.learnedWords.includes(action.wordId)) return state
@@ -279,7 +293,9 @@ function reducer(state, action) {
       }
 
     case 'RESET_PROGRESS':
-      return { ...initialState }
+      // Keep `hydrated` so the wipe itself gets persisted instead of being
+      // treated as a pre-load state and skipped.
+      return { ...initialState, hydrated: true }
 
     case 'RESET_REVIEWS':
       // Security: clear tampered SRS data
@@ -292,64 +308,103 @@ function reducer(state, action) {
 
 export function AppProvider({ children }) {
   const [state, dispatch] = useReducer(reducer, initialState)
-  const initialized = useRef(false)
   const streakUpdated = useRef(false)
+  // Always points at the newest state so the unload flush never writes a
+  // stale snapshot captured when the listener was attached.
+  const latest = useRef(state)
+  latest.current = state
 
   useEffect(() => {
     const saved = loadProgress()
-    if (saved) {
-      dispatch({ type: 'LOAD_STATE', payload: saved })
-    }
-    initialized.current = true
+    if (saved) dispatch({ type: 'LOAD_STATE', payload: saved })
+    else dispatch({ type: 'HYDRATED' })
   }, [])
 
+  // Persist. The dependency is the whole state object: the previous version
+  // listed a handful of keys, so anything changed by an unlisted action
+  // (phrasebook favourites, IELTS checklist, user-created video lessons,
+  // reading progress, SRS reviews…) was written only if some *other* change
+  // happened to fire the effect. Reducer cases return a new object only when
+  // something actually changed, so this does not over-fire.
   useEffect(() => {
-    if (!initialized.current) return
-
+    if (!state.hydrated) return
     // Debounce the (potentially large) full-state serialize so a burst of
     // rapid changes only writes to localStorage once, not on every dispatch.
     const t = setTimeout(() => saveProgress(state), 400)
+    return () => clearTimeout(t)
+  }, [state])
 
-    // Achievement check is cheap and should stay responsive.
-    const newOnes = checkNewAchievements(state)
-    newOnes.forEach(a => {
+  // A debounce loses the final write when the app is closed or backgrounded
+  // mid-window — on Android `pagehide`/`visibilitychange` are often the only
+  // events that fire at all.
+  useEffect(() => {
+    const flush = () => {
+      if (latest.current.hydrated) saveProgress(latest.current)
+    }
+    const onVisibility = () => {
+      if (document.visibilityState === 'hidden') flush()
+    }
+    window.addEventListener('pagehide', flush)
+    window.addEventListener('beforeunload', flush)
+    document.addEventListener('visibilitychange', onVisibility)
+    return () => {
+      window.removeEventListener('pagehide', flush)
+      window.removeEventListener('beforeunload', flush)
+      document.removeEventListener('visibilitychange', onVisibility)
+    }
+  }, [])
+
+  // Achievements stay un-debounced so the unlock toast feels immediate.
+  // `checkNewAchievements` skips already-unlocked ids, so the extra pass its
+  // own dispatch triggers converges on the next render.
+  useEffect(() => {
+    if (!state.hydrated) return
+    checkNewAchievements(state).forEach(a => {
       dispatch({ type: 'UNLOCK_ACHIEVEMENT', achievementId: a.id, xpReward: a.xp })
     })
-
-    return () => clearTimeout(t)
-  }, [state.learnedWords, state.quizScores, state.completedGrammar, state.completedListening, state.completedSpeaking, state.streak, state.xp])
+  }, [
+    state.hydrated, state.learnedWords, state.quizScores, state.completedGrammar,
+    state.completedListening, state.completedSpeaking, state.streak, state.xp,
+  ])
 
   useEffect(() => {
-    if (!initialized.current || streakUpdated.current) return
-    const today = new Date().toDateString()
-    if (state.lastStudyDate === today) return
+    // Gate on the hydrated flag, not a ref: a ref set inside the load effect
+    // is already true during that same commit while `state` is still the empty
+    // initial state — which is what used to reset a 40-day streak to 1 and
+    // zero out today's progress on every launch.
+    if (!state.hydrated || streakUpdated.current) return
     streakUpdated.current = true
+
+    const today = new Date().toDateString()
+
+    // A new calendar day starts today's goal from zero. Checked independently
+    // of the streak so a state saved before this field existed still gets one.
+    if (state.dailyGoalDate !== today) {
+      dispatch({ type: 'RESET_DAILY_PROGRESS', date: today })
+    }
+
+    // Already counted today — the streak itself needs no further work.
+    if (state.lastStudyDate === today) return
 
     const yesterday = new Date()
     yesterday.setDate(yesterday.getDate() - 1)
     const isConsecutive = state.lastStudyDate === yesterday.toDateString()
     const canFreeze = (state.streakFreezes || 0) > 0
-    const shouldUseFreeze = Boolean(state.lastStudyDate) && !isConsecutive
+    const missedADay = Boolean(state.lastStudyDate) && !isConsecutive
 
-    if (shouldUseFreeze && canFreeze) {
+    if (missedADay && canFreeze) {
+      // Spend a freeze to keep the streak alive across the gap.
       dispatch({ type: 'USE_STREAK_FREEZE' })
       dispatch({ type: 'UPDATE_STREAK', streak: state.streak, date: today })
     } else {
-      const newStreak = isConsecutive ? state.streak + 1 : 1
-      dispatch({ type: 'UPDATE_STREAK', streak: newStreak, date: today })
+      dispatch({ type: 'UPDATE_STREAK', streak: isConsecutive ? state.streak + 1 : 1, date: today })
     }
 
-    // Weekly refill: every Monday reset freezes to 2
-    const now = new Date()
-    if (now.getDay() === 1) {
+    // Weekly refill: every Monday freezes go back to 2.
+    if (new Date().getDay() === 1) {
       dispatch({ type: 'RESET_STREAK_FREEZES', count: 2 })
     }
-
-    // Reset daily progress for new day
-    if (state.dailyGoalDate !== today) {
-      dispatch({ type: 'RESET_DAILY_PROGRESS', date: today })
-    }
-  }, [state.lastStudyDate, state.streak, state.dailyGoalDate, state.streakFreezes])
+  }, [state.hydrated, state.lastStudyDate, state.streak, state.dailyGoalDate, state.streakFreezes])
 
   return (
     <AppContext.Provider value={{ state, dispatch }}>

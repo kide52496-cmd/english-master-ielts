@@ -5,6 +5,7 @@ node_modules/
 dist/
 dist-ssr/
 *.local
+cloudflared.exe
 
 # Nested duplicate copy of the whole project (~120 MB, snapshot 2026-05-30).
 # Kept on disk untouched, but never versioned.

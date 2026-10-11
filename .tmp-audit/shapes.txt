@@ -1,0 +1,396 @@
+    12  courseLessons_a1.js lessons_a1[]
+         keys: id,levelId,unit,unitTitle,lessonNo,title,titleVi,skill,difficulty,estimatedMinutes,objectives,explanationVi,warmupQuestion,keyPoints,structure,commonMistakes,tips,examples,practice,miniQuiz,xpReward,vocabIds,nextLessonId,answerExplanationVi,homework,unlockRequirement
+         eg: {"id":2001,"levelId":"a1","unit":1,"unitTitle":"Unit 1","lessonNo":1,"title":"Present Simple","titleVi":"Bài 1: Present Simple","skill":"vocabulary","difficulty":"easy","estimatedMinutes":8,"objectives":["Hiểu trọng tâm: Present Simple","Áp dụng cấu trúc vào tình huống thực tế","Nhận biết lỗi thường gặp với Bài 1: Present Simple","Hoàn thành bài tập và quiz đạt 70%"],"explanationVi":"Bài học \"Bài
+    48  courseLessons_a1.js lessons_a1[].examples[]
+         keys: en,vi
+         eg: {"en":"Bài 1: Present Simple is important for daily life.","vi":"Bài 1: Present Simple rất quan trọng trong cuộc sống."}
+    72  courseLessons_a1.js lessons_a1[].miniQuiz[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Present Simple\"?","options":["Lựa chọn A (Bài 1: Present Simple)","Bài 1: Present Simple answer 1","Lựa chọn C (Bài 1: Present Simple)","Lựa chọn D (Bài 1: Present Simple)"],"correctAnswer":"Bài 1: Present Simple answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Present Simple answer 1\"."}
+    48  courseLessons_a1.js lessons_a1[].practice[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Present Simple\"?","options":["Lựa chọn A (Bài 1: Present Simple)","Bài 1: Present Simple answer 1","Lựa chọn C (Bài 1: Present Simple)","Lựa chọn D (Bài 1: Present Simple)"],"correctAnswer":"Bài 1: Present Simple answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Present Simple answer 1\"."}
+    12  courseLessons_a2.js lessons_a2[]
+         keys: id,levelId,unit,unitTitle,lessonNo,title,titleVi,skill,difficulty,estimatedMinutes,objectives,explanationVi,warmupQuestion,keyPoints,structure,commonMistakes,tips,examples,practice,miniQuiz,xpReward,vocabIds,nextLessonId,answerExplanationVi,homework,unlockRequirement
+         eg: {"id":3001,"levelId":"a2","unit":1,"unitTitle":"Unit 1","lessonNo":1,"title":"Past Simple","titleVi":"Bài 1: Past Simple","skill":"vocabulary","difficulty":"easy","estimatedMinutes":8,"objectives":["Hiểu trọng tâm: Past Simple","Áp dụng cấu trúc vào tình huống thực tế","Nhận biết lỗi thường gặp với Bài 1: Past Simple","Hoàn thành bài tập và quiz đạt 70%"],"explanationVi":"Bài học \"Bài 1: Past Sim
+    48  courseLessons_a2.js lessons_a2[].examples[]
+         keys: en,vi
+         eg: {"en":"Bài 1: Past Simple is important for daily life.","vi":"Bài 1: Past Simple rất quan trọng trong cuộc sống."}
+    72  courseLessons_a2.js lessons_a2[].miniQuiz[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Past Simple\"?","options":["Lựa chọn A (Bài 1: Past Simple)","Bài 1: Past Simple answer 1","Lựa chọn C (Bài 1: Past Simple)","Lựa chọn D (Bài 1: Past Simple)"],"correctAnswer":"Bài 1: Past Simple answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Past Simple answer 1\"."}
+    48  courseLessons_a2.js lessons_a2[].practice[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Past Simple\"?","options":["Lựa chọn A (Bài 1: Past Simple)","Bài 1: Past Simple answer 1","Lựa chọn C (Bài 1: Past Simple)","Lựa chọn D (Bài 1: Past Simple)"],"correctAnswer":"Bài 1: Past Simple answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Past Simple answer 1\"."}
+    12  courseLessons_b1.js lessons_b1[]
+         keys: id,levelId,unit,unitTitle,lessonNo,title,titleVi,skill,difficulty,estimatedMinutes,objectives,explanationVi,warmupQuestion,keyPoints,structure,commonMistakes,tips,examples,practice,miniQuiz,xpReward,vocabIds,nextLessonId,answerExplanationVi,homework,unlockRequirement
+         eg: {"id":4001,"levelId":"b1","unit":1,"unitTitle":"Unit 1","lessonNo":1,"title":"Present Perfect","titleVi":"Bài 1: Present Perfect","skill":"vocabulary","difficulty":"easy","estimatedMinutes":8,"objectives":["Hiểu trọng tâm: Present Perfect","Áp dụng cấu trúc vào tình huống thực tế","Nhận biết lỗi thường gặp với Bài 1: Present Perfect","Hoàn thành bài tập và quiz đạt 70%"],"explanationVi":"Bài học \
+    48  courseLessons_b1.js lessons_b1[].examples[]
+         keys: en,vi
+         eg: {"en":"Bài 1: Present Perfect is important for daily life.","vi":"Bài 1: Present Perfect rất quan trọng trong cuộc sống."}
+    72  courseLessons_b1.js lessons_b1[].miniQuiz[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Present Perfect\"?","options":["Lựa chọn A (Bài 1: Present Perfect)","Bài 1: Present Perfect answer 1","Lựa chọn C (Bài 1: Present Perfect)","Lựa chọn D (Bài 1: Present Perfect)"],"correctAnswer":"Bài 1: Present Perfect answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Present Perfect answer 1\"."}
+    48  courseLessons_b1.js lessons_b1[].practice[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Present Perfect\"?","options":["Lựa chọn A (Bài 1: Present Perfect)","Bài 1: Present Perfect answer 1","Lựa chọn C (Bài 1: Present Perfect)","Lựa chọn D (Bài 1: Present Perfect)"],"correctAnswer":"Bài 1: Present Perfect answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Present Perfect answer 1\"."}
+    10  courseLessons_b1plus.js lessons_b1plus[]
+         keys: id,levelId,unit,unitTitle,lessonNo,title,titleVi,skill,difficulty,estimatedMinutes,objectives,explanationVi,warmupQuestion,keyPoints,structure,commonMistakes,tips,examples,practice,miniQuiz,xpReward,vocabIds,nextLessonId,answerExplanationVi,homework,unlockRequirement
+         eg: {"id":5001,"levelId":"b1plus","unit":1,"unitTitle":"Unit 1","lessonNo":1,"title":"Mixed Tenses","titleVi":"Bài 1: Mixed Tenses","skill":"vocabulary","difficulty":"easy","estimatedMinutes":8,"objectives":["Hiểu trọng tâm: Mixed Tenses","Áp dụng cấu trúc vào tình huống thực tế","Nhận biết lỗi thường gặp với Bài 1: Mixed Tenses","Hoàn thành bài tập và quiz đạt 70%"],"explanationVi":"Bài học \"Bài 1: 
+    40  courseLessons_b1plus.js lessons_b1plus[].examples[]
+         keys: en,vi
+         eg: {"en":"Bài 1: Mixed Tenses is important for daily life.","vi":"Bài 1: Mixed Tenses rất quan trọng trong cuộc sống."}
+    60  courseLessons_b1plus.js lessons_b1plus[].miniQuiz[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Mixed Tenses\"?","options":["Lựa chọn A (Bài 1: Mixed Tenses)","Bài 1: Mixed Tenses answer 1","Lựa chọn C (Bài 1: Mixed Tenses)","Lựa chọn D (Bài 1: Mixed Tenses)"],"correctAnswer":"Bài 1: Mixed Tenses answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Mixed Tenses answer 1\"."}
+    40  courseLessons_b1plus.js lessons_b1plus[].practice[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Mixed Tenses\"?","options":["Lựa chọn A (Bài 1: Mixed Tenses)","Bài 1: Mixed Tenses answer 1","Lựa chọn C (Bài 1: Mixed Tenses)","Lựa chọn D (Bài 1: Mixed Tenses)"],"correctAnswer":"Bài 1: Mixed Tenses answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Mixed Tenses answer 1\"."}
+     8  courseLessons_ielts_5.js lessons_ielts_5[]
+         keys: id,levelId,unit,unitTitle,lessonNo,title,titleVi,skill,difficulty,estimatedMinutes,objectives,explanationVi,warmupQuestion,keyPoints,structure,commonMistakes,tips,examples,practice,miniQuiz,xpReward,vocabIds,nextLessonId,answerExplanationVi,homework,unlockRequirement
+         eg: {"id":7001,"levelId":"ielts-5","unit":1,"unitTitle":"Unit 1","lessonNo":1,"title":"Listening Band 5","titleVi":"Bài 1: Listening Band 5","skill":"ielts","difficulty":"easy","estimatedMinutes":8,"objectives":["Hiểu trọng tâm: Listening Band 5","Áp dụng cấu trúc vào tình huống thực tế","Nhận biết lỗi thường gặp với Bài 1: Listening Band 5","Hoàn thành bài tập và quiz đạt 70%"],"explanationVi":"Bài h
+    32  courseLessons_ielts_5.js lessons_ielts_5[].examples[]
+         keys: en,vi
+         eg: {"en":"Bài 1: Listening Band 5 is important for daily life.","vi":"Bài 1: Listening Band 5 rất quan trọng trong cuộc sống."}
+    48  courseLessons_ielts_5.js lessons_ielts_5[].miniQuiz[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Listening Band 5\"?","options":["Lựa chọn A (Bài 1: Listening Band 5)","Bài 1: Listening Band 5 answer 1","Lựa chọn C (Bài 1: Listening Band 5)","Lựa chọn D (Bài 1: Listening Band 5)"],"correctAnswer":"Bài 1: Listening Band 5 answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Listening Band 5 answer 1\"."}
+    32  courseLessons_ielts_5.js lessons_ielts_5[].practice[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Listening Band 5\"?","options":["Lựa chọn A (Bài 1: Listening Band 5)","Bài 1: Listening Band 5 answer 1","Lựa chọn C (Bài 1: Listening Band 5)","Lựa chọn D (Bài 1: Listening Band 5)"],"correctAnswer":"Bài 1: Listening Band 5 answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Listening Band 5 answer 1\"."}
+     8  courseLessons_ielts_55.js lessons_ielts_55[]
+         keys: id,levelId,unit,unitTitle,lessonNo,title,titleVi,skill,difficulty,estimatedMinutes,objectives,explanationVi,warmupQuestion,keyPoints,structure,commonMistakes,tips,examples,practice,miniQuiz,xpReward,vocabIds,nextLessonId,answerExplanationVi,homework,unlockRequirement
+         eg: {"id":8001,"levelId":"ielts-55","unit":1,"unitTitle":"Unit 1","lessonNo":1,"title":"Listening 5.5","titleVi":"Bài 1: Listening 5.5","skill":"ielts","difficulty":"easy","estimatedMinutes":8,"objectives":["Hiểu trọng tâm: Listening 5.5","Áp dụng cấu trúc vào tình huống thực tế","Nhận biết lỗi thường gặp với Bài 1: Listening 5.5","Hoàn thành bài tập và quiz đạt 70%"],"explanationVi":"Bài học \"Bài 1:
+    32  courseLessons_ielts_55.js lessons_ielts_55[].examples[]
+         keys: en,vi
+         eg: {"en":"Bài 1: Listening 5.5 is important for daily life.","vi":"Bài 1: Listening 5.5 rất quan trọng trong cuộc sống."}
+    48  courseLessons_ielts_55.js lessons_ielts_55[].miniQuiz[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Listening 5.5\"?","options":["Lựa chọn A (Bài 1: Listening 5.5)","Bài 1: Listening 5.5 answer 1","Lựa chọn C (Bài 1: Listening 5.5)","Lựa chọn D (Bài 1: Listening 5.5)"],"correctAnswer":"Bài 1: Listening 5.5 answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Listening 5.5 answer 1\"."}
+    32  courseLessons_ielts_55.js lessons_ielts_55[].practice[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Listening 5.5\"?","options":["Lựa chọn A (Bài 1: Listening 5.5)","Bài 1: Listening 5.5 answer 1","Lựa chọn C (Bài 1: Listening 5.5)","Lựa chọn D (Bài 1: Listening 5.5)"],"correctAnswer":"Bài 1: Listening 5.5 answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Listening 5.5 answer 1\"."}
+     8  courseLessons_ielts_6.js lessons_ielts_6[]
+         keys: id,levelId,unit,unitTitle,lessonNo,title,titleVi,skill,difficulty,estimatedMinutes,objectives,explanationVi,warmupQuestion,keyPoints,structure,commonMistakes,tips,examples,practice,miniQuiz,xpReward,vocabIds,nextLessonId,answerExplanationVi,homework,unlockRequirement
+         eg: {"id":9001,"levelId":"ielts-6","unit":1,"unitTitle":"Unit 1","lessonNo":1,"title":"Listening 6.0","titleVi":"Bài 1: Listening 6.0","skill":"ielts","difficulty":"easy","estimatedMinutes":8,"objectives":["Hiểu trọng tâm: Listening 6.0","Áp dụng cấu trúc vào tình huống thực tế","Nhận biết lỗi thường gặp với Bài 1: Listening 6.0","Hoàn thành bài tập và quiz đạt 70%"],"explanationVi":"Bài học \"Bài 1: 
+    32  courseLessons_ielts_6.js lessons_ielts_6[].examples[]
+         keys: en,vi
+         eg: {"en":"Bài 1: Listening 6.0 is important for daily life.","vi":"Bài 1: Listening 6.0 rất quan trọng trong cuộc sống."}
+    48  courseLessons_ielts_6.js lessons_ielts_6[].miniQuiz[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Listening 6.0\"?","options":["Lựa chọn A (Bài 1: Listening 6.0)","Bài 1: Listening 6.0 answer 1","Lựa chọn C (Bài 1: Listening 6.0)","Lựa chọn D (Bài 1: Listening 6.0)"],"correctAnswer":"Bài 1: Listening 6.0 answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Listening 6.0 answer 1\"."}
+    32  courseLessons_ielts_6.js lessons_ielts_6[].practice[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Listening 6.0\"?","options":["Lựa chọn A (Bài 1: Listening 6.0)","Bài 1: Listening 6.0 answer 1","Lựa chọn C (Bài 1: Listening 6.0)","Lựa chọn D (Bài 1: Listening 6.0)"],"correctAnswer":"Bài 1: Listening 6.0 answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Listening 6.0 answer 1\"."}
+    10  courseLessons_ielts_f.js lessons_ielts_f[]
+         keys: id,levelId,unit,unitTitle,lessonNo,title,titleVi,skill,difficulty,estimatedMinutes,objectives,explanationVi,warmupQuestion,keyPoints,structure,commonMistakes,tips,examples,practice,miniQuiz,xpReward,vocabIds,nextLessonId,answerExplanationVi,homework,unlockRequirement
+         eg: {"id":6001,"levelId":"ielts-f","unit":1,"unitTitle":"Unit 1","lessonNo":1,"title":"IELTS Overview","titleVi":"Bài 1: IELTS Overview","skill":"ielts","difficulty":"easy","estimatedMinutes":8,"objectives":["Hiểu trọng tâm: IELTS Overview","Áp dụng cấu trúc vào tình huống thực tế","Nhận biết lỗi thường gặp với Bài 1: IELTS Overview","Hoàn thành bài tập và quiz đạt 70%"],"explanationVi":"Bài học \"Bài
+    40  courseLessons_ielts_f.js lessons_ielts_f[].examples[]
+         keys: en,vi
+         eg: {"en":"Bài 1: IELTS Overview is important for daily life.","vi":"Bài 1: IELTS Overview rất quan trọng trong cuộc sống."}
+    60  courseLessons_ielts_f.js lessons_ielts_f[].miniQuiz[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: IELTS Overview\"?","options":["Lựa chọn A (Bài 1: IELTS Overview)","Bài 1: IELTS Overview answer 1","Lựa chọn C (Bài 1: IELTS Overview)","Lựa chọn D (Bài 1: IELTS Overview)"],"correctAnswer":"Bài 1: IELTS Overview answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: IELTS Overview answer 1\"."}
+    40  courseLessons_ielts_f.js lessons_ielts_f[].practice[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: IELTS Overview\"?","options":["Lựa chọn A (Bài 1: IELTS Overview)","Bài 1: IELTS Overview answer 1","Lựa chọn C (Bài 1: IELTS Overview)","Lựa chọn D (Bài 1: IELTS Overview)"],"correctAnswer":"Bài 1: IELTS Overview answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: IELTS Overview answer 1\"."}
+    10  courseLessons_mat_goc.js lessons_mat_goc[]
+         keys: id,levelId,unit,unitTitle,lessonNo,title,titleVi,skill,difficulty,estimatedMinutes,objectives,explanationVi,warmupQuestion,keyPoints,structure,commonMistakes,tips,examples,practice,miniQuiz,xpReward,vocabIds,nextLessonId,answerExplanationVi,homework,unlockRequirement
+         eg: {"id":1001,"levelId":"mat-goc","unit":1,"unitTitle":"Unit 1","lessonNo":1,"title":"Bảng Chữ Cái","titleVi":"Bài 1: Bảng Chữ Cái","skill":"vocabulary","difficulty":"easy","estimatedMinutes":8,"objectives":["Hiểu trọng tâm: Bảng Chữ Cái","Áp dụng cấu trúc vào tình huống thực tế","Nhận biết lỗi thường gặp với Bài 1: Bảng Chữ Cái","Hoàn thành bài tập và quiz đạt 70%"],"explanationVi":"Bài học \"Bài 1:
+    40  courseLessons_mat_goc.js lessons_mat_goc[].examples[]
+         keys: en,vi
+         eg: {"en":"Bài 1: Bảng Chữ Cái is important for daily life.","vi":"Bài 1: Bảng Chữ Cái rất quan trọng trong cuộc sống."}
+    60  courseLessons_mat_goc.js lessons_mat_goc[].miniQuiz[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Bảng Chữ Cái\"?","options":["Lựa chọn A (Bài 1: Bảng Chữ Cái)","Bài 1: Bảng Chữ Cái answer 1","Lựa chọn C (Bài 1: Bảng Chữ Cái)","Lựa chọn D (Bài 1: Bảng Chữ Cái)"],"correctAnswer":"Bài 1: Bảng Chữ Cái answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Bảng Chữ Cái answer 1\"."}
+    40  courseLessons_mat_goc.js lessons_mat_goc[].practice[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Câu 1: chọn đáp án đúng cho \"Bài 1: Bảng Chữ Cái\"?","options":["Lựa chọn A (Bài 1: Bảng Chữ Cái)","Bài 1: Bảng Chữ Cái answer 1","Lựa chọn C (Bài 1: Bảng Chữ Cái)","Lựa chọn D (Bài 1: Bảng Chữ Cái)"],"correctAnswer":"Bài 1: Bảng Chữ Cái answer 1","explanation":"Đáp án đúng cho câu 1 là \"Bài 1: Bảng Chữ Cái answer 1\"."}
+   100  dictationSamples.js DICTATION_SAMPLES[]
+         keys: level,text
+         eg: {"level":"A1","text":"I usually wake up at six in the morning and have a cup of tea before going to school."}
+    31  grammarLessons.js grammarLessons[]
+         keys: id,level,category,title,titleVi,shortDescription,explanationVi,structure,examples,commonMistakes,tips,practice,quiz,xpReward,estimatedMinutes
+         eg: {"id":1,"level":"Beginner","category":"Phonics","title":"The English Alphabet & Sounds","titleVi":"Bang Chu Cai & Phat Am","shortDescription":"Hoc 26 chu cai va cach phat am co ban.","explanationVi":"Bang chu cai tieng Anh co 26 chu: A-Z. 5 nguyen am: A, E, I, O, U. 21 phu am.\nHoc phat am chuan ngay tu dau rat quan trong.\n\nNguyen am: A /ei/, E /i:/, I /ai/, O /ou/, U /ju:/\nPhu am: B /bi:/, C /
+    12  grammarLessons.js grammarLessons[]
+         keys: id,level,category,title,titleVi,shortDescription,explanationVi,structure,examples,commonMistakes,tips,practice,xpReward,estimatedMinutes,quiz
+         eg: {"id":32,"level":"B1","category":"Tenses","title":"Present Perfect Tense","titleVi":"Thì Hiện Tại Hoàn Thành","shortDescription":"Diễn tả hành động đã xảy ra nhưng còn liên quan hiện tại.","explanationVi":"Present Perfect = have/has + V3 (quá khứ phân từ).\nDùng cho: kinh nghiệm, hành động vừa xong, hành động bắt đầu trong quá khứ và còn tiếp diễn.\nTín hiệu: just, already, yet, ever, never, since
+   108  grammarLessons.js grammarLessons[].commonMistakes[]
+         keys: mistake,correct,reason
+         eg: {"mistake":"Phat am TH thanh T hoac Z","correct":"Dat luoi giua 2 rang","reason":"Am TH khong co trong tieng Viet"}
+   191  grammarLessons.js grammarLessons[].examples[]
+         keys: en,vi
+         eg: {"en":"A /ei/ - Apple","vi":"Qua tao"}
+   264  grammarLessons.js grammarLessons[].practice[]
+         keys: question,options,correctAnswer,explanation
+         eg: {"question":"Co bao nhieu nguyen am?","options":["4","5","6","7"],"correctAnswer":"5","explanation":"A,E,I,O,U la 5 nguyen am"}
+     3  ieltsLessons.js ieltsBands[]
+         keys: band,emoji,label,color,bgColor,borderColor,desc
+         eg: {"band":"5.0","emoji":"🟢","label":"Band 5.0","color":"from-green-400 to-emerald-500","bgColor":"bg-green-50 dark:bg-green-900/20","borderColor":"border-green-300","desc":"Giao tiếp cơ bản, hiểu chủ đề quen thuộc, còn nhiều lỗi ngữ pháp."}
+     5  ieltsLessons.js ieltsSkills[]
+         keys: id,name,nameVi,emoji,color,total
+         eg: {"id":"listening","name":"Listening","nameVi":"Nghe","emoji":"🎧","color":"from-blue-400 to-cyan-500","total":16}
+   149  ieltsLessons.js ieltsVocabulary[]
+         keys: word,vi,pronunciation,example,collocation,topic
+         eg: {"word":"allocate","vi":"phân bổ","pronunciation":"/ˈæl.ə.keɪt/","example":"The government will allocate more funds to public education.","collocation":"allocate resources / budget / time","topic":"education"}
+    10  ieltsLessons.js readinessChecklist[]
+         keys: id,text,category
+         eg: {"id":"c1","text":"Tôi biết format của IELTS (4 skills, thời gian từng phần)","category":"Chuẩn bị"}
+    16  ieltsListening.js listeningExercises[]
+         keys: id,section,title,context,xpReward,transcript,questions
+         eg: {"id":"l1","section":"Section 1","title":"Joining a Community Library","context":"Một sinh viên gọi điện cho thư viện cộng đồng để hỏi về việc đăng ký thẻ thành viên.","xpReward":40,"transcript":"Librarian: Good morning, Riverside Community Library. How can I help you today?\n\nStudent: Hi, I'm calling because I'd like to join the library. Could you tell me how to register?\n\nLibrarian: Of course
+    26  ieltsListening.js listeningExercises[].questions[]
+         keys: id,type,instruction,question,answer,explanation
+         eg: {"id":91,"type":"gap_fill","instruction":"Complete the sentence with NO MORE THAN TWO WORDS.","question":"The library closes at ____ on weekdays.","answer":"9 PM","explanation":"The librarian mentions standard hours."}
+    56  ieltsListening.js listeningExercises[].questions[]
+         keys: id,type,question,options,correct,explanation
+         eg: {"id":1,"type":"mcq","question":"How much does the standard membership cost?","options":["$5 per year","$12 per year","Free","$20 per year"],"correct":2,"explanation":"The librarian clearly states: \"The first is a standard membership, which is completely free.\""}
+    18  ieltsReading.js readingPassages[]
+         keys: id,title,level,wordCount,xpReward,passage,questions
+         eg: {"id":"r1","title":"The Rise of Urban Farming","level":"Band 5.0–5.5","wordCount":260,"xpReward":50,"passage":"Urban farming — the practice of growing food within cities — has gained remarkable momentum over the past two decades. Driven by concerns about **food security**, **sustainability**, and the desire for fresher produce, city dwellers across the globe are transforming rooftops, abandoned lo
+     1  ieltsReading.js readingPassages[].questions[]
+         keys: id,type,instruction,paragraphLabel,options,answer,answerKey,explanation
+         eg: {"id":81,"type":"matching_headings","instruction":"Match each paragraph to the correct heading.","paragraphLabel":"Paragraph A","options":["i. The benefits of vertical farming","ii. Urban farming as a global movement","iii. Challenges of urban soil","iv. Reducing food miles"],"answer":1,"answerKey":"ii. Urban farming as a global movement","explanation":"Paragraph A introduces urban farming worldwi
+     3  ieltsReading.js readingPassages[].questions[]
+         keys: id,type,instruction,paragraphLabel,options,answer,explanation
+         eg: {"id":1,"type":"matching_headings","instruction":"Choose the best heading for the described paragraph.","paragraphLabel":"Paragraph 2 (the \"memory palace\")","options":["Why memorisation declined","How the method of loci works","The value of memory in ancient times","A debate about modern minds"],"answer":1,"explanation":"Paragraph 2 explains the technique of placing images along a route — how th
+     7  ieltsReading.js readingPassages[].questions[]
+         keys: id,type,instruction,question,options,answer,explanation
+         eg: {"id":82,"type":"matching_features","instruction":"Match the description to the correct option.","question":"What contributes up to 11% of greenhouse emissions in the food system?","options":["Food packaging","Long-distance food transport","Urban farms","Soil contamination"],"answer":1,"explanation":"The passage states long-distance transport accounts for up to 11%."}
+    18  ieltsReading.js readingPassages[].questions[]
+         keys: id,type,instruction,stem,answer,explanation
+         eg: {"id":5,"type":"sentence_completion","instruction":"Complete the sentence using NO MORE THAN TWO WORDS from the passage:","stem":"The fear of running out of power before reaching a charging point is known as ______.","answer":"range anxiety","explanation":"The passage defines this: \"Range anxiety — the fear of running out of power before reaching a charging point.\""}
+    35  ieltsReading.js readingPassages[].questions[]
+         keys: id,type,question,options,correct,explanation
+         eg: {"id":4,"type":"mcq","question":"According to the passage, what is ONE benefit of urban farming for mental health?","options":["It provides a source of income for urban residents","It reduces stress and increases feelings of community cohesion","It eliminates the need for supermarkets","It improves air quality in cities"],"correct":1,"explanation":"The passage cites research showing people who gar
+    41  ieltsReading.js readingPassages[].questions[]
+         keys: id,type,statement,answer,explanation
+         eg: {"id":1,"type":"tfng","statement":"Urban farming has only recently become popular in the last few years.","answer":"False","explanation":"The passage says it has gained momentum \"over the past two decades\" — not just a few years."}
+    24  ieltsSpeaking.js speakingPart1[]
+         keys: id,topic,question,sampleAnswer,keywords,tip
+         eg: {"id":"sp1_1","topic":"Hometown","question":"Can you tell me about the town or city where you grew up?","sampleAnswer":"I'm from Hanoi, which is the capital city of Vietnam. It's a very large and busy city with millions of people. I like living there because there are many historical places to visit, like Hoan Kiem Lake and the Old Quarter, and you can try amazing local food everywhere. However, i
+     6  ieltsSpeaking.js speakingPart2[]
+         keys: id,topic,cueCard,preparationTip,sampleAnswer,keywords
+         eg: {"id":"sp2_1","topic":"A Place","cueCard":"Describe a place you have visited that you really enjoyed.\n\nYou should say:\n  • where the place is\n  • when you visited it\n  • what you did there\n\nand explain why you enjoyed it so much.","preparationTip":"Dành 1 phút để ghi chú: tên địa điểm → thời gian → hoạt động → lý do thích. Nói 1–2 phút không ngừng.","sampleAnswer":"I'd like to talk about a 
+     6  ieltsSpeaking.js speakingPart3[]
+         keys: id,topic,question,sampleAnswer,keywords
+         eg: {"id":"sp3_1","topic":"Tourism","question":"Do you think tourism has a positive or negative effect on local communities?","sampleAnswer":"I think tourism has both positive and negative effects, and the balance depends very much on how it is managed. On the positive side, tourism brings significant economic benefits. It creates jobs, supports local businesses, and generates revenue that can be inve
+     4  ieltsWriting.js writingTasks.task1[]
+         keys: id,type,typeVi,emoji,title,prompt,chartDescription,xpReward,template,sampleAnswer,checklist
+         eg: {"id":"wt1_1","type":"Line Graph","typeVi":"Biểu đồ đường","emoji":"📈","title":"Internet Usage in Vietnam (2005–2020)","prompt":"The line graph below shows the percentage of the population in Vietnam who used the internet between 2005 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.","chartDescription":"Biểu đồ đường cho thấy t
+    36  ieltsWriting.js writingTasks.task1[].checklist[]
+         keys: id,category,item
+         eg: {"id":"tr1","category":"Task Achievement","item":"Tôi đã viết ít nhất 150 từ"}
+     4  ieltsWriting.js writingTasks.task2[]
+         keys: id,type,typeVi,emoji,title,prompt,xpReward,template,sampleAnswer,checklist
+         eg: {"id":"wt2_1","type":"Opinion Essay","typeVi":"Bài luận ý kiến","emoji":"💭","title":"Living with Parents Until Marriage","prompt":"In some cultures, young people are expected to live with their parents until they get married. Other people believe that young adults should live independently as soon as possible. Discuss both views and give your own opinion.","xpReward":60,"template":"**STRUCTURE – 
+    37  ieltsWriting.js writingTasks.task2[].checklist[]
+         keys: id,category,item
+         eg: {"id":"tr1","category":"Task Achievement","item":"Tôi đã viết ít nhất 250 từ"}
+     5  listening_pack_100.js LISTENING_PACK_LEVELS[]
+         keys: id,label,range
+         eg: {"id":"foundation","label":"Foundation","range":[1,20]}
+   100  listening_pack_100.js listeningPack[]
+         keys: id,levelId,title,titleVi,objectives,vocabulary,script,questions,speakingPart1,speakingPart2,speakingPart3,shadowing,homework,vietnameseSupport
+         eg: {"id":1,"levelId":"foundation","title":"Introducing Yourself","titleVi":"Tự Giới Thiệu","objectives":{"listen":"Nghe tên, quê, nghề, sở thích","speak":"Giới thiệu bản thân","vocabFocus":"Thông tin cá nhân"},"vocabulary":[{"word":"introduce","ipa":"/ˌɪn.trəˈdjuːs/","vi":"giới thiệu","example":"Let me introduce myself."},{"word":"hometown","ipa":"/ˈhəʊm.taʊn/","vi":"quê quán","example":"My hometown 
+   527  listening_pack_100.js listeningPack[].questions[]
+         keys: id,type,question,answer
+         eg: {"id":4,"type":"fill","question":"Anna just moved to Hanoi ____.","answer":"last week"}
+   195  listening_pack_100.js listeningPack[].questions[]
+         keys: id,type,question,options,correct
+         eg: {"id":1,"type":"mcq","question":"Where is Anna originally from?","options":["London","Manchester","Hanoi","Hue"],"correct":1}
+   278  listening_pack_100.js listeningPack[].questions[]
+         keys: id,type,statement,answer
+         eg: {"id":7,"type":"tfng","statement":"Minh is in his second year at university.","answer":"False"}
+   500  listening_pack_100.js listeningPack[].speakingPart1[]
+         keys: q,bandLow,bandMid
+         eg: {"q":"Can you tell me your name?","bandLow":"My name is Lan.","bandMid":"My name is Lan, but most of my friends call me Lana."}
+   400  listening_pack_100.js listeningPack[].speakingPart3[]
+         keys: q,hint
+         eg: {"q":"Why do first impressions matter?","hint":"judgments in seconds, body language, job interview"}
+  1000  listening_pack_100.js listeningPack[].vocabulary[]
+         keys: word,ipa,vi,example
+         eg: {"word":"introduce","ipa":"/ˌɪn.trəˈdjuːs/","vi":"giới thiệu","example":"Let me introduce myself."}
+    60  listeningScripts.js listeningScripts[]
+         keys: id,level,topic,type,title,titleVi,estimatedMinutes,speedSuggestion,transcript,vietnameseTranslation,vocabularyFocus,questions,dictationSentences,shadowingSentences,xpReward
+         eg: {"id":1,"level":"Beginner","topic":"Greetings","type":"dialogue","title":"Hello! Nice to Meet You","titleVi":"Xin chao! Rat vui duoc gap ban","estimatedMinutes":5,"speedSuggestion":0.7,"transcript":"Tom: Hello! My name is Tom. What is your name?\nAnna: Hi Tom! My name is Anna. Nice to meet you!\nTom: Nice to meet you too, Anna. How are you today?\nAnna: I am fine, thank you. And you?\nTom: I am go
+   300  listeningScripts.js listeningScripts[].dictationSentences[]
+         keys: id,english
+         eg: {"id":1,"english":"Hello! My name is Tom."}
+    60  listeningScripts.js listeningScripts[].questions[]
+         keys: id,type,question,correct,explanationVi
+         eg: {"id":1,"type":"truefalse","question":"Anna says her name is Tom.","correct":false,"explanationVi":"Anna's name is Anna, not Tom."}
+   240  listeningScripts.js listeningScripts[].questions[]
+         keys: id,type,question,options,correct,explanationVi
+         eg: {"id":1,"type":"mcq","question":"What is the first person's name?","options":["Anna","Tom","John","Mary"],"correct":1,"explanationVi":"The speaker says his name is Tom."}
+   300  listeningScripts.js listeningScripts[].shadowingSentences[]
+         keys: id,english
+         eg: {"id":1,"english":"Hello! My name is Tom."}
+    12  phrasebook.js situations[]
+         keys: id,title,titleEn,icon,color,bg,border,description,phrases
+         eg: {"id":"airport","title":"Sân Bay","titleEn":"At the Airport","icon":"✈️","color":"from-sky-500 to-blue-600","bg":"bg-sky-50 dark:bg-sky-900/20","border":"border-sky-200 dark:border-sky-800","description":"Check-in, hải quan, lên máy bay","phrases":[{"en":"I'd like to check in for my flight.","vi":"Tôi muốn làm thủ tục cho chuyến bay của mình.","note":"Khi đến quầy check-in"},{"en":"Here is my pass
+   144  phrasebook.js situations[].phrases[]
+         keys: en,vi,note
+         eg: {"en":"I'd like to check in for my flight.","vi":"Tôi muốn làm thủ tục cho chuyến bay của mình.","note":"Khi đến quầy check-in"}
+    30  placementTest.js placementQuestions[]
+         keys: id,level,question,options,correct
+         eg: {"id":1,"level":"Beginner","question":"\"Hello\" in Vietnamese means:","options":["Tạm biệt","Xin chào","Cảm ơn","Xin lỗi"],"correct":1}
+     5  placementTest.js scoreBands[]
+         keys: min,max,stageId,label,icon,message
+         eg: {"min":0,"max":9,"stageId":"beginner","label":"Mất Gốc","icon":"🌱","message":"Bắt đầu từ những kiến thức đầu tiên về tiếng Anh."}
+   100  quiz.js quizQuestions[]
+         keys: id,level,type,question,options,correct,explanation
+         eg: {"id":1,"level":"A1","type":"vocab-en-vi","question":"What does 'happy' mean in Vietnamese?","options":["Buồn bã","Vui vẻ, hạnh phúc","Tức giận","Mệt mỏi"],"correct":1,"explanation":"'Happy' nghĩa là vui vẻ, hạnh phúc."}
+     6  readingLibrary.js readingLibrary[]
+         keys: id,title,titleVi,level,topic,wordCount,xpReward,passage,translationVi,keywords,questions,strategyVi
+         eg: {"id":"rb1","title":"My Daily Routine","titleVi":"Thói Quen Hằng Ngày Của Tôi","level":"Beginner","topic":"Daily life","wordCount":90,"xpReward":20,"passage":"My name is Lan. Every morning I wake up at six o'clock. First, I brush my teeth and wash my face. Then I eat breakfast with my family. I usually have bread and milk. At seven o'clock, I go to school by bicycle. School starts at half past sev
+    28  readingLibrary.js readingLibrary[].keywords[]
+         keys: word,vi
+         eg: {"word":"routine","vi":"thói quen"}
+     3  readingLibrary.js readingLibrary[].questions[]
+         keys: id,type,question,answer,explanationVi
+         eg: {"id":4,"type":"fill","question":"Reading improves the writer's vocabulary and ____.","answer":"imagination","explanationVi":"Câu: improves my vocabulary and imagination (trí tưởng tượng)."}
+    12  readingLibrary.js readingLibrary[].questions[]
+         keys: id,type,question,options,correct,explanationVi
+         eg: {"id":1,"type":"mcq","question":"What time does Lan wake up?","options":["Five o'clock","Six o'clock","Seven o'clock","Ten o'clock"],"correct":1,"explanationVi":"Bài đọc ghi rõ: I wake up at six o'clock (thức dậy lúc sáu giờ)."}
+    11  readingLibrary.js readingLibrary[].questions[]
+         keys: id,type,statement,answer,explanationVi
+         eg: {"id":3,"type":"tfng","statement":"Lan goes to bed at nine o'clock.","answer":"False","explanationVi":"Bài đọc nói cô ấy đi ngủ lúc mười giờ (ten o'clock), không phải chín giờ."}
+     9  roadmap.js roadmapStages[]
+         keys: id,name,nameEn,level,icon,color,bgColor,borderColor,textColor,goal,targetVocab,targetGrammar,xpRequired,xpReward,units,skills,description,order
+         eg: {"id":"beginner","name":"Mất Gốc","nameEn":"Complete Beginner","level":"Beginner","icon":"🌱","color":"from-lime-400 to-green-500","bgColor":"bg-lime-50 dark:bg-lime-900/20","borderColor":"border-lime-300 dark:border-lime-700","textColor":"text-lime-700 dark:text-lime-300","goal":"Biết bảng chữ cái, phát âm cơ bản, 300 từ thiết yếu, giao tiếp đơn giản","targetVocab":300,"targetGrammar":8,"xpRequir
+   100  speakingCoachSamples.js SPEAKING_SAMPLES[]
+         keys: level,en,vi
+         eg: {"level":"A1","en":"I would like a cup of coffee, please.","vi":"Tôi muốn một cốc cà phê."}
+    52  speakingLessons.js speakingLessons[]
+         keys: id,level,topic,type,prompt,suggestion,vocabularyHints,sampleAnswer,tips,pronunciationFocus,grammarFocus,xpReward
+         eg: {"id":1,"level":"Beginner","topic":"Greetings","type":"monologue","prompt":"Introduce yourself. Tell me your name, where you are from, and one thing you like.","suggestion":"Start with \"Hello, my name is...\" Then say \"I am from...\" Finally say \"I like...\"","vocabularyHints":["hello","name","from","like","live"],"sampleAnswer":"Hello, my name is Minh. I am from Vietnam. I like reading books."
+    20  stories_a1.js stories_a1[]
+         keys: id,level,topic,title,titleVi,illustrationEmoji,estimatedMinutes,xpReward,summaryVi,englishText,vietnameseText,vocabularyFocus,phrases,comprehensionQuestions,answers,answerExplanationVi,discussionQuestions,grammarFocus,shadowingSentences
+         eg: {"id":"a1_1","level":"A1","topic":"daily life","title":"My Afternoon Routine","titleVi":"Thói Quen Buổi Chiều Của Tôi","illustrationEmoji":"🌤️","estimatedMinutes":4,"xpReward":40,"summaryVi":"Câu chuyện trình độ A1: thói quen buổi chiều của tôi.","englishText":"After school, I go home and **have** a small snack. I usually **eat** fruit or drink a glass of milk.\n\nThen I **do** my homework. I sit
+   100  stories_a1.js stories_a1[].comprehensionQuestions[]
+         keys: question,options,correct
+         eg: {"question":"What does the writer do after school?","options":["Plays outside","Has a snack","Goes to bed","Watches TV"],"correct":1}
+   100  stories_a1.js stories_a1[].phrases[]
+         keys: en,vi
+         eg: {"en":"go home after school","vi":"về nhà sau giờ học"}
+   161  stories_a1.js stories_a1[].vocabularyFocus[]
+         keys: word,vi,example
+         eg: {"word":"have a snack","vi":"ăn nhẹ","example":"I have a snack after school."}
+    20  stories_a2.js stories_a2[]
+         keys: id,level,topic,title,titleVi,illustrationEmoji,estimatedMinutes,xpReward,summaryVi,englishText,vietnameseText,vocabularyFocus,phrases,comprehensionQuestions,answers,answerExplanationVi,discussionQuestions,grammarFocus,shadowingSentences
+         eg: {"id":"a2_1","level":"A2","topic":"travel","title":"My Trip to Ho Chi Minh City","titleVi":"Chuyến Đi Thành Phố Hồ Chí Minh","illustrationEmoji":"🏙️","estimatedMinutes":5,"xpReward":50,"summaryVi":"Câu chuyện A2: chuyến đi thành phố hồ chí minh.","englishText":"Last year, I visited Ho Chi Minh City with my family. It is a big and **busy** city. There are many **tall** buildings and a lot of **tra
+   100  stories_a2.js stories_a2[].comprehensionQuestions[]
+         keys: question,options,correct
+         eg: {"question":"Where did the writer go last year?","options":["Ha Noi","Ho Chi Minh City","Da Nang","Hue"],"correct":1}
+   100  stories_a2.js stories_a2[].phrases[]
+         keys: en,vi
+         eg: {"en":"I visited Ho Chi Minh City with my family.","vi":"Tôi đã đến thăm Thành phố Hồ Chí Minh cùng gia đình."}
+   160  stories_a2.js stories_a2[].vocabularyFocus[]
+         keys: word,vi,example
+         eg: {"word":"busy","vi":"bận rộn","example":""}
+    10  stories_b1_.js stories_b1_[]
+         keys: id,level,topic,title,titleVi,illustrationEmoji,estimatedMinutes,xpReward,summaryVi,englishText,vietnameseText,vocabularyFocus,phrases,comprehensionQuestions,answers,answerExplanationVi,discussionQuestions,grammarFocus,shadowingSentences
+         eg: {"id":"b1p_1","level":"B1+","topic":"education","title":"Technology in Education","titleVi":"Công Nghệ Trong Giáo Dục","illustrationEmoji":"🎓","estimatedMinutes":7,"xpReward":70,"summaryVi":"Bài viết B1+: công nghệ trong giáo dục.","englishText":"The integration of **technology** in education has **transformed** the way students learn and teachers instruct. Interactive whiteboards, online platfor
+    50  stories_b1_.js stories_b1_[].comprehensionQuestions[]
+         keys: question,options,correct
+         eg: {"question":"What is the main concern raised about technology in education?","options":["It increases school costs","It widens the digital divide","It reduces teacher salaries","It makes exams harder"],"correct":"It widens the digital divide"}
+    50  stories_b1_.js stories_b1_[].phrases[]
+         keys: en,vi
+         eg: {"en":"at their own pace","vi":"theo tốc độ riêng của mình"}
+    80  stories_b1_.js stories_b1_[].vocabularyFocus[]
+         keys: word,vi,example
+         eg: {"word":"technology","vi":"công nghệ","example":""}
+    20  stories_b1.js stories_b1[]
+         keys: id,level,topic,title,titleVi,illustrationEmoji,estimatedMinutes,xpReward,summaryVi,englishText,vietnameseText,vocabularyFocus,phrases,comprehensionQuestions,answers,answerExplanationVi,discussionQuestions,grammarFocus,shadowingSentences
+         eg: {"id":"b1_1","level":"B1","topic":"technology","title":"How I Learn English Online","titleVi":"Cách Tôi Học Tiếng Anh Trực Tuyến","illustrationEmoji":"💻","estimatedMinutes":6,"xpReward":60,"summaryVi":"Bài viết B1: cách tôi học tiếng anh trực tuyến.","englishText":"I started learning English online two years ago, and it has completely changed my life. At first, I was very shy and afraid to speak.
+   100  stories_b1.js stories_b1[].comprehensionQuestions[]
+         keys: question,options,correct
+         eg: {"question":"How did author feel at the beginning?","options":["Confident","Shy & afraid","Bored","Angry"],"correct":1}
+   100  stories_b1.js stories_b1[].phrases[]
+         keys: en,vi
+         eg: {"en":"It has completely changed my life","vi":"N� �? thay �?i ho�n to�n cu?c s?ng c?a t�i"}
+   160  stories_b1.js stories_b1[].vocabularyFocus[]
+         keys: word,vi,example
+         eg: {"word":"internet","vi":"internet","example":""}
+    15  stories_beginner.js stories_beginner[]
+         keys: id,level,topic,title,titleVi,illustrationEmoji,estimatedMinutes,xpReward,summaryVi,englishText,vietnameseText,vocabularyFocus,phrases,comprehensionQuestions,answers,answerExplanationVi,discussionQuestions,grammarFocus,shadowingSentences
+         eg: {"id":"b_1","level":"Beginner","topic":"daily life","title":"My Morning Routine","titleVi":"Buổi Sáng Của Tôi","illustrationEmoji":"🌅","estimatedMinutes":3,"xpReward":30,"summaryVi":"Câu chuyện về thói quen buổi sáng của một học sinh.","englishText":"Every morning, I **wake up** at six o'clock. I **get up** slowly and go to the bathroom. I **brush** my teeth and **wash** my face with cold water.\
+    75  stories_beginner.js stories_beginner[].comprehensionQuestions[]
+         keys: question,options,correct
+         eg: {"question":"What time does the writer wake up?","options":["5:00","6:00","6:30","7:00"],"correct":1}
+    75  stories_beginner.js stories_beginner[].phrases[]
+         keys: en,vi
+         eg: {"en":"wake up at six o'clock","vi":"thức dậy lúc sáu giờ"}
+   123  stories_beginner.js stories_beginner[].vocabularyFocus[]
+         keys: word,vi,example
+         eg: {"word":"wake up","vi":"thức dậy","example":"I wake up at 6 AM."}
+     5  stories_ielts_5_0_6_0.js stories_ielts_5_0_6_0[]
+         keys: id,level,topic,title,titleVi,illustrationEmoji,estimatedMinutes,xpReward,summaryVi,englishText,vietnameseText,vocabularyFocus,phrases,comprehensionQuestions,answers,answerExplanationVi,discussionQuestions,grammarFocus,shadowingSentences
+         eg: {"id":"ielts_5_1","level":"IELTS 5.0-6.0","topic":"environment","title":"Carbon Footprint of Food","titleVi":"Dấu Chân Carbon Thực Phẩm","illustrationEmoji":"🥩","estimatedMinutes":10,"xpReward":100,"summaryVi":"Bài đọc IELTS 5.0-6.0: dấu chân carbon thực phẩm.","englishText":"Every food item we consume has an impact on the environment. The term **carbon footprint** refers to the total amount of g
+    25  stories_ielts_5_0_6_0.js stories_ielts_5_0_6_0[].comprehensionQuestions[]
+         keys: question,options,correct
+         eg: {"question":"What does the term \"carbon footprint\" refer to in relation to food?","options":["The weight of food packaging","Total greenhouse gases emitted throughout a product's life cycle","The distance food travels to market","The amount of water used in production"],"correct":"Total greenhouse gases emitted throughout a product's life cycle"}
+    25  stories_ielts_5_0_6_0.js stories_ielts_5_0_6_0[].phrases[]
+         keys: en,vi
+         eg: {"en":"environmentally conscious choices","vi":"lựa chọn có ý thức với môi trường"}
+    45  stories_ielts_5_0_6_0.js stories_ielts_5_0_6_0[].vocabularyFocus[]
+         keys: word,vi,example
+         eg: {"word":"carbon footprint","vi":"dấu chân carbon","example":""}
+    10  stories_ielts_foundation.js stories_ielts_foundation[]
+         keys: id,level,topic,title,titleVi,illustrationEmoji,estimatedMinutes,xpReward,summaryVi,englishText,vietnameseText,vocabularyFocus,phrases,comprehensionQuestions,answers,answerExplanationVi,discussionQuestions,grammarFocus,shadowingSentences
+         eg: {"id":"ielts_f_1","level":"IELTS Foundation","topic":"environment","title":"The Impact of Fast Fashion","titleVi":"Tác Động Của Thời Trang Nhanh","illustrationEmoji":"👗","estimatedMinutes":8,"xpReward":80,"summaryVi":"Bài đọc IELTS Foundation: tác động của thời trang nhanh.","englishText":"The fashion industry has undergone a dramatic transformation over the past two decades. The rise of **fast f
+    50  stories_ielts_foundation.js stories_ielts_foundation[].comprehensionQuestions[]
+         keys: question,options,correct
+         eg: {"question":"What is the main environmental concern associated with fast fashion?","options":["It uses too much labour","It produces enormous textile waste and water consumption","It only uses natural fibres","It reduces clothing prices"],"correct":"It produces enormous textile waste and water consumption"}
+    50  stories_ielts_foundation.js stories_ielts_foundation[].phrases[]
+         keys: en,vi
+         eg: {"en":"dramatic transformation","vi":"sự chuyển đổi lớn"}
+    80  stories_ielts_foundation.js stories_ielts_foundation[].vocabularyFocus[]
+         keys: word,vi,example
+         eg: {"word":"fast fashion","vi":"thời trang nhanh","example":""}
+     8  videoLessons.js demoLessons[]
+         keys: id,title,titleVi,youtubeId,level,topic,description,transcript,duration,xpReward,isDemo
+         eg: {"id":"demo_eng_habits","title":"Good Habits for Learning English","titleVi":"Thói Quen Tốt Để Học Tiếng Anh","youtubeId":"","level":"A2","topic":"IELTS study","description":"Simple, practical tips to build effective English learning habits every day.","transcript":"Learning English every day helps you improve your skills quickly.\nYou should practice speaking, listening, reading, and writing regu
+   600  vocab_a1.js vocabA1[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic
+         eg: {"id":401,"english":"relative","vietnamese":"họ hàng","pronunciation":"/ˈrelətɪv/","example":"My relatives live far away.","example_vi":"Họ hàng của tôi sống ở xa.","level":"A1","topic":"Gia đình & Quan hệ"}
+   800  vocab_a2.js vocabA2[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic
+         eg: {"id":1001,"english":"health","vietnamese":"sức khỏe","pronunciation":"/helθ/","example":"Health is wealth.","example_vi":"Sức khỏe là vàng.","level":"A2","topic":"Sức khỏe & Y tế"}
+   576  vocab_b1_gaps.js vocabBGaps[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic,partOfSpeech
+         eg: {"id":2231,"english":"pollution","vietnamese":"o nhiem","pronunciation":"/pollution/","example":"The concept of \"pollution\" is used in many contexts.","example_vi":"Khai niem \"o nhiem\" duoc su dung trong nhieu boi canh.","level":"B1","topic":"General","partOfSpeech":"noun"}
+   497  vocab_b1plus_gaps.js vocabBPlusGaps[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic,partOfSpeech
+         eg: {"id":2851,"english":"analyze","vietnamese":"phan tich","pronunciation":"/analyze/","example":"The concept of \"analyze\" is used in many contexts.","example_vi":"Khai niem \"phan tich\" duoc su dung trong nhieu boi canh.","level":"B1+","topic":"General","partOfSpeech":"noun"}
+    50  vocab_b1plus.js vocabB1Plus[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic,partOfSpeech
+         eg: {"id":2801,"english":"convince","vietnamese":"thuyết phục","pronunciation":"/kənˈvɪns/","example":"She managed to convince the committee to approve her proposal.","example_vi":"Cô ấy đã thuyết phục được ủy ban phê duyệt đề xuất của mình.","level":"B1+","topic":"Persuasion & Argument","partOfSpeech":"verb"}
+   400  vocab_beginner.js vocabBeginner[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic
+         eg: {"id":1,"english":"hello","vietnamese":"xin chào","pronunciation":"/həˈloʊ/","example":"Hello, how are you?","example_vi":"Xin chào, bạn khỏe không?","level":"Beginner","topic":"Chào hỏi"}
+   548  vocab_ielts_5_full.js vocabIELTSFull[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic,partOfSpeech
+         eg: {"id":4401,"english":"Topic: Work & Employment (100)","vietnamese":"undefined","pronunciation":"/Topic: Work & Employment (100)/","example":"The concept of \"Topic: Work & Employment (100)\" is used in many contexts.","example_vi":"Khai niem \"undefined\" duoc su dung trong nhieu boi canh.","level":"IELTS 5.0-6.0","topic":"General","partOfSpeech":"noun"}
+   100  vocab_ielts_5.js vocabIELTS5[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic,partOfSpeech
+         eg: {"id":4301,"english":"curriculum","vietnamese":"chương trình giảng dạy","pronunciation":"/kəˈrɪkjʊləm/","example":"The school curriculum includes both science and arts subjects.","example_vi":"Chương trình giảng dạy của trường bao gồm cả môn khoa học và nghệ thuật.","level":"IELTS 5.0-6.0","topic":"Education Systems","partOfSpeech":"noun"}
+   713  vocab_ielts_foundation_full.js vocabIELTSFoundationFull[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic,partOfSpeech
+         eg: {"id":3501,"english":"Topic: Education (100)","vietnamese":"undefined","pronunciation":"/Topic: Education (100)/","example":"The concept of \"Topic: Education (100)\" is used in many contexts.","example_vi":"Khai niem \"undefined\" duoc su dung trong nhieu boi canh.","level":"IELTS Foundation","topic":"General","partOfSpeech":"noun"}
+   800  vocab_supp_family.js vocabSupp_family[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic,partOfSpeech
+         eg: {"id":101600,"english":"ask for help (family dinner)","vietnamese":"xin giup do (Family Dinner)","pronunciation":"/ask-for-help/","example":"In a family dinner situation, you may need to ask for help.","example_vi":"Trong tinh huong family dinner, ban co the can xin giup do.","level":"A2","topic":"Family Dinner","partOfSpeech":"phrase"}
+   800  vocab_supp_health.js vocabSupp_health[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic,partOfSpeech
+         eg: {"id":102400,"english":"ask for help (doctor visit)","vietnamese":"xin giup do (Doctor Visit)","pronunciation":"/ask-for-help/","example":"In a doctor visit situation, you may need to ask for help.","example_vi":"Trong tinh huong doctor visit, ban co the can xin giup do.","level":"B1","topic":"Doctor Visit","partOfSpeech":"phrase"}
+   800  vocab_supp_society.js vocabSupp_society[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic,partOfSpeech
+         eg: {"id":103200,"english":"ask for help (weather talk)","vietnamese":"xin giup do (Weather Talk)","pronunciation":"/ask-for-help/","example":"In a weather talk situation, you may need to ask for help.","example_vi":"Trong tinh huong weather talk, ban co the can xin giup do.","level":"B1+","topic":"Weather Talk","partOfSpeech":"phrase"}
+   800  vocab_supp_travel.js vocabSupp_travel[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic,partOfSpeech
+         eg: {"id":100000,"english":"ask for help (airport)","vietnamese":"xin giup do (Airport)","pronunciation":"/ask-for-help/","example":"In a airport situation, you may need to ask for help.","example_vi":"Trong tinh huong airport, ban co the can xin giup do.","level":"A1","topic":"Airport","partOfSpeech":"phrase"}
+   800  vocab_supp_work.js vocabSupp_work[]
+         keys: id,english,vietnamese,pronunciation,example,example_vi,level,topic,partOfSpeech
+         eg: {"id":100800,"english":"ask for help (office)","vietnamese":"xin giup do (Office)","pronunciation":"/ask-for-help/","example":"In a office situation, you may need to ask for help.","example_vi":"Trong tinh huong office, ban co the can xin giup do.","level":"A1","topic":"Office","partOfSpeech":"phrase"}
