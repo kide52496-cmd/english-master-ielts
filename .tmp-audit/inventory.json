@@ -1,0 +1,1634 @@
+[
+ {
+  "file": "achievements.js",
+  "ok": false,
+  "error": "Cannot find module 'D:\\english-master-ieltsfull\\src\\data\\grammarLessons' imported from D:\\english-master-ieltsfull\\src\\data\\achievements.js",
+  "exports": {}
+ },
+ {
+  "file": "courseLessons.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "LEVELS": {
+    "type": "array",
+    "len": 9,
+    "keys": [
+     "id",
+     "title",
+     "titleEn",
+     "icon",
+     "color",
+     "goal",
+     "output"
+    ]
+   },
+   "getLessonById": {
+    "type": "function"
+   },
+   "getLessonsByLevel": {
+    "type": "function"
+   },
+   "lessons": {
+    "type": "array",
+    "len": 90,
+    "keys": [
+     "id",
+     "levelId",
+     "unit",
+     "unitTitle",
+     "lessonNo",
+     "title",
+     "titleVi",
+     "skill",
+     "difficulty",
+     "estimatedMinutes",
+     "objectives",
+     "explanationVi",
+     "warmupQuestion",
+     "keyPoints",
+     "structure",
+     "commonMistakes",
+     "tips",
+     "examples",
+     "practice",
+     "miniQuiz",
+     "xpReward",
+     "vocabIds",
+     "nextLessonId",
+     "answerExplanationVi",
+     "homework",
+     "unlockRequirement"
+    ]
+   }
+  }
+ },
+ {
+  "file": "courseLessons_a1.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "lessons_a1": {
+    "type": "array",
+    "len": 12,
+    "keys": [
+     "id",
+     "levelId",
+     "unit",
+     "unitTitle",
+     "lessonNo",
+     "title",
+     "titleVi",
+     "skill",
+     "difficulty",
+     "estimatedMinutes",
+     "objectives",
+     "explanationVi",
+     "warmupQuestion",
+     "keyPoints",
+     "structure",
+     "commonMistakes",
+     "tips",
+     "examples",
+     "practice",
+     "miniQuiz",
+     "xpReward",
+     "vocabIds",
+     "nextLessonId",
+     "answerExplanationVi",
+     "homework",
+     "unlockRequirement"
+    ]
+   }
+  }
+ },
+ {
+  "file": "courseLessons_a2.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "lessons_a2": {
+    "type": "array",
+    "len": 12,
+    "keys": [
+     "id",
+     "levelId",
+     "unit",
+     "unitTitle",
+     "lessonNo",
+     "title",
+     "titleVi",
+     "skill",
+     "difficulty",
+     "estimatedMinutes",
+     "objectives",
+     "explanationVi",
+     "warmupQuestion",
+     "keyPoints",
+     "structure",
+     "commonMistakes",
+     "tips",
+     "examples",
+     "practice",
+     "miniQuiz",
+     "xpReward",
+     "vocabIds",
+     "nextLessonId",
+     "answerExplanationVi",
+     "homework",
+     "unlockRequirement"
+    ]
+   }
+  }
+ },
+ {
+  "file": "courseLessons_b1.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "lessons_b1": {
+    "type": "array",
+    "len": 12,
+    "keys": [
+     "id",
+     "levelId",
+     "unit",
+     "unitTitle",
+     "lessonNo",
+     "title",
+     "titleVi",
+     "skill",
+     "difficulty",
+     "estimatedMinutes",
+     "objectives",
+     "explanationVi",
+     "warmupQuestion",
+     "keyPoints",
+     "structure",
+     "commonMistakes",
+     "tips",
+     "examples",
+     "practice",
+     "miniQuiz",
+     "xpReward",
+     "vocabIds",
+     "nextLessonId",
+     "answerExplanationVi",
+     "homework",
+     "unlockRequirement"
+    ]
+   }
+  }
+ },
+ {
+  "file": "courseLessons_b1plus.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "lessons_b1plus": {
+    "type": "array",
+    "len": 10,
+    "keys": [
+     "id",
+     "levelId",
+     "unit",
+     "unitTitle",
+     "lessonNo",
+     "title",
+     "titleVi",
+     "skill",
+     "difficulty",
+     "estimatedMinutes",
+     "objectives",
+     "explanationVi",
+     "warmupQuestion",
+     "keyPoints",
+     "structure",
+     "commonMistakes",
+     "tips",
+     "examples",
+     "practice",
+     "miniQuiz",
+     "xpReward",
+     "vocabIds",
+     "nextLessonId",
+     "answerExplanationVi",
+     "homework",
+     "unlockRequirement"
+    ]
+   }
+  }
+ },
+ {
+  "file": "courseLessons_ielts_5.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "lessons_ielts_5": {
+    "type": "array",
+    "len": 8,
+    "keys": [
+     "id",
+     "levelId",
+     "unit",
+     "unitTitle",
+     "lessonNo",
+     "title",
+     "titleVi",
+     "skill",
+     "difficulty",
+     "estimatedMinutes",
+     "objectives",
+     "explanationVi",
+     "warmupQuestion",
+     "keyPoints",
+     "structure",
+     "commonMistakes",
+     "tips",
+     "examples",
+     "practice",
+     "miniQuiz",
+     "xpReward",
+     "vocabIds",
+     "nextLessonId",
+     "answerExplanationVi",
+     "homework",
+     "unlockRequirement"
+    ]
+   }
+  }
+ },
+ {
+  "file": "courseLessons_ielts_55.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "lessons_ielts_55": {
+    "type": "array",
+    "len": 8,
+    "keys": [
+     "id",
+     "levelId",
+     "unit",
+     "unitTitle",
+     "lessonNo",
+     "title",
+     "titleVi",
+     "skill",
+     "difficulty",
+     "estimatedMinutes",
+     "objectives",
+     "explanationVi",
+     "warmupQuestion",
+     "keyPoints",
+     "structure",
+     "commonMistakes",
+     "tips",
+     "examples",
+     "practice",
+     "miniQuiz",
+     "xpReward",
+     "vocabIds",
+     "nextLessonId",
+     "answerExplanationVi",
+     "homework",
+     "unlockRequirement"
+    ]
+   }
+  }
+ },
+ {
+  "file": "courseLessons_ielts_6.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "lessons_ielts_6": {
+    "type": "array",
+    "len": 8,
+    "keys": [
+     "id",
+     "levelId",
+     "unit",
+     "unitTitle",
+     "lessonNo",
+     "title",
+     "titleVi",
+     "skill",
+     "difficulty",
+     "estimatedMinutes",
+     "objectives",
+     "explanationVi",
+     "warmupQuestion",
+     "keyPoints",
+     "structure",
+     "commonMistakes",
+     "tips",
+     "examples",
+     "practice",
+     "miniQuiz",
+     "xpReward",
+     "vocabIds",
+     "nextLessonId",
+     "answerExplanationVi",
+     "homework",
+     "unlockRequirement"
+    ]
+   }
+  }
+ },
+ {
+  "file": "courseLessons_ielts_f.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "lessons_ielts_f": {
+    "type": "array",
+    "len": 10,
+    "keys": [
+     "id",
+     "levelId",
+     "unit",
+     "unitTitle",
+     "lessonNo",
+     "title",
+     "titleVi",
+     "skill",
+     "difficulty",
+     "estimatedMinutes",
+     "objectives",
+     "explanationVi",
+     "warmupQuestion",
+     "keyPoints",
+     "structure",
+     "commonMistakes",
+     "tips",
+     "examples",
+     "practice",
+     "miniQuiz",
+     "xpReward",
+     "vocabIds",
+     "nextLessonId",
+     "answerExplanationVi",
+     "homework",
+     "unlockRequirement"
+    ]
+   }
+  }
+ },
+ {
+  "file": "courseLessons_mat_goc.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "lessons_mat_goc": {
+    "type": "array",
+    "len": 10,
+    "keys": [
+     "id",
+     "levelId",
+     "unit",
+     "unitTitle",
+     "lessonNo",
+     "title",
+     "titleVi",
+     "skill",
+     "difficulty",
+     "estimatedMinutes",
+     "objectives",
+     "explanationVi",
+     "warmupQuestion",
+     "keyPoints",
+     "structure",
+     "commonMistakes",
+     "tips",
+     "examples",
+     "practice",
+     "miniQuiz",
+     "xpReward",
+     "vocabIds",
+     "nextLessonId",
+     "answerExplanationVi",
+     "homework",
+     "unlockRequirement"
+    ]
+   }
+  }
+ },
+ {
+  "file": "dictationSamples.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "DICTATION_SAMPLES": {
+    "type": "array",
+    "len": 100,
+    "keys": [
+     "level",
+     "text"
+    ]
+   }
+  }
+ },
+ {
+  "file": "grammarLessons.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "CATEGORIES": {
+    "type": "array",
+    "len": 20,
+    "keys": "string"
+   },
+   "LEVELS": {
+    "type": "array",
+    "len": 6,
+    "keys": "string"
+   },
+   "TOTAL_LESSONS": {
+    "type": "number",
+    "value": "43"
+   },
+   "getLessonsByCategory": {
+    "type": "function"
+   },
+   "getLessonsByLevel": {
+    "type": "function"
+   },
+   "grammarLessons": {
+    "type": "array",
+    "len": 43,
+    "keys": [
+     "id",
+     "level",
+     "category",
+     "title",
+     "titleVi",
+     "shortDescription",
+     "explanationVi",
+     "structure",
+     "examples",
+     "commonMistakes",
+     "tips",
+     "practice",
+     "quiz",
+     "xpReward",
+     "estimatedMinutes"
+    ]
+   }
+  }
+ },
+ {
+  "file": "ieltsLessons.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "ieltsBands": {
+    "type": "array",
+    "len": 3,
+    "keys": [
+     "band",
+     "emoji",
+     "label",
+     "color",
+     "bgColor",
+     "borderColor",
+     "desc"
+    ]
+   },
+   "ieltsSkills": {
+    "type": "array",
+    "len": 5,
+    "keys": [
+     "id",
+     "name",
+     "nameVi",
+     "emoji",
+     "color",
+     "total"
+    ]
+   },
+   "ieltsVocabulary": {
+    "type": "array",
+    "len": 149,
+    "keys": [
+     "word",
+     "vi",
+     "pronunciation",
+     "example",
+     "collocation",
+     "topic"
+    ]
+   },
+   "readinessChecklist": {
+    "type": "array",
+    "len": 10,
+    "keys": [
+     "id",
+     "text",
+     "category"
+    ]
+   },
+   "vocabTopics": {
+    "type": "array",
+    "len": 10,
+    "keys": "string"
+   }
+  }
+ },
+ {
+  "file": "ieltsListening.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "listeningExercises": {
+    "type": "array",
+    "len": 16,
+    "keys": [
+     "id",
+     "section",
+     "title",
+     "context",
+     "xpReward",
+     "transcript",
+     "questions"
+    ]
+   }
+  }
+ },
+ {
+  "file": "ieltsReading.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "readingPassages": {
+    "type": "array",
+    "len": 18,
+    "keys": [
+     "id",
+     "title",
+     "level",
+     "wordCount",
+     "xpReward",
+     "passage",
+     "questions"
+    ]
+   }
+  }
+ },
+ {
+  "file": "ieltsSpeaking.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "speakingPart1": {
+    "type": "array",
+    "len": 24,
+    "keys": [
+     "id",
+     "topic",
+     "question",
+     "sampleAnswer",
+     "keywords",
+     "tip"
+    ]
+   },
+   "speakingPart2": {
+    "type": "array",
+    "len": 6,
+    "keys": [
+     "id",
+     "topic",
+     "cueCard",
+     "preparationTip",
+     "sampleAnswer",
+     "keywords"
+    ]
+   },
+   "speakingPart3": {
+    "type": "array",
+    "len": 6,
+    "keys": [
+     "id",
+     "topic",
+     "question",
+     "sampleAnswer",
+     "keywords"
+    ]
+   }
+  }
+ },
+ {
+  "file": "ieltsWriting.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "writingTasks": {
+    "type": "object",
+    "keys": [
+     "task1",
+     "task2"
+    ],
+    "nkeys": 2
+   }
+  }
+ },
+ {
+  "file": "listeningScripts.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "listeningScripts": {
+    "type": "array",
+    "len": 60,
+    "keys": [
+     "id",
+     "level",
+     "topic",
+     "type",
+     "title",
+     "titleVi",
+     "estimatedMinutes",
+     "speedSuggestion",
+     "transcript",
+     "vietnameseTranslation",
+     "vocabularyFocus",
+     "questions",
+     "dictationSentences",
+     "shadowingSentences",
+     "xpReward"
+    ]
+   }
+  }
+ },
+ {
+  "file": "listening_pack_100.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "LISTENING_PACK_LEVELS": {
+    "type": "array",
+    "len": 5,
+    "keys": [
+     "id",
+     "label",
+     "range"
+    ]
+   },
+   "getLessonById": {
+    "type": "function"
+   },
+   "getLessonsByLevel": {
+    "type": "function"
+   },
+   "listeningPack": {
+    "type": "array",
+    "len": 100,
+    "keys": [
+     "id",
+     "levelId",
+     "title",
+     "titleVi",
+     "objectives",
+     "vocabulary",
+     "script",
+     "questions",
+     "speakingPart1",
+     "speakingPart2",
+     "speakingPart3",
+     "shadowing",
+     "homework",
+     "vietnameseSupport"
+    ]
+   }
+  }
+ },
+ {
+  "file": "phrasebook.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "situations": {
+    "type": "array",
+    "len": 12,
+    "keys": [
+     "id",
+     "title",
+     "titleEn",
+     "icon",
+     "color",
+     "bg",
+     "border",
+     "description",
+     "phrases"
+    ]
+   },
+   "totalPhrases": {
+    "type": "number",
+    "value": "144"
+   }
+  }
+ },
+ {
+  "file": "placementTest.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "getSuggestedStage": {
+    "type": "function"
+   },
+   "placementQuestions": {
+    "type": "array",
+    "len": 30,
+    "keys": [
+     "id",
+     "level",
+     "question",
+     "options",
+     "correct"
+    ]
+   },
+   "scoreBands": {
+    "type": "array",
+    "len": 5,
+    "keys": [
+     "min",
+     "max",
+     "stageId",
+     "label",
+     "icon",
+     "message"
+    ]
+   }
+  }
+ },
+ {
+  "file": "quiz.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "getQuestionsByLevel": {
+    "type": "function"
+   },
+   "getRandomQuestions": {
+    "type": "function"
+   },
+   "quizQuestions": {
+    "type": "array",
+    "len": 101,
+    "keys": [
+     "id",
+     "level",
+     "type",
+     "question",
+     "options",
+     "correct",
+     "explanation"
+    ]
+   }
+  }
+ },
+ {
+  "file": "readingLibrary.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "READING_LEVELS": {
+    "type": "array",
+    "len": 5,
+    "keys": "string"
+   },
+   "READING_TOPICS": {
+    "type": "array",
+    "len": 6,
+    "keys": "string"
+   },
+   "TOTAL_READING": {
+    "type": "number",
+    "value": "6"
+   },
+   "getReadingById": {
+    "type": "function"
+   },
+   "getReadingByLevel": {
+    "type": "function"
+   },
+   "readingLibrary": {
+    "type": "array",
+    "len": 6,
+    "keys": [
+     "id",
+     "title",
+     "titleVi",
+     "level",
+     "topic",
+     "wordCount",
+     "xpReward",
+     "passage",
+     "translationVi",
+     "keywords",
+     "questions",
+     "strategyVi"
+    ]
+   }
+  }
+ },
+ {
+  "file": "roadmap.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "getNextStage": {
+    "type": "function"
+   },
+   "getStageById": {
+    "type": "function"
+   },
+   "getStageByXP": {
+    "type": "function"
+   },
+   "roadmapStages": {
+    "type": "array",
+    "len": 9,
+    "keys": [
+     "id",
+     "name",
+     "nameEn",
+     "level",
+     "icon",
+     "color",
+     "bgColor",
+     "borderColor",
+     "textColor",
+     "goal",
+     "targetVocab",
+     "targetGrammar",
+     "xpRequired",
+     "xpReward",
+     "units",
+     "skills",
+     "description",
+     "order"
+    ]
+   },
+   "totalXPNeeded": {
+    "type": "number",
+    "value": "11700"
+   }
+  }
+ },
+ {
+  "file": "speakingCoachSamples.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "SPEAKING_SAMPLES": {
+    "type": "array",
+    "len": 100,
+    "keys": [
+     "level",
+     "en",
+     "vi"
+    ]
+   }
+  }
+ },
+ {
+  "file": "speakingLessons.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "speakingLessons": {
+    "type": "array",
+    "len": 52,
+    "keys": [
+     "id",
+     "level",
+     "topic",
+     "type",
+     "prompt",
+     "suggestion",
+     "vocabularyHints",
+     "sampleAnswer",
+     "tips",
+     "pronunciationFocus",
+     "grammarFocus",
+     "xpReward"
+    ]
+   }
+  }
+ },
+ {
+  "file": "stories.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "allStories": {
+    "type": "array",
+    "len": 100,
+    "keys": [
+     "id",
+     "level",
+     "topic",
+     "title",
+     "titleVi",
+     "illustrationEmoji",
+     "estimatedMinutes",
+     "xpReward",
+     "summaryVi",
+     "englishText",
+     "vietnameseText",
+     "vocabularyFocus",
+     "phrases",
+     "comprehensionQuestions",
+     "answers",
+     "answerExplanationVi",
+     "discussionQuestions",
+     "grammarFocus",
+     "shadowingSentences"
+    ]
+   },
+   "getStoriesByLevel": {
+    "type": "function"
+   },
+   "getStoriesByTopic": {
+    "type": "function"
+   },
+   "getStoryById": {
+    "type": "function"
+   },
+   "stories": {
+    "type": "array",
+    "len": 100,
+    "keys": [
+     "id",
+     "level",
+     "topic",
+     "title",
+     "titleVi",
+     "illustrationEmoji",
+     "estimatedMinutes",
+     "xpReward",
+     "summaryVi",
+     "englishText",
+     "vietnameseText",
+     "vocabularyFocus",
+     "phrases",
+     "comprehensionQuestions",
+     "answers",
+     "answerExplanationVi",
+     "discussionQuestions",
+     "grammarFocus",
+     "shadowingSentences"
+    ]
+   },
+   "storyLevels": {
+    "type": "array",
+    "len": 7,
+    "keys": "string"
+   },
+   "storyTopics": {
+    "type": "array",
+    "len": 19,
+    "keys": "string"
+   }
+  }
+ },
+ {
+  "file": "stories_a1.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "stories_a1": {
+    "type": "array",
+    "len": 20,
+    "keys": [
+     "id",
+     "level",
+     "topic",
+     "title",
+     "titleVi",
+     "illustrationEmoji",
+     "estimatedMinutes",
+     "xpReward",
+     "summaryVi",
+     "englishText",
+     "vietnameseText",
+     "vocabularyFocus",
+     "phrases",
+     "comprehensionQuestions",
+     "answers",
+     "answerExplanationVi",
+     "discussionQuestions",
+     "grammarFocus",
+     "shadowingSentences"
+    ]
+   }
+  }
+ },
+ {
+  "file": "stories_a2.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "stories_a2": {
+    "type": "array",
+    "len": 20,
+    "keys": [
+     "id",
+     "level",
+     "topic",
+     "title",
+     "titleVi",
+     "illustrationEmoji",
+     "estimatedMinutes",
+     "xpReward",
+     "summaryVi",
+     "englishText",
+     "vietnameseText",
+     "vocabularyFocus",
+     "phrases",
+     "comprehensionQuestions",
+     "answers",
+     "answerExplanationVi",
+     "discussionQuestions",
+     "grammarFocus",
+     "shadowingSentences"
+    ]
+   }
+  }
+ },
+ {
+  "file": "stories_b1.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "stories_b1": {
+    "type": "array",
+    "len": 20,
+    "keys": [
+     "id",
+     "level",
+     "topic",
+     "title",
+     "titleVi",
+     "illustrationEmoji",
+     "estimatedMinutes",
+     "xpReward",
+     "summaryVi",
+     "englishText",
+     "vietnameseText",
+     "vocabularyFocus",
+     "phrases",
+     "comprehensionQuestions",
+     "answers",
+     "answerExplanationVi",
+     "discussionQuestions",
+     "grammarFocus",
+     "shadowingSentences"
+    ]
+   }
+  }
+ },
+ {
+  "file": "stories_b1_.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "stories_b1_": {
+    "type": "array",
+    "len": 10,
+    "keys": [
+     "id",
+     "level",
+     "topic",
+     "title",
+     "titleVi",
+     "illustrationEmoji",
+     "estimatedMinutes",
+     "xpReward",
+     "summaryVi",
+     "englishText",
+     "vietnameseText",
+     "vocabularyFocus",
+     "phrases",
+     "comprehensionQuestions",
+     "answers",
+     "answerExplanationVi",
+     "discussionQuestions",
+     "grammarFocus",
+     "shadowingSentences"
+    ]
+   }
+  }
+ },
+ {
+  "file": "stories_beginner.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "stories_beginner": {
+    "type": "array",
+    "len": 15,
+    "keys": [
+     "id",
+     "level",
+     "topic",
+     "title",
+     "titleVi",
+     "illustrationEmoji",
+     "estimatedMinutes",
+     "xpReward",
+     "summaryVi",
+     "englishText",
+     "vietnameseText",
+     "vocabularyFocus",
+     "phrases",
+     "comprehensionQuestions",
+     "answers",
+     "answerExplanationVi",
+     "discussionQuestions",
+     "grammarFocus",
+     "shadowingSentences"
+    ]
+   }
+  }
+ },
+ {
+  "file": "stories_ielts_5_0_6_0.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "stories_ielts_5_0_6_0": {
+    "type": "array",
+    "len": 5,
+    "keys": [
+     "id",
+     "level",
+     "topic",
+     "title",
+     "titleVi",
+     "illustrationEmoji",
+     "estimatedMinutes",
+     "xpReward",
+     "summaryVi",
+     "englishText",
+     "vietnameseText",
+     "vocabularyFocus",
+     "phrases",
+     "comprehensionQuestions",
+     "answers",
+     "answerExplanationVi",
+     "discussionQuestions",
+     "grammarFocus",
+     "shadowingSentences"
+    ]
+   }
+  }
+ },
+ {
+  "file": "stories_ielts_foundation.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "stories_ielts_foundation": {
+    "type": "array",
+    "len": 10,
+    "keys": [
+     "id",
+     "level",
+     "topic",
+     "title",
+     "titleVi",
+     "illustrationEmoji",
+     "estimatedMinutes",
+     "xpReward",
+     "summaryVi",
+     "englishText",
+     "vietnameseText",
+     "vocabularyFocus",
+     "phrases",
+     "comprehensionQuestions",
+     "answers",
+     "answerExplanationVi",
+     "discussionQuestions",
+     "grammarFocus",
+     "shadowingSentences"
+    ]
+   }
+  }
+ },
+ {
+  "file": "videoLessons.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "VIDEO_LEVELS": {
+    "type": "array",
+    "len": 5,
+    "keys": "string"
+   },
+   "VIDEO_TOPICS": {
+    "type": "array",
+    "len": 10,
+    "keys": "string"
+   },
+   "demoLessons": {
+    "type": "array",
+    "len": 8,
+    "keys": [
+     "id",
+     "title",
+     "titleVi",
+     "youtubeId",
+     "level",
+     "topic",
+     "description",
+     "transcript",
+     "duration",
+     "xpReward",
+     "isDemo"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_a1.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabA1": {
+    "type": "array",
+    "len": 600,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_a2.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabA2": {
+    "type": "array",
+    "len": 800,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_b1.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabB1": {
+    "type": "array",
+    "len": 0,
+    "keys": null
+   }
+  }
+ },
+ {
+  "file": "vocab_b1_gaps.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabBGaps": {
+    "type": "array",
+    "len": 576,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic",
+     "partOfSpeech"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_b1plus.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabB1Plus": {
+    "type": "array",
+    "len": 50,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic",
+     "partOfSpeech"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_b1plus_gaps.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabBPlusGaps": {
+    "type": "array",
+    "len": 497,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic",
+     "partOfSpeech"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_beginner.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabBeginner": {
+    "type": "array",
+    "len": 400,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_ielts_5.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabIELTS5": {
+    "type": "array",
+    "len": 100,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic",
+     "partOfSpeech"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_ielts_5_full.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabIELTSFull": {
+    "type": "array",
+    "len": 548,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic",
+     "partOfSpeech"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_ielts_foundation.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabIELTSFoundation": {
+    "type": "array",
+    "len": 0,
+    "keys": null
+   }
+  }
+ },
+ {
+  "file": "vocab_ielts_foundation_full.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabIELTSFoundationFull": {
+    "type": "array",
+    "len": 713,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic",
+     "partOfSpeech"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_supp_family.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabSupp_family": {
+    "type": "array",
+    "len": 800,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic",
+     "partOfSpeech"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_supp_health.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabSupp_health": {
+    "type": "array",
+    "len": 800,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic",
+     "partOfSpeech"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_supp_society.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabSupp_society": {
+    "type": "array",
+    "len": 800,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic",
+     "partOfSpeech"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_supp_travel.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabSupp_travel": {
+    "type": "array",
+    "len": 800,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic",
+     "partOfSpeech"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocab_supp_work.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "vocabSupp_work": {
+    "type": "array",
+    "len": 800,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic",
+     "partOfSpeech"
+    ]
+   }
+  }
+ },
+ {
+  "file": "vocabulary.js",
+  "ok": true,
+  "error": null,
+  "exports": {
+   "LEVELS": {
+    "type": "array",
+    "len": 7,
+    "keys": "string"
+   },
+   "getRandomWords": {
+    "type": "function"
+   },
+   "getWordsByLevel": {
+    "type": "function"
+   },
+   "getWordsByTopic": {
+    "type": "function"
+   },
+   "levels": {
+    "type": "array",
+    "len": 7,
+    "keys": "string"
+   },
+   "partsOfSpeech": {
+    "type": "array",
+    "len": 6,
+    "keys": "string"
+   },
+   "topics": {
+    "type": "array",
+    "len": 132,
+    "keys": "string"
+   },
+   "vocabulary": {
+    "type": "array",
+    "len": 8000,
+    "keys": [
+     "id",
+     "english",
+     "vietnamese",
+     "pronunciation",
+     "example",
+     "example_vi",
+     "level",
+     "topic",
+     "partOfSpeech"
+    ]
+   }
+  }
+ }
+]

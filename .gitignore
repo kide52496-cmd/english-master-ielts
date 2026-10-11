@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+cloudflared.exe
+
+# Nested duplicate copy of the whole project (~120 MB, snapshot 2026-05-30).
+# Kept on disk untouched, but never versioned.
+english-master-ielts/
+
+# Native build artifacts
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+android/app/release/
+android/captures/
+ios/App/build/
+ios/App/Pods/
+ios/App/output/
+ios/DerivedData/
+
+# Packaged binaries
+*.apk
+*.aab
+*.ipa
+*.keystore
+*.jks
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test / coverage
+coverage/
+.vitest/
