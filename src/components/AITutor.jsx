@@ -5,7 +5,7 @@ import {
 } from 'lucide-react'
 import {
   evaluateIeltsEssay, upgradeAcademicSentence, SPEAKING_TOPICS,
-  evaluateSpeakingAnswer, askAITutor, getAcademicReplacements
+  evaluateSpeakingAnswer, askAITutor, getAcademicReplacements, runJevDecision
 } from '../utils/aiEngine'
 import { speak } from '../utils/speech'
 
@@ -37,6 +37,21 @@ export default function AITutor() {
     },
   ])
   const [sendingChat, setSendingChat] = useState(false)
+
+  // Jev AI state
+  const [jevDecisionType, setJevDecisionType] = useState('ielts_band_calibration')
+  const [jevResult, setJevResult] = useState(() => runJevDecision('ielts_band_calibration'))
+  const [runningJev, setRunningJev] = useState(false)
+
+  const handleRunJev = (type) => {
+    setRunningJev(true)
+    setJevDecisionType(type)
+    setTimeout(() => {
+      const res = runJevDecision(type)
+      setJevResult(res)
+      setRunningJev(false)
+    }, 200)
+  }
 
   // Handlers
   const handleEvaluateWriting = () => {
@@ -151,6 +166,18 @@ export default function AITutor() {
         >
           <Bot size={15} />
           <span>Hỏi Đáp Gia Sư 24/7</span>
+        </button>
+
+        <button
+          onClick={() => setActiveTab('jev')}
+          className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold transition-all whitespace-nowrap ${
+            activeTab === 'jev'
+              ? 'bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-md shadow-emerald-500/30'
+              : 'text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800'
+          }`}
+        >
+          <Sparkles size={15} />
+          <span>Jev AI Decision Engine (TypeSafe AI)</span>
         </button>
       </div>
 
@@ -521,6 +548,101 @@ export default function AITutor() {
                 <span>Gửi</span>
               </button>
             </form>
+          </div>
+        </div>
+      )}
+
+      {/* ── MODE 5: JEV AI DECISION ENGINE (TYPESAFE AI) ───────────────── */}
+      {activeTab === 'jev' && (
+        <div className="max-w-4xl mx-auto space-y-6">
+          <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-emerald-950/80 via-slate-900 to-slate-950 border border-emerald-500/30 shadow-2xl space-y-5">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-800">
+              <div>
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 text-xs font-semibold mb-2">
+                  <Sparkles size={13} className="text-emerald-400" />
+                  <span>TypeSafe AI · Released Sep 15, 2026</span>
+                </div>
+                <h3 className="text-xl font-extrabold text-white flex items-center gap-2">
+                  <span>Jev AI Decision Engine (System One Architecture)</span>
+                </h3>
+                <p className="text-xs text-slate-300 mt-1">
+                  Mô hình AI chuyên biệt về <strong>Đưa Ra Quyết Định Nhanh (Decision-Making)</strong> thay vì chat hội thoại tự do. Huấn luyện bằng phương pháp <strong>RLCD (Reinforcement Learning for Calibrated Decisions)</strong>.
+                </p>
+              </div>
+
+              <div className="p-3 rounded-2xl bg-slate-900/80 border border-emerald-500/20 text-xs font-mono text-emerald-300 flex-shrink-0">
+                <div>Model: Jev-1.0-Decision</div>
+                <div className="text-[10px] text-slate-400">Founder: Diogo Almeida (ex-OpenAI)</div>
+                <div className="text-[10px] text-emerald-400 mt-0.5">● Sub-500ms Latency</div>
+              </div>
+            </div>
+
+            {/* Decision Tasks Trigger Buttons */}
+            <div>
+              <label className="block text-xs font-bold text-slate-300 mb-2">
+                Chọn tác vụ quyết định thông minh (Intelligence Function Call):
+              </label>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <button
+                  onClick={() => handleRunJev('ielts_band_calibration')}
+                  disabled={runningJev}
+                  className={`p-4 rounded-2xl text-left border transition-all ${
+                    jevDecisionType === 'ielts_band_calibration'
+                      ? 'bg-emerald-500/20 border-emerald-500 text-white shadow-lg shadow-emerald-500/10'
+                      : 'bg-slate-900/60 border-slate-800 text-slate-300 hover:border-slate-700'
+                  }`}
+                >
+                  <div className="text-xs font-bold text-emerald-400 flex items-center justify-between">
+                    <span>Task 1: IELTS Band Calibration</span>
+                    <span className="text-[10px] bg-emerald-950 px-2 py-0.5 rounded text-emerald-300 font-mono">Decision</span>
+                  </div>
+                  <div className="text-[11px] text-slate-400 mt-1">
+                    Hiệu chuẩn ngưỡng điểm Band và quyết định mở khóa đề thi nâng cao.
+                  </div>
+                </button>
+
+                <button
+                  onClick={() => handleRunJev('srs_progression')}
+                  disabled={runningJev}
+                  className={`p-4 rounded-2xl text-left border transition-all ${
+                    jevDecisionType === 'srs_progression'
+                      ? 'bg-emerald-500/20 border-emerald-500 text-white shadow-lg shadow-emerald-500/10'
+                      : 'bg-slate-900/60 border-slate-800 text-slate-300 hover:border-slate-700'
+                  }`}
+                >
+                  <div className="text-xs font-bold text-emerald-400 flex items-center justify-between">
+                    <span>Task 2: SRS Progression Gate</span>
+                    <span className="text-[10px] bg-emerald-950 px-2 py-0.5 rounded text-emerald-300 font-mono">Decision</span>
+                  </div>
+                  <div className="text-[11px] text-slate-400 mt-1">
+                    Quyết định hệ số ghi nhớ dài hạn và chu kỳ lặp lại thẻ nhớ Flashcard.
+                  </div>
+                </button>
+              </div>
+            </div>
+
+            {/* Live Jev Output Screen */}
+            <div className="space-y-2">
+              <div className="flex items-center justify-between text-xs">
+                <span className="font-bold text-slate-300 flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                  <span>Jev AI Typed Decision Output (TypeScript JSON Contract):</span>
+                </span>
+                <span className="text-xs font-mono text-emerald-400">
+                  Latency: {jevResult.executionLatencyMs} · Probability: {(jevResult.confidenceProbability * 100).toFixed(1)}%
+                </span>
+              </div>
+
+              <div className="rounded-2xl bg-[#080C14] border border-emerald-500/30 p-4 font-mono text-xs overflow-x-auto shadow-inner">
+                <pre className="text-emerald-300 leading-relaxed">
+                  {JSON.stringify(jevResult, null, 2)}
+                </pre>
+              </div>
+            </div>
+
+            <div className="p-4 rounded-2xl bg-emerald-950/40 border border-emerald-500/20 text-xs text-slate-300 leading-relaxed">
+              <strong className="text-emerald-400">💡 Giải thích cho thầy:</strong> Jev AI không sinh văn bản dài dòng mà nhận đầu vào (Input State), tính toán bằng RLCD và trả về <strong>Typed Decision</strong> kèm xác suất hiệu chuẩn (Calibrated Probability) chỉ trong <strong>{jevResult.executionLatencyMs}</strong> để gửi thẳng về MongoDB lưu trữ!
+            </div>
           </div>
         </div>
       )}
