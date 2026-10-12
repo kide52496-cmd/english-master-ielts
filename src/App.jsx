@@ -132,11 +132,11 @@ export default function App() {
   return (
     <ErrorBoundary>
       <AppProvider>
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 via-indigo-50/40 to-purple-50/30 dark:from-gray-950 dark:via-gray-900 dark:to-indigo-950/40 relative overflow-hidden">
-          {/* Decorative blobs (background) */}
-          <div className="blob bg-indigo-300/20 dark:bg-indigo-600/10 w-[28rem] h-[28rem] -top-32 -left-40" aria-hidden="true" />
-          <div className="blob bg-pink-300/20 dark:bg-pink-600/10 w-[24rem] h-[24rem] top-1/3 -right-32 animate-float-slow" aria-hidden="true" />
-          <div className="blob bg-cyan-300/20 dark:bg-cyan-600/10 w-[22rem] h-[22rem] bottom-0 left-1/4 animate-float-slow" style={{ animationDelay: '2s' }} aria-hidden="true" />
+        <div className="min-h-screen bg-slate-50/80 dark:bg-[#0B0F19] text-slate-800 dark:text-slate-100 relative overflow-hidden mesh-grid selection:bg-indigo-500 selection:text-white">
+          {/* Dynamic Aurora Ambient Glow Lights */}
+          <div className="fixed top-0 left-1/4 w-[36rem] h-[36rem] bg-indigo-500/15 dark:bg-indigo-600/20 rounded-full blur-[120px] pointer-events-none -translate-y-1/2 animate-float-slow" aria-hidden="true" />
+          <div className="fixed top-1/3 -right-20 w-[30rem] h-[30rem] bg-pink-500/15 dark:bg-pink-600/15 rounded-full blur-[130px] pointer-events-none animate-float" style={{ animationDelay: '3s' }} aria-hidden="true" />
+          <div className="fixed -bottom-20 left-10 w-[32rem] h-[32rem] bg-cyan-400/15 dark:bg-cyan-600/15 rounded-full blur-[140px] pointer-events-none animate-float-slow" style={{ animationDelay: '5s' }} aria-hidden="true" />
 
           <a href="#main-content" className="skip-link">Bỏ qua menu, đến nội dung chính</a>
 

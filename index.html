@@ -26,9 +26,14 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
     <link rel="icon" type="image/svg+xml" href="/icons/icon.svg" />
 
+    <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet" />
+
     <!-- Content Security Policy -->
-    <!-- CSP chặn inline scripts, chỉ cho phép self + same-origin -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self';" />
+    <!-- CSP cho phep fonts tu googleapis/gstatic va inline styles -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self'; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self';" />
   </head>
   <body>
     <div id="root"></div>
