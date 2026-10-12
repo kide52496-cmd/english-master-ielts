@@ -10,9 +10,9 @@ export function getMongoConfig() {
     if (!raw) {
       return {
         serverUrl: DEFAULT_SERVER_URL,
-        mongoUri: 'mongodb+srv://admin:cluster0@englishmaster.mongodb.net/english_master_db',
+        mongoUri: 'mongodb+srv://kide52496_db_user:<db_password>@cluster0.yyqagvz.mongodb.net/english_master_db?retryWrites=true&w=majority&appName=Cluster0',
         databaseName: 'english_master_db',
-        clusterName: 'Atlas-Cluster0 (AWS Singapore)',
+        clusterName: 'Atlas-Cluster0 (cluster0.yyqagvz.mongodb.net)',
         autoSync: true,
         lastSynced: new Date().toISOString(),
         status: 'connected',
@@ -22,9 +22,9 @@ export function getMongoConfig() {
   } catch {
     return {
       serverUrl: DEFAULT_SERVER_URL,
-      mongoUri: 'mongodb+srv://admin:cluster0@englishmaster.mongodb.net/english_master_db',
+      mongoUri: 'mongodb+srv://kide52496_db_user:<db_password>@cluster0.yyqagvz.mongodb.net/english_master_db?retryWrites=true&w=majority&appName=Cluster0',
       databaseName: 'english_master_db',
-      clusterName: 'Atlas-Cluster0 (AWS Singapore)',
+      clusterName: 'Atlas-Cluster0 (cluster0.yyqagvz.mongodb.net)',
       autoSync: true,
       lastSynced: null,
       status: 'standby',
@@ -59,7 +59,8 @@ export function generateMongoDocuments(state) {
     metadata: {
       platform: 'Web / Mobile Capacitor',
       database: 'english_master_db',
-      cluster: 'Atlas-Cluster0-Shard-00-01',
+      cluster: 'Cluster0 (cluster0.yyqagvz.mongodb.net)',
+      dbUser: 'kide52496_db_user',
       engine: 'Mongoose 8.3 / WiredTiger',
     },
     createdAt: new Date(now.getTime() - 86400000 * 14).toISOString(),
