@@ -37,6 +37,8 @@ export const ROUTES = [
   { id: 'achievements',     label: 'Thành Tích',       title: 'Thành Tích',             nav: true },
   { id: 'notes',            label: 'Ghi Chú',          title: 'Ghi Chú',                nav: true },
   { id: 'mistakes-review',  label: 'Ôn Lỗi Sai',       title: 'Ôn Lỗi Sai',             nav: true },
+  { id: 'mongodb-cloud',    label: 'MongoDB Cloud',    title: 'MongoDB Cloud & Database Hub', nav: true },
+  { id: 'ai-tutor',         label: 'AI IELTS Copilot', title: 'AI IELTS Copilot & Examiner',  nav: true },
   { id: 'settings',         label: 'Cài Đặt',          title: 'Cài Đặt',                nav: true },
 
   // Reachable from inside other pages, not from the main menu.

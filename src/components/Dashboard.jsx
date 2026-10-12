@@ -10,7 +10,7 @@ import { readingPassages } from '../data/ieltsReading'
 import { writingTasks } from '../data/ieltsWriting'
 import { ieltsVocabulary } from '../data/ieltsLessons'
 import { roadmapStages, getStageByXP, getNextStage } from '../data/roadmap'
-import { BookOpen, Trophy, Zap, Target, ChevronRight, Star, BarChart3, Flame, Brain } from 'lucide-react'
+import { BookOpen, Trophy, Zap, Target, ChevronRight, Star, BarChart3, Flame, Brain, Database, Bot, Sparkles } from 'lucide-react'
 import { getDashboardAnalytics } from '../utils/analytics'
 import { getMissionSummary } from '../utils/dailyMission'
 
@@ -43,14 +43,14 @@ export default function Dashboard({ setCurrentPage }) {
   const { learnedWords, quizScores, streak, totalPoints, completedGrammar, completedListening, completedSpeaking, xp, level, unlockedAchievements, dailyProgress, dailyGoal } = state
 
   const quickActions = [
+    { id: 'mongodb-cloud', label: 'MongoDB Cloud', desc: 'Cluster0 · Sync dữ liệu', icon: '🍃', color: 'from-emerald-500 to-teal-600', bg: 'bg-emerald-50 dark:bg-emerald-900/20' },
+    { id: 'ai-tutor',   label: 'AI IELTS Copilot', desc: 'Chấm Writing & Speaking', icon: '🤖', color: 'from-purple-500 to-indigo-600', bg: 'bg-purple-50 dark:bg-purple-900/20' },
     { id: 'roadmap',    label: 'Lộ Trình',   desc: `${roadmapStages.length} stage từ mất gốc`, icon: '🗺️', color: 'from-indigo-500 to-purple-600', bg: 'bg-indigo-50 dark:bg-indigo-900/20' },
     { id: 'vocabulary', label: 'Từ Vựng',   desc: `${vocabulary.length} từ offline`, icon: '📖', color: 'from-blue-500 to-cyan-500',    bg: 'bg-blue-50 dark:bg-blue-900/20' },
     { id: 'flashcard',  label: 'Flashcard', desc: 'Lật thẻ ghi nhớ',    icon: '🃏', color: 'from-purple-500 to-pink-500',  bg: 'bg-purple-50 dark:bg-purple-900/20' },
     { id: 'quiz',       label: 'Quiz',      desc: `${quizScores.length} câu trắc nghiệm`, icon: '📝', color: 'from-green-500 to-emerald-500', bg: 'bg-green-50 dark:bg-green-900/20' },
     { id: 'grammar',    label: 'Ngữ Pháp',  desc: `${grammarLessons.length} bài ngữ pháp`,   icon: '📚', color: 'from-orange-500 to-amber-500',  bg: 'bg-orange-50 dark:bg-orange-900/20' },
     { id: 'listening-pack', label: '100 Bài Nghe-Nói', desc: 'Foundation → IELTS 6.5', icon: '🎧', color: 'from-teal-500 to-cyan-500', bg: 'bg-teal-50 dark:bg-teal-900/20' },
-    { id: 'speaking',   label: 'Nói',       desc: `${speakingLessons.length} bài nói`, icon: '🎙️', color: 'from-red-500 to-rose-500',    bg: 'bg-red-50 dark:bg-red-900/20' },
-    { id: 'phrasebook', label: 'Phrasebook',desc: `8 tình huống giao tiếp`, icon: '💬', color: 'from-fuchsia-500 to-purple-600', bg: 'bg-fuchsia-50 dark:bg-fuchsia-900/20' },
   ]
 
   const currentStage = getStageByXP(xp || 0)
@@ -216,6 +216,73 @@ export default function Dashboard({ setCurrentPage }) {
             className={`h-full rounded-full transition-all duration-700 progress-shine relative shadow-sm ${dailyDone ? 'bg-gradient-to-r from-emerald-500 to-teal-400 shadow-emerald-500/50' : 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'}`}
             style={{ width: `${dailyGoalPct}%` }}
           />
+        </div>
+      </div>
+
+      {/* Full-Stack Cloud & AI Command Deck */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {/* Card 1: MongoDB Cloud Controller */}
+        <div
+          onClick={() => setCurrentPage('mongodb-cloud')}
+          className="relative overflow-hidden rounded-3xl p-5 sm:p-6 bg-gradient-to-br from-emerald-950/80 via-slate-900 to-slate-950 border border-emerald-500/30 shadow-xl hover:border-emerald-500/60 transition-all cursor-pointer group"
+        >
+          <div className="absolute top-0 right-0 w-40 h-40 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none group-hover:scale-125 transition-transform" />
+          <div className="relative z-10 space-y-3">
+            <div className="flex items-center justify-between">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 text-xs font-bold">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                <span>MongoDB Atlas Cloud</span>
+              </div>
+              <span className="text-xs font-mono text-emerald-400/80">Cluster0 · 28ms</span>
+            </div>
+            <div>
+              <h3 className="text-lg font-extrabold text-white group-hover:text-emerald-400 transition-colors flex items-center gap-2">
+                <Database size={20} className="text-emerald-400" />
+                <span>MongoDB Cloud Control</span>
+              </h3>
+              <p className="text-xs text-slate-300 mt-1 leading-relaxed">
+                Kiểm soát 4 Collections dữ liệu (user_progress, srs_cards, ielts_submissions). Đồng bộ đám mây 2 chiều.
+              </p>
+            </div>
+            <div className="flex items-center justify-between pt-2 border-t border-slate-800 text-xs">
+              <span className="text-emerald-400 font-semibold">db.user_progress.find()</span>
+              <span className="text-white font-bold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+                Mở Control Hub <ChevronRight size={14} />
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Card 2: AI IELTS Copilot */}
+        <div
+          onClick={() => setCurrentPage('ai-tutor')}
+          className="relative overflow-hidden rounded-3xl p-5 sm:p-6 bg-gradient-to-br from-indigo-950/80 via-purple-950 to-slate-950 border border-indigo-500/30 shadow-xl hover:border-indigo-500/60 transition-all cursor-pointer group"
+        >
+          <div className="absolute top-0 right-0 w-40 h-40 bg-purple-500/10 rounded-full blur-2xl pointer-events-none group-hover:scale-125 transition-transform" />
+          <div className="relative z-10 space-y-3">
+            <div className="flex items-center justify-between">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-500/30 text-indigo-300 text-xs font-bold">
+                <Sparkles size={12} className="text-yellow-400" />
+                <span>AI IELTS Examiner 2.0</span>
+              </div>
+              <span className="text-xs font-mono text-indigo-300/80">4 tiêu chí BC / IDP</span>
+            </div>
+            <div>
+              <h3 className="text-lg font-extrabold text-white group-hover:text-indigo-400 transition-colors flex items-center gap-2">
+                <Bot size={20} className="text-indigo-400" />
+                <span>AI IELTS Copilot & Examiner</span>
+              </h3>
+              <p className="text-xs text-slate-300 mt-1 leading-relaxed">
+                Tự động chấm bài Writing Task 1 & 2, đối thoại Speaking trực tiếp và nâng cấp câu văn lên Band 8.5+.
+              </p>
+            </div>
+            <div className="flex items-center justify-between pt-2 border-t border-indigo-950/80 text-xs">
+              <span className="text-indigo-300 font-semibold">Writing · Speaking · Q&A</span>
+              <span className="text-white font-bold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+                Luyện cùng AI <ChevronRight size={14} />
+              </span>
+            </div>
+          </div>
         </div>
       </div>
 

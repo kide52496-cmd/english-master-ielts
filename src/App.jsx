@@ -41,6 +41,9 @@ const Notes = lazy(() => import('./components/Notes'))
 const MistakesReview = lazy(() => import('./components/MistakesReview'))
 const ListeningSpeakingPack = lazy(() => import('./components/ListeningSpeakingPack'))
 const ReadingLibrary = lazy(() => import('./components/ReadingLibrary'))
+const MongoDBCloudHub = lazy(() => import('./components/MongoDBCloudHub'))
+const AITutor = lazy(() => import('./components/AITutor'))
+import AICopilotFloat from './components/AICopilotFloat'
 
 // Loading fallback shown while page chunk is loading
 function PageLoader() {
@@ -124,6 +127,8 @@ export default function App() {
       case 'notes':             return <Notes setCurrentPage={setCurrentPage} />
       case 'mistakes-review':   return <MistakesReview setCurrentPage={setCurrentPage} />
       case 'listening-pack':    return <ListeningSpeakingPack />
+      case 'mongodb-cloud':     return <MongoDBCloudHub />
+      case 'ai-tutor':          return <AITutor />
       case 'settings':       return <Settings darkMode={darkMode} setDarkMode={setDarkMode} />
       default:               return <Dashboard setCurrentPage={setCurrentPage} />
     }
@@ -178,6 +183,9 @@ export default function App() {
               Nhấn Back lần nữa để thoát ứng dụng
             </div>
           )}
+
+          {/* Global Floating AI Copilot */}
+          <AICopilotFloat />
         </div>
       </AppProvider>
     </ErrorBoundary>

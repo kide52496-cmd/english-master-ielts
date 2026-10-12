@@ -4,7 +4,7 @@ import {
   Headphones, Mic, Home, Menu, X, Sun, Moon, Star,
   FlaskConical, Trophy, Settings as SettingsIcon, Route, BookMarked, Clapperboard,
   Award, RefreshCw, MessageSquare, PenLine, Library, Target, Flame, Crosshair,
-  Sparkles, Notebook, AlertTriangle, FileText, Circle
+  Sparkles, Notebook, AlertTriangle, FileText, Circle, Database, Bot
 } from 'lucide-react'
 import { useApp } from '../context/AppContext'
 import { getStageByXP } from '../data/roadmap'
@@ -43,6 +43,8 @@ const ICONS = {
   'achievements': Trophy,
   'notes': Notebook,
   'mistakes-review': AlertTriangle,
+  'mongodb-cloud': Database,
+  'ai-tutor': Bot,
   'settings': SettingsIcon,
 }
 
