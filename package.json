@@ -12,6 +12,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "start": "vite preview --open --port 4173",
+    "server": "node server/index.js",
+    "server:install": "cd server && npm install",
     "icons": "node scripts/gen-icons.cjs && node scripts/gen-android-icons.cjs",
     "android:sync": "vite build && cap sync android",
     "android:open": "vite build && cap sync android && cap open android",
